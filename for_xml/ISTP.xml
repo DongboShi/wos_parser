@@ -1,0 +1,314 @@
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">        
+    <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+            <UID>WOS:000188941900064</UID>
+            <static_data>
+                <summary>
+                    <EWUID>
+                        <WUID coll_id="WOS" />
+                        <edition value="WOS.ISTP" />
+                    </EWUID>
+                    <pub_info
+                            sortdate="2003-01-01"
+                            pubyear="2003"
+                            has_abstract="Y"
+                            coverdate="2003"
+                            pubtype="Book"
+                            >
+                        <page
+                                begin="292"
+                                end="297"
+                                page_count="6"
+                                >292-297</page>
+                    </pub_info>
+                    <titles count="2">
+                        <title type="source">COMPUTER APPLICATIONS IN INDUSTRY AND ENGINEERING</title>
+                        <title type="item">Efficient proximal Support Vector Machine for spatial data</title>
+                    </titles>
+                    <names count="6">
+                        <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                >
+                            <display_name>Pan, F</display_name>
+                            <full_name>Pan, F</full_name>
+                            <wos_standard>Pan, F</wos_standard>
+                            <first_name>F</first_name>
+                            <last_name>Pan</last_name>
+                            <email_addr>fei.pan@ndsu.nodak.edu</email_addr>
+                        </name>
+                        <name
+                                seq_no="2"
+                                role="author"
+                                >
+                            <display_name>Wang, BY</display_name>
+                            <full_name>Wang, BY</full_name>
+                            <wos_standard>Wang, BY</wos_standard>
+                            <first_name>BY</first_name>
+                            <last_name>Wang</last_name>
+                            <email_addr>baoying.wang@ndsu.nodak.edu</email_addr>
+                        </name>
+                        <name
+                                seq_no="3"
+                                role="author"
+                                >
+                            <display_name>Ren, DM</display_name>
+                            <full_name>Ren, DM</full_name>
+                            <wos_standard>Ren, DM</wos_standard>
+                            <first_name>DM</first_name>
+                            <last_name>Ren</last_name>
+                            <email_addr>dongmei.ren@ndsu.nodak.edu</email_addr>
+                        </name>
+                        <name
+                                seq_no="4"
+                                role="author"
+                                >
+                            <display_name>Hu, X</display_name>
+                            <full_name>Hu, X</full_name>
+                            <wos_standard>Hu, X</wos_standard>
+                            <last_name>Hu</last_name>
+                            <suffix>X</suffix>
+                            <email_addr>xin.hu@ndsu.nodak.edu</email_addr>
+                        </name>
+                        <name
+                                seq_no="5"
+                                role="author"
+                                >
+                            <display_name>Perrizo, W</display_name>
+                            <full_name>Perrizo, W</full_name>
+                            <wos_standard>Perrizo, W</wos_standard>
+                            <first_name>W</first_name>
+                            <last_name>Perrizo</last_name>
+                            <email_addr>william.perrizo@ndsu.nodak.edu</email_addr>
+                        </name>
+                        <name
+                                seq_no="6"
+                                role="book_editor"
+                                >
+                            <display_name>Nygard, K</display_name>
+                            <full_name>Nygard, K</full_name>
+                            <wos_standard>Nygard, K</wos_standard>
+                            <first_name>K</first_name>
+                            <last_name>Nygard</last_name>
+                        </name>
+                    </names>
+                    <doctypes count="1">
+                        <doctype>Proceedings Paper</doctype>
+                    </doctypes>
+                    <conferences count="1">
+                        <conference conf_id="156507">
+                            <conf_infos count="1">
+                                <conf_info>16th International Conference on Computer Applications in Industry and Engineering, NOV 11-13, 2003, LAS VEGAS, NV</conf_info>
+                            </conf_infos>
+                            <conf_titles count="1">
+                                <conf_title>16th International Conference on Computer Applications in Industry and Engineering</conf_title>
+                            </conf_titles>
+                            <conf_dates count="1">
+                                <conf_date
+                                        conf_start="20031111"
+                                        conf_end="20031113"
+                                        >NOV 11-13, 2003</conf_date>
+                            </conf_dates>
+                            <conf_locations count="1">
+                                <conf_location>
+                                    <conf_city>LAS VEGAS</conf_city>
+                                    <conf_state>NV</conf_state>
+                                </conf_location>
+                            </conf_locations>
+                            <sponsors count="1">
+                                <sponsor>Int Soc Comp &amp; Their Applicat</sponsor>
+                            </sponsors>
+                        </conference>
+                    </conferences>
+                    <publishers>
+                        <publisher>
+                            <address_spec addr_no="1">
+                                <full_address>8820 SIX FORKS ROAD, RALEIGH, NC 27615 USA</full_address>
+                                <city>RALEIGH</city>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        role="publisher"
+                                        seq_no="1"
+                                        addr_no="1"
+                                        >
+                                    <display_name>INTERNATIONAL SOCIETY COMPUTER S &amp; THEIR APPLICATIONS (ISCA)</display_name>
+                                    <full_name>INTERNATIONAL SOCIETY COMPUTER S &amp; THEIR APPLICATIONS (ISCA)</full_name>
+                                    <unified_name>International Society Computer S &amp; Their Applications (Isca)</unified_name>
+                                </name>
+                            </names>
+                        </publisher>
+                    </publishers>
+                </summary>
+                <fullrecord_metadata>
+                    <languages count="1">
+                        <language type="primary">English</language>
+                    </languages>
+                    <normalized_languages count="1">
+                        <language type="primary">English</language>
+                    </normalized_languages>
+                    <normalized_doctypes count="1">
+                        <doctype>Meeting</doctype>
+                    </normalized_doctypes>
+                    <references count="5">
+                        <reference occurenceOrder="1">
+                            <uid>WOS:000086254700001</uid>
+                            <citedAuthor>Bradley, PS</citedAuthor>
+                            <year>2000</year>
+                            <page>1</page>
+                            <volume>13</volume>
+                            <citedTitle>Massive data discrimination via linear support vector machines</citedTitle>
+                            <citedWork>OPTIMIZATION METHODS &amp; SOFTWARE</citedWork>
+                        </reference>
+                        <reference occurenceOrder="4">
+                            <uid>000188941900064.4</uid>
+                            <year>2002</year>
+                            <citedWork>LNAI</citedWork>
+                        </reference>
+                        <reference occurenceOrder="2">
+                            <uid>WOS:A1995RX35400003</uid>
+                            <citedAuthor>CORTES, C</citedAuthor>
+                            <year>1995</year>
+                            <page>273</page>
+                            <volume>20</volume>
+                            <citedTitle>SUPPORT-VECTOR NETWORKS</citedTitle>
+                            <citedWork>MACHINE LEARNING</citedWork>
+                        </reference>
+                        <reference occurenceOrder="5">
+                            <uid>WOS:000072406100003</uid>
+                            <citedAuthor>Mangasarian, OL</citedAuthor>
+                            <year>1997</year>
+                            <page>183</page>
+                            <volume>1</volume>
+                            <citedTitle>Mathematical programming in data mining</citedTitle>
+                            <citedWork>DATA MINING AND KNOWLEDGE DISCOVERY</citedWork>
+                        </reference>
+                        <reference occurenceOrder="3">
+                            <uid>000188941900064.3</uid>
+                            <year>1000</year>
+                            <citedWork>ADV KERNEL METHODS S</citedWork>
+                        </reference>
+                    </references>
+                    <addresses count="1">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>N Dakota State Univ, Dept Comp Sci, Fargo, ND 58105 USA</full_address>
+                                <organizations count="2">
+                                    <organization>N Dakota State Univ</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/05h1bnb22"
+                                            org_id="30100000001143"
+                                            >North Dakota State University Fargo</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Dept Comp Sci</suborganization>
+                                </suborganizations>
+                                <city>Fargo</city>
+                                <state>ND</state>
+                                <country>USA</country>
+                                <zip location="AP">58105</zip>
+                            </address_spec>
+                        </address_name>
+                    </addresses>
+                    <reprint_addresses count="1">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>N Dakota State Univ, Dept Comp Sci, Fargo, ND 58105 USA</full_address>
+                                <organizations count="2">
+                                    <organization>N Dakota State Univ</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/05h1bnb22"
+                                            org_id="30100000001143"
+                                            >North Dakota State University Fargo</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Dept Comp Sci</suborganization>
+                                </suborganizations>
+                                <city>Fargo</city>
+                                <state>ND</state>
+                                <country>USA</country>
+                                <zip location="AP">58105</zip>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        reprint="Y"
+                                        >
+                                    <display_name>Pan, F</display_name>
+                                    <full_name>Pan, F</full_name>
+                                    <wos_standard>Pan, F</wos_standard>
+                                    <first_name>F</first_name>
+                                    <last_name>Pan</last_name>
+                                </name>
+                            </names>
+                        </address_name>
+                    </reprint_addresses>
+                    <category_info>
+                        <headings count="1">
+                            <heading>Science &amp; Technology</heading>
+                        </headings>
+                        <subheadings count="1">
+                            <subheading>Technology</subheading>
+                        </subheadings>
+                        <subjects count="6">
+                            <subject ascatype="traditional">Computer Science, Artificial Intelligence</subject>
+                            <subject ascatype="traditional">Computer Science, Hardware &amp; Architecture</subject>
+                            <subject ascatype="traditional">Computer Science, Information Systems</subject>
+                            <subject ascatype="traditional">Computer Science, Interdisciplinary Applications</subject>
+                            <subject ascatype="traditional">Computer Science, Software Engineering</subject>
+                            <subject ascatype="extended">Computer Science</subject>
+                        </subjects>
+                    </category_info>
+                    <fund_ack />
+                    <keywords count="4">
+                        <keyword>support vector machine</keyword>
+                        <keyword>data mining</keyword>
+                        <keyword>peano trees</keyword>
+                        <keyword>EIN-rings</keyword>
+                    </keywords>
+                    <abstracts count="1">
+                        <abstract>
+                            <abstract_text count="1">
+                                <p>With more and more spatial data being collected data mining for spatial data has become a rapidly evolving research area. Support vector machine (SVM) as a powerful tool for data classification has the potentials in spatial data mining. However, traditional SVM involves solving a quadratic optimization problem that requires considerably long computation time for large data sets. In this paper, we propose a new efficient proximal Support Vector Machine (P-SVM) using Peano tree. Peano tree (P-tree) is a vertical compressed bitwise quadrant tree that is processed horizontally through logical operations. P-SVM exploits a unique neighborhood search method, i.e., EIN-ring based neighborhood search to find the boundary sentries. The final boundary hyperplanes of test data are determined by their d-nearest boundary sentries, which are calculated from EIN-ring membership of support vector pairs. Moreover, the outliers in the training data are automatically eliminated according to their EIN-ring membership in the step of finding region components. The candidate support vectors are selected in a way that is robust to noisy and fuzzy boundary. Experiments show that P-SVM is order of magnitude faster than traditional SVM with superior cardinality scalability and comparable accuracy for a large-scale spatial data.</p>
+                            </abstract_text>
+                        </abstract>
+                    </abstracts>
+                </fullrecord_metadata>
+                <item
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:type="itemType_wos"
+                        >
+                    <ids avail="N">BY33F</ids>
+                    <bib_id>: 292-297 2003</bib_id>
+                    <bib_pagecount type="Book">339</bib_pagecount>
+                    <book_pages>339</book_pages>
+                    <book_notes count="1">
+                        <book_note>Figures</book_note>
+                    </book_notes>
+                    <book_desc>
+                        <bk_binding>S</bk_binding>
+                        <bk_publisher>INTERNATIONAL SOCIETY COMPUTER S &amp; THEIR APPLICATIONS (ISCA), 8820 SIX FORKS ROAD, RALEIGH, NC 27615 USA</bk_publisher>
+                        <bk_price currency="PRICE NOT AVAILABLE" />
+                        <bk_prepay>Y</bk_prepay>
+                    </book_desc>
+                </item>
+            </static_data>
+            <dynamic_data>
+                <cluster_related>
+                    <identifiers>
+                        <identifier
+                                type="accession_no"
+                                value="BY33F"
+                                />
+                        <identifier
+                                type="isbn"
+                                value="1-880843-49-8"
+                                />
+                    </identifiers>
+                </cluster_related>
+            </dynamic_data>
+        </REC>
+    </records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->

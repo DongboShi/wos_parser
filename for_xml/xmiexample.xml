@@ -1,0 +1,620 @@
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+    <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+        <UID>WOS:001250234300011</UID>
+        <static_data>
+            <summary>
+                <EWUID>
+                    <WUID coll_id="WOS" />
+                    <edition value="WOS.BHCI" />
+                </EWUID>
+                <pub_info
+                    sortdate="2022-01-01"
+                    pubyear="2022"
+                    has_abstract="N"
+                    coverdate="2022"
+                    pubtype="Book in series"
+                    >
+                    <page
+                        begin="237"
+                        end="263"
+                        page_count="27"
+                        >237-263</page>
+                </pub_info>
+                <titles count="8">
+                    <title type="source">MARITIME MEN OF THE ASIA-PACIFIC</title>
+                    <title type="series">Studies in Labour History</title>
+                    <title type="source_abbrev">Stud Labour Hist</title>
+                    <title type="abbrev_11">Stud Labour</title>
+                    <title type="abbrev_29">Stud Labour Hist</title>
+                    <title type="item">'Giving Us a Voice in World Affairs' Internationalising Leadership and Activism, 1960 to 1980</title>
+                    <title type="book_subtitle">True-Blue Internationals Navigating Labour Rights, 1906-2006</title>
+                    <title
+                        type="book_series"
+                        translated="N"
+                        >Studies in Labour History</title>
+                </titles>
+                <names count="4">
+                    <name
+                        seq_no="1"
+                        role="author"
+                        >
+                        <display_name>Kirkby, Diane</display_name>
+                        <full_name>Kirkby, Diane</full_name>
+                        <wos_standard>Kirkby, D</wos_standard>
+                        <first_name>Diane</first_name>
+                        <last_name>Kirkby</last_name>
+                    </name>
+                    <name
+                        seq_no="2"
+                        role="author"
+                        >
+                        <display_name>Monk, Lee-Ann</display_name>
+                        <full_name>Monk, Lee-Ann</full_name>
+                        <wos_standard>Monk, LA</wos_standard>
+                        <first_name>Lee-Ann</first_name>
+                        <last_name>Monk</last_name>
+                    </name>
+                    <name
+                        seq_no="3"
+                        role="author"
+                        >
+                        <display_name>Ostapenko, Dmytro</display_name>
+                        <full_name>Ostapenko, Dmytro</full_name>
+                        <wos_standard>Ostapenko, D</wos_standard>
+                        <first_name>Dmytro</first_name>
+                        <last_name>Ostapenko</last_name>
+                    </name>
+                    <name
+                        seq_no="4"
+                        role="book"
+                        >
+                        <display_name>Kirkby, D</display_name>
+                        <full_name>Kirkby, D</full_name>
+                        <wos_standard>Kirkby, D</wos_standard>
+                    </name>
+                </names>
+                <doctypes count="2">
+                    <doctype>Article</doctype>
+                    <doctype>Book Chapter</doctype>
+                </doctypes>
+                <publishers>
+                    <publisher>
+                        <address_spec addr_no="1">
+                            <full_address>4 CAMBRIDGE ST, LIVERPOOL, ENGLAND</full_address>
+                            <city>LIVERPOOL</city>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                role="publisher"
+                                seq_no="1"
+                                addr_no="1"
+                                >
+                                <display_name>LIVERPOOL UNIV PRESS</display_name>
+                                <full_name>LIVERPOOL UNIV PRESS</full_name>
+                                <unified_name>Liverpool Univ Press</unified_name>
+                            </name>
+                        </names>
+                    </publisher>
+                </publishers>
+            </summary>
+            <fullrecord_metadata>
+                <languages count="1">
+                    <language type="primary">English</language>
+                </languages>
+                <normalized_languages count="1">
+                    <language type="primary">English</language>
+                </normalized_languages>
+                <normalized_doctypes count="2">
+                    <doctype>Article</doctype>
+                    <doctype>Book</doctype>
+                </normalized_doctypes>
+                <references count="0" />
+                <addresses count="0" />
+                <category_info>
+                    <headings count="2">
+                        <heading>Arts &amp; Humanities</heading>
+                        <heading>Social Sciences</heading>
+                    </headings>
+                    <subjects count="6">
+                        <subject ascatype="traditional">History</subject>
+                        <subject ascatype="traditional">Industrial Relations &amp; Labor</subject>
+                        <subject ascatype="traditional">International Relations</subject>
+                        <subject ascatype="extended">History</subject>
+                        <subject ascatype="extended">Business &amp; Economics</subject>
+                        <subject ascatype="extended">International Relations</subject>
+                    </subjects>
+                </category_info>
+                <fund_ack />
+            </fullrecord_metadata>
+            <item
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="itemType_wos"
+                >
+                <ids avail="N">BX1PH</ids>
+                <bib_id>: 237-263 2022</bib_id>
+                <bib_pagecount type="Book">332</bib_pagecount>
+                <book_pages>332</book_pages>
+                <book_desc>
+                    <bk_binding>P</bk_binding>
+                    <bk_publisher>LIVERPOOL UNIV PRESS, 4 CAMBRIDGE ST, LIVERPOOL, ENGLAND</bk_publisher>
+                </book_desc>
+            </item>
+        </static_data>
+        <dynamic_data>
+            <cluster_related>
+                <identifiers>
+                    <identifier
+                        type="accession_no"
+                        value="BX1PH"
+                        />
+                    <identifier
+                        type="eisbn"
+                        value="978-1-8020-7677-6"
+                        />
+                </identifiers>
+            </cluster_related>
+        </dynamic_data>
+    </REC>
+</records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+    <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+        <UID>WOS:000855495800002</UID>
+        <static_data>
+            <summary>
+                <EWUID>
+                    <WUID coll_id="WOS" />
+                    <edition value="WOS.ESCI" />
+                </EWUID>
+                <pub_info
+                    sortdate="2022-09-01"
+                    pubyear="2022"
+                    has_abstract="N"
+                    coverdate="SEP 2022"
+                    pubmonth="SEP"
+                    vol="10"
+                    issue="9"
+                    pubtype="Journal"
+                    >
+                    <page page_count="2" />
+                </pub_info>
+                <titles count="6">
+                    <title type="source">PLASTIC AND RECONSTRUCTIVE SURGERY-GLOBAL OPEN</title>
+                    <title type="source_abbrev">PRS-GLOB OPEN</title>
+                    <title type="abbrev_iso">PRS-GLOB. OPEN</title>
+                    <title type="abbrev_11">PRS-GLO OPE</title>
+                    <title type="abbrev_29">PRS-GLOB OPEN</title>
+                    <title type="item">Presence of Cosmetic and Aesthetic Surgery on TikTok</title>
+                </titles>
+                <names count="7">
+                    <name
+                        seq_no="1"
+                        role="author"
+                        addr_no="1"
+                        >
+                        <display_name>Rivera, Jean Carlo</display_name>
+                        <full_name>Rivera, Jean Carlo</full_name>
+                        <wos_standard>Rivera, JC</wos_standard>
+                        <first_name>Jean Carlo</first_name>
+                        <last_name>Rivera</last_name>
+                    </name>
+                    <name
+                        seq_no="2"
+                        role="author"
+                        addr_no="1"
+                        >
+                        <display_name>Juan, Hui Yu</display_name>
+                        <full_name>Juan, Hui Yu</full_name>
+                        <wos_standard>Juan, HY</wos_standard>
+                        <first_name>Hui Yu</first_name>
+                        <last_name>Juan</last_name>
+                    </name>
+                    <name
+                        seq_no="3"
+                        role="author"
+                        addr_no="1"
+                        >
+                        <display_name>Long, Aaron S.</display_name>
+                        <full_name>Long, Aaron S.</full_name>
+                        <wos_standard>Long, AS</wos_standard>
+                        <first_name>Aaron S.</first_name>
+                        <last_name>Long</last_name>
+                    </name>
+                    <name
+                        seq_no="4"
+                        role="author"
+                        addr_no="1"
+                        >
+                        <display_name>Hauc, Sacha C.</display_name>
+                        <full_name>Hauc, Sacha C.</full_name>
+                        <wos_standard>Hauc, SC</wos_standard>
+                        <first_name>Sacha C.</first_name>
+                        <last_name>Hauc</last_name>
+                    </name>
+                    <name
+                        seq_no="5"
+                        role="author"
+                        addr_no="1"
+                        >
+                        <display_name>Junn, Adam H.</display_name>
+                        <full_name>Junn, Adam H.</full_name>
+                        <wos_standard>Junn, AH</wos_standard>
+                        <first_name>Adam H.</first_name>
+                        <last_name>Junn</last_name>
+                    </name>
+                    <name
+                        seq_no="6"
+                        role="author"
+                        addr_no="1"
+                        >
+                        <display_name>Persing, John A.</display_name>
+                        <full_name>Persing, John A.</full_name>
+                        <wos_standard>Persing, JA</wos_standard>
+                        <first_name>John A.</first_name>
+                        <last_name>Persing</last_name>
+                    </name>
+                    <name
+                        seq_no="7"
+                        role="author"
+                        reprint="Y"
+                        addr_no="1"
+                        >
+                        <display_name>Alperovich, Michael</display_name>
+                        <full_name>Alperovich, Michael</full_name>
+                        <wos_standard>Alperovich, M</wos_standard>
+                        <first_name>Michael</first_name>
+                        <last_name>Alperovich</last_name>
+                        <email_addr>michael.alperovich@yale.edu</email_addr>
+                    </name>
+                </names>
+                <doctypes count="1">
+                    <doctype>Editorial Material</doctype>
+                </doctypes>
+                <publishers>
+                    <publisher>
+                        <address_spec addr_no="1">
+                            <full_address>TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA</full_address>
+                            <city>PHILADELPHIA</city>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                role="publisher"
+                                seq_no="1"
+                                addr_no="1"
+                                >
+                                <display_name>LIPPINCOTT WILLIAMS &amp; WILKINS</display_name>
+                                <full_name>LIPPINCOTT WILLIAMS &amp; WILKINS</full_name>
+                                <unified_name>Lippincott Williams &amp; Wilkins</unified_name>
+                            </name>
+                        </names>
+                    </publisher>
+                </publishers>
+            </summary>
+            <fullrecord_metadata>
+                <languages count="1">
+                    <language type="primary">English</language>
+                </languages>
+                <normalized_languages count="1">
+                    <language type="primary">English</language>
+                </normalized_languages>
+                <normalized_doctypes count="1">
+                    <doctype>Editorial</doctype>
+                </normalized_doctypes>
+                <references count="5">
+                    <reference occurenceOrder="1">
+                        <uid>WOS:000298242800007</uid>
+                        <citedAuthor>Wheeler, CK</citedAuthor>
+                        <year>2011</year>
+                        <page>435</page>
+                        <volume>31</volume>
+                        <citedTitle>Social Media in Plastic Surgery Practices: Emerging Trends in North America</citedTitle>
+                        <citedWork>AESTHETIC SURGERY JOURNAL</citedWork>
+                        <doi>10.1177/1090820X11407483</doi>
+                    </reference>
+                    <reference occurenceOrder="2">
+                        <uid>WOS:000723823800051</uid>
+                        <citedAuthor>Das, RK</citedAuthor>
+                        <year>2021</year>
+                        <page>1094E</page>
+                        <volume>148</volume>
+                        <citedTitle>Plastic Surgeons in TikTok: Top Influencers, Most Recent Posts, and User Engagement</citedTitle>
+                        <citedWork>PLASTIC AND RECONSTRUCTIVE SURGERY</citedWork>
+                        <doi>10.1097/PRS.0000000000008566</doi>
+                    </reference>
+                    <reference occurenceOrder="4">
+                        <uid>WOS:000455319500005</uid>
+                        <citedAuthor>Ben Naftali, Y</citedAuthor>
+                        <year>2018</year>
+                        <page>ARTN e1958</page>
+                        <volume>6</volume>
+                        <citedTitle>Plastic Surgery Faces the Web: Analysis of the Popular Social Media for Plastic Surgeons</citedTitle>
+                        <citedWork>PLASTIC AND RECONSTRUCTIVE SURGERY-GLOBAL OPEN</citedWork>
+                        <doi>10.1097/GOX.0000000000001958</doi>
+                    </reference>
+                    <reference occurenceOrder="5">
+                        <uid>000855495800002.5</uid>
+                        <citedAuthor>Zitser, J.</citedAuthor>
+                        <year>2022</year>
+                        <citedWork>Insider created a TikTok account and set the age at 14 to test how long before a plastic surgeon's promotional video appeared. It only took 8 minutes. Insider.com</citedWork>
+                        <citedURL>https://www.insider.com/rhinoplasty-is-being-promoted-to-teenagers-nose-job-tiktok-2020-12</citedURL>
+                    </reference>
+                    <reference occurenceOrder="3">
+                        <uid>000855495800002.3</uid>
+                        <citedAuthor>Dorfman, RG.</citedAuthor>
+                        <year>2018</year>
+                        <page>332 338</page>
+                        <volume>38</volume>
+                        <citedTitle>Plastic surgery-related hashtag utilization on instagram: implications for education and marketing</citedTitle>
+                        <citedWork>Aesthet Surg J</citedWork>
+                    </reference>
+                </references>
+                <addresses count="1">
+                    <address_name>
+                        <address_spec addr_no="1">
+                            <full_address>Yale Sch Med, Sect Plast &amp; Reconstruct Surg, Dept Surg, 330 Cedar St,Boardman Bldg, New Haven, CT 06510 USA</full_address>
+                            <organizations count="4">
+                                <organization>Yale Sch Med</organization>
+                                <organization
+                                    pref="Y"
+                                    ROR_ID="https://ror.org/03v76x132"
+                                    org_id="30100000000279"
+                                    >Yale University</organization>
+                                <organization
+                                    pref="D"
+                                    org_id="70000000098135"
+                                    />
+                                <organization
+                                    pref="D"
+                                    org_id="70000000003225"
+                                    >Yale University Department of Surgery</organization>
+                            </organizations>
+                            <suborganizations count="2">
+                                <suborganization>Sect Plast &amp; Reconstruct Surg</suborganization>
+                                <suborganization>Dept Surg</suborganization>
+                            </suborganizations>
+                            <street>330 Cedar St,Boardman Bldg</street>
+                            <city>New Haven</city>
+                            <state>CT</state>
+                            <country>USA</country>
+                            <zip location="AP">06510</zip>
+                        </address_spec>
+                        <names count="7">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                addr_no="1"
+                                r_id="DUQ-9832-2022"
+                                >
+                                <display_name>Rivera, Jean Carlo</display_name>
+                                <full_name>Rivera, Jean Carlo</full_name>
+                                <wos_standard>Rivera, JC</wos_standard>
+                                <first_name>Jean Carlo</first_name>
+                                <last_name>Rivera</last_name>
+                            </name>
+                            <name
+                                seq_no="2"
+                                role="author"
+                                addr_no="1"
+                                r_id="FBW-7894-2022"
+                                >
+                                <display_name>Juan, Hui Yu</display_name>
+                                <full_name>Juan, Hui Yu</full_name>
+                                <wos_standard>Juan, HY</wos_standard>
+                                <first_name>Hui Yu</first_name>
+                                <last_name>Juan</last_name>
+                            </name>
+                            <name
+                                seq_no="3"
+                                role="author"
+                                addr_no="1"
+                                r_id="DVZ-0169-2022"
+                                >
+                                <display_name>Long, Aaron S.</display_name>
+                                <full_name>Long, Aaron S.</full_name>
+                                <wos_standard>Long, AS</wos_standard>
+                                <first_name>Aaron S.</first_name>
+                                <last_name>Long</last_name>
+                            </name>
+                            <name
+                                seq_no="4"
+                                role="author"
+                                addr_no="1"
+                                r_id="DVZ-7771-2022"
+                                >
+                                <display_name>Hauc, Sacha C.</display_name>
+                                <full_name>Hauc, Sacha C.</full_name>
+                                <wos_standard>Hauc, SC</wos_standard>
+                                <first_name>Sacha C.</first_name>
+                                <last_name>Hauc</last_name>
+                            </name>
+                            <name
+                                seq_no="5"
+                                role="author"
+                                addr_no="1"
+                                r_id="CXO-0108-2022"
+                                >
+                                <display_name>Junn, Adam H.</display_name>
+                                <full_name>Junn, Adam H.</full_name>
+                                <wos_standard>Junn, AH</wos_standard>
+                                <first_name>Adam H.</first_name>
+                                <last_name>Junn</last_name>
+                            </name>
+                            <name
+                                seq_no="6"
+                                role="author"
+                                addr_no="1"
+                                r_id="DMI-8898-2022"
+                                >
+                                <display_name>Persing, John A.</display_name>
+                                <full_name>Persing, John A.</full_name>
+                                <wos_standard>Persing, JA</wos_standard>
+                                <first_name>John A.</first_name>
+                                <last_name>Persing</last_name>
+                            </name>
+                            <name
+                                seq_no="7"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                r_id="CDB-8289-2022"
+                                >
+                                <display_name>Alperovich, Michael</display_name>
+                                <full_name>Alperovich, Michael</full_name>
+                                <wos_standard>Alperovich, M</wos_standard>
+                                <first_name>Michael</first_name>
+                                <last_name>Alperovich</last_name>
+                                <email_addr>michael.alperovich@yale.edu</email_addr>
+                            </name>
+                        </names>
+                    </address_name>
+                </addresses>
+                <reprint_addresses count="1">
+                    <address_name>
+                        <address_spec addr_no="1">
+                            <full_address>Yale Sch Med, Sect Plast &amp; Reconstruct Surg, Dept Surg, 330 Cedar St,Boardman Bldg, New Haven, CT 06510 USA</full_address>
+                            <organizations count="4">
+                                <organization>Yale Sch Med</organization>
+                                <organization
+                                    pref="Y"
+                                    ROR_ID="https://ror.org/03v76x132"
+                                    org_id="30100000000279"
+                                    >Yale University</organization>
+                                <organization
+                                    pref="D"
+                                    org_id="70000000098135"
+                                    />
+                                <organization
+                                    pref="D"
+                                    org_id="70000000003225"
+                                    >Yale University Department of Surgery</organization>
+                            </organizations>
+                            <suborganizations count="2">
+                                <suborganization>Sect Plast &amp; Reconstruct Surg</suborganization>
+                                <suborganization>Dept Surg</suborganization>
+                            </suborganizations>
+                            <street>330 Cedar St,Boardman Bldg</street>
+                            <city>New Haven</city>
+                            <state>CT</state>
+                            <country>USA</country>
+                            <zip location="AP">06510</zip>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                >
+                                <display_name>Alperovich, Michael</display_name>
+                                <full_name>Alperovich, Michael</full_name>
+                                <wos_standard>Alperovich, M</wos_standard>
+                                <first_name>Michael</first_name>
+                                <last_name>Alperovich</last_name>
+                                <email_addr>michael.alperovich@yale.edu</email_addr>
+                            </name>
+                        </names>
+                    </address_name>
+                </reprint_addresses>
+                <category_info>
+                    <headings count="1">
+                        <heading>Science &amp; Technology</heading>
+                    </headings>
+                    <subheadings count="1">
+                        <subheading>Life Sciences &amp; Biomedicine</subheading>
+                    </subheadings>
+                    <subjects count="2">
+                        <subject ascatype="traditional">Surgery</subject>
+                        <subject ascatype="extended">Surgery</subject>
+                    </subjects>
+                </category_info>
+                <fund_ack>
+                    <grants count="1">
+                        <grant grant_source="NIH RePORTER">
+                            <grant_agency>National Institute of Diabetes and Digestive and Kidney Diseases</grant_agency>
+                            <grant_agency pref="Y">United States Department of Health &amp; Human Services</grant_agency>
+                            <grant_agency pref="Y">National Institutes of Health (NIH) - USA</grant_agency>
+                            <grant_agency pref="Y">NIH National Institute of Diabetes &amp; Digestive &amp; Kidney Diseases (NIDDK)</grant_agency>
+                            <grant_ids count="1">
+                                <grant_id>T35DK104689</grant_id>
+                            </grant_ids>
+                            <grant_data count="1">
+                                <grantDataItem>
+                                    <grantid>T35DK104689</grantid>
+                                    <grantProjectTitle>Short Term Research Training: Students in Health Professional Schools</grantProjectTitle>
+                                    <totalAwardAmount>242967</totalAwardAmount>
+                                    <currency>USD</currency>
+                                    <startDate>2015-06-01</startDate>
+                                    <endDate>2025-05-31</endDate>
+                                    <principalInvestigators>
+                                        <principalInvestigator>PETER S. ARONSON</principalInvestigator>
+                                        <principalInvestigator>Sarwat I Chaudhry</principalInvestigator>
+                                        <principalInvestigator>HERZOG, ERICA L</principalInvestigator>
+                                        <principalInvestigatorInstitutions>
+                                            <principalInvestigatorInstitution>YALE UNIVERSITY</principalInvestigatorInstitution>
+                                        </principalInvestigatorInstitutions>
+                                    </principalInvestigators>
+                                </grantDataItem>
+                            </grant_data>
+                        </grant>
+                    </grants>
+                </fund_ack>
+            </fullrecord_metadata>
+            <item
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="itemType_wos"
+                >
+                <ids avail="N">4P6HZ</ids>
+                <bib_id>10 (9): - SEP 2022</bib_id>
+                <bib_pagecount type="Journal">21</bib_pagecount>
+            </item>
+            <contributors count="1">
+                <contributor>
+                    <name
+                        seq_no="1"
+                        role="researcher_id"
+                        orcid_id="0000-0002-6666-8578"
+                        >
+                        <display_name>Hauc, Sacha</display_name>
+                        <full_name>Hauc, Sacha</full_name>
+                        <first_name>Sacha</first_name>
+                        <last_name>Hauc</last_name>
+                    </name>
+                </contributor>
+            </contributors>
+        </static_data>
+        <dynamic_data>
+            <cluster_related>
+                <identifiers>
+                    <identifier
+                        type="accession_no"
+                        value="4P6HZ"
+                        />
+                    <identifier
+                        type="issn"
+                        value="2169-7574"
+                        />
+                    <identifier
+                        type="art_no"
+                        value="ARTN e4519"
+                        />
+                    <identifier
+                        type="doi"
+                        value="10.1097/GOX.0000000000004519"
+                        />
+                    <identifier
+                        type="pmid"
+                        value="36168605"
+                        />
+                </identifiers>
+            </cluster_related>
+            <ic_related>
+                <oases
+                    count="2"
+                    is_OA="Yes"
+                    >
+                    <oas type="green_published" />
+                    <oas type="gold" />
+                </oases>
+            </ic_related>
+        </dynamic_data>
+    </REC>
+</records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->

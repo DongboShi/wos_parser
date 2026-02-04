@@ -1,0 +1,236 @@
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+    <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+        <UID>WOS:001435673500038</UID>
+        <static_data>
+            <summary>
+                <EWUID>
+                    <WUID coll_id="WOS" />
+                    <edition value="WOS.ISSHP" />
+                </EWUID>
+                <pub_info
+                    sortdate="2022-01-01"
+                    pubyear="2022"
+                    has_abstract="Y"
+                    coverdate="2022"
+                    pubtype="Book in series"
+                    >
+                    <page
+                        begin="187"
+                        end="193"
+                        page_count="7"
+                        >187-193</page>
+                </pub_info>
+                <titles count="7">
+                    <title type="source">4TH INTERDISCIPLINARY AND VIRTUAL CONFERENCE ON ARTS IN EDUCATION, CIVAE 2022</title>
+                    <title type="series">CIVAE</title>
+                    <title type="source_abbrev">CIVAE</title>
+                    <title type="abbrev_11">CIVAE</title>
+                    <title type="abbrev_29">CIVAE</title>
+                    <title type="item">The backdrop - Beato Pellegrino Cinema theater - Falerone</title>
+                    <title
+                        type="book_series"
+                        translated="N"
+                        >CIVAE</title>
+                </titles>
+                <names count="2">
+                    <name
+                        seq_no="1"
+                        role="author"
+                        reprint="Y"
+                        addr_no="1"
+                        >
+                        <display_name>Vali, Istvan Frigyes</display_name>
+                        <full_name>Vali, Istvan Frigyes</full_name>
+                        <wos_standard>Váli, IF</wos_standard>
+                        <first_name>Istvan Frigyes</first_name>
+                        <last_name>Vali</last_name>
+                    </name>
+                    <name
+                        seq_no="2"
+                        role="book_corp"
+                        >
+                        <display_name>Musicoguia</display_name>
+                        <full_name>Musicoguia</full_name>
+                    </name>
+                </names>
+                <doctypes count="1">
+                    <doctype>Proceedings Paper</doctype>
+                </doctypes>
+                <conferences count="1">
+                    <conference conf_id="362368">
+                        <conf_infos count="1">
+                            <conf_info>4th Interdisciplinary and Virtual Conference on Arts in Education, MAY 11-12, 2022, ELECTR NETWORK</conf_info>
+                        </conf_infos>
+                        <conf_titles count="1">
+                            <conf_title>4th Interdisciplinary and Virtual Conference on Arts in Education</conf_title>
+                        </conf_titles>
+                        <conf_dates count="1">
+                            <conf_date
+                                conf_start="20220511"
+                                conf_end="20220512"
+                                >MAY 11-12, 2022</conf_date>
+                        </conf_dates>
+                        <conf_locations count="1">
+                            <conf_location>
+                                <conf_state>ELECTR NETWORK</conf_state>
+                            </conf_location>
+                        </conf_locations>
+                    </conference>
+                </conferences>
+                <publishers>
+                    <publisher>
+                        <address_spec addr_no="1">
+                            <full_address>San Raimundo, 14, Entlo.C., Alicante, SPAIN</full_address>
+                            <city>Alicante</city>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                role="publisher"
+                                seq_no="1"
+                                addr_no="1"
+                                >
+                                <display_name>ADAYA PRESS</display_name>
+                                <full_name>ADAYA PRESS</full_name>
+                                <unified_name />
+                            </name>
+                        </names>
+                    </publisher>
+                </publishers>
+            </summary>
+            <fullrecord_metadata>
+                <languages count="1">
+                    <language type="primary">English</language>
+                </languages>
+                <normalized_languages count="1">
+                    <language type="primary">English</language>
+                </normalized_languages>
+                <normalized_doctypes count="1">
+                    <doctype>Meeting</doctype>
+                </normalized_doctypes>
+                <references count="1">
+                    <reference occurenceOrder="1">
+                        <uid>001435673500038.1</uid>
+                        <citedAuthor>Mariani, F.</citedAuthor>
+                        <year>1997</year>
+                        <citedWork>Il teatro nelle Marche. Architettura, scenografia e spettacolo</citedWork>
+                    </reference>
+                </references>
+                <addresses count="1">
+                    <address_name>
+                        <address_spec addr_no="1">
+                            <full_address>Budapest Univ Technol &amp; Econ, Budapest, Hungary</full_address>
+                            <organizations count="2">
+                                <organization>Budapest Univ Technol &amp; Econ</organization>
+                                <organization
+                                    pref="Y"
+                                    ROR_ID="https://ror.org/02w42ss30"
+                                    org_id="30100007291251"
+                                    >Budapest University of Technology &amp; Economics</organization>
+                            </organizations>
+                            <city>Budapest</city>
+                            <country>Hungary</country>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                >
+                                <display_name>Vali, Istvan Frigyes</display_name>
+                                <full_name>Vali, Istvan Frigyes</full_name>
+                                <wos_standard>Váli, IF</wos_standard>
+                                <first_name>Istvan Frigyes</first_name>
+                                <last_name>Vali</last_name>
+                            </name>
+                        </names>
+                    </address_name>
+                </addresses>
+                <reprint_addresses count="1">
+                    <address_name>
+                        <address_spec addr_no="1">
+                            <full_address>Budapest Univ Technol &amp; Econ, Budapest, Hungary</full_address>
+                            <organizations count="2">
+                                <organization>Budapest Univ Technol &amp; Econ</organization>
+                                <organization
+                                    pref="Y"
+                                    ROR_ID="https://ror.org/02w42ss30"
+                                    org_id="30100007291251"
+                                    >Budapest University of Technology &amp; Economics</organization>
+                            </organizations>
+                            <city>Budapest</city>
+                            <country>Hungary</country>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                >
+                                <display_name>Vali, Istvan Frigyes</display_name>
+                                <full_name>Vali, Istvan Frigyes</full_name>
+                                <wos_standard>Váli, IF</wos_standard>
+                                <first_name>Istvan Frigyes</first_name>
+                                <last_name>Vali</last_name>
+                            </name>
+                        </names>
+                    </address_name>
+                </reprint_addresses>
+                <category_info>
+                    <headings count="2">
+                        <heading>Arts &amp; Humanities</heading>
+                        <heading>Social Sciences</heading>
+                    </headings>
+                    <subjects count="4">
+                        <subject ascatype="traditional">Humanities, Multidisciplinary</subject>
+                        <subject ascatype="traditional">Education &amp; Educational Research</subject>
+                        <subject ascatype="extended">Arts &amp; Humanities - Other Topics</subject>
+                        <subject ascatype="extended">Education &amp; Educational Research</subject>
+                    </subjects>
+                </category_info>
+                <fund_ack />
+                <keywords count="5">
+                    <keyword>Falerone Art Colony</keyword>
+                    <keyword>architect training</keyword>
+                    <keyword>community creation</keyword>
+                    <keyword>fine arts</keyword>
+                    <keyword>mosaic</keyword>
+                </keywords>
+                <abstracts count="1">
+                    <abstract>
+                        <abstract_text count="1">
+                            <p>The Falerone Art Colony is an artists' colony in Italy, mainly for architecture students at the Faculty of Architecture of the Budapest University of Technology and Economics. The summer drawing workshops organised by the Artists' Colony provide participants with a creative visual arts activity. They make drawings and paintings using different techniques. On two occasions, animated short films were made, which were drawn frame by frame by the participants, creating a mosaic in time. In 2019, the community of the artists' colony started to create a permanent wallpaper for the stage of the Cineteatro Beato Pellegrino in Falerone, which is currently under renovation. The picture shows an urban landscape, rendered in mosaic technique. The mosaic pieces, however, were not small, coloured stones, but frames from almost all the works made at the art colony and from the cartoons made by the participants earlier. We not only used drawings from the 2019 art colony participants, but also from previous colonies, so we "involved" their creators in the fondale afterwards. Thus, the creation of the fondale fits in with the basic concept, objective and working method of the artists' colony. It becomes a collective creation, while at the same time giving room for individuality.</p>
+                        </abstract_text>
+                    </abstract>
+                </abstracts>
+            </fullrecord_metadata>
+            <item
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="itemType_wos"
+                >
+                <ids avail="N">BY3YV</ids>
+                <bib_id>: 187-193 2022</bib_id>
+                <bib_pagecount type="Journal">530</bib_pagecount>
+                <book_desc>
+                    <bk_binding>P</bk_binding>
+                    <bk_publisher>ADAYA PRESS, San Raimundo, 14, Entlo.C., Alicante, SPAIN</bk_publisher>
+                </book_desc>
+            </item>
+        </static_data>
+        <dynamic_data>
+            <cluster_related>
+                <identifiers>
+                    <identifier
+                        type="accession_no"
+                        value="BY3YV"
+                        />
+                    <identifier
+                        type="eisbn"
+                        value="978-84-124511-5-3"
+                        />
+                </identifiers>
+            </cluster_related>
+        </dynamic_data>
+    </REC>
+</records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->

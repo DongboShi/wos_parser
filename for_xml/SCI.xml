@@ -1,0 +1,1599 @@
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+        <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+            <UID>WOS:000805468200001</UID>
+            <static_data>
+                <summary>
+                    <EWUID>
+                        <WUID coll_id="WOS" />
+                        <edition value="WOS.SCI" />
+                    </EWUID>
+                    <pub_info
+                            sortdate="2023-02-01"
+                            pubyear="2023"
+                            has_abstract="Y"
+                            coverdate="FEB 2023"
+                            pubmonth="FEB"
+                            vol="16"
+                            issue="1"
+                            early_access_date="MAY 2022"
+                            early_access_month="05"
+                            early_access_year="2022"
+                            pubtype="Journal"
+                            >
+                        <page
+                                begin="221"
+                                end="232"
+                                page_count="12"
+                                >221-232</page>
+                    </pub_info>
+                    <titles count="6">
+                        <title type="source">JOURNAL OF CARDIOVASCULAR TRANSLATIONAL RESEARCH</title>
+                        <title type="source_abbrev">J CARDIOVASC TRANSL</title>
+                        <title type="abbrev_iso">J. Cardiovasc. Transl. Res.</title>
+                        <title type="abbrev_11">J CARD TR R</title>
+                        <title type="abbrev_29">J CARDIOVASC TRANSL RES</title>
+                        <title type="item">Human Obesity Attenuates Cardioprotection Conferred by Adipose Tissue-Derived Mesenchymal Stem/Stromal Cells</title>
+                    </titles>
+                    <names count="12">
+                        <name
+                                seq_no="1"
+                                role="author"
+                                addr_no="1 2"
+                                >
+                            <display_name>Yu, Shasha</display_name>
+                            <full_name>Yu, Shasha</full_name>
+                            <wos_standard>Yu, SS</wos_standard>
+                            <first_name>Shasha</first_name>
+                            <last_name>Yu</last_name>
+                        </name>
+                        <name
+                                seq_no="2"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Klomjit, Nattawat</display_name>
+                            <full_name>Klomjit, Nattawat</full_name>
+                            <wos_standard>Klomjit, N</wos_standard>
+                            <first_name>Nattawat</first_name>
+                            <last_name>Klomjit</last_name>
+                        </name>
+                        <name
+                                seq_no="3"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Jiang, Kai</display_name>
+                            <full_name>Jiang, Kai</full_name>
+                            <wos_standard>Jiang, K</wos_standard>
+                            <first_name>Kai</first_name>
+                            <last_name>Jiang</last_name>
+                        </name>
+                        <name
+                                seq_no="4"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Zhu, Xiang Y.</display_name>
+                            <full_name>Zhu, Xiang Y.</full_name>
+                            <wos_standard>Zhu, XY</wos_standard>
+                            <first_name>Xiang Y.</first_name>
+                            <last_name>Zhu</last_name>
+                        </name>
+                        <name
+                                seq_no="5"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Ferguson, Christopher M.</display_name>
+                            <full_name>Ferguson, Christopher M.</full_name>
+                            <wos_standard>Ferguson, CM</wos_standard>
+                            <first_name>Christopher M.</first_name>
+                            <last_name>Ferguson</last_name>
+                        </name>
+                        <name
+                                seq_no="6"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Conley, Sabena M.</display_name>
+                            <full_name>Conley, Sabena M.</full_name>
+                            <wos_standard>Conley, SM</wos_standard>
+                            <first_name>Sabena M.</first_name>
+                            <last_name>Conley</last_name>
+                        </name>
+                        <name
+                                seq_no="7"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Obeidat, Yasin</display_name>
+                            <full_name>Obeidat, Yasin</full_name>
+                            <wos_standard>Obeidat, Y</wos_standard>
+                            <first_name>Yasin</first_name>
+                            <last_name>Obeidat</last_name>
+                        </name>
+                        <name
+                                seq_no="8"
+                                role="author"
+                                addr_no="3"
+                                >
+                            <display_name>Kellogg, Todd A.</display_name>
+                            <full_name>Kellogg, Todd A.</full_name>
+                            <wos_standard>Kellogg, TA</wos_standard>
+                            <first_name>Todd A.</first_name>
+                            <last_name>Kellogg</last_name>
+                        </name>
+                        <name
+                                seq_no="9"
+                                role="author"
+                                addr_no="3"
+                                >
+                            <display_name>McKenzie, Travis</display_name>
+                            <full_name>McKenzie, Travis</full_name>
+                            <wos_standard>McKenzie, T</wos_standard>
+                            <first_name>Travis</first_name>
+                            <last_name>McKenzie</last_name>
+                        </name>
+                        <name
+                                seq_no="10"
+                                role="author"
+                                addr_no="3"
+                                >
+                            <display_name>Heimbach, Julie K.</display_name>
+                            <full_name>Heimbach, Julie K.</full_name>
+                            <wos_standard>Heimbach, JK</wos_standard>
+                            <first_name>Julie K.</first_name>
+                            <last_name>Heimbach</last_name>
+                        </name>
+                        <name
+                                seq_no="11"
+                                role="author"
+                                addr_no="4"
+                                >
+                            <display_name>Lerman, Amir</display_name>
+                            <full_name>Lerman, Amir</full_name>
+                            <wos_standard>Lerman, A</wos_standard>
+                            <first_name>Amir</first_name>
+                            <last_name>Lerman</last_name>
+                        </name>
+                        <name
+                                seq_no="12"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1 4"
+                                >
+                            <display_name>Lerman, Lilach O.</display_name>
+                            <full_name>Lerman, Lilach O.</full_name>
+                            <wos_standard>Lerman, LO</wos_standard>
+                            <first_name>Lilach O.</first_name>
+                            <last_name>Lerman</last_name>
+                            <email_addr>lerman.lilach@mayo.edu</email_addr>
+                        </name>
+                    </names>
+                    <doctypes count="1">
+                        <doctype>Article</doctype>
+                    </doctypes>
+                    <publishers>
+                        <publisher>
+                            <address_spec addr_no="1">
+                                <full_address>ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES</full_address>
+                                <city>NEW YORK</city>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        role="publisher"
+                                        seq_no="1"
+                                        addr_no="1"
+                                        >
+                                    <display_name>SPRINGER</display_name>
+                                    <full_name>SPRINGER</full_name>
+                                    <unified_name>Springer Nature</unified_name>
+                                </name>
+                            </names>
+                        </publisher>
+                    </publishers>
+                </summary>
+                <fullrecord_metadata>
+                    <languages count="1">
+                        <language type="primary">English</language>
+                    </languages>
+                    <normalized_languages count="1">
+                        <language type="primary">English</language>
+                    </normalized_languages>
+                    <normalized_doctypes count="1">
+                        <doctype>Article</doctype>
+                    </normalized_doctypes>
+                    <references count="57">
+                        <reference occurenceOrder="24">
+                            <physicalSection
+                                    physicalLocation="0.112746037"
+                                    section="Methods"
+                                    function="basis"
+                                    >Animals</physicalSection>
+                            <uid>WOS:000401896700010</uid>
+                            <citedAuthor>Jiang, K</citedAuthor>
+                            <year>2017</year>
+                            <page>77</page>
+                            <volume>283</volume>
+                            <citedTitle>Noninvasive Assessment of Renal Fibrosis with Magnetization Transfer MR Imaging: Validation and Evaluation in Murine Renal Artery Stenosis</citedTitle>
+                            <citedWork>RADIOLOGY</citedWork>
+                            <doi>10.1148/radiol.2016160566</doi>
+                        </reference>
+                        <reference occurenceOrder="4">
+                            <physicalSection
+                                    physicalLocation="0.016244923"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000585710100001</uid>
+                            <citedAuthor>Feijóo-Bandín, S</citedAuthor>
+                            <year>2020</year>
+                            <page>ARTN 7711</page>
+                            <volume>21</volume>
+                            <citedTitle>Adipokines and Inflammation: Focus on Cardiovascular Diseases</citedTitle>
+                            <citedWork>INTERNATIONAL JOURNAL OF MOLECULAR SCIENCES</citedWork>
+                            <doi>10.3390/ijms21207711</doi>
+                        </reference>
+                        <reference occurenceOrder="38">
+                            <physicalSection
+                                    physicalLocation="0.748359888"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000321186200008</uid>
+                            <citedAuthor>Cianfarani, F</citedAuthor>
+                            <year>2013</year>
+                            <page>545</page>
+                            <volume>21</volume>
+                            <citedTitle>Diabetes impairs adipose tissue-derived stem cell function and efficiency in promoting wound healing</citedTitle>
+                            <citedWork>WOUND REPAIR AND REGENERATION</citedWork>
+                            <doi>10.1111/wrr.12051</doi>
+                        </reference>
+                        <reference occurenceOrder="1">
+                            <physicalSection
+                                    physicalLocation="0.003561387"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000400050200001</uid>
+                            <citedAuthor>Apovian, CM</citedAuthor>
+                            <year>2016</year>
+                            <volume>22</volume>
+                            <citedTitle>Obesity: Definition, Comorbidities, Causes, and Burden</citedTitle>
+                            <citedWork>AMERICAN JOURNAL OF MANAGED CARE</citedWork>
+                        </reference>
+                        <reference occurenceOrder="29">
+                            <physicalSection
+                                    physicalLocation="0.285192127"
+                                    section="Methods"
+                                    function="basis"
+                                    >Myocardial Deformation</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.309028429"
+                                    section="Methods"
+                                    function="basis"
+                                    >Myocardial Deformation</physicalSection>
+                            <uid>WOS:000329568500001</uid>
+                            <citedAuthor>Kramer, SP</citedAuthor>
+                            <year>2013</year>
+                            <page>ARTN 109</page>
+                            <volume>15</volume>
+                            <citedTitle>Obesity reduces left ventricular strains, torsion, and synchrony in mouse models: a cine displacement encoding with stimulated echoes (DENSE) cardiovascular magnetic resonance study</citedTitle>
+                            <citedWork>JOURNAL OF CARDIOVASCULAR MAGNETIC RESONANCE</citedWork>
+                            <doi>10.1186/1532-429X-15-109</doi>
+                        </reference>
+                        <reference occurenceOrder="5">
+                            <physicalSection
+                                    physicalLocation="0.016307424"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000584223700001</uid>
+                            <citedAuthor>Mullins, CA</citedAuthor>
+                            <year>2020</year>
+                            <page>ARTN 1018</page>
+                            <volume>9</volume>
+                            <citedTitle>Neural Underpinnings of Obesity: The Role of Oxidative Stress and Inflammation in the Brain</citedTitle>
+                            <citedWork>ANTIOXIDANTS</citedWork>
+                            <doi>10.3390/antiox9101018</doi>
+                        </reference>
+                        <reference occurenceOrder="12">
+                            <physicalSection
+                                    physicalLocation="0.038675414"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.195720087"
+                                    section="Methods"
+                                    function="basis"
+                                    >A-MSC Isolation, Characterization, and Culture</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.19737582"
+                                    section="Methods"
+                                    function="basis"
+                                    >A-MSC Isolation, Characterization, and Culture</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.218275539"
+                                    section="Methods"
+                                    function="basis"
+                                    >A-MSC Isolation, Characterization, and Culture</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.759981256"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.844392377"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000525664800001</uid>
+                            <citedAuthor>Conley, SM</citedAuthor>
+                            <year>2020</year>
+                            <page>ARTN 197</page>
+                            <volume>8</volume>
+                            <citedTitle>Human Obesity Induces Dysfunction and Early Senescence in Adipose Tissue-Derived Mesenchymal Stromal/Stem Cells</citedTitle>
+                            <citedWork>FRONTIERS IN CELL AND DEVELOPMENTAL BIOLOGY</citedWork>
+                            <doi>10.3389/fcell.2020.00197</doi>
+                        </reference>
+                        <reference occurenceOrder="6">
+                            <physicalSection
+                                    physicalLocation="0.016307444"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000579742400002</uid>
+                            <citedAuthor>Pham, DV</citedAuthor>
+                            <year>2020</year>
+                            <page>997</page>
+                            <volume>43</volume>
+                            <citedTitle>Recent insights on modulation of inflammasomes by adipokines: a critical event for the pathogenesis of obesity and metabolism-associated diseases</citedTitle>
+                            <citedWork>ARCHIVES OF PHARMACAL RESEARCH</citedWork>
+                            <doi>10.1007/s12272-020-01274-7</doi>
+                        </reference>
+                        <reference occurenceOrder="11">
+                            <physicalSection
+                                    physicalLocation="0.035145307"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000274007500017</uid>
+                            <citedAuthor>Hong, SJ</citedAuthor>
+                            <year>2010</year>
+                            <page>86</page>
+                            <volume>15</volume>
+                            <citedTitle>Therapeutic potential of adipose-derived stem cells in vascular growth and tissue repair</citedTitle>
+                            <citedWork>CURRENT OPINION IN ORGAN TRANSPLANTATION</citedWork>
+                            <doi>10.1097/MOT.0b013e328334f074</doi>
+                        </reference>
+                        <reference occurenceOrder="25">
+                            <physicalSection
+                                    physicalLocation="0.112746057"
+                                    section="Methods"
+                                    function="basis"
+                                    >Animals</physicalSection>
+                            <uid>WOS:000428703400018</uid>
+                            <citedAuthor>Jiang, K</citedAuthor>
+                            <year>2018</year>
+                            <page>190</page>
+                            <volume>80</volume>
+                            <citedTitle>A rapid T&lt;sub&gt;1&lt;/sub&gt; mapping method for assessment of murine kidney viability using dynamic manganese-enhanced magnetic resonance imaging</citedTitle>
+                            <citedWork>MAGNETIC RESONANCE IN MEDICINE</citedWork>
+                            <doi>10.1002/mrm.27025</doi>
+                        </reference>
+                        <reference occurenceOrder="16">
+                            <physicalSection
+                                    physicalLocation="0.059012808"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000331842300021</uid>
+                            <citedAuthor>Khangura, KK</citedAuthor>
+                            <year>2014</year>
+                            <page>445</page>
+                            <volume>27</volume>
+                            <citedTitle>Cardiac Function In Renovascular Hypertensive Patients With and Without Renal Dysfunction</citedTitle>
+                            <citedWork>AMERICAN JOURNAL OF HYPERTENSION</citedWork>
+                            <doi>10.1093/ajh/hpt203</doi>
+                        </reference>
+                        <reference occurenceOrder="23">
+                            <physicalSection
+                                    physicalLocation="0.112652296"
+                                    section="Methods"
+                                    function="basis"
+                                    >Animals</physicalSection>
+                            <uid>WOS:000484947800124</uid>
+                            <citedAuthor>Jiang, K</citedAuthor>
+                            <year>2019</year>
+                            <page>ARTN e0219605</page>
+                            <volume>14</volume>
+                            <citedTitle>A modified two-compartment model for measurement of renal function using dynamic contrast-enhanced computed tomography</citedTitle>
+                            <citedWork>PLOS ONE</citedWork>
+                            <doi>10.1371/journal.pone.0219605</doi>
+                        </reference>
+                        <reference occurenceOrder="45">
+                            <physicalSection
+                                    physicalLocation="0.791752577"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000606008600001</uid>
+                            <citedAuthor>Chen, TS</citedAuthor>
+                            <year>2021</year>
+                            <page>4290</page>
+                            <volume>236</volume>
+                            <citedTitle>Antioxidant Sirt1/Akt axis expression in resveratrol pretreated adipose-derived stem cells increases regenerative capability in a rat model with cardiomyopathy induced by diabetes mellitus</citedTitle>
+                            <citedWork>JOURNAL OF CELLULAR PHYSIOLOGY</citedWork>
+                            <doi>10.1002/jcp.30057</doi>
+                        </reference>
+                        <reference occurenceOrder="50">
+                            <physicalSection
+                                    physicalLocation="0.857981901"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000311493600016</uid>
+                            <citedAuthor>Strong, AL</citedAuthor>
+                            <year>2012</year>
+                            <page>2774</page>
+                            <volume>30</volume>
+                            <citedTitle>Obesity-Associated Dysregulation of Calpastatin and MMP-15 in Adipose-Derived Stromal Cells Results in Their Enhanced Invasion</citedTitle>
+                            <citedWork>STEM CELLS</citedWork>
+                            <doi>10.1002/stem.1229</doi>
+                        </reference>
+                        <reference occurenceOrder="33">
+                            <physicalSection
+                                    physicalLocation="0.722211809"
+                                    section="Discussion"
+                                    function="background"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000470303900010</uid>
+                            <citedAuthor>Koliaki, C</citedAuthor>
+                            <year>2019</year>
+                            <page>98</page>
+                            <volume>92</volume>
+                            <citedTitle>Obesity and cardiovascular disease: revisiting an old relationship</citedTitle>
+                            <citedWork>METABOLISM-CLINICAL AND EXPERIMENTAL</citedWork>
+                            <doi>10.1016/j.metabol.2018.10.011</doi>
+                        </reference>
+                        <reference occurenceOrder="56">
+                            <physicalSection
+                                    physicalLocation="0.927772571"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000341712600014</uid>
+                            <citedAuthor>Miao, QF</citedAuthor>
+                            <year>2014</year>
+                            <page>1644</page>
+                            <volume>18</volume>
+                            <citedTitle>iPSC-derived human mesenchymal stem cells improve myocardial strain of infarcted myocardium</citedTitle>
+                            <citedWork>JOURNAL OF CELLULAR AND MOLECULAR MEDICINE</citedWork>
+                            <doi>10.1111/jcmm.12351</doi>
+                        </reference>
+                        <reference occurenceOrder="57">
+                            <physicalSection
+                                    physicalLocation="0.960012496"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000641743900011</uid>
+                            <citedAuthor>Li, JL</citedAuthor>
+                            <year>2021</year>
+                            <page>ARTN e020402</page>
+                            <volume>10</volume>
+                            <citedTitle>All Roads Lead to Rome (the Heart): Cell Retention and Outcomes From Various Delivery Routes of Cell Therapy Products to the Heart</citedTitle>
+                            <citedWork>JOURNAL OF THE AMERICAN HEART ASSOCIATION</citedWork>
+                            <doi>10.1161/JAHA.120.020402</doi>
+                        </reference>
+                        <reference occurenceOrder="52">
+                            <physicalSection
+                                    physicalLocation="0.891533916"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000579914500014</uid>
+                            <citedAuthor>Nargesi, AA</citedAuthor>
+                            <year>2020</year>
+                            <page>765</page>
+                            <volume>33</volume>
+                            <citedTitle>Experimental Renovascular Disease Induces Endothelial Cell Mitochondrial Damage and Impairs Endothelium-Dependent Relaxation of Renal Artery Segments</citedTitle>
+                            <citedWork>AMERICAN JOURNAL OF HYPERTENSION</citedWork>
+                            <doi>10.1093/ajh/hpaa047</doi>
+                        </reference>
+                        <reference occurenceOrder="39">
+                            <uid>000805468200001.39</uid>
+                            <citedAuthor>Sokolova, I. B.</citedAuthor>
+                            <year>2014</year>
+                            <volume>27</volume>
+                            <citedTitle>Mesenchymal stem sell donor age effect on the cerebral cortex microvascular net density in old age rats-recipients of transplant]</citedTitle>
+                            <citedWork>Advances in gerontology</citedWork>
+                        </reference>
+                        <reference occurenceOrder="28">
+                            <physicalSection
+                                    physicalLocation="0.283192752"
+                                    section="Methods"
+                                    function="basis"
+                                    >Myocardial Deformation</physicalSection>
+                            <uid>WOS:000079034300030</uid>
+                            <citedAuthor>Aletras, AH</citedAuthor>
+                            <year>1999</year>
+                            <page>247</page>
+                            <volume>137</volume>
+                            <citedTitle>DENSE: Displacement encoding with stimulated echoes in cardiac functional MRI</citedTitle>
+                            <citedWork>JOURNAL OF MAGNETIC RESONANCE</citedWork>
+                        </reference>
+                        <reference occurenceOrder="2">
+                            <physicalSection
+                                    physicalLocation="0.009122149"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000371010100004</uid>
+                            <citedAuthor>Aune, D</citedAuthor>
+                            <year>2016</year>
+                            <page>639</page>
+                            <volume>133</volume>
+                            <citedTitle>Body Mass Index, Abdominal Fatness, and Heart Failure Incidence and Mortality A Systematic Review and Dose-Response Meta-Analysis of Prospective Studies</citedTitle>
+                            <citedWork>CIRCULATION</citedWork>
+                            <doi>10.1161/CIRCULATIONAHA.115.016801</doi>
+                        </reference>
+                        <reference occurenceOrder="44">
+                            <physicalSection
+                                    physicalLocation="0.786504217"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000565952300001</uid>
+                            <citedAuthor>Lin, HJ</citedAuthor>
+                            <year>2021</year>
+                            <page>86</page>
+                            <volume>36</volume>
+                            <citedTitle>D-galactose-induced toxicity associated senescence mitigated by alpinate oxyphyllae fructus fortified adipose-derived mesenchymal stem cells</citedTitle>
+                            <citedWork>ENVIRONMENTAL TOXICOLOGY</citedWork>
+                            <doi>10.1002/tox.23014</doi>
+                        </reference>
+                        <reference occurenceOrder="51">
+                            <physicalSection
+                                    physicalLocation="0.87363324"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000313549700005</uid>
+                            <citedAuthor>English, K</citedAuthor>
+                            <year>2013</year>
+                            <page>19</page>
+                            <volume>91</volume>
+                            <citedTitle>Mechanisms of mesenchymal stromal cell immunomodulation</citedTitle>
+                            <citedWork>IMMUNOLOGY AND CELL BIOLOGY</citedWork>
+                            <doi>10.1038/icb.2012.56</doi>
+                        </reference>
+                        <reference occurenceOrder="22">
+                            <physicalSection
+                                    physicalLocation="0.087097822"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.21840052"
+                                    section="Methods"
+                                    function="basis"
+                                    >A-MSC Isolation, Characterization, and Culture</physicalSection>
+                            <uid>WOS:000378979300012</uid>
+                            <citedAuthor>Zhu, XY</citedAuthor>
+                            <year>2016</year>
+                            <page>893</page>
+                            <volume>5</volume>
+                            <citedTitle>Functional Plasticity of Adipose-Derived Stromal Cells During Development of Obesity</citedTitle>
+                            <citedWork>STEM CELLS TRANSLATIONAL MEDICINE</citedWork>
+                            <doi>10.5966/sctm.2015-0240</doi>
+                        </reference>
+                        <reference occurenceOrder="19">
+                            <physicalSection
+                                    physicalLocation="0.072758533"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000380369500006</uid>
+                            <citedAuthor>Nakano, S</citedAuthor>
+                            <year>2016</year>
+                            <page>270</page>
+                            <volume>23</volume>
+                            <citedTitle>Cardiac magnetic resonance imaging-based myocardial strain study for evaluation of cardiotoxicity in breast cancer patients treated with trastuzumab: A pilot study to evaluate the feasibility of the method</citedTitle>
+                            <citedWork>CARDIOLOGY JOURNAL</citedWork>
+                            <doi>10.5603/CJ.a2016.0023</doi>
+                        </reference>
+                        <reference occurenceOrder="9">
+                            <physicalSection
+                                    physicalLocation="0.032396126"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000353149700009</uid>
+                            <citedAuthor>Uzbas, F</citedAuthor>
+                            <year>2015</year>
+                            <page>298</page>
+                            <volume>11</volume>
+                            <citedTitle>Molecular Physiognomies and Applications of Adipose-Derived Stem Cells</citedTitle>
+                            <citedWork>STEM CELL REVIEWS AND REPORTS</citedWork>
+                            <doi>10.1007/s12015-014-9578-0</doi>
+                        </reference>
+                        <reference occurenceOrder="42">
+                            <physicalSection
+                                    physicalLocation="0.755732624"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000399915100001</uid>
+                            <citedAuthor>Li, Y</citedAuthor>
+                            <year>2017</year>
+                            <page>775</page>
+                            <volume>39</volume>
+                            <citedTitle>Senescence of mesenchymal stem cells</citedTitle>
+                            <citedWork>INTERNATIONAL JOURNAL OF MOLECULAR MEDICINE</citedWork>
+                            <doi>10.3892/ijmm.2017.2912</doi>
+                        </reference>
+                        <reference occurenceOrder="35">
+                            <physicalSection
+                                    physicalLocation="0.737863168"
+                                    section="Discussion"
+                                    function="background"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000481803500005</uid>
+                            <citedAuthor>Naji, A</citedAuthor>
+                            <year>2019</year>
+                            <page>3323</page>
+                            <volume>76</volume>
+                            <citedTitle>Biological functions of mesenchymal stem cells and clinical implications</citedTitle>
+                            <citedWork>CELLULAR AND MOLECULAR LIFE SCIENCES</citedWork>
+                            <doi>10.1007/s00018-019-03125-1</doi>
+                        </reference>
+                        <reference occurenceOrder="48">
+                            <physicalSection
+                                    physicalLocation="0.853514547"
+                                    section="Discussion"
+                                    function="support"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000372003800021</uid>
+                            <citedAuthor>Pérez, LM</citedAuthor>
+                            <year>2016</year>
+                            <page>661</page>
+                            <volume>24</volume>
+                            <citedTitle>Obesity-Driven Alterations in Adipose-Derived Stem Cells are Partially Restored by Weight Loss</citedTitle>
+                            <citedWork>OBESITY</citedWork>
+                            <doi>10.1002/oby.21405</doi>
+                        </reference>
+                        <reference occurenceOrder="49">
+                            <physicalSection
+                                    physicalLocation="0.85785692"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000293163000026</uid>
+                            <citedAuthor>Bellows, CF</citedAuthor>
+                            <year>2011</year>
+                            <page>1722</page>
+                            <volume>19</volume>
+                            <citedTitle>Influence of BMI on Level of Circulating Progenitor Cells</citedTitle>
+                            <citedWork>OBESITY</citedWork>
+                            <doi>10.1038/oby.2010.347</doi>
+                        </reference>
+                        <reference occurenceOrder="18">
+                            <physicalSection
+                                    physicalLocation="0.072633552"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000367357800028</uid>
+                            <citedAuthor>Baessler, B</citedAuthor>
+                            <year>2016</year>
+                            <page>218</page>
+                            <volume>85</volume>
+                            <citedTitle>Diagnostic implications of magnetic resonance feature tracking derived myocardial strain parameters in acute myocarditis</citedTitle>
+                            <citedWork>EUROPEAN JOURNAL OF RADIOLOGY</citedWork>
+                            <doi>10.1016/j.ejrad.2015.11.023</doi>
+                        </reference>
+                        <reference occurenceOrder="55">
+                            <physicalSection
+                                    physicalLocation="0.913839425"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.920337395"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>MEDLINE:23459697</uid>
+                            <citedAuthor>Oliveira, Maira S</citedAuthor>
+                            <year>2013</year>
+                            <page>52</page>
+                            <volume>5</volume>
+                            <citedTitle>Doxorubicin Cardiotoxicity and Cardiac Function Improvement After Stem Cell Therapy Diagnosed by Strain Echocardiography.</citedTitle>
+                            <citedWork>Journal of cancer science &amp; therapy</citedWork>
+                        </reference>
+                        <reference occurenceOrder="30">
+                            <physicalSection
+                                    physicalLocation="0.285317108"
+                                    section="Methods"
+                                    function="basis"
+                                    >Myocardial Deformation</physicalSection>
+                            <uid>WOS:000300606200004</uid>
+                            <citedAuthor>Vandsburger, MH</citedAuthor>
+                            <year>2012</year>
+                            <page>H412</page>
+                            <volume>302</volume>
+                            <citedTitle>Displacement-encoded and manganese-enhanced cardiac MRI reveal that nNOS, not eNOS, plays a dominant role in modulating contraction and calcium influx in the mammalian heart</citedTitle>
+                            <citedWork>AMERICAN JOURNAL OF PHYSIOLOGY-HEART AND CIRCULATORY PHYSIOLOGY</citedWork>
+                            <doi>10.1152/ajpheart.00705.2011</doi>
+                        </reference>
+                        <reference occurenceOrder="40">
+                            <physicalSection
+                                    physicalLocation="0.755638863"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000236761200001</uid>
+                            <citedAuthor>Bonab, MM</citedAuthor>
+                            <year>2006</year>
+                            <page>ARTN 14</page>
+                            <volume>7</volume>
+                            <citedTitle>Aging of mesenchymal stem cell in vitro</citedTitle>
+                            <citedWork>BMC CELL BIOLOGY</citedWork>
+                            <doi>10.1186/1471-2121-7-14</doi>
+                        </reference>
+                        <reference occurenceOrder="41">
+                            <physicalSection
+                                    physicalLocation="0.755732604"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000262851700015</uid>
+                            <citedAuthor>Kim, J</citedAuthor>
+                            <year>2009</year>
+                            <page>117</page>
+                            <volume>32</volume>
+                            <citedTitle>Biological characterization of long-term cultured human mesenchymal stem cells</citedTitle>
+                            <citedWork>ARCHIVES OF PHARMACAL RESEARCH</citedWork>
+                            <doi>10.1007/s12272-009-1125-1</doi>
+                        </reference>
+                        <reference occurenceOrder="27">
+                            <physicalSection
+                                    physicalLocation="0.197625782"
+                                    section="Methods"
+                                    function="basis"
+                                    >A-MSC Isolation, Characterization, and Culture</physicalSection>
+                            <uid>WOS:000408773300025</uid>
+                            <citedAuthor>Saad, A</citedAuthor>
+                            <year>2017</year>
+                            <page>2777</page>
+                            <volume>28</volume>
+                            <citedTitle>Autologous Mesenchymal Stem Cells Increase Cortical Perfusion in Renovascular Disease</citedTitle>
+                            <citedWork>JOURNAL OF THE AMERICAN SOCIETY OF NEPHROLOGY</citedWork>
+                            <doi>10.1681/ASN.2017020151</doi>
+                        </reference>
+                        <reference occurenceOrder="53">
+                            <physicalSection
+                                    physicalLocation="0.891658897"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000556952700001</uid>
+                            <citedAuthor>Zhao, Y</citedAuthor>
+                            <year>2020</year>
+                            <page>1190</page>
+                            <volume>29</volume>
+                            <citedTitle>Mesenchymal Stem/Stromal Cells and their Extracellular Vesicle Progeny Decrease Injury in Poststenotic Swine Kidney Through Different Mechanisms</citedTitle>
+                            <citedWork>STEM CELLS AND DEVELOPMENT</citedWork>
+                            <doi>10.1089/scd.2020.0030</doi>
+                        </reference>
+                        <reference occurenceOrder="14">
+                            <physicalSection
+                                    physicalLocation="0.041736957"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.04467354"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.747641362"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000338465500001</uid>
+                            <citedAuthor>Rennert, RC</citedAuthor>
+                            <year>2014</year>
+                            <page>ARTN 79</page>
+                            <volume>5</volume>
+                            <citedTitle>Diabetes impairs the angiogenic potential of adipose-derived stem cells by selectively depleting cellular subpopulations</citedTitle>
+                            <citedWork>STEM CELL RESEARCH &amp; THERAPY</citedWork>
+                            <doi>10.1186/scrt468</doi>
+                        </reference>
+                        <reference occurenceOrder="21">
+                            <physicalSection
+                                    physicalLocation="0.086972841"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.891408935"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000511891100001</uid>
+                            <citedAuthor>Zhang, L</citedAuthor>
+                            <year>2020</year>
+                            <page>ARTN 16</page>
+                            <volume>115</volume>
+                            <citedTitle>Selective intrarenal delivery of mesenchymal stem cell-derived extracellular vesicles attenuates myocardial injury in experimental metabolic renovascular disease</citedTitle>
+                            <citedWork>BASIC RESEARCH IN CARDIOLOGY</citedWork>
+                            <doi>10.1007/s00395-019-0772-8</doi>
+                        </reference>
+                        <reference occurenceOrder="46">
+                            <physicalSection
+                                    physicalLocation="0.821305842"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000351275700046</uid>
+                            <citedAuthor>Meyer, M</citedAuthor>
+                            <year>2015</year>
+                            <page>ARTN e0119432</page>
+                            <volume>10</volume>
+                            <citedTitle>Relationship of Exercise Capacity and Left Ventricular Dimensions in Patients with a Normal Ejection Fraction. An Exploratory Study</citedTitle>
+                            <citedWork>PLOS ONE</citedWork>
+                            <doi>10.1371/journal.pone.0119432</doi>
+                        </reference>
+                        <reference occurenceOrder="3">
+                            <physicalSection
+                                    physicalLocation="0.00921589"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000235319200023</uid>
+                            <citedAuthor>Poirier, P</citedAuthor>
+                            <year>2006</year>
+                            <page>898</page>
+                            <volume>113</volume>
+                            <citedTitle>Obesity and cardiovascular disease: Pathophysiology, evaluation, and effect of weight loss - An update of the 1997 American Heart Association Scientific Statement on obesity and heart disease from the Obesity Committee of the Council on Nutrition, Physical Activity, and Metabolism</citedTitle>
+                            <citedWork>CIRCULATION</citedWork>
+                            <doi>10.1161/CIRCULATIONAHA.106.171016</doi>
+                        </reference>
+                        <reference occurenceOrder="13">
+                            <physicalSection
+                                    physicalLocation="0.038800395"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.765354577"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.9078413"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000446855200007</uid>
+                            <citedAuthor>Meng, Y</citedAuthor>
+                            <year>2018</year>
+                            <page>1495</page>
+                            <volume>27</volume>
+                            <citedTitle>Micro-RNAS Regulate Metabolic Syndrome-induced Senescence in Porcine Adipose Tissue-derived Mesenchymal Stem Cells through the P16/MAPK Pathway</citedTitle>
+                            <citedWork>CELL TRANSPLANTATION</citedWork>
+                            <doi>10.1177/0963689718795692</doi>
+                        </reference>
+                        <reference occurenceOrder="34">
+                            <physicalSection
+                                    physicalLocation="0.731833802"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000445055400003</uid>
+                            <citedAuthor>Piché, ME</citedAuthor>
+                            <year>2018</year>
+                            <page>103</page>
+                            <volume>61</volume>
+                            <citedTitle>Overview of Epidemiology and Contribution of Obesity and Body Fat Distribution to Cardiovascular Disease: An Update</citedTitle>
+                            <citedWork>PROGRESS IN CARDIOVASCULAR DISEASES</citedWork>
+                            <doi>10.1016/j.pcad.2018.06.004</doi>
+                        </reference>
+                        <reference occurenceOrder="26">
+                            <physicalSection
+                                    physicalLocation="0.197500801"
+                                    section="Methods"
+                                    function="basis"
+                                    >A-MSC Isolation, Characterization, and Culture</physicalSection>
+                            <uid>WOS:000302617300023</uid>
+                            <citedAuthor>Eirin, A</citedAuthor>
+                            <year>2012</year>
+                            <page>1030</page>
+                            <volume>30</volume>
+                            <citedTitle>Adipose Tissue-Derived Mesenchymal Stem Cells Improve Revascularization Outcomes to Restore Renal Function in Swine Atherosclerotic Renal Artery Stenosis</citedTitle>
+                            <citedWork>STEM CELLS</citedWork>
+                            <doi>10.1002/stem.1047</doi>
+                        </reference>
+                        <reference occurenceOrder="20">
+                            <physicalSection
+                                    physicalLocation="0.077132146"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000614152200022</uid>
+                            <citedAuthor>Yu, SS</citedAuthor>
+                            <year>2021</year>
+                            <page>556</page>
+                            <volume>39</volume>
+                            <citedTitle>Endovascular reversal of renovascular hypertension blunts cardiac dysfunction and deformation in swine</citedTitle>
+                            <citedWork>JOURNAL OF HYPERTENSION</citedWork>
+                            <doi>10.1097/HJH.0000000000002654</doi>
+                        </reference>
+                        <reference occurenceOrder="8">
+                            <physicalSection
+                                    physicalLocation="0.019993752"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.034926585"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000293464400033</uid>
+                            <citedAuthor>Kim, EK</citedAuthor>
+                            <year>2011</year>
+                            <page>387</page>
+                            <volume>128</volume>
+                            <citedTitle>The Effect of Human Adipose-Derived Stem Cells on Healing of Ischemic Wounds in a Diabetic Nude Mouse Model</citedTitle>
+                            <citedWork>PLASTIC AND RECONSTRUCTIVE SURGERY</citedWork>
+                            <doi>10.1097/PRS.0b013e31821e6de2</doi>
+                        </reference>
+                        <reference occurenceOrder="17">
+                            <physicalSection
+                                    physicalLocation="0.064854733"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.08684786"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.277444549"
+                                    section="Methods"
+                                    function="basis"
+                                    >Global Cardiac Function</physicalSection>
+                            <uid>WOS:000326469800001</uid>
+                            <citedAuthor>Ebrahimi, B</citedAuthor>
+                            <year>2013</year>
+                            <page>ARTN 98</page>
+                            <volume>15</volume>
+                            <citedTitle>Evolution of cardiac and renal impairment detected by high-field cardiovascular magnetic resonance in mice with renal artery stenosis</citedTitle>
+                            <citedWork>JOURNAL OF CARDIOVASCULAR MAGNETIC RESONANCE</citedWork>
+                            <doi>10.1186/1532-429X-15-98</doi>
+                        </reference>
+                        <reference occurenceOrder="7">
+                            <physicalSection
+                                    physicalLocation="0.016307464"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000510792100002</uid>
+                            <citedAuthor>Tanaka, M</citedAuthor>
+                            <year>2020</year>
+                            <page>79</page>
+                            <volume>43</volume>
+                            <citedTitle>Improving obesity and blood pressure</citedTitle>
+                            <citedWork>HYPERTENSION RESEARCH</citedWork>
+                            <doi>10.1038/s41440-019-0348-x</doi>
+                        </reference>
+                        <reference occurenceOrder="36">
+                            <physicalSection
+                                    physicalLocation="0.740362387"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000188836600018</uid>
+                            <citedAuthor>Planat-Benard, V</citedAuthor>
+                            <year>2004</year>
+                            <page>656</page>
+                            <volume>109</volume>
+                            <citedTitle>Plasticity of human adipose lineage cells toward endothelial cells -: Physiological and therapeutic perspectives</citedTitle>
+                            <citedWork>CIRCULATION</citedWork>
+                            <doi>10.1161/01.CIR.0000114522.38265.61</doi>
+                        </reference>
+                        <reference occurenceOrder="31">
+                            <physicalSection
+                                    physicalLocation="0.315120275"
+                                    section="Methods"
+                                    function="basis"
+                                    >Myocardial Deformation</physicalSection>
+                            <uid>WOS:000404164100008</uid>
+                            <citedAuthor>Scatteia, A</citedAuthor>
+                            <year>2017</year>
+                            <page>465</page>
+                            <volume>22</volume>
+                            <citedTitle>Strain imaging using cardiac magnetic resonance</citedTitle>
+                            <citedWork>HEART FAILURE REVIEWS</citedWork>
+                            <doi>10.1007/s10741-017-9621-8</doi>
+                        </reference>
+                        <reference occurenceOrder="37">
+                            <physicalSection
+                                    physicalLocation="0.743580131"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000351793500002</uid>
+                            <citedAuthor>Shoshani, O</citedAuthor>
+                            <year>2015</year>
+                            <page>371</page>
+                            <volume>1849</volume>
+                            <citedTitle>Stress as a fundamental theme in cell plasticity</citedTitle>
+                            <citedWork>BIOCHIMICA ET BIOPHYSICA ACTA-GENE REGULATORY MECHANISMS</citedWork>
+                            <doi>10.1016/j.bbagrm.2014.07.006</doi>
+                        </reference>
+                        <reference occurenceOrder="43">
+                            <physicalSection
+                                    physicalLocation="0.765479558"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.771758825"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.907966281"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000562805000002</uid>
+                            <citedAuthor>Li, YX</citedAuthor>
+                            <year>2020</year>
+                            <page>ARTN 124</page>
+                            <volume>18</volume>
+                            <citedTitle>Metabolic syndrome increases senescence-associated micro-RNAs in extracellular vesicles derived from swine and human mesenchymal stem/stromal cells</citedTitle>
+                            <citedWork>CELL COMMUNICATION AND SIGNALING</citedWork>
+                            <doi>10.1186/s12964-020-00624-8</doi>
+                        </reference>
+                        <reference occurenceOrder="32">
+                            <physicalSection
+                                    physicalLocation="0.389909403"
+                                    section="Methods"
+                                    function="basis"
+                                    >Cardiac Histopathology</physicalSection>
+                            <uid>WOS:000344307700025</uid>
+                            <citedAuthor>Kuo, F</citedAuthor>
+                            <year>2014</year>
+                            <page>3996</page>
+                            <volume>11</volume>
+                            <citedTitle>Immuno-PET Imaging of Tumor Endothelial Marker 8 (TEM8)</citedTitle>
+                            <citedWork>MOLECULAR PHARMACEUTICS</citedWork>
+                            <doi>10.1021/mp500056d</doi>
+                        </reference>
+                        <reference occurenceOrder="54">
+                            <physicalSection
+                                    physicalLocation="0.903561387"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000566779100009</uid>
+                            <citedAuthor>Eirin, A</citedAuthor>
+                            <year>2020</year>
+                            <page>ARTN 101877</page>
+                            <volume>47</volume>
+                            <citedTitle>Extracellular vesicles released by adipose tissue-derived mesenchymal stromal/stem cells from obese pigs fail to repair the injured kidney</citedTitle>
+                            <citedWork>STEM CELL RESEARCH</citedWork>
+                            <doi>10.1016/j.scr.2020.101877</doi>
+                        </reference>
+                        <reference occurenceOrder="10">
+                            <physicalSection
+                                    physicalLocation="0.035020326"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <uid>WOS:000398206500005</uid>
+                            <citedAuthor>Dykstra, JA</citedAuthor>
+                            <year>2017</year>
+                            <page>1096</page>
+                            <volume>6</volume>
+                            <citedTitle>Concise Review: Fat and Furious: Harnessing the Full Potential of Adipose-Derived Stromal Vascular Fraction</citedTitle>
+                            <citedWork>STEM CELLS TRANSLATIONAL MEDICINE</citedWork>
+                            <doi>10.1002/sctm.16-0337</doi>
+                        </reference>
+                        <reference occurenceOrder="15">
+                            <physicalSection
+                                    physicalLocation="0.048547329"
+                                    section="Introduction"
+                                    function="background"
+                                    >Introduction</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.866198063"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <physicalSection
+                                    physicalLocation="0.93948766"
+                                    section="Discussion"
+                                    function="discuss"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000434643800002</uid>
+                            <citedAuthor>Louwen, F</citedAuthor>
+                            <year>2018</year>
+                            <page>888</page>
+                            <volume>19</volume>
+                            <citedTitle>Insight into the development of obesity: functional alterations of adipose-derived mesenchymal stem cells</citedTitle>
+                            <citedWork>OBESITY REVIEWS</citedWork>
+                            <doi>10.1111/obr.12679</doi>
+                        </reference>
+                        <reference occurenceOrder="47">
+                            <physicalSection
+                                    physicalLocation="0.853389566"
+                                    section="Discussion"
+                                    function="support"
+                                    >Discussion</physicalSection>
+                            <uid>WOS:000326987400002</uid>
+                            <citedAuthor>Pérez, LM</citedAuthor>
+                            <year>2013</year>
+                            <page>195</page>
+                            <volume>119</volume>
+                            <citedTitle>Obese-derived ASCs show impaired migration and angiogenesis properties</citedTitle>
+                            <citedWork>ARCHIVES OF PHYSIOLOGY AND BIOCHEMISTRY</citedWork>
+                            <doi>10.3109/13813455.2013.784339</doi>
+                        </reference>
+                    </references>
+                    <addresses count="4">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Mayo Clin, Div Nephrol &amp; Hypertens, 200 First St SW, Rochester, MN 55905 USA</full_address>
+                                <organizations count="2">
+                                    <organization>Mayo Clin</organization>
+                                    <organization pref="Y">Mayo Clinic</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Div Nephrol &amp; Hypertens</suborganization>
+                                </suborganizations>
+                                <street>200 First St SW</street>
+                                <city>Rochester</city>
+                                <state>MN</state>
+                                <country>USA</country>
+                                <zip location="AP">55905</zip>
+                            </address_spec>
+                            <names count="8">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="KJQ-4259-2024"
+                                        >
+                                    <display_name>Yu, Shasha</display_name>
+                                    <full_name>Yu, Shasha</full_name>
+                                    <wos_standard>Yu, SS</wos_standard>
+                                    <first_name>Shasha</first_name>
+                                    <last_name>Yu</last_name>
+                                </name>
+                                <name
+                                        seq_no="2"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="AAU-3047-2020"
+                                        >
+                                    <display_name>Klomjit, Nattawat</display_name>
+                                    <full_name>Klomjit, Nattawat</full_name>
+                                    <wos_standard>Klomjit, N</wos_standard>
+                                    <first_name>Nattawat</first_name>
+                                    <last_name>Klomjit</last_name>
+                                </name>
+                                <name
+                                        seq_no="3"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="JDX-9863-2023"
+                                        >
+                                    <display_name>Jiang, Kai</display_name>
+                                    <full_name>Jiang, Kai</full_name>
+                                    <wos_standard>Jiang, K</wos_standard>
+                                    <first_name>Kai</first_name>
+                                    <last_name>Jiang</last_name>
+                                </name>
+                                <name
+                                        seq_no="4"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="IVU-7833-2023"
+                                        >
+                                    <display_name>Zhu, Xiang Y.</display_name>
+                                    <full_name>Zhu, Xiang Y.</full_name>
+                                    <wos_standard>Zhu, XY</wos_standard>
+                                    <first_name>Xiang Y.</first_name>
+                                    <last_name>Zhu</last_name>
+                                </name>
+                                <name
+                                        seq_no="5"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="CQD-1970-2022"
+                                        >
+                                    <display_name>Ferguson, Christopher M.</display_name>
+                                    <full_name>Ferguson, Christopher M.</full_name>
+                                    <wos_standard>Ferguson, CM</wos_standard>
+                                    <first_name>Christopher M.</first_name>
+                                    <last_name>Ferguson</last_name>
+                                </name>
+                                <name
+                                        seq_no="6"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="CLC-7386-2022"
+                                        >
+                                    <display_name>Conley, Sabena M.</display_name>
+                                    <full_name>Conley, Sabena M.</full_name>
+                                    <wos_standard>Conley, SM</wos_standard>
+                                    <first_name>Sabena M.</first_name>
+                                    <last_name>Conley</last_name>
+                                </name>
+                                <name
+                                        seq_no="7"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="DXJ-8007-2022"
+                                        >
+                                    <display_name>Obeidat, Yasin</display_name>
+                                    <full_name>Obeidat, Yasin</full_name>
+                                    <wos_standard>Obeidat, Y</wos_standard>
+                                    <first_name>Yasin</first_name>
+                                    <last_name>Obeidat</last_name>
+                                </name>
+                                <name
+                                        seq_no="12"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        r_id="M-4962-2017"
+                                        >
+                                    <display_name>Lerman, Lilach O.</display_name>
+                                    <full_name>Lerman, Lilach O.</full_name>
+                                    <wos_standard>Lerman, LO</wos_standard>
+                                    <first_name>Lilach O.</first_name>
+                                    <last_name>Lerman</last_name>
+                                    <email_addr>lerman.lilach@mayo.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                        <address_name>
+                            <address_spec addr_no="2">
+                                <full_address>China Med Univ, Dept Cardiol, Hosp 1, Shenyang, Liaoning, Peoples R China</full_address>
+                                <organizations count="4">
+                                    <organization>China Med Univ</organization>
+                                    <organization pref="Y">China Medical University</organization>
+                                    <organization pref="D">The First Hospital of China Medical University</organization>
+                                    <organization pref="D">The First Hospital of China Medical University Department of Cardiology</organization>
+                                </organizations>
+                                <suborganizations count="2">
+                                    <suborganization>Dept Cardiol</suborganization>
+                                    <suborganization>Hosp 1</suborganization>
+                                </suborganizations>
+                                <city>Shenyang</city>
+                                <state>Liaoning</state>
+                                <country>Peoples R China</country>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        addr_no="2"
+                                        r_id="KJQ-4259-2024"
+                                        >
+                                    <display_name>Yu, Shasha</display_name>
+                                    <full_name>Yu, Shasha</full_name>
+                                    <wos_standard>Yu, SS</wos_standard>
+                                    <first_name>Shasha</first_name>
+                                    <last_name>Yu</last_name>
+                                </name>
+                            </names>
+                        </address_name>
+                        <address_name>
+                            <address_spec addr_no="3">
+                                <full_address>Mayo Clin, Dept Surg, Rochester, MN USA</full_address>
+                                <organizations count="2">
+                                    <organization>Mayo Clin</organization>
+                                    <organization pref="Y">Mayo Clinic</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Dept Surg</suborganization>
+                                </suborganizations>
+                                <city>Rochester</city>
+                                <state>MN</state>
+                                <country>USA</country>
+                            </address_spec>
+                            <names count="3">
+                                <name
+                                        seq_no="8"
+                                        role="author"
+                                        addr_no="3"
+                                        r_id="FCB-3783-2022"
+                                        >
+                                    <display_name>Kellogg, Todd A.</display_name>
+                                    <full_name>Kellogg, Todd A.</full_name>
+                                    <wos_standard>Kellogg, TA</wos_standard>
+                                    <first_name>Todd A.</first_name>
+                                    <last_name>Kellogg</last_name>
+                                </name>
+                                <name
+                                        seq_no="9"
+                                        role="author"
+                                        addr_no="3"
+                                        r_id="IFZ-5775-2023"
+                                        >
+                                    <display_name>McKenzie, Travis</display_name>
+                                    <full_name>McKenzie, Travis</full_name>
+                                    <wos_standard>McKenzie, T</wos_standard>
+                                    <first_name>Travis</first_name>
+                                    <last_name>McKenzie</last_name>
+                                </name>
+                                <name
+                                        seq_no="10"
+                                        role="author"
+                                        addr_no="3"
+                                        r_id="GBE-6083-2022"
+                                        >
+                                    <display_name>Heimbach, Julie K.</display_name>
+                                    <full_name>Heimbach, Julie K.</full_name>
+                                    <wos_standard>Heimbach, JK</wos_standard>
+                                    <first_name>Julie K.</first_name>
+                                    <last_name>Heimbach</last_name>
+                                </name>
+                            </names>
+                        </address_name>
+                        <address_name>
+                            <address_spec addr_no="4">
+                                <full_address>Mayo Clin, Dept Cardiovasc Med, Rochester, MN 55905 USA</full_address>
+                                <organizations count="2">
+                                    <organization>Mayo Clin</organization>
+                                    <organization pref="Y">Mayo Clinic</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Dept Cardiovasc Med</suborganization>
+                                </suborganizations>
+                                <city>Rochester</city>
+                                <state>MN</state>
+                                <country>USA</country>
+                                <zip location="AP">55905</zip>
+                            </address_spec>
+                            <names count="2">
+                                <name
+                                        seq_no="11"
+                                        role="author"
+                                        addr_no="4"
+                                        r_id="GAV-4099-2022"
+                                        >
+                                    <display_name>Lerman, Amir</display_name>
+                                    <full_name>Lerman, Amir</full_name>
+                                    <wos_standard>Lerman, A</wos_standard>
+                                    <first_name>Amir</first_name>
+                                    <last_name>Lerman</last_name>
+                                </name>
+                                <name
+                                        seq_no="12"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="4"
+                                        r_id="M-4962-2017"
+                                        >
+                                    <display_name>Lerman, Lilach O.</display_name>
+                                    <full_name>Lerman, Lilach O.</full_name>
+                                    <wos_standard>Lerman, LO</wos_standard>
+                                    <first_name>Lilach O.</first_name>
+                                    <last_name>Lerman</last_name>
+                                    <email_addr>lerman.lilach@mayo.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </addresses>
+                    <reprint_addresses count="2">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Mayo Clin, Div Nephrol &amp; Hypertens, 200 First St SW, Rochester, MN 55905 USA</full_address>
+                                <organizations count="2">
+                                    <organization>Mayo Clin</organization>
+                                    <organization pref="Y">Mayo Clinic</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Div Nephrol &amp; Hypertens</suborganization>
+                                </suborganizations>
+                                <street>200 First St SW</street>
+                                <city>Rochester</city>
+                                <state>MN</state>
+                                <country>USA</country>
+                                <zip location="AP">55905</zip>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        >
+                                    <display_name>Lerman, Lilach O.</display_name>
+                                    <full_name>Lerman, Lilach O.</full_name>
+                                    <wos_standard>Lerman, LO</wos_standard>
+                                    <first_name>Lilach O.</first_name>
+                                    <last_name>Lerman</last_name>
+                                    <email_addr>lerman.lilach@mayo.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                        <address_name>
+                            <address_spec addr_no="2">
+                                <full_address>Mayo Clin, Dept Cardiovasc Med, Rochester, MN 55905 USA</full_address>
+                                <organizations count="2">
+                                    <organization>Mayo Clin</organization>
+                                    <organization pref="Y">Mayo Clinic</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Dept Cardiovasc Med</suborganization>
+                                </suborganizations>
+                                <city>Rochester</city>
+                                <state>MN</state>
+                                <country>USA</country>
+                                <zip location="AP">55905</zip>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="2"
+                                        >
+                                    <display_name>Lerman, Lilach O.</display_name>
+                                    <full_name>Lerman, Lilach O.</full_name>
+                                    <wos_standard>Lerman, LO</wos_standard>
+                                    <first_name>Lilach O.</first_name>
+                                    <last_name>Lerman</last_name>
+                                    <email_addr>lerman.lilach@mayo.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </reprint_addresses>
+                    <category_info>
+                        <headings count="1">
+                            <heading>Science &amp; Technology</heading>
+                        </headings>
+                        <subheadings count="1">
+                            <subheading>Life Sciences &amp; Biomedicine</subheading>
+                        </subheadings>
+                        <subjects count="4">
+                            <subject ascatype="traditional">Cardiac &amp; Cardiovascular Systems</subject>
+                            <subject ascatype="traditional">Medicine, Research &amp; Experimental</subject>
+                            <subject ascatype="extended">Cardiovascular System &amp; Cardiology</subject>
+                            <subject ascatype="extended">Research &amp; Experimental Medicine</subject>
+                        </subjects>
+                    </category_info>
+                    <fund_ack>
+                        <fund_text>
+                            <p>This study was partly supported by National Institutes of Health grant numbers DK120292, DK122734, and AG062104. Shasha Yu was sponsored by the China Scholarship Council (#201908210044).</p>
+                        </fund_text>
+                        <grants count="2">
+                            <grant>
+                                <grant_agency>National Institutes of Health</grant_agency>
+                                <grant_agency pref="Y">United States Department of Health &amp; Human Services</grant_agency>
+                                <grant_agency pref="Y">National Institutes of Health (NIH) - USA</grant_agency>
+                                <grant_ids count="3">
+                                    <grant_id>DK120292</grant_id>
+                                    <grant_id>DK122734</grant_id>
+                                    <grant_id>AG062104</grant_id>
+                                </grant_ids>
+                            </grant>
+                            <grant>
+                                <grant_agency>China Scholarship Council</grant_agency>
+                                <grant_agency pref="Y">China Scholarship Council</grant_agency>
+                                <grant_ids count="1">
+                                    <grant_id>201908210044</grant_id>
+                                </grant_ids>
+                            </grant>
+                        </grants>
+                    </fund_ack>
+                    <keywords count="5">
+                        <keyword>Adipose-derived mesenchymal stem cells</keyword>
+                        <keyword>Obesity</keyword>
+                        <keyword>Hypertension</keyword>
+                        <keyword>Cardiac function</keyword>
+                        <keyword>Regional deformation</keyword>
+                    </keywords>
+                    <abstracts count="1">
+                        <abstract>
+                            <abstract_text count="1">
+                                <p>To explore the impact of obesity on reparative potency of adipose tissue-derived mesenchymal stromal/stem cells (A-MSC) in hypertensive cardiomyopathy, A-MSC were harvested from subcutaneous fat of obese and age-matched non-obese human subjects during bariatric or kidney donation surgeries, and then injected into mice 2 weeks after inducing renovascular hypertension (RVH) or sham surgery. Two weeks later, left ventricular (LV) function and deformation were estimated in vivo by micro-magnetic resonance imaging and myocardial damage ex vivo. Blood pressure and myocardial wall thickening were elevated in RVH + Vehicle and normalized only by lean-A-MSC. Both A-MSC types reduced LV mass and normalized the reduced LV peak strain radial in RVH, yet obese-A-MSC also impaired LV systolic function. A-MSC alleviated myocardial tissue damage in RVH, but lean-A-MSC decreased oxidative stress more effectively. Obese-A-MSC also showed increased cellular inflammation in vitro. Therefore, obese-A-MSC are less effective than lean-A-MSC in blunting hypertensive cardiomyopathy in mice with RVH.</p>
+                            </abstract_text>
+                        </abstract>
+                    </abstracts>
+                </fullrecord_metadata>
+                <item
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:type="itemType_wos"
+                        >
+                    <ids avail="N">9E7UO</ids>
+                    <bib_id>16 (1): 221-232 FEB 2023</bib_id>
+                    <bib_pagecount type="Journal">266</bib_pagecount>
+                    <keywords_plus count="5">
+                        <keyword>STEM-CELLS</keyword>
+                        <keyword>MYOCARDIAL STRAIN</keyword>
+                        <keyword>STROMAL CELLS</keyword>
+                        <keyword>PLASTICITY</keyword>
+                        <keyword>DISEASE</keyword>
+                    </keywords_plus>
+                </item>
+                <contributors count="3">
+                    <contributor>
+                        <name
+                                seq_no="1"
+                                role="researcher_id"
+                                r_id="JXN-3188-2024"
+                                >
+                            <display_name>zhu, xin</display_name>
+                            <full_name>zhu, xin</full_name>
+                            <first_name>xin</first_name>
+                            <last_name>zhu</last_name>
+                        </name>
+                    </contributor>
+                    <contributor>
+                        <name
+                                seq_no="2"
+                                role="researcher_id"
+                                r_id="JZD-6639-2024"
+                                >
+                            <display_name>朱, 欣妍</display_name>
+                            <full_name>朱, 欣妍</full_name>
+                            <first_name>欣妍</first_name>
+                            <last_name>朱</last_name>
+                        </name>
+                    </contributor>
+                    <contributor>
+                        <name
+                                seq_no="3"
+                                role="researcher_id"
+                                r_id="IVU-7833-2023"
+                                >
+                            <display_name>zhu, y x</display_name>
+                            <full_name>zhu, y x</full_name>
+                            <first_name>y x</first_name>
+                            <last_name>zhu</last_name>
+                        </name>
+                    </contributor>
+                </contributors>
+            </static_data>
+            <dynamic_data>
+                <cluster_related>
+                    <identifiers>
+                        <identifier
+                                type="accession_no"
+                                value="9E7UO"
+                                />
+                        <identifier
+                                type="issn"
+                                value="1937-5387"
+                                />
+                        <identifier
+                                type="eissn"
+                                value="1937-5395"
+                                />
+                        <identifier
+                                type="doi"
+                                value="10.1007/s12265-022-10279-0"
+                                />
+                        <identifier
+                                type="pmid"
+                                value="35616881"
+                                />
+                    </identifiers>
+                </cluster_related>
+            </dynamic_data>
+        </REC>
+    </records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->

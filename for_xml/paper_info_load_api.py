@@ -7,9 +7,9 @@ RESULT_TITLE = "PT,AU,BA,BE,GP,AF,BF,CA,TI,SO,SE,BS,LA,DT,CT,CY,CL,SP,HO,DE,ID,A
                "U1,U2,PU,PI,PA,SN,EI,BN,J9,JI,PD,PY,VL,IS,PN,SU,SI,MA,BP,EP,AR,DI,D2,EA,PG,WC,SC,GA,UT,PM,OA,HC,HP,DA"
 KEYS_LIST_TEMPLATE = RESULT_TITLE.split(',')
 RESULT_TITLE_START_PATTERN = "PT"
-PAPER_INPUT_UNIQ_DIR = "paper_input_uniq"
-PAPER_INPUT_SRC_DIR = "paper_input_src"
-# PAPER_INPUT_DIR = "paper_input"
+# PAPER_INPUT_UNIQ_DIR = "paper_input_uniq"
+# PAPER_INPUT_SRC_DIR = "paper_input_src"
+PAPER_INPUT_DIR = "paper_input"
 PAPER_OUTPUT_DIR = "paper_output"
 PAPER_INFO_DICT = list()
 

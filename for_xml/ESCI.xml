@@ -1,0 +1,1335 @@
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+        <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+            <UID>WOS:000843977500001</UID>
+            <static_data>
+                <summary>
+                    <EWUID>
+                        <WUID coll_id="WOS" />
+                        <edition value="WOS.SCI" />
+                    </EWUID>
+                    <pub_info
+                            sortdate="2022-11-01"
+                            pubyear="2022"
+                            has_abstract="Y"
+                            coverdate="NOV 2022"
+                            pubmonth="NOV"
+                            vol="42"
+                            issue="14"
+                            early_access_date="AUG 2022"
+                            early_access_month="08"
+                            early_access_year="2022"
+                            pubtype="Journal"
+                            >
+                        <page
+                                begin="6542"
+                                end="6550"
+                                page_count="9"
+                                >6542-6550</page>
+                    </pub_info>
+                    <titles count="6">
+                        <title type="source">JOURNAL OF THE EUROPEAN CERAMIC SOCIETY</title>
+                        <title type="source_abbrev">J EUR CERAM SOC</title>
+                        <title type="abbrev_iso">J. Eur. Ceram. Soc.</title>
+                        <title type="abbrev_11">J EUR CERAM</title>
+                        <title type="abbrev_29">J EUR CERAM SOC</title>
+                        <title type="item">Improvement of epitaxial growth and flux pinning of MOD-derived YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7_d&lt;/sub&gt; nanocomposites films by self-seeding and multi-element doping strategies</title>
+                    </titles>
+                    <names count="7">
+                        <name
+                                seq_no="1"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Chen, Jing</display_name>
+                            <full_name>Chen, Jing</full_name>
+                            <wos_standard>Chen, J</wos_standard>
+                            <first_name>Jing</first_name>
+                            <last_name>Chen</last_name>
+                        </name>
+                        <name
+                                seq_no="2"
+                                role="author"
+                                addr_no="1 2"
+                                >
+                            <display_name>Huang, Rongtie</display_name>
+                            <full_name>Huang, Rongtie</full_name>
+                            <wos_standard>Huang, RT</wos_standard>
+                            <first_name>Rongtie</first_name>
+                            <last_name>Huang</last_name>
+                        </name>
+                        <name
+                                seq_no="3"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Zhou, Difan</display_name>
+                            <full_name>Zhou, Difan</full_name>
+                            <wos_standard>Zhou, DF</wos_standard>
+                            <first_name>Difan</first_name>
+                            <last_name>Zhou</last_name>
+                        </name>
+                        <name
+                                seq_no="4"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Li, Minjuan</display_name>
+                            <full_name>Li, Minjuan</full_name>
+                            <wos_standard>Li, MJ</wos_standard>
+                            <first_name>Minjuan</first_name>
+                            <last_name>Li</last_name>
+                        </name>
+                        <name
+                                seq_no="5"
+                                role="author"
+                                addr_no="1 2"
+                                >
+                            <display_name>Bai, Chuanyui</display_name>
+                            <full_name>Bai, Chuanyui</full_name>
+                            <wos_standard>Bai, CY</wos_standard>
+                            <first_name>Chuanyui</first_name>
+                            <last_name>Bai</last_name>
+                        </name>
+                        <name
+                                seq_no="6"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1 2"
+                                >
+                            <display_name>Liu, Zhiyong</display_name>
+                            <full_name>Liu, Zhiyong</full_name>
+                            <wos_standard>Liu, ZY</wos_standard>
+                            <first_name>Zhiyong</first_name>
+                            <last_name>Liu</last_name>
+                            <email_addr>ZhiyongLiuabzyliu@shu.edu.cn</email_addr>
+                        </name>
+                        <name
+                                seq_no="7"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1 2"
+                                >
+                            <display_name>Cai, Chuanbing</display_name>
+                            <full_name>Cai, Chuanbing</full_name>
+                            <wos_standard>Cai, CB</wos_standard>
+                            <first_name>Chuanbing</first_name>
+                            <last_name>Cai</last_name>
+                            <email_addr>ChuanbingCaiabcbcai@t.shu.edu.cn</email_addr>
+                        </name>
+                    </names>
+                    <doctypes count="1">
+                        <doctype>Article</doctype>
+                    </doctypes>
+                    <publishers>
+                        <publisher>
+                            <address_spec addr_no="1">
+                                <full_address>125 London Wall, London, ENGLAND</full_address>
+                                <city>London</city>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        role="publisher"
+                                        seq_no="1"
+                                        addr_no="1"
+                                        >
+                                    <display_name>ELSEVIER SCI LTD</display_name>
+                                    <full_name>ELSEVIER SCI LTD</full_name>
+                                    <unified_name>Elsevier</unified_name>
+                                </name>
+                            </names>
+                        </publisher>
+                    </publishers>
+                </summary>
+                <fullrecord_metadata>
+                    <languages count="1">
+                        <language type="primary">English</language>
+                    </languages>
+                    <normalized_languages count="1">
+                        <language type="primary">English</language>
+                    </normalized_languages>
+                    <normalized_doctypes count="1">
+                        <doctype>Article</doctype>
+                    </normalized_doctypes>
+                    <references count="38">
+                        <reference occurenceOrder="26">
+                            <uid>WOS:000645008800001</uid>
+                            <citedAuthor>Chen, J</citedAuthor>
+                            <year>2021</year>
+                            <page>ARTN 055506</page>
+                            <volume>14</volume>
+                            <citedTitle>Significant improvement of the critical current of MOD-derived YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-&lt;i&gt;δ&lt;/i&gt;&lt;/sub&gt; -coated conductors by post-annealing treatment</citedTitle>
+                            <citedWork>APPLIED PHYSICS EXPRESS</citedWork>
+                            <doi>10.35848/1882-0786/abf4f0</doi>
+                        </reference>
+                        <reference occurenceOrder="19">
+                            <uid>WOS:000295433600027</uid>
+                            <citedAuthor>Wang, WT</citedAuthor>
+                            <year>2011</year>
+                            <page>2166</page>
+                            <volume>208</volume>
+                            <citedTitle>Improved flux-pinning properties of REBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-&lt;i&gt;z&lt;/i&gt;&lt;/sub&gt; films by low-level Co doping</citedTitle>
+                            <citedWork>PHYSICA STATUS SOLIDI A-APPLICATIONS AND MATERIALS SCIENCE</citedWork>
+                            <doi>10.1002/pssa.201026576</doi>
+                        </reference>
+                        <reference occurenceOrder="28">
+                            <uid>WOS:000314286200038</uid>
+                            <citedAuthor>Talantsev, EF</citedAuthor>
+                            <year>2013</year>
+                            <page>ARTN 7200205</page>
+                            <volume>23</volume>
+                            <citedTitle>Oxygen Deficiency, Stacking Faults and Calcium Substitution in MOD YBCO Coated Conductors</citedTitle>
+                            <citedWork>IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY</citedWork>
+                            <doi>10.1109/TASC.2012.2233843</doi>
+                        </reference>
+                        <reference occurenceOrder="1">
+                            <uid>WOS:000255457200021</uid>
+                            <citedAuthor>Horide, T</citedAuthor>
+                            <year>2008</year>
+                            <page>ARTN 132502</page>
+                            <volume>77</volume>
+                            <citedTitle>Tilt angle dependences of vortex structure and critical current density at low-angle grain boundaries in YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-x&lt;/sub&gt; films</citedTitle>
+                            <citedWork>PHYSICAL REVIEW B</citedWork>
+                            <doi>10.1103/PhysRevB.77.132502</doi>
+                        </reference>
+                        <reference occurenceOrder="24">
+                            <uid>WOS:A1990CU14000017</uid>
+                            <citedAuthor>DIMOS, D</citedAuthor>
+                            <year>1990</year>
+                            <page>4038</page>
+                            <volume>41</volume>
+                            <citedTitle>SUPERCONDUCTING TRANSPORT-PROPERTIES OF GRAIN-BOUNDARIES IN YBA2CU3O7 BICRYSTALS</citedTitle>
+                            <citedWork>PHYSICAL REVIEW B</citedWork>
+                        </reference>
+                        <reference occurenceOrder="30">
+                            <uid>WOS:000626770500013</uid>
+                            <citedAuthor>Rijckaert, H</citedAuthor>
+                            <year>2021</year>
+                            <page>2118</page>
+                            <volume>12</volume>
+                            <citedTitle>Unravelling the Crystallization Process in Solution-Derived YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-δ&lt;/sub&gt; Nanocomposite Films with Preformed ZrO&lt;sub&gt;2&lt;/sub&gt; Nanocrystals via Definitive Screening Design</citedTitle>
+                            <citedWork>JOURNAL OF PHYSICAL CHEMISTRY LETTERS</citedWork>
+                            <doi>10.1021/acs.jpclett.1c00135</doi>
+                        </reference>
+                        <reference occurenceOrder="37">
+                            <uid>WOS:000692876800001</uid>
+                            <citedAuthor>Tsuchiya, K</citedAuthor>
+                            <year>2021</year>
+                            <page>ARTN 105005</page>
+                            <volume>34</volume>
+                            <citedTitle>Superconducting properties of commercial REBCO-coated conductors with artificial pinning centers</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/1361-6668/ac1e65</doi>
+                        </reference>
+                        <reference occurenceOrder="6">
+                            <uid>WOS:000405472000001</uid>
+                            <citedAuthor>Miura, S</citedAuthor>
+                            <year>2017</year>
+                            <page>ARTN 084009</page>
+                            <volume>30</volume>
+                            <citedTitle>Strong flux pinning at 4.2K in SmBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;y&lt;/sub&gt; co ated conductors with BaHfO&lt;sub&gt;3&lt;/sub&gt; nanorods controlled by low growth temperature</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/1361-6668/aa76a1</doi>
+                        </reference>
+                        <reference occurenceOrder="18">
+                            <uid>WOS:000374880500001</uid>
+                            <citedAuthor>Feng, F</citedAuthor>
+                            <year>2016</year>
+                            <page>ARTN 7200805</page>
+                            <volume>26</volume>
+                            <citedTitle>Property Improvement of 600-nm-Thick YBCO Superconducting Films Fabricated Using a Pb-Modified MOD Method</citedTitle>
+                            <citedWork>IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY</citedWork>
+                            <doi>10.1109/TASC.2016.2542285</doi>
+                        </reference>
+                        <reference occurenceOrder="23">
+                            <uid>WOS:A1989AF18000026</uid>
+                            <citedAuthor>GYORGY, EM</citedAuthor>
+                            <year>1989</year>
+                            <page>283</page>
+                            <volume>55</volume>
+                            <citedTitle>ANISOTROPIC CRITICAL CURRENTS IN BA2YCU3O7 ANALYZED USING AN EXTENDED BEAN MODEL</citedTitle>
+                            <citedWork>APPLIED PHYSICS LETTERS</citedWork>
+                        </reference>
+                        <reference occurenceOrder="15">
+                            <uid>WOS:000324688300038</uid>
+                            <citedAuthor>Konya, K</citedAuthor>
+                            <year>2013</year>
+                            <page>144</page>
+                            <volume>494</volume>
+                            <citedTitle>Effect of holding temperature on microstructures and Jc properties of YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-&lt;i&gt;X&lt;/i&gt;&lt;/sub&gt; films fabricated by TFA-MOD method</citedTitle>
+                            <citedWork>PHYSICA C-SUPERCONDUCTIVITY AND ITS APPLICATIONS</citedWork>
+                            <doi>10.1016/j.physc.2013.04.067</doi>
+                        </reference>
+                        <reference occurenceOrder="33">
+                            <uid>WOS:000415904900001</uid>
+                            <citedAuthor>Miura, M</citedAuthor>
+                            <year>2017</year>
+                            <page>ARTN e447</page>
+                            <volume>9</volume>
+                            <citedTitle>Tuning nanoparticle size for enhanced functionality in perovskite thin films deposited by metal organic deposition</citedTitle>
+                            <citedWork>NPG ASIA MATERIALS</citedWork>
+                            <doi>10.1038/am.2017.197</doi>
+                        </reference>
+                        <reference occurenceOrder="31">
+                            <uid>WOS:000246143500019</uid>
+                            <citedAuthor>Gutiérrez, J</citedAuthor>
+                            <year>2007</year>
+                            <page>367</page>
+                            <volume>6</volume>
+                            <citedTitle>Strong isotropic flux pinning in solution-derived YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt; nanocomposite superconductor films</citedTitle>
+                            <citedWork>NATURE MATERIALS</citedWork>
+                            <doi>10.1038/nmat1893</doi>
+                        </reference>
+                        <reference occurenceOrder="12">
+                            <uid>WOS:000272611400014</uid>
+                            <citedAuthor>Miura, M</citedAuthor>
+                            <year>2010</year>
+                            <page>ARTN 014013</page>
+                            <volume>23</volume>
+                            <citedTitle>Formation mechanism of BaZrO&lt;sub&gt;3&lt;/sub&gt; nanoparticles in Y&lt;sub&gt;1-&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;Sm&lt;i&gt;&lt;sub&gt;x&lt;/sub&gt;&lt;/i&gt;Ba&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;i&gt;&lt;sub&gt;y&lt;/sub&gt;&lt;/i&gt;-coated conductors derived from trifluoroacetate metal-organic deposition</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/0953-2048/23/1/014013</doi>
+                        </reference>
+                        <reference occurenceOrder="2">
+                            <uid>WOS:000249236200014</uid>
+                            <citedAuthor>Foltyn, SR</citedAuthor>
+                            <year>2007</year>
+                            <page>631</page>
+                            <volume>6</volume>
+                            <citedTitle>Materials science challenges for high-temperature superconducting wire</citedTitle>
+                            <citedWork>NATURE MATERIALS</citedWork>
+                        </reference>
+                        <reference occurenceOrder="5">
+                            <uid>WOS:000265783500018</uid>
+                            <citedAuthor>Maiorov, B</citedAuthor>
+                            <year>2009</year>
+                            <page>398</page>
+                            <volume>8</volume>
+                            <citedTitle>Synergetic combination of different types of defect to optimize pinning landscape using BaZrO&lt;sub&gt;3&lt;/sub&gt;-doped YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;</citedTitle>
+                            <citedWork>NATURE MATERIALS</citedWork>
+                            <doi>10.1038/NMAT2408</doi>
+                        </reference>
+                        <reference occurenceOrder="29">
+                            <uid>WOS:000386624100003</uid>
+                            <citedAuthor>De Keukeleere, K</citedAuthor>
+                            <year>2016</year>
+                            <page>ARTN 1600161</page>
+                            <volume>2</volume>
+                            <citedTitle>Superconducting YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-&lt;/sub&gt; Nanocomposites Using Preformed ZrO&lt;sub&gt;2&lt;/sub&gt; Nanocrystals: Growth Mechanisms and Vortex Pinning Properties</citedTitle>
+                            <citedWork>ADVANCED ELECTRONIC MATERIALS</citedWork>
+                            <doi>10.1002/aelm.201600161</doi>
+                        </reference>
+                        <reference occurenceOrder="10">
+                            <uid>WOS:000351433700046</uid>
+                            <citedAuthor>Garcés, P</citedAuthor>
+                            <year>2014</year>
+                            <page>ARTN 022015</page>
+                            <volume>568</volume>
+                            <citedTitle>Development of YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;-Ba&lt;sub&gt;2&lt;/sub&gt;YTaO&lt;sub&gt;6&lt;/sub&gt; nanocomposites by chemical solution deposition</citedTitle>
+                            <citedWork>27TH INTERNATIONAL CONFERENCE ON LOW TEMPERATURE PHYSICS (LT27), PTS 1-5</citedWork>
+                            <doi>10.1088/1742-6596/568/2/022015</doi>
+                        </reference>
+                        <reference occurenceOrder="35">
+                            <uid>WOS:A1994QE12700001</uid>
+                            <citedAuthor>BLATTER, G</citedAuthor>
+                            <year>1994</year>
+                            <page>1125</page>
+                            <volume>66</volume>
+                            <citedTitle>VORTICES IN HIGH-TEMPERATURE SUPERCONDUCTORS</citedTitle>
+                            <citedWork>REVIEWS OF MODERN PHYSICS</citedWork>
+                        </reference>
+                        <reference occurenceOrder="27">
+                            <uid>WOS:000241405200066</uid>
+                            <citedAuthor>Specht, ED</citedAuthor>
+                            <year>2006</year>
+                            <page>ARTN 162510</page>
+                            <volume>89</volume>
+                            <citedTitle>Stacking faults in YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-x&lt;/sub&gt;:: Measurement using x-ray diffraction and effects on critical current</citedTitle>
+                            <citedWork>APPLIED PHYSICS LETTERS</citedWork>
+                            <doi>10.1063/1.2364185</doi>
+                        </reference>
+                        <reference occurenceOrder="13">
+                            <uid>WOS:000399727200002</uid>
+                            <citedAuthor>Nakaoka, K</citedAuthor>
+                            <year>2017</year>
+                            <page>ARTN 055008</page>
+                            <volume>30</volume>
+                            <citedTitle>Another approach for controlling size and distribution of nanoparticles in coated conductors fabricated by the TFA-MOD method</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/1361-6668/aa66e1</doi>
+                        </reference>
+                        <reference occurenceOrder="20">
+                            <uid>WOS:000497271900012</uid>
+                            <citedAuthor>Huo, BL</citedAuthor>
+                            <year>2019</year>
+                            <page>3449</page>
+                            <volume>32</volume>
+                            <citedTitle>Rapid Epitaxial Growth of GdBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-σ&lt;/sub&gt; Films by Dilute Co Doping</citedTitle>
+                            <citedWork>JOURNAL OF SUPERCONDUCTIVITY AND NOVEL MAGNETISM</citedWork>
+                            <doi>10.1007/s10948-019-5131-3</doi>
+                        </reference>
+                        <reference occurenceOrder="3">
+                            <uid>WOS:000631480400002</uid>
+                            <citedAuthor>MacManus-Driscoll, JL</citedAuthor>
+                            <year>2021</year>
+                            <page>587</page>
+                            <volume>6</volume>
+                            <citedTitle>Processing and application of high-temperature superconducting coated conductors</citedTitle>
+                            <citedWork>NATURE REVIEWS MATERIALS</citedWork>
+                            <doi>10.1038/s41578-021-00290-3</doi>
+                        </reference>
+                        <reference occurenceOrder="9">
+                            <uid>WOS:000319973800027</uid>
+                            <citedAuthor>Horide, T</citedAuthor>
+                            <year>2013</year>
+                            <page>ARTN 075019</page>
+                            <volume>26</volume>
+                            <citedTitle>&lt;i&gt;J&lt;sub&gt;c&lt;/sub&gt;&lt;/i&gt; improvement by double artificial pinning centers of BaSnO&lt;sub&gt;3&lt;/sub&gt; nanorods and Y&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; nanoparticles in YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt; coated conductors</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/0953-2048/26/7/075019</doi>
+                        </reference>
+                        <reference occurenceOrder="25">
+                            <uid>WOS:A1991FK19300053</uid>
+                            <citedAuthor>CHISHOLM, MF</citedAuthor>
+                            <year>1991</year>
+                            <page>47</page>
+                            <volume>351</volume>
+                            <citedTitle>STRUCTURAL ORIGIN OF REDUCED CRITICAL CURRENTS AT YBA2CU3O7-DELTA GRAIN-BOUNDARIES</citedTitle>
+                            <citedWork>NATURE</citedWork>
+                        </reference>
+                        <reference occurenceOrder="7">
+                            <uid>WOS:000431548300001</uid>
+                            <citedAuthor>Obradors, X</citedAuthor>
+                            <year>2018</year>
+                            <page>ARTN 044001</page>
+                            <volume>31</volume>
+                            <citedTitle>Epitaxial YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt; nanocomposite films and coated conductors from Ba&lt;i&gt;M&lt;/i&gt;O&lt;sub&gt;3&lt;/sub&gt; (&lt;i&gt;M&lt;/i&gt; = Zr, Hf) colloidal solutions</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/1361-6668/aaaad7</doi>
+                        </reference>
+                        <reference occurenceOrder="11">
+                            <uid>WOS:000301984600021</uid>
+                            <citedAuthor>Llordés, A</citedAuthor>
+                            <year>2012</year>
+                            <page>329</page>
+                            <volume>11</volume>
+                            <citedTitle>Nanoscale strain-induced pair suppression as a vortex-pinning mechanism in high-temperature superconductors</citedTitle>
+                            <citedWork>NATURE MATERIALS</citedWork>
+                            <doi>10.1038/NMAT3247</doi>
+                        </reference>
+                        <reference occurenceOrder="21">
+                            <uid>000843977500001.21</uid>
+                            <citedAuthor>Li, M.</citedAuthor>
+                            <year>2015</year>
+                            <page>1</page>
+                            <volume>25</volume>
+                            <citedTitle>Controlled-growth of YBa2Cu3O7- film using modified low-fluorine chemical solution deposition</citedTitle>
+                            <citedWork>IEEE Trans. Appl. Supercond.</citedWork>
+                        </reference>
+                        <reference occurenceOrder="36">
+                            <uid>WOS:000385399200001</uid>
+                            <citedAuthor>Kwok, WK</citedAuthor>
+                            <year>2016</year>
+                            <page>ARTN 116501</page>
+                            <volume>79</volume>
+                            <citedTitle>Vortices in high-performance high-temperature superconductors</citedTitle>
+                            <citedWork>REPORTS ON PROGRESS IN PHYSICS</citedWork>
+                            <doi>10.1088/0034-4885/79/11/116501</doi>
+                        </reference>
+                        <reference occurenceOrder="4">
+                            <uid>WOS:000252190200011</uid>
+                            <citedAuthor>Ichinose, A</citedAuthor>
+                            <year>2007</year>
+                            <page>1144</page>
+                            <volume>20</volume>
+                            <citedTitle>Microstructures and critical current densities of YBCO films containing structure-controlled BaZrO&lt;sub&gt;3&lt;/sub&gt; nanorods</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/0953-2048/20/12/010</doi>
+                        </reference>
+                        <reference occurenceOrder="34">
+                            <uid>WOS:000304048100012</uid>
+                            <citedAuthor>Gazquez, J</citedAuthor>
+                            <year>2012</year>
+                            <page>ARTN 065009</page>
+                            <volume>25</volume>
+                            <citedTitle>Structural defects in trifluoroacetate derived YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt; thin films</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/0953-2048/25/6/065009</doi>
+                        </reference>
+                        <reference occurenceOrder="14">
+                            <uid>WOS:000535174000068</uid>
+                            <citedAuthor>Xu, Y</citedAuthor>
+                            <year>2020</year>
+                            <page>3449</page>
+                            <volume>20</volume>
+                            <citedTitle>Synergistic Effects on the Nanostrain in YBCO Films Double-Doped with Positive Mismatch Perovskite (Ba&lt;sub&gt;2&lt;/sub&gt;YNbO&lt;sub&gt;6&lt;/sub&gt;) and Negative Mismatch Perovskite (LaAlO&lt;sub&gt;3&lt;/sub&gt;)</citedTitle>
+                            <citedWork>CRYSTAL GROWTH &amp; DESIGN</citedWork>
+                            <doi>10.1021/acs.cgd.0c00227</doi>
+                        </reference>
+                        <reference occurenceOrder="8">
+                            <uid>WOS:000241156600001</uid>
+                            <citedAuthor>Varanasi, CV</citedAuthor>
+                            <year>2006</year>
+                            <page>L37</page>
+                            <volume>19</volume>
+                            <citedTitle>Flux pinning enhancement in YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt; films with BaSnO&lt;sub&gt;3&lt;/sub&gt; nanoparticles</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/0953-2048/19/10/L01</doi>
+                        </reference>
+                        <reference occurenceOrder="16">
+                            <uid>WOS:000374988100001</uid>
+                            <citedAuthor>Teranishi, R</citedAuthor>
+                            <year>2016</year>
+                            <page>ARTN 8001403</page>
+                            <volume>26</volume>
+                            <citedTitle>Minimization of BaHfO&lt;sub&gt;3&lt;/sub&gt; Flux Pinning Centers in YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;y&lt;/sub&gt; Films by Metal Organic Deposition Process</citedTitle>
+                            <citedWork>IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY</citedWork>
+                            <doi>10.1109/TASC.2016.2549863</doi>
+                        </reference>
+                        <reference occurenceOrder="22">
+                            <uid>WOS:000285073200017</uid>
+                            <citedAuthor>Chen, H</citedAuthor>
+                            <year>2010</year>
+                            <page>2371</page>
+                            <volume>25</volume>
+                            <citedTitle>Nucleation and growth rate influence on microstructure and critical currents of TFA-YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt; under low-pressure conditions</citedTitle>
+                            <citedWork>JOURNAL OF MATERIALS RESEARCH</citedWork>
+                            <doi>10.1557/JMR.2010.0302</doi>
+                        </reference>
+                        <reference occurenceOrder="32">
+                            <uid>WOS:000377909900001</uid>
+                            <citedAuthor>Nakaoka, K</citedAuthor>
+                            <year>2016</year>
+                            <volume>26</volume>
+                            <citedTitle>Enhancement of Jc Properties in Magnetic Fields of BaZrO3 Doped REBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;6+δ&lt;/sub&gt;Coated Conductors by a Newly Modified TFA-MOD Process</citedTitle>
+                            <citedWork>IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY</citedWork>
+                            <doi>10.1109/TASC.2016.2522338</doi>
+                        </reference>
+                        <reference occurenceOrder="17">
+                            <uid>WOS:000395543700001</uid>
+                            <citedAuthor>Izumi, T</citedAuthor>
+                            <year>2017</year>
+                            <page>ARTN 6601604</page>
+                            <volume>27</volume>
+                            <citedTitle>Refining Process of BaZrO&lt;sub&gt;3&lt;/sub&gt; Particles in Coated Conductors by TFA-MOD Method</citedTitle>
+                            <citedWork>IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY</citedWork>
+                            <doi>10.1109/TASC.2016.2646481</doi>
+                        </reference>
+                        <reference occurenceOrder="38">
+                            <uid>WOS:000424507600001</uid>
+                            <citedAuthor>Palau, A</citedAuthor>
+                            <year>2018</year>
+                            <page>ARTN 034004</page>
+                            <volume>31</volume>
+                            <citedTitle>Disentangling vortex pinning landscape in chemical solution deposited superconducting YBa&lt;sub&gt;2&lt;/sub&gt;Cu&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;7-x&lt;/sub&gt; films and nanocomposites</citedTitle>
+                            <citedWork>SUPERCONDUCTOR SCIENCE &amp; TECHNOLOGY</citedWork>
+                            <doi>10.1088/1361-6668/aaa65e</doi>
+                        </reference>
+                    </references>
+                    <addresses count="2">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Shanghai Univ, Shanghai Frontiers Sci Ctr Quantum &amp; Superconducti, Dept Phys, Shanghai Key Lab High Temp Supercond, Shanghai 200444, Peoples R China</full_address>
+                                <organizations count="4">
+                                    <organization>Shanghai Univ</organization>
+                                    <organization pref="Y">Shanghai University</organization>
+                                    <organization pref="D">Shanghai University College of Science</organization>
+                                    <organization pref="D">Shanghai University Shanghai Key Laboratory of High Temperature Superconductors</organization>
+                                </organizations>
+                                <suborganizations count="3">
+                                    <suborganization>Shanghai Frontiers Sci Ctr Quantum &amp; Superconducti</suborganization>
+                                    <suborganization>Dept Phys</suborganization>
+                                    <suborganization>Shanghai Key Lab High Temp Supercond</suborganization>
+                                </suborganizations>
+                                <city>Shanghai</city>
+                                <country>Peoples R China</country>
+                                <zip location="AC">200444</zip>
+                            </address_spec>
+                            <names count="7">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="DSW-1787-2022"
+                                        >
+                                    <display_name>Chen, Jing</display_name>
+                                    <full_name>Chen, Jing</full_name>
+                                    <wos_standard>Chen, J</wos_standard>
+                                    <first_name>Jing</first_name>
+                                    <last_name>Chen</last_name>
+                                </name>
+                                <name
+                                        seq_no="2"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="IDQ-0646-2023"
+                                        >
+                                    <display_name>Huang, Rongtie</display_name>
+                                    <full_name>Huang, Rongtie</full_name>
+                                    <wos_standard>Huang, RT</wos_standard>
+                                    <first_name>Rongtie</first_name>
+                                    <last_name>Huang</last_name>
+                                </name>
+                                <name
+                                        seq_no="3"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="KCQ-7751-2024"
+                                        >
+                                    <display_name>Zhou, Difan</display_name>
+                                    <full_name>Zhou, Difan</full_name>
+                                    <wos_standard>Zhou, DF</wos_standard>
+                                    <first_name>Difan</first_name>
+                                    <last_name>Zhou</last_name>
+                                </name>
+                                <name
+                                        seq_no="4"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="KKB-1607-2024"
+                                        >
+                                    <display_name>Li, Minjuan</display_name>
+                                    <full_name>Li, Minjuan</full_name>
+                                    <wos_standard>Li, MJ</wos_standard>
+                                    <first_name>Minjuan</first_name>
+                                    <last_name>Li</last_name>
+                                </name>
+                                <name
+                                        seq_no="5"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="GQT-0303-2022"
+                                        >
+                                    <display_name>Bai, Chuanyui</display_name>
+                                    <full_name>Bai, Chuanyui</full_name>
+                                    <wos_standard>Bai, CY</wos_standard>
+                                    <first_name>Chuanyui</first_name>
+                                    <last_name>Bai</last_name>
+                                </name>
+                                <name
+                                        seq_no="6"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        r_id="F-8766-2016"
+                                        >
+                                    <display_name>Liu, Zhiyong</display_name>
+                                    <full_name>Liu, Zhiyong</full_name>
+                                    <wos_standard>Liu, ZY</wos_standard>
+                                    <first_name>Zhiyong</first_name>
+                                    <last_name>Liu</last_name>
+                                    <email_addr>ZhiyongLiuabzyliu@shu.edu.cn</email_addr>
+                                </name>
+                                <name
+                                        seq_no="7"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        r_id="EOT-0683-2022"
+                                        >
+                                    <display_name>Cai, Chuanbing</display_name>
+                                    <full_name>Cai, Chuanbing</full_name>
+                                    <wos_standard>Cai, CB</wos_standard>
+                                    <first_name>Chuanbing</first_name>
+                                    <last_name>Cai</last_name>
+                                    <email_addr>ChuanbingCaiabcbcai@t.shu.edu.cn</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                        <address_name>
+                            <address_spec addr_no="2">
+                                <full_address>Shanghai Creat Supercond Technol Co Ltd, Shanghai 201401, Peoples R China</full_address>
+                                <organizations count="1">
+                                    <organization>Shanghai Creat Supercond Technol Co Ltd</organization>
+                                </organizations>
+                                <city>Shanghai</city>
+                                <country>Peoples R China</country>
+                                <zip location="AC">201401</zip>
+                            </address_spec>
+                            <names count="4">
+                                <name
+                                        seq_no="2"
+                                        role="author"
+                                        addr_no="2"
+                                        r_id="IDQ-0646-2023"
+                                        >
+                                    <display_name>Huang, Rongtie</display_name>
+                                    <full_name>Huang, Rongtie</full_name>
+                                    <wos_standard>Huang, RT</wos_standard>
+                                    <first_name>Rongtie</first_name>
+                                    <last_name>Huang</last_name>
+                                </name>
+                                <name
+                                        seq_no="5"
+                                        role="author"
+                                        addr_no="2"
+                                        r_id="GQT-0303-2022"
+                                        >
+                                    <display_name>Bai, Chuanyui</display_name>
+                                    <full_name>Bai, Chuanyui</full_name>
+                                    <wos_standard>Bai, CY</wos_standard>
+                                    <first_name>Chuanyui</first_name>
+                                    <last_name>Bai</last_name>
+                                </name>
+                                <name
+                                        seq_no="6"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="2"
+                                        r_id="F-8766-2016"
+                                        >
+                                    <display_name>Liu, Zhiyong</display_name>
+                                    <full_name>Liu, Zhiyong</full_name>
+                                    <wos_standard>Liu, ZY</wos_standard>
+                                    <first_name>Zhiyong</first_name>
+                                    <last_name>Liu</last_name>
+                                    <email_addr>ZhiyongLiuabzyliu@shu.edu.cn</email_addr>
+                                </name>
+                                <name
+                                        seq_no="7"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="2"
+                                        r_id="EOT-0683-2022"
+                                        >
+                                    <display_name>Cai, Chuanbing</display_name>
+                                    <full_name>Cai, Chuanbing</full_name>
+                                    <wos_standard>Cai, CB</wos_standard>
+                                    <first_name>Chuanbing</first_name>
+                                    <last_name>Cai</last_name>
+                                    <email_addr>ChuanbingCaiabcbcai@t.shu.edu.cn</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </addresses>
+                    <reprint_addresses count="1">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Shanghai Univ, Shanghai Frontiers Sci Ctr Quantum &amp; Superconducti, Dept Phys, Shanghai Key Lab High Temp Supercond, Shanghai 200444, Peoples R China</full_address>
+                                <organizations count="4">
+                                    <organization>Shanghai Univ</organization>
+                                    <organization pref="Y">Shanghai University</organization>
+                                    <organization pref="D">Shanghai University College of Science</organization>
+                                    <organization pref="D">Shanghai University Shanghai Key Laboratory of High Temperature Superconductors</organization>
+                                </organizations>
+                                <suborganizations count="3">
+                                    <suborganization>Shanghai Frontiers Sci Ctr Quantum &amp; Superconducti</suborganization>
+                                    <suborganization>Dept Phys</suborganization>
+                                    <suborganization>Shanghai Key Lab High Temp Supercond</suborganization>
+                                </suborganizations>
+                                <city>Shanghai</city>
+                                <country>Peoples R China</country>
+                                <zip location="AC">200444</zip>
+                            </address_spec>
+                            <names count="2">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        >
+                                    <display_name>Liu, Zhiyong</display_name>
+                                    <full_name>Liu, Zhiyong</full_name>
+                                    <wos_standard>Liu, ZY</wos_standard>
+                                    <first_name>Zhiyong</first_name>
+                                    <last_name>Liu</last_name>
+                                    <email_addr>ZhiyongLiuabzyliu@shu.edu.cn</email_addr>
+                                </name>
+                                <name
+                                        seq_no="2"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        >
+                                    <display_name>Cai, Chuanbing</display_name>
+                                    <full_name>Cai, Chuanbing</full_name>
+                                    <wos_standard>Cai, CB</wos_standard>
+                                    <first_name>Chuanbing</first_name>
+                                    <last_name>Cai</last_name>
+                                    <email_addr>ChuanbingCaiabcbcai@t.shu.edu.cn</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </reprint_addresses>
+                    <category_info>
+                        <headings count="1">
+                            <heading>Science &amp; Technology</heading>
+                        </headings>
+                        <subheadings count="1">
+                            <subheading>Technology</subheading>
+                        </subheadings>
+                        <subjects count="2">
+                            <subject ascatype="traditional">Materials Science, Ceramics</subject>
+                            <subject ascatype="extended">Materials Science</subject>
+                        </subjects>
+                    </category_info>
+                    <fund_ack>
+                        <fund_text>
+                            <p>This work was supported in part by the Strategic Priority Research Program of the Chinese Academy of Sciences, Grant no. XDB25000000, National Natural Science Foundation of China (52172271) .</p>
+                        </fund_text>
+                        <grants count="2">
+                            <grant>
+                                <grant_agency>Strategic Priority Research Program of the Chinese Academy of Sciences</grant_agency>
+                                <grant_agency pref="Y">Chinese Academy of Sciences</grant_agency>
+                                <grant_ids count="1">
+                                    <grant_id>XDB25000000</grant_id>
+                                </grant_ids>
+                            </grant>
+                            <grant>
+                                <grant_agency>National Natural Science Foundation of China</grant_agency>
+                                <grant_agency pref="Y">National Natural Science Foundation of China (NSFC)</grant_agency>
+                                <grant_ids count="1">
+                                    <grant_id>52172271</grant_id>
+                                </grant_ids>
+                            </grant>
+                        </grants>
+                    </fund_ack>
+                    <keywords count="4">
+                        <keyword>YBa2Cu3O7_d nanocomposite films</keyword>
+                        <keyword>Multi -doping</keyword>
+                        <keyword>Self -seeding</keyword>
+                        <keyword>Pinning force density</keyword>
+                    </keywords>
+                    <abstracts count="1">
+                        <abstract>
+                            <abstract_text count="1">
+                                <p>YBa2Cu3O7_delta (YBCO) nanocomposite films were fabricated by low-fluorine metal-organic deposition (LF-MOD) route, combining self-seeding and multi-doping strategies with elements of Zr, Hf, Sn and Mn. Under the same growth conditions, due to the self-seeding layer as a template for the c-axis growth of doped films, all the multi -doped films with 200 nm self-seeding layers exhibit good c-axis orientation, even for the heavy doping of 16 mol %. EDS confirmed the four doping elements in the multi-doped YBCO films appear independently, leading to higher density of nano-scale heterogeneous phases than the case of Zr single doping. The pinning force density (Fp) and critical current density (Jc) are improved significantly, which indicates that the optimal doping content is achievable as high as 12 mol% in the case of multi-doping. The multi-12% YBCO films have the highest Fp,max of 6.13 GN/m3 at 77 K, which is about 3.3 times higher than that of the undoped films, and the Jc can reach 4.3 MA/cm2 at 30 K, compared to 3.1 MA/cm2 for the undoped films.</p>
+                            </abstract_text>
+                        </abstract>
+                    </abstracts>
+                </fullrecord_metadata>
+                <item
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:type="itemType_wos"
+                        >
+                    <ids avail="N">3Y8NA</ids>
+                    <bib_id>42 (14): 6542-6550 NOV 2022</bib_id>
+                    <bib_pagecount type="Journal">41</bib_pagecount>
+                    <keywords_plus count="1">
+                        <keyword>CRITICAL CURRENTS</keyword>
+                    </keywords_plus>
+                </item>
+                <contributors count="3">
+                    <contributor>
+                        <name
+                                seq_no="1"
+                                role="researcher_id"
+                                r_id="F-8766-2016"
+                                >
+                            <display_name>Liu, Zhiyong</display_name>
+                            <full_name>Liu, Zhiyong</full_name>
+                            <first_name>Zhiyong</first_name>
+                            <last_name>Liu</last_name>
+                        </name>
+                    </contributor>
+                    <contributor>
+                        <name
+                                seq_no="2"
+                                role="researcher_id"
+                                orcid_id="0009-0002-3488-445X"
+                                >
+                            <display_name>Huang, Rongtie</display_name>
+                            <full_name>Huang, Rongtie</full_name>
+                            <first_name>Rongtie</first_name>
+                            <last_name>Huang</last_name>
+                        </name>
+                    </contributor>
+                    <contributor>
+                        <name
+                                seq_no="3"
+                                role="researcher_id"
+                                orcid_id="0000-0001-7631-1997"
+                                >
+                            <display_name>Chen, Jing</display_name>
+                            <full_name>Chen, Jing</full_name>
+                            <first_name>Jing</first_name>
+                            <last_name>Chen</last_name>
+                        </name>
+                    </contributor>
+                </contributors>
+            </static_data>
+            <dynamic_data>
+                <cluster_related>
+                    <identifiers>
+                        <identifier
+                                type="accession_no"
+                                value="3Y8NA"
+                                />
+                        <identifier
+                                type="issn"
+                                value="0955-2219"
+                                />
+                        <identifier
+                                type="eissn"
+                                value="1873-619X"
+                                />
+                        <identifier
+                                type="doi"
+                                value="10.1016/j.jeurceramsoc.2022.07.051"
+                                />
+                    </identifiers>
+                </cluster_related>
+            </dynamic_data>
+        </REC>
+    </records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->
+    <records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+        <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+            <UID>WOS:000855495800002</UID>
+            <static_data>
+                <summary>
+                    <EWUID>
+                        <WUID coll_id="WOS" />
+                        <edition value="WOS.ESCI" />
+                    </EWUID>
+                    <pub_info
+                            sortdate="2022-09-01"
+                            pubyear="2022"
+                            has_abstract="N"
+                            coverdate="SEP 2022"
+                            pubmonth="SEP"
+                            vol="10"
+                            issue="9"
+                            pubtype="Journal"
+                            >
+                        <page page_count="2" />
+                    </pub_info>
+                    <titles count="6">
+                        <title type="source">PLASTIC AND RECONSTRUCTIVE SURGERY-GLOBAL OPEN</title>
+                        <title type="source_abbrev">PRS-GLOB OPEN</title>
+                        <title type="abbrev_iso">PRS-GLOB. OPEN</title>
+                        <title type="abbrev_11">PRS-GLO OPE</title>
+                        <title type="abbrev_29">PRS-GLOB OPEN</title>
+                        <title type="item">Presence of Cosmetic and Aesthetic Surgery on TikTok</title>
+                    </titles>
+                    <names count="7">
+                        <name
+                                seq_no="1"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Rivera, Jean Carlo</display_name>
+                            <full_name>Rivera, Jean Carlo</full_name>
+                            <wos_standard>Rivera, JC</wos_standard>
+                            <first_name>Jean Carlo</first_name>
+                            <last_name>Rivera</last_name>
+                        </name>
+                        <name
+                                seq_no="2"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Juan, Hui Yu</display_name>
+                            <full_name>Juan, Hui Yu</full_name>
+                            <wos_standard>Juan, HY</wos_standard>
+                            <first_name>Hui Yu</first_name>
+                            <last_name>Juan</last_name>
+                        </name>
+                        <name
+                                seq_no="3"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Long, Aaron S.</display_name>
+                            <full_name>Long, Aaron S.</full_name>
+                            <wos_standard>Long, AS</wos_standard>
+                            <first_name>Aaron S.</first_name>
+                            <last_name>Long</last_name>
+                        </name>
+                        <name
+                                seq_no="4"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Hauc, Sacha C.</display_name>
+                            <full_name>Hauc, Sacha C.</full_name>
+                            <wos_standard>Hauc, SC</wos_standard>
+                            <first_name>Sacha C.</first_name>
+                            <last_name>Hauc</last_name>
+                        </name>
+                        <name
+                                seq_no="5"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Junn, Adam H.</display_name>
+                            <full_name>Junn, Adam H.</full_name>
+                            <wos_standard>Junn, AH</wos_standard>
+                            <first_name>Adam H.</first_name>
+                            <last_name>Junn</last_name>
+                        </name>
+                        <name
+                                seq_no="6"
+                                role="author"
+                                addr_no="1"
+                                >
+                            <display_name>Persing, John A.</display_name>
+                            <full_name>Persing, John A.</full_name>
+                            <wos_standard>Persing, JA</wos_standard>
+                            <first_name>John A.</first_name>
+                            <last_name>Persing</last_name>
+                        </name>
+                        <name
+                                seq_no="7"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                >
+                            <display_name>Alperovich, Michael</display_name>
+                            <full_name>Alperovich, Michael</full_name>
+                            <wos_standard>Alperovich, M</wos_standard>
+                            <first_name>Michael</first_name>
+                            <last_name>Alperovich</last_name>
+                            <email_addr>michael.alperovich@yale.edu</email_addr>
+                        </name>
+                    </names>
+                    <doctypes count="1">
+                        <doctype>Editorial Material</doctype>
+                    </doctypes>
+                    <publishers>
+                        <publisher>
+                            <address_spec addr_no="1">
+                                <full_address>TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA</full_address>
+                                <city>PHILADELPHIA</city>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        role="publisher"
+                                        seq_no="1"
+                                        addr_no="1"
+                                        >
+                                    <display_name>LIPPINCOTT WILLIAMS &amp; WILKINS</display_name>
+                                    <full_name>LIPPINCOTT WILLIAMS &amp; WILKINS</full_name>
+                                    <unified_name>Lippincott Williams &amp; Wilkins</unified_name>
+                                </name>
+                            </names>
+                        </publisher>
+                    </publishers>
+                </summary>
+                <fullrecord_metadata>
+                    <languages count="1">
+                        <language type="primary">English</language>
+                    </languages>
+                    <normalized_languages count="1">
+                        <language type="primary">English</language>
+                    </normalized_languages>
+                    <normalized_doctypes count="1">
+                        <doctype>Editorial</doctype>
+                    </normalized_doctypes>
+                    <references count="5">
+                        <reference occurenceOrder="1">
+                            <uid>WOS:000298242800007</uid>
+                            <citedAuthor>Wheeler, CK</citedAuthor>
+                            <year>2011</year>
+                            <page>435</page>
+                            <volume>31</volume>
+                            <citedTitle>Social Media in Plastic Surgery Practices: Emerging Trends in North America</citedTitle>
+                            <citedWork>AESTHETIC SURGERY JOURNAL</citedWork>
+                            <doi>10.1177/1090820X11407483</doi>
+                        </reference>
+                        <reference occurenceOrder="2">
+                            <uid>WOS:000723823800051</uid>
+                            <citedAuthor>Das, RK</citedAuthor>
+                            <year>2021</year>
+                            <page>1094E</page>
+                            <volume>148</volume>
+                            <citedTitle>Plastic Surgeons in TikTok: Top Influencers, Most Recent Posts, and User Engagement</citedTitle>
+                            <citedWork>PLASTIC AND RECONSTRUCTIVE SURGERY</citedWork>
+                            <doi>10.1097/PRS.0000000000008566</doi>
+                        </reference>
+                        <reference occurenceOrder="4">
+                            <uid>WOS:000455319500005</uid>
+                            <citedAuthor>Ben Naftali, Y</citedAuthor>
+                            <year>2018</year>
+                            <page>ARTN e1958</page>
+                            <volume>6</volume>
+                            <citedTitle>Plastic Surgery Faces the Web: Analysis of the Popular Social Media for Plastic Surgeons</citedTitle>
+                            <citedWork>PLASTIC AND RECONSTRUCTIVE SURGERY-GLOBAL OPEN</citedWork>
+                            <doi>10.1097/GOX.0000000000001958</doi>
+                        </reference>
+                        <reference occurenceOrder="5">
+                            <uid>000855495800002.5</uid>
+                            <citedAuthor>Zitser, J.</citedAuthor>
+                            <year>2022</year>
+                            <citedWork>Insider created a TikTok account and set the age at 14 to test how long before a plastic surgeon's promotional video appeared. It only took 8 minutes. Insider.com</citedWork>
+                            <citedURL>https://www.insider.com/rhinoplasty-is-being-promoted-to-teenagers-nose-job-tiktok-2020-12</citedURL>
+                        </reference>
+                        <reference occurenceOrder="3">
+                            <uid>000855495800002.3</uid>
+                            <citedAuthor>Dorfman, RG.</citedAuthor>
+                            <year>2018</year>
+                            <page>332 338</page>
+                            <volume>38</volume>
+                            <citedTitle>Plastic surgery-related hashtag utilization on instagram: implications for education and marketing</citedTitle>
+                            <citedWork>Aesthet Surg J</citedWork>
+                        </reference>
+                    </references>
+                    <addresses count="1">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Yale Sch Med, Sect Plast &amp; Reconstruct Surg, Dept Surg, 330 Cedar St,Boardman Bldg, New Haven, CT 06510 USA</full_address>
+                                <organizations count="4">
+                                    <organization>Yale Sch Med</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/03v76x132"
+                                            org_id="30100000000279"
+                                            >Yale University</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000098135"
+                                            />
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000003225"
+                                            >Yale University Department of Surgery</organization>
+                                </organizations>
+                                <suborganizations count="2">
+                                    <suborganization>Sect Plast &amp; Reconstruct Surg</suborganization>
+                                    <suborganization>Dept Surg</suborganization>
+                                </suborganizations>
+                                <street>330 Cedar St,Boardman Bldg</street>
+                                <city>New Haven</city>
+                                <state>CT</state>
+                                <country>USA</country>
+                                <zip location="AP">06510</zip>
+                            </address_spec>
+                            <names count="7">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="DUQ-9832-2022"
+                                        >
+                                    <display_name>Rivera, Jean Carlo</display_name>
+                                    <full_name>Rivera, Jean Carlo</full_name>
+                                    <wos_standard>Rivera, JC</wos_standard>
+                                    <first_name>Jean Carlo</first_name>
+                                    <last_name>Rivera</last_name>
+                                </name>
+                                <name
+                                        seq_no="2"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="FBW-7894-2022"
+                                        >
+                                    <display_name>Juan, Hui Yu</display_name>
+                                    <full_name>Juan, Hui Yu</full_name>
+                                    <wos_standard>Juan, HY</wos_standard>
+                                    <first_name>Hui Yu</first_name>
+                                    <last_name>Juan</last_name>
+                                </name>
+                                <name
+                                        seq_no="3"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="DVZ-0169-2022"
+                                        >
+                                    <display_name>Long, Aaron S.</display_name>
+                                    <full_name>Long, Aaron S.</full_name>
+                                    <wos_standard>Long, AS</wos_standard>
+                                    <first_name>Aaron S.</first_name>
+                                    <last_name>Long</last_name>
+                                </name>
+                                <name
+                                        seq_no="4"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="DVZ-7771-2022"
+                                        >
+                                    <display_name>Hauc, Sacha C.</display_name>
+                                    <full_name>Hauc, Sacha C.</full_name>
+                                    <wos_standard>Hauc, SC</wos_standard>
+                                    <first_name>Sacha C.</first_name>
+                                    <last_name>Hauc</last_name>
+                                </name>
+                                <name
+                                        seq_no="5"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="CXO-0108-2022"
+                                        >
+                                    <display_name>Junn, Adam H.</display_name>
+                                    <full_name>Junn, Adam H.</full_name>
+                                    <wos_standard>Junn, AH</wos_standard>
+                                    <first_name>Adam H.</first_name>
+                                    <last_name>Junn</last_name>
+                                </name>
+                                <name
+                                        seq_no="6"
+                                        role="author"
+                                        addr_no="1"
+                                        r_id="DMI-8898-2022"
+                                        >
+                                    <display_name>Persing, John A.</display_name>
+                                    <full_name>Persing, John A.</full_name>
+                                    <wos_standard>Persing, JA</wos_standard>
+                                    <first_name>John A.</first_name>
+                                    <last_name>Persing</last_name>
+                                </name>
+                                <name
+                                        seq_no="7"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        r_id="CDB-8289-2022"
+                                        >
+                                    <display_name>Alperovich, Michael</display_name>
+                                    <full_name>Alperovich, Michael</full_name>
+                                    <wos_standard>Alperovich, M</wos_standard>
+                                    <first_name>Michael</first_name>
+                                    <last_name>Alperovich</last_name>
+                                    <email_addr>michael.alperovich@yale.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </addresses>
+                    <reprint_addresses count="1">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Yale Sch Med, Sect Plast &amp; Reconstruct Surg, Dept Surg, 330 Cedar St,Boardman Bldg, New Haven, CT 06510 USA</full_address>
+                                <organizations count="4">
+                                    <organization>Yale Sch Med</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/03v76x132"
+                                            org_id="30100000000279"
+                                            >Yale University</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000098135"
+                                            />
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000003225"
+                                            >Yale University Department of Surgery</organization>
+                                </organizations>
+                                <suborganizations count="2">
+                                    <suborganization>Sect Plast &amp; Reconstruct Surg</suborganization>
+                                    <suborganization>Dept Surg</suborganization>
+                                </suborganizations>
+                                <street>330 Cedar St,Boardman Bldg</street>
+                                <city>New Haven</city>
+                                <state>CT</state>
+                                <country>USA</country>
+                                <zip location="AP">06510</zip>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        >
+                                    <display_name>Alperovich, Michael</display_name>
+                                    <full_name>Alperovich, Michael</full_name>
+                                    <wos_standard>Alperovich, M</wos_standard>
+                                    <first_name>Michael</first_name>
+                                    <last_name>Alperovich</last_name>
+                                    <email_addr>michael.alperovich@yale.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </reprint_addresses>
+                    <category_info>
+                        <headings count="1">
+                            <heading>Science &amp; Technology</heading>
+                        </headings>
+                        <subheadings count="1">
+                            <subheading>Life Sciences &amp; Biomedicine</subheading>
+                        </subheadings>
+                        <subjects count="2">
+                            <subject ascatype="traditional">Surgery</subject>
+                            <subject ascatype="extended">Surgery</subject>
+                        </subjects>
+                    </category_info>
+                    <fund_ack>
+                        <grants count="1">
+                            <grant grant_source="NIH RePORTER">
+                                <grant_agency>National Institute of Diabetes and Digestive and Kidney Diseases</grant_agency>
+                                <grant_agency pref="Y">United States Department of Health &amp; Human Services</grant_agency>
+                                <grant_agency pref="Y">National Institutes of Health (NIH) - USA</grant_agency>
+                                <grant_agency pref="Y">NIH National Institute of Diabetes &amp; Digestive &amp; Kidney Diseases (NIDDK)</grant_agency>
+                                <grant_ids count="1">
+                                    <grant_id>T35DK104689</grant_id>
+                                </grant_ids>
+                                <grant_data count="1">
+                                    <grantDataItem>
+                                        <grantid>T35DK104689</grantid>
+                                        <grantProjectTitle>Short Term Research Training: Students in Health Professional Schools</grantProjectTitle>
+                                        <totalAwardAmount>242967</totalAwardAmount>
+                                        <currency>USD</currency>
+                                        <startDate>2015-06-01</startDate>
+                                        <endDate>2025-05-31</endDate>
+                                        <principalInvestigators>
+                                            <principalInvestigator>PETER S. ARONSON</principalInvestigator>
+                                            <principalInvestigator>Sarwat I Chaudhry</principalInvestigator>
+                                            <principalInvestigator>HERZOG, ERICA L</principalInvestigator>
+                                            <principalInvestigatorInstitutions>
+                                                <principalInvestigatorInstitution>YALE UNIVERSITY</principalInvestigatorInstitution>
+                                            </principalInvestigatorInstitutions>
+                                        </principalInvestigators>
+                                    </grantDataItem>
+                                </grant_data>
+                            </grant>
+                        </grants>
+                    </fund_ack>
+                </fullrecord_metadata>
+                <item
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:type="itemType_wos"
+                        >
+                    <ids avail="N">4P6HZ</ids>
+                    <bib_id>10 (9): - SEP 2022</bib_id>
+                    <bib_pagecount type="Journal">21</bib_pagecount>
+                </item>
+                <contributors count="1">
+                    <contributor>
+                        <name
+                                seq_no="1"
+                                role="researcher_id"
+                                orcid_id="0000-0002-6666-8578"
+                                >
+                            <display_name>Hauc, Sacha</display_name>
+                            <full_name>Hauc, Sacha</full_name>
+                            <first_name>Sacha</first_name>
+                            <last_name>Hauc</last_name>
+                        </name>
+                    </contributor>
+                </contributors>
+            </static_data>
+            <dynamic_data>
+                <cluster_related>
+                    <identifiers>
+                        <identifier
+                                type="accession_no"
+                                value="4P6HZ"
+                                />
+                        <identifier
+                                type="issn"
+                                value="2169-7574"
+                                />
+                        <identifier
+                                type="art_no"
+                                value="ARTN e4519"
+                                />
+                        <identifier
+                                type="doi"
+                                value="10.1097/GOX.0000000000004519"
+                                />
+                        <identifier
+                                type="pmid"
+                                value="36168605"
+                                />
+                    </identifiers>
+                </cluster_related>
+                <ic_related>
+                    <oases
+                            count="2"
+                            is_OA="Yes"
+                            >
+                        <oas type="green_published" />
+                        <oas type="gold" />
+                    </oases>
+                </ic_related>
+            </dynamic_data>
+        </REC>
+    </records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->

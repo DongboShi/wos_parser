@@ -1,0 +1,412 @@
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+        <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+            <UID>WOS:000900702900001</UID>
+            <static_data>
+                <summary>
+                    <EWUID>
+                        <WUID coll_id="WOS" />
+                        <edition value="WOS.AHCI" />
+                    </EWUID>
+                    <pub_info
+                            sortdate="2023-01-02"
+                            pubyear="2023"
+                            has_abstract="Y"
+                            coverdate="JAN 2 2023"
+                            pubmonth="JAN 2"
+                            vol="70"
+                            issue="1"
+                            early_access_date="DEC 2022"
+                            early_access_month="12"
+                            early_access_year="2022"
+                            pubtype="Journal"
+                            >
+                        <page
+                                begin="9"
+                                end="24"
+                                page_count="16"
+                                >9-24</page>
+                    </pub_info>
+                    <titles count="6">
+                        <title type="source">ROMANCE QUARTERLY</title>
+                        <title type="source_abbrev">ROMANCE QUART</title>
+                        <title type="abbrev_iso">Roman. Q.</title>
+                        <title type="abbrev_11">ROMANC Q</title>
+                        <title type="abbrev_29">ROMANCE QUART</title>
+                        <title type="item">Planetariedad en &lt;i&gt;El mal de la taiga&lt;/i&gt;, de Cristina Rivera Garza</title>
+                    </titles>
+                    <names count="1">
+                        <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                >
+                            <display_name>Enriquez, Emily Celeste Vazquez</display_name>
+                            <full_name>Enriquez, Emily Celeste Vazquez</full_name>
+                            <wos_standard>Enríquez, ECV</wos_standard>
+                            <first_name>Emily Celeste Vazquez</first_name>
+                            <last_name>Enriquez</last_name>
+                            <email_addr>ecvazquez@ucdavis.edu</email_addr>
+                        </name>
+                    </names>
+                    <doctypes count="1">
+                        <doctype>Article</doctype>
+                    </doctypes>
+                    <publishers>
+                        <publisher>
+                            <address_spec addr_no="1">
+                                <full_address>2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND</full_address>
+                                <city>ABINGDON</city>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        role="publisher"
+                                        seq_no="1"
+                                        addr_no="1"
+                                        >
+                                    <display_name>ROUTLEDGE JOURNALS, TAYLOR &amp; FRANCIS LTD</display_name>
+                                    <full_name>ROUTLEDGE JOURNALS, TAYLOR &amp; FRANCIS LTD</full_name>
+                                    <unified_name>Taylor &amp; Francis</unified_name>
+                                </name>
+                            </names>
+                        </publisher>
+                    </publishers>
+                </summary>
+                <fullrecord_metadata>
+                    <languages count="1">
+                        <language type="primary">English</language>
+                    </languages>
+                    <normalized_languages count="1">
+                        <language type="primary">English</language>
+                    </normalized_languages>
+                    <normalized_doctypes count="1">
+                        <doctype>Article</doctype>
+                    </normalized_doctypes>
+                    <references count="22">
+                        <reference occurenceOrder="12">
+                            <uid>000900702900001.12</uid>
+                            <citedAuthor>Rivera Garza, Cristina.</citedAuthor>
+                            <year>2013</year>
+                            <citedWork>Los muertos ind?ciles. Necroescrituras y desapropiaci?n</citedWork>
+                        </reference>
+                        <reference occurenceOrder="11">
+                            <uid>000900702900001.11</uid>
+                            <citedAuthor>Rivera Garza, Cristina</citedAuthor>
+                            <year>2017</year>
+                            <citedTitle>The Cristina Rivera Garza Interview</citedTitle>
+                            <citedWork>Interview with Scott Esposito</citedWork>
+                            <citedURL>http://quarterlyconversation.com/the-cristina-rivera-garza-interview</citedURL>
+                        </reference>
+                        <reference occurenceOrder="19">
+                            <uid>000900702900001.19</uid>
+                            <citedAuthor>Sanchez Prado, Ignacio</citedAuthor>
+                            <year>2018</year>
+                            <citedTitle>Cristina Rivera Garza's The Taiga Syndrome</citedTitle>
+                            <citedWork>Los Angeles Review of Books9 Oct</citedWork>
+                            <citedURL>https://lareviewofbooks.org/article/the-intense-atmospheres-of-language-cristina-rivera-garzas-the-taiga-syndrome/</citedURL>
+                        </reference>
+                        <reference occurenceOrder="22">
+                            <uid>000900702900001.22</uid>
+                            <citedAuthor>Spivak, Gayatri.</citedAuthor>
+                            <year>2012</year>
+                            <citedWork>An Aesthetic Education in the Era of Globalization</citedWork>
+                        </reference>
+                        <reference occurenceOrder="20">
+                            <uid>000900702900001.20</uid>
+                            <citedAuthor>Spivak, Gayatri.</citedAuthor>
+                            <year>2003</year>
+                            <citedWork>Death of a Discipline</citedWork>
+                        </reference>
+                        <reference occurenceOrder="16">
+                            <uid>000900702900001.16</uid>
+                            <citedAuthor>Rivera Garza, Cristina.</citedAuthor>
+                            <year>2002</year>
+                            <citedWork>La cresta de Ili?n</citedWork>
+                        </reference>
+                        <reference occurenceOrder="5">
+                            <uid>WOS:000419573400011</uid>
+                            <citedAuthor>Cáceres, RD</citedAuthor>
+                            <year>2017</year>
+                            <page>449</page>
+                            <volume>57</volume>
+                            <citedTitle>THE BORDER OF AUTHORSHIP AND WRITING IN CRISTINA RIVERA GARZA</citedTitle>
+                            <citedWork>ROMANCE NOTES</citedWork>
+                            <doi>10.1353/rmc.2017.0039</doi>
+                        </reference>
+                        <reference occurenceOrder="4">
+                            <uid>000900702900001.4</uid>
+                            <citedAuthor>Cunningham, Hilary.</citedAuthor>
+                            <year>2012</year>
+                            <page>371</page>
+                            <citedTitle>Permeabilities, Ecology and Geopolitical Boundaries</citedTitle>
+                            <citedWork>A Companion to Border Studies</citedWork>
+                        </reference>
+                        <reference occurenceOrder="15">
+                            <uid>000900702900001.15</uid>
+                            <citedAuthor>Rivera Garza, Cristina.</citedAuthor>
+                            <year>2012</year>
+                            <citedWork>El mal de la taiga</citedWork>
+                        </reference>
+                        <reference occurenceOrder="2">
+                            <uid>000900702900001.2</uid>
+                            <citedAuthor>Castro Ricalde, Maricruz.</citedAuthor>
+                            <year>2016</year>
+                            <page>52</page>
+                            <volume>42</volume>
+                            <citedTitle>El mal de la taiga (2012) de Cristina Rivera Garza: hipermeabilidad y nuevas formas de lectura</citedTitle>
+                            <citedWork>Letras Femeninas</citedWork>
+                        </reference>
+                        <reference occurenceOrder="17">
+                            <uid>WOS:000251593800016</uid>
+                            <citedAuthor>Samuelson, CR</citedAuthor>
+                            <year>2007</year>
+                            <page>135</page>
+                            <volume>23</volume>
+                            <citedTitle>Writing at escape velocity: An interview with Cristina Rivera Garza</citedTitle>
+                            <citedWork>CONFLUENCIA-REVISTA HISPANICA DE CULTURA Y LITERATURA</citedWork>
+                        </reference>
+                        <reference occurenceOrder="3">
+                            <uid>WOS:000698736000001</uid>
+                            <citedAuthor>Chandler, BT</citedAuthor>
+                            <year>2021</year>
+                            <page>197</page>
+                            <volume>68</volume>
+                            <citedTitle>Dis/articulations and the writing of Aporias in Cristina Rivera Garza's &lt;i&gt;El mal de la taiga&lt;/i&gt;</citedTitle>
+                            <citedWork>ROMANCE QUARTERLY</citedWork>
+                            <doi>10.1080/08831157.2021.1978356</doi>
+                        </reference>
+                        <reference occurenceOrder="7">
+                            <uid>000900702900001.7</uid>
+                            <citedAuthor>Fornoff, Carolyn.</citedAuthor>
+                            <year>2021</year>
+                            <citedTitle>Planetary Poetics of Extinction</citedTitle>
+                            <citedWork>Mexican Literature as World Literature</citedWork>
+                        </reference>
+                        <reference occurenceOrder="1">
+                            <uid>000900702900001.1</uid>
+                            <citedAuthor>Buell, Lawrence.</citedAuthor>
+                            <year>2005</year>
+                            <citedWork>The Future of Environmental Criticism</citedWork>
+                        </reference>
+                        <reference occurenceOrder="21">
+                            <uid>WOS:000234525300007</uid>
+                            <citedAuthor>Spivak, GC</citedAuthor>
+                            <year>2006</year>
+                            <page>102</page>
+                            <volume>14</volume>
+                            <citedTitle>World systems &amp; the creole</citedTitle>
+                            <citedWork>NARRATIVE</citedWork>
+                        </reference>
+                        <reference occurenceOrder="10">
+                            <uid>000900702900001.10</uid>
+                            <citedAuthor>Pratt, MaryLouise.</citedAuthor>
+                            <year>2022</year>
+                            <citedWork>Planetary Longings</citedWork>
+                        </reference>
+                        <reference occurenceOrder="6">
+                            <uid>000900702900001.6</uid>
+                            <citedAuthor>Estrada, Oswaldo.</citedAuthor>
+                            <year>2010</year>
+                            <citedTitle>Introducci?n</citedTitle>
+                            <citedWork>Cristina Rivera Garza. Ning?n cr?tico cuenta esto</citedWork>
+                        </reference>
+                        <reference occurenceOrder="18">
+                            <uid>000900702900001.18</uid>
+                            <citedAuthor>S?nchez Aparicio, Vega.</citedAuthor>
+                            <year>2014</year>
+                            <page>437</page>
+                            <citedTitle>Perderse en los bosques: El mal de la taiga de Cristina Rivera Garza</citedTitle>
+                            <citedWork>La (re)invenci?n del g?nero negro</citedWork>
+                        </reference>
+                        <reference occurenceOrder="13">
+                            <uid>000900702900001.13</uid>
+                            <citedAuthor>Rivera Garza, Cristina.</citedAuthor>
+                            <year>2013</year>
+                            <citedWork>La muerte me da</citedWork>
+                        </reference>
+                        <reference occurenceOrder="9">
+                            <uid>000900702900001.9</uid>
+                            <citedAuthor>Nail, Thomas.</citedAuthor>
+                            <year>2016</year>
+                            <citedWork>Theory of the Border</citedWork>
+                        </reference>
+                        <reference occurenceOrder="14">
+                            <uid>000900702900001.14</uid>
+                            <citedAuthor>Rivera Garza, Cristina.</citedAuthor>
+                            <year>2013</year>
+                            <citedWork>Verde Shanghai</citedWork>
+                        </reference>
+                        <reference occurenceOrder="8">
+                            <uid>000900702900001.8</uid>
+                            <citedAuthor>Heise, Ursula.</citedAuthor>
+                            <year>2008</year>
+                            <citedWork>Sense of Place and Sense of Planet</citedWork>
+                        </reference>
+                    </references>
+                    <addresses count="1">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Univ Calif Davis, Dept Spanish &amp; Portuguese, Davis, CA 95616 USA</full_address>
+                                <organizations count="6">
+                                    <organization>Univ Calif Davis</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/00pjdza24"
+                                            org_id="40270007291019"
+                                            >University of California System</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/05t6gpm70"
+                                            org_id="30100007293796"
+                                            >University of California Davis</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000072553"
+                                            >University of California Davis College of Letters and Science</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000072583"
+                                            >University of California Davis Division of Humanities Arts and Cultural Studies</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000072649"
+                                            >University of California Davis Department of Spanish and Portuguese</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Dept Spanish &amp; Portuguese</suborganization>
+                                </suborganizations>
+                                <city>Davis</city>
+                                <state>CA</state>
+                                <country>USA</country>
+                                <zip location="AP">95616</zip>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        r_id="HIB-2644-2022"
+                                        >
+                                    <display_name>Enriquez, Emily Celeste Vazquez</display_name>
+                                    <full_name>Enriquez, Emily Celeste Vazquez</full_name>
+                                    <wos_standard>Enríquez, ECV</wos_standard>
+                                    <first_name>Emily Celeste Vazquez</first_name>
+                                    <last_name>Enriquez</last_name>
+                                    <email_addr>ecvazquez@ucdavis.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </addresses>
+                    <reprint_addresses count="1">
+                        <address_name>
+                            <address_spec addr_no="1">
+                                <full_address>Univ Calif Davis, Dept Spanish &amp; Portuguese, Davis, CA 95616 USA</full_address>
+                                <organizations count="6">
+                                    <organization>Univ Calif Davis</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/00pjdza24"
+                                            org_id="40270007291019"
+                                            >University of California System</organization>
+                                    <organization
+                                            pref="Y"
+                                            ROR_ID="https://ror.org/05t6gpm70"
+                                            org_id="30100007293796"
+                                            >University of California Davis</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000072553"
+                                            >University of California Davis College of Letters and Science</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000072583"
+                                            >University of California Davis Division of Humanities Arts and Cultural Studies</organization>
+                                    <organization
+                                            pref="D"
+                                            org_id="70000000072649"
+                                            >University of California Davis Department of Spanish and Portuguese</organization>
+                                </organizations>
+                                <suborganizations count="1">
+                                    <suborganization>Dept Spanish &amp; Portuguese</suborganization>
+                                </suborganizations>
+                                <city>Davis</city>
+                                <state>CA</state>
+                                <country>USA</country>
+                                <zip location="AP">95616</zip>
+                            </address_spec>
+                            <names count="1">
+                                <name
+                                        seq_no="1"
+                                        role="author"
+                                        reprint="Y"
+                                        addr_no="1"
+                                        >
+                                    <display_name>Enriquez, Emily Celeste Vazquez</display_name>
+                                    <full_name>Enriquez, Emily Celeste Vazquez</full_name>
+                                    <wos_standard>Enríquez, ECV</wos_standard>
+                                    <first_name>Emily Celeste Vazquez</first_name>
+                                    <last_name>Enriquez</last_name>
+                                    <email_addr>ecvazquez@ucdavis.edu</email_addr>
+                                </name>
+                            </names>
+                        </address_name>
+                    </reprint_addresses>
+                    <category_info>
+                        <headings count="1">
+                            <heading>Arts &amp; Humanities</heading>
+                        </headings>
+                        <subjects count="2">
+                            <subject ascatype="traditional">Literature, Romance</subject>
+                            <subject ascatype="extended">Literature</subject>
+                        </subjects>
+                    </category_info>
+                    <fund_ack />
+                    <keywords count="5">
+                        <keyword>Planeta</keyword>
+                        <keyword>sujeto planetario</keyword>
+                        <keyword>literatura mexicana</keyword>
+                        <keyword>ecocritica</keyword>
+                        <keyword>extractivismo</keyword>
+                    </keywords>
+                    <abstracts count="1">
+                        <abstract>
+                            <abstract_text count="1">
+                                <p>En este articulo, examino los elementos narrativos a traves de los que la novela El mal de la taiga (2012), de Cristina Rivera Garza, moviliza multiples vertientes referentes al concepto de la planetariedad. Entre tales vertientes destacan el contraste entre lo global y lo planetario, el desarrollo de un sentido de conectividad al nivel del planeta, y la articulacion de un sujeto de tal indole. Para pensar en estas conceptualizaciones, me baso en los postulados de Gaytari Spivak, Mary Louise Pratt, Ursula K. Heise, y de la propia Rivera Garza. A traves del estudio de lo propuesto por dichas teoricas, examino como es que la novela presenta a la planetariedad en tanto modo de pensamiento que genera la capacidad de percibir las conexiones que, en el espacio de la tierra, unen a multiples alteridades. Al convertirse en un medio que abre caminos de coexistencia alternativos, la planetariedad hace posible reimaginar el futuro del planeta a partir de la identificacion agudizada de un presente en ruinas.</p>
+                            </abstract_text>
+                        </abstract>
+                    </abstracts>
+                </fullrecord_metadata>
+                <item
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:type="itemType_wos"
+                        >
+                    <ids avail="N">E6TC9</ids>
+                    <bib_id>70 (1): 9-24 JAN 2 2023</bib_id>
+                    <bib_pagecount type="Journal">51</bib_pagecount>
+                </item>
+            </static_data>
+            <dynamic_data>
+                <cluster_related>
+                    <identifiers>
+                        <identifier
+                                type="accession_no"
+                                value="E6TC9"
+                                />
+                        <identifier
+                                type="issn"
+                                value="0883-1157"
+                                />
+                        <identifier
+                                type="eissn"
+                                value="1940-3216"
+                                />
+                        <identifier
+                                type="doi"
+                                value="10.1080/08831157.2022.2149289"
+                                />
+                    </identifiers>
+                </cluster_related>
+            </dynamic_data>
+        </REC>
+    </records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->

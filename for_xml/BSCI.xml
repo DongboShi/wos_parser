@@ -1,0 +1,1695 @@
+<records xmlns="http://clarivate.com/schema/wok5.30/public/FullRecord">
+    <REC r_id_disclaimer="ResearcherID data provided by Clarivate Analytics">
+        <UID>WOS:001286655800021</UID>
+        <static_data>
+            <summary>
+                <EWUID>
+                    <WUID coll_id="WOS" />
+                    <edition value="WOS.BSCI" />
+                </EWUID>
+                <pub_info
+                    sortdate="2022-01-01"
+                    pubyear="2022"
+                    has_abstract="Y"
+                    coverdate="2022"
+                    vol="59"
+                    pubtype="Book in series"
+                    >
+                    <page
+                        begin="447"
+                        end="468"
+                        page_count="22"
+                        >447-468</page>
+                </pub_info>
+                <titles count="8">
+                    <title type="source">FUNCTIONAL ROLES OF HISTAMINE RECEPTORS</title>
+                    <title type="series">Current Topics in Behavioral Neurosciences</title>
+                    <title type="source_abbrev">CURR TOP BEHAV NEURO</title>
+                    <title type="abbrev_iso">Cur. Top. Behav. Neurosci.</title>
+                    <title type="abbrev_11">CUR TOP BEH</title>
+                    <title type="abbrev_29">CUR TOP BEHAV NEUROSCI</title>
+                    <title type="item">The Role of the Central Histaminergic System in Behavioral State Control</title>
+                    <title
+                        type="book_series"
+                        translated="N"
+                        >Current Topics in Behavioral Neurosciences</title>
+                </titles>
+                <names count="4">
+                    <name
+                        seq_no="1"
+                        role="author"
+                        reprint="Y"
+                        addr_no="1 2"
+                        >
+                        <display_name>Arrigoni, Elda</display_name>
+                        <full_name>Arrigoni, Elda</full_name>
+                        <wos_standard>Arrigoni, E</wos_standard>
+                        <first_name>Elda</first_name>
+                        <last_name>Arrigoni</last_name>
+                        <email_addr>earrigon@bidmc.harvard.edu</email_addr>
+                    </name>
+                    <name
+                        seq_no="2"
+                        role="author"
+                        addr_no="3"
+                        >
+                        <display_name>Fuller, Patrick M.</display_name>
+                        <full_name>Fuller, Patrick M.</full_name>
+                        <wos_standard>Fuller, PM</wos_standard>
+                        <first_name>Patrick M.</first_name>
+                        <last_name>Fuller</last_name>
+                    </name>
+                    <name
+                        seq_no="3"
+                        role="book_editor"
+                        >
+                        <display_name>Yanai, K</display_name>
+                        <full_name>Yanai, K</full_name>
+                        <wos_standard>Yanai, K</wos_standard>
+                        <first_name>K</first_name>
+                        <last_name>Yanai</last_name>
+                    </name>
+                    <name
+                        seq_no="4"
+                        role="book_editor"
+                        >
+                        <display_name>Passani, MB</display_name>
+                        <full_name>Passani, MB</full_name>
+                        <wos_standard>Passani, MB</wos_standard>
+                        <first_name>MB</first_name>
+                        <last_name>Passani</last_name>
+                    </name>
+                </names>
+                <doctypes count="2">
+                    <doctype>Article</doctype>
+                    <doctype>Book Chapter</doctype>
+                </doctypes>
+                <publishers>
+                    <publisher>
+                        <address_spec addr_no="1">
+                            <full_address>GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND</full_address>
+                            <city>CHAM</city>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                role="publisher"
+                                seq_no="1"
+                                addr_no="1"
+                                >
+                                <display_name>SPRINGER INTERNATIONAL PUBLISHING AG</display_name>
+                                <full_name>SPRINGER INTERNATIONAL PUBLISHING AG</full_name>
+                                <unified_name>Springer Nature</unified_name>
+                            </name>
+                        </names>
+                    </publisher>
+                </publishers>
+            </summary>
+            <fullrecord_metadata>
+                <languages count="1">
+                    <language type="primary">English</language>
+                </languages>
+                <normalized_languages count="1">
+                    <language type="primary">English</language>
+                </normalized_languages>
+                <normalized_doctypes count="2">
+                    <doctype>Article</doctype>
+                    <doctype>Book</doctype>
+                </normalized_doctypes>
+                <references count="137">
+                    <reference occurenceOrder="92">
+                        <uid>WOS:A1985AXC3000026</uid>
+                        <citedAuthor>SENBA, E</citedAuthor>
+                        <year>1985</year>
+                        <page>3393</page>
+                        <volume>5</volume>
+                        <citedTitle>COEXISTENCE OF ADENOSINE-DEAMINASE, HISTIDINE-DECARBOXYLASE, AND GLUTAMATE-DECARBOXYLASE IN HYPOTHALAMIC NEURONS OF THE RAT</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="64">
+                        <uid>WOS:000282561700004</uid>
+                        <citedAuthor>Monti, JM</citedAuthor>
+                        <year>2010</year>
+                        <page>307</page>
+                        <volume>14</volume>
+                        <citedTitle>The structure of the dorsal raphe nucleus and its relevance to the regulation of sleep and wakefulness</citedTitle>
+                        <citedWork>SLEEP MEDICINE REVIEWS</citedWork>
+                        <doi>10.1016/j.smrv.2009.11.004</doi>
+                    </reference>
+                    <reference occurenceOrder="44">
+                        <uid>WOS:000329891100009</uid>
+                        <citedAuthor>John, J</citedAuthor>
+                        <year>2013</year>
+                        <page>786</page>
+                        <volume>74</volume>
+                        <citedTitle>Greatly Increased Numbers of Histamine Cells in Human Narcolepsy with Cataplexy</citedTitle>
+                        <citedWork>ANNALS OF NEUROLOGY</citedWork>
+                        <doi>10.1002/ana.23968</doi>
+                    </reference>
+                    <reference occurenceOrder="130">
+                        <uid>WOS:000569265000001</uid>
+                        <citedAuthor>Yoshikawa, T</citedAuthor>
+                        <year>2021</year>
+                        <page>750</page>
+                        <volume>178</volume>
+                        <citedTitle>Histaminergic neurons in the tuberomammillary nucleus as a control centre for wakefulness</citedTitle>
+                        <citedWork>BRITISH JOURNAL OF PHARMACOLOGY</citedWork>
+                        <doi>10.1111/bph.15220</doi>
+                    </reference>
+                    <reference occurenceOrder="68">
+                        <uid>WOS:000415982000020</uid>
+                        <citedAuthor>Naganuma, F</citedAuthor>
+                        <year>2017</year>
+                        <page>ARTN 15899</page>
+                        <volume>7</volume>
+                        <citedTitle>Histamine &lt;i&gt;N&lt;/i&gt;-methyltransferase regulates aggression and the sleep-wake cycle</citedTitle>
+                        <citedWork>SCIENTIFIC REPORTS</citedWork>
+                        <doi>10.1038/s41598-017-16019-8</doi>
+                    </reference>
+                    <reference occurenceOrder="78">
+                        <uid>WOS:000414869200004</uid>
+                        <citedAuthor>Pedersen, NP</citedAuthor>
+                        <year>2017</year>
+                        <page>ARTN 1405</page>
+                        <volume>8</volume>
+                        <citedTitle>Supramammillary glutamate neurons are a key node of the arousal system</citedTitle>
+                        <citedWork>NATURE COMMUNICATIONS</citedWork>
+                        <doi>10.1038/s41467-017-01004-6</doi>
+                    </reference>
+                    <reference occurenceOrder="82">
+                        <uid>WOS:000329780700006</uid>
+                        <citedAuthor>Rozov, SV</citedAuthor>
+                        <year>2014</year>
+                        <page>218</page>
+                        <volume>39</volume>
+                        <citedTitle>Periodic properties of the histaminergic system of the mouse brain</citedTitle>
+                        <citedWork>EUROPEAN JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1111/ejn.12397</doi>
+                    </reference>
+                    <reference occurenceOrder="55">
+                        <uid>WOS:000254665100008</uid>
+                        <citedAuthor>Lin, JS</citedAuthor>
+                        <year>2008</year>
+                        <page>74</page>
+                        <volume>30</volume>
+                        <citedTitle>An inverse agonist of the histamine H&lt;sub&gt;3&lt;/sub&gt; receptor improves wakefulness in narcolepsy:: Studies in orexin&lt;SUP&gt;-/-&lt;/SUP&gt; mice and patients</citedTitle>
+                        <citedWork>NEUROBIOLOGY OF DISEASE</citedWork>
+                        <doi>10.1016/j.nbd.2007.12.003</doi>
+                    </reference>
+                    <reference occurenceOrder="76">
+                        <uid>WOS:000265009600014</uid>
+                        <citedAuthor>Parmentier, R</citedAuthor>
+                        <year>2009</year>
+                        <page>4471</page>
+                        <volume>29</volume>
+                        <citedTitle>Excitation of Histaminergic Tuberomamillary Neurons by Thyrotropin-Releasing Hormone</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.2976-08.2009</doi>
+                    </reference>
+                    <reference occurenceOrder="13">
+                        <uid>WOS:000167479000002</uid>
+                        <citedAuthor>Brown, RE</citedAuthor>
+                        <year>2001</year>
+                        <page>637</page>
+                        <volume>63</volume>
+                        <citedTitle>The physiology of brain histamine</citedTitle>
+                        <citedWork>PROGRESS IN NEUROBIOLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="101">
+                        <uid>WOS:000221365500012</uid>
+                        <citedAuthor>Stevens, DR</citedAuthor>
+                        <year>2004</year>
+                        <page>1018</page>
+                        <volume>46</volume>
+                        <citedTitle>α&lt;sub&gt;2&lt;/sub&gt;-Adrenergic receptor-mediated presynaptic inhibition of GABAergic IPSPs in rat histaminergic neurons</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                        <doi>10.1016/j.neuropharm.2004.01.004</doi>
+                    </reference>
+                    <reference occurenceOrder="104">
+                        <uid>WOS:000323540200017</uid>
+                        <citedAuthor>Tabarean, IV</citedAuthor>
+                        <year>2013</year>
+                        <page>415</page>
+                        <volume>170</volume>
+                        <citedTitle>Functional pharmacology of H&lt;sub&gt;1&lt;/sub&gt; histamine receptors expressed in mouse preoptic/anterior hypothalamic neurons</citedTitle>
+                        <citedWork>BRITISH JOURNAL OF PHARMACOLOGY</citedWork>
+                        <doi>10.1111/bph.12286</doi>
+                    </reference>
+                    <reference occurenceOrder="95">
+                        <uid>WOS:A1996TP36400046</uid>
+                        <citedAuthor>Sherin, JE</citedAuthor>
+                        <year>1996</year>
+                        <page>216</page>
+                        <volume>271</volume>
+                        <citedTitle>Activation of ventrolateral preoptic neurons during sleep</citedTitle>
+                        <citedWork>SCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="125">
+                        <uid>WOS:000571958600007</uid>
+                        <citedAuthor>Yamada, Y</citedAuthor>
+                        <year>2020</year>
+                        <page>ARTN 108179</page>
+                        <volume>175</volume>
+                        <citedTitle>Chronic brain histamine depletion in adult mice induced depression-like behaviours and impaired sleep-wake cycle</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                        <doi>10.1016/j.neuropharm.2020.108179</doi>
+                    </reference>
+                    <reference occurenceOrder="118">
+                        <uid>WOS:000366050900003</uid>
+                        <citedAuthor>Vu, MT</citedAuthor>
+                        <year>2015</year>
+                        <page>13555</page>
+                        <volume>35</volume>
+                        <citedTitle>TASK Channels on Basal Forebrain Cholinergic Neurons Modulate Electrocortical Signatures of Arousal by Histamine</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.1445-15.2015</doi>
+                    </reference>
+                    <reference occurenceOrder="89">
+                        <uid>WOS:000335560900012</uid>
+                        <citedAuthor>Schöne, C</citedAuthor>
+                        <year>2014</year>
+                        <page>697</page>
+                        <volume>7</volume>
+                        <citedTitle>Coreleased Orexin and Glutamate Evoke Nonredundant Spike Outputs and Computations in Histamine Neurons</citedTitle>
+                        <citedWork>CELL REPORTS</citedWork>
+                        <doi>10.1016/j.celrep.2014.03.055</doi>
+                    </reference>
+                    <reference occurenceOrder="98">
+                        <uid>WOS:000225160600011</uid>
+                        <citedAuthor>Simons, FER</citedAuthor>
+                        <year>2004</year>
+                        <page>2203</page>
+                        <volume>351</volume>
+                        <citedTitle>Drug therapy -: Advances in H&lt;sub&gt;1&lt;/sub&gt;-antihistamines</citedTitle>
+                        <citedWork>NEW ENGLAND JOURNAL OF MEDICINE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="35">
+                        <uid>WOS:A1996TV52500017</uid>
+                        <citedAuthor>Gorelova, N</citedAuthor>
+                        <year>1996</year>
+                        <page>707</page>
+                        <volume>75</volume>
+                        <citedTitle>Histamine depolarizes cholinergic septal neurons</citedTitle>
+                        <citedWork>JOURNAL OF NEUROPHYSIOLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="134">
+                        <uid>WOS:A1997XR37300017</uid>
+                        <citedAuthor>Zaidi, ZF</citedAuthor>
+                        <year>1997</year>
+                        <page>861</page>
+                        <volume>80</volume>
+                        <citedTitle>Exocytotic release from neuronal cell bodies, dendrites and nerve terminals in sympathetic ganglia of the rat, and its differential regulation</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="25">
+                        <uid>WOS:A1991GC95100004</uid>
+                        <citedAuthor>ERICSON, H</citedAuthor>
+                        <year>1991</year>
+                        <page>45</page>
+                        <volume>311</volume>
+                        <citedTitle>ORIGIN OF NEURONAL INPUTS TO THE REGION OF THE TUBEROMAMMILLARY NUCLEUS OF THE RAT-BRAIN</citedTitle>
+                        <citedWork>JOURNAL OF COMPARATIVE NEUROLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="79">
+                        <uid>WOS:000178011200017</uid>
+                        <citedAuthor>Pillot, C</citedAuthor>
+                        <year>2002</year>
+                        <page>173</page>
+                        <volume>114</volume>
+                        <citedTitle>A detailed mapping of the histamine H&lt;sub&gt;3&lt;/sub&gt; receptor and its gene transcripts in rat brain</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="31">
+                        <uid>WOS:000261972600007</uid>
+                        <citedAuthor>Gasser, PJ</citedAuthor>
+                        <year>2009</year>
+                        <page>529</page>
+                        <volume>512</volume>
+                        <citedTitle>Distribution of Organic Cation Transporter 3, a Corticosterone-Sensitive Monoamine Transporter, in the Rat Brain</citedTitle>
+                        <citedWork>JOURNAL OF COMPARATIVE NEUROLOGY</citedWork>
+                        <doi>10.1002/cne.21921</doi>
+                    </reference>
+                    <reference occurenceOrder="47">
+                        <uid>WOS:000230531600013</uid>
+                        <citedAuthor>Korotkova, TM</citedAuthor>
+                        <year>2005</year>
+                        <page>129</page>
+                        <volume>49</volume>
+                        <citedTitle>Histamine excites noradrenergic neurons in locus coeruleus in rats</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                        <doi>10.1016/j.neuropharm.2005.03.001</doi>
+                    </reference>
+                    <reference occurenceOrder="137">
+                        <uid>WOS:000323131600015</uid>
+                        <citedAuthor>Zhang, XY</citedAuthor>
+                        <year>2013</year>
+                        <page>156</page>
+                        <volume>170</volume>
+                        <citedTitle>Postsynaptic mechanisms underlying the excitatory action of histamine on medial vestibular nucleus neurons in rats</citedTitle>
+                        <citedWork>BRITISH JOURNAL OF PHARMACOLOGY</citedWork>
+                        <doi>10.1111/bph.12256</doi>
+                    </reference>
+                    <reference occurenceOrder="33">
+                        <uid>WOS:000225093100006</uid>
+                        <citedAuthor>Gerashchenko, D</citedAuthor>
+                        <year>2004</year>
+                        <page>1275</page>
+                        <volume>27</volume>
+                        <citedTitle>Effects of lesions of the histaminergic tuberomammillary nucleus on spontaneous sleep in rats</citedTitle>
+                        <citedWork>SLEEP</citedWork>
+                    </reference>
+                    <reference occurenceOrder="42">
+                        <uid>WOS:A1990DB21500014</uid>
+                        <citedAuthor>INAGAKI, N</citedAuthor>
+                        <year>1990</year>
+                        <page>374</page>
+                        <volume>80</volume>
+                        <citedTitle>AN ANALYSIS OF HISTAMINERGIC EFFERENTS OF THE TUBEROMAMMILLARY NUCLEUS TO THE MEDIAL PREOPTIC AREA AND INFERIOR COLLICULUS OF THE RAT</citedTitle>
+                        <citedWork>EXPERIMENTAL BRAIN RESEARCH</citedWork>
+                    </reference>
+                    <reference occurenceOrder="50">
+                        <uid>WOS:000321094400004</uid>
+                        <citedAuthor>Krystal, AD</citedAuthor>
+                        <year>2013</year>
+                        <page>263</page>
+                        <volume>17</volume>
+                        <citedTitle>Review of the histamine system and the clinical effects of H&lt;sub&gt;1&lt;/sub&gt; antagonists: Basis for a new model for understanding the effects of insomnia medications</citedTitle>
+                        <citedWork>SLEEP MEDICINE REVIEWS</citedWork>
+                        <doi>10.1016/j.smrv.2012.08.001</doi>
+                    </reference>
+                    <reference occurenceOrder="54">
+                        <uid>WOS:A1996TV54100023</uid>
+                        <citedAuthor>Lin, JS</citedAuthor>
+                        <year>1996</year>
+                        <page>1523</page>
+                        <volume>16</volume>
+                        <citedTitle>Histaminergic descending inputs to the mesopontine tegmentum and their role in the control of cortical activation and wakefulness in the cat</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="109">
+                        <uid>WOS:A1984TW09800079</uid>
+                        <citedAuthor>TAKEDA, N</citedAuthor>
+                        <year>1984</year>
+                        <page>7647</page>
+                        <volume>81</volume>
+                        <citedTitle>IMMUNOHISTOCHEMICAL EVIDENCE FOR THE COEXISTENCE OF HISTIDINE DECARBOXYLASE-LIKE AND GLUTAMATE DECARBOXYLASE-LIKE IMMUNOREACTIVITIES IN NERVE-CELLS OF THE MAGNOCELLULAR NUCLEUS OF THE POSTERIOR HYPOTHALAMUS OF RATS</citedTitle>
+                        <citedWork>PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA-BIOLOGICAL SCIENCES</citedWork>
+                    </reference>
+                    <reference occurenceOrder="73">
+                        <uid>WOS:A1984SR28800065</uid>
+                        <citedAuthor>PANULA, P</citedAuthor>
+                        <year>1984</year>
+                        <page>2572</page>
+                        <volume>81</volume>
+                        <citedTitle>HISTAMINE-CONTAINING NEURONS IN THE RAT HYPOTHALAMUS</citedTitle>
+                        <citedWork>PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA-BIOLOGICAL SCIENCES</citedWork>
+                    </reference>
+                    <reference occurenceOrder="1">
+                        <uid>WOS:000537271500001</uid>
+                        <citedAuthor>Abdurakhmanova, S</citedAuthor>
+                        <year>2020</year>
+                        <page>ARTN 594</page>
+                        <volume>11</volume>
+                        <citedTitle>Increased Sensitivity of Mice Lacking Extrasynaptic δ-Containing GABA&lt;sub&gt;A&lt;/sub&gt; Receptors to Histamine Receptor 3 Antagonists</citedTitle>
+                        <citedWork>FRONTIERS IN PHARMACOLOGY</citedWork>
+                        <doi>10.3389/fphar.2020.00594</doi>
+                    </reference>
+                    <reference occurenceOrder="61">
+                        <uid>WOS:000586918700001</uid>
+                        <citedAuthor>Mickelsen, LE</citedAuthor>
+                        <year>2020</year>
+                        <page>ARTN e58901</page>
+                        <volume>9</volume>
+                        <citedTitle>Cellular taxonomy and spatial organization of the murine ventral posterior hypothalamus</citedTitle>
+                        <citedWork>ELIFE</citedWork>
+                        <doi>10.7554/eLife.58901</doi>
+                    </reference>
+                    <reference occurenceOrder="87">
+                        <uid>WOS:000347498900008</uid>
+                        <citedAuthor>Schneider, EH</citedAuthor>
+                        <year>2014</year>
+                        <page>101</page>
+                        <volume>47</volume>
+                        <citedTitle>Modulation of behavior by the histaminergic system: Lessons from HDC-, H&lt;sub&gt;3&lt;/sub&gt;R- and H&lt;sub&gt;4&lt;/sub&gt;R-deficient mice</citedTitle>
+                        <citedWork>NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS</citedWork>
+                        <doi>10.1016/j.neubiorev.2014.07.020</doi>
+                    </reference>
+                    <reference occurenceOrder="100">
+                        <uid>WOS:000165999100010</uid>
+                        <citedAuthor>Steininger, TL</citedAuthor>
+                        <year>2001</year>
+                        <page>638</page>
+                        <volume>429</volume>
+                        <citedTitle>Subregional organization of preoptic area/anterior hypothalamic projections to arousal-related monoaminergic cell groups</citedTitle>
+                        <citedWork>JOURNAL OF COMPARATIVE NEUROLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="72">
+                        <uid>WOS:000321044900010</uid>
+                        <citedAuthor>Panula, P</citedAuthor>
+                        <year>2013</year>
+                        <page>472</page>
+                        <volume>14</volume>
+                        <citedTitle>The histaminergic network in the brain: basic organization and role in disease</citedTitle>
+                        <citedWork>NATURE REVIEWS NEUROSCIENCE</citedWork>
+                        <doi>10.1038/nrn3526</doi>
+                    </reference>
+                    <reference occurenceOrder="135">
+                        <uid>WOS:000309258100027</uid>
+                        <citedAuthor>Zant, JC</citedAuthor>
+                        <year>2012</year>
+                        <page>13244</page>
+                        <volume>32</volume>
+                        <citedTitle>Histamine Release in the Basal Forebrain Mediates Cortical Activation through Cholinergic Neurons</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.5933-11.2012</doi>
+                    </reference>
+                    <reference occurenceOrder="96">
+                        <uid>WOS:000074068000026</uid>
+                        <citedAuthor>Sherin, JE</citedAuthor>
+                        <year>1998</year>
+                        <page>4705</page>
+                        <volume>18</volume>
+                        <citedTitle>Innervation of histaminergic tuberomammillary neurons by GABAergic and galaninergic neurons in the ventrolateral preoptic nucleus of the rat</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="62">
+                        <uid>WOS:000187006400016</uid>
+                        <citedAuthor>Miklós, IH</citedAuthor>
+                        <year>2003</year>
+                        <page>3069</page>
+                        <volume>18</volume>
+                        <citedTitle>Functional heterogeneity of the responses of histaminergic neuron subpopulations to various stress challenges</citedTitle>
+                        <citedWork>EUROPEAN JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1111/j.1460-9568.2003.03033.x</doi>
+                    </reference>
+                    <reference occurenceOrder="6">
+                        <uid>WOS:000167177300014</uid>
+                        <citedAuthor>Atzori, M</citedAuthor>
+                        <year>2000</year>
+                        <page>791</page>
+                        <volume>3</volume>
+                        <citedTitle>H&lt;sub&gt;2&lt;/sub&gt; histamine receptor-phosphorylation of Kv3.2 modulates interneuron fast spiking</citedTitle>
+                        <citedWork>NATURE NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="32">
+                        <uid>WOS:000185415300091</uid>
+                        <citedAuthor>Gbahou, F</citedAuthor>
+                        <year>2003</year>
+                        <page>11086</page>
+                        <volume>100</volume>
+                        <citedTitle>Protean agonism at histamine H&lt;sub&gt;3&lt;/sub&gt; receptors &lt;i&gt;in vitro&lt;/i&gt; and &lt;i&gt;in vivo&lt;/i&gt;</citedTitle>
+                        <citedWork>PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA</citedWork>
+                    </reference>
+                    <reference occurenceOrder="126">
+                        <uid>WOS:A1990EF70200020</uid>
+                        <citedAuthor>YAMAMOTO, T</citedAuthor>
+                        <year>1990</year>
+                        <page>335</page>
+                        <volume>527</volume>
+                        <citedTitle>ULTRASTRUCTURAL IMMUNOLOCALIZATION OF ADENOSINE-DEAMINASE IN HISTAMINERGIC NEURONS OF THE TUBEROMAMMILLARY NUCLEUS OF RAT</citedTitle>
+                        <citedWork>BRAIN RESEARCH</citedWork>
+                    </reference>
+                    <reference occurenceOrder="26">
+                        <uid>WOS:000172258400024</uid>
+                        <citedAuthor>Eriksson, KS</citedAuthor>
+                        <year>2001</year>
+                        <page>9273</page>
+                        <volume>21</volume>
+                        <citedTitle>Orexin/hypocretin excites the histaminergic neurons of the tuberomammillary nucleus</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="83">
+                        <uid>WOS:000286128000004</uid>
+                        <citedAuthor>Saper, CB</citedAuthor>
+                        <year>2010</year>
+                        <page>1023</page>
+                        <volume>68</volume>
+                        <citedTitle>Sleep State Switching</citedTitle>
+                        <citedWork>NEURON</citedWork>
+                        <doi>10.1016/j.neuron.2010.11.032</doi>
+                    </reference>
+                    <reference occurenceOrder="20">
+                        <uid>WOS:000244575200016</uid>
+                        <citedAuthor>Dai, HM</citedAuthor>
+                        <year>2007</year>
+                        <page>306</page>
+                        <volume>57</volume>
+                        <citedTitle>Selective cognitive dysfunction in mice lacking histamine H1 and H2 receptors</citedTitle>
+                        <citedWork>NEUROSCIENCE RESEARCH</citedWork>
+                        <doi>10.1016/j.neures.2006.10.020</doi>
+                    </reference>
+                    <reference occurenceOrder="106">
+                        <uid>WOS:A1986AYZ3800012</uid>
+                        <citedAuthor>TAKAGI, H</citedAuthor>
+                        <year>1986</year>
+                        <page>114</page>
+                        <volume>364</volume>
+                        <citedTitle>HISTAMINERGIC AXONS IN THE NEOSTRIATUM AND CEREBRAL-CORTEX OF THE RAT - A CORRELATED LIGHT AND ELECTRON-MICROSCOPIC IMMUNOCYTOCHEMICAL STUDY USING HISTIDINE-DECARBOXYLASE AS A MARKER</citedTitle>
+                        <citedWork>BRAIN RESEARCH</citedWork>
+                    </reference>
+                    <reference occurenceOrder="128">
+                        <uid>WOS:000317992500007</uid>
+                        <citedAuthor>Yoshikawa, T</citedAuthor>
+                        <year>2013</year>
+                        <page>905</page>
+                        <volume>61</volume>
+                        <citedTitle>Molecular mechanism of histamine clearance by primary human astrocytes</citedTitle>
+                        <citedWork>GLIA</citedWork>
+                        <doi>10.1002/glia.22484</doi>
+                    </reference>
+                    <reference occurenceOrder="105">
+                        <uid>WOS:000306249800002</uid>
+                        <citedAuthor>Tabarean, IV</citedAuthor>
+                        <year>2012</year>
+                        <page>171</page>
+                        <volume>63</volume>
+                        <citedTitle>Mechanism of H&lt;sub&gt;2&lt;/sub&gt; histamine receptor dependent modulation of body temperature and neuronall activity in the medial preoptic nucleus</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                        <doi>10.1016/j.neuropharm.2012.02.006</doi>
+                    </reference>
+                    <reference occurenceOrder="7">
+                        <uid>WOS:000172423400017</uid>
+                        <citedAuthor>Bayer, L</citedAuthor>
+                        <year>2001</year>
+                        <page>1571</page>
+                        <volume>14</volume>
+                        <citedTitle>Orexins (hypocretins) directly excite tuberomammillary neurons</citedTitle>
+                        <citedWork>EUROPEAN JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="69">
+                        <uid>WOS:000309438600002</uid>
+                        <citedAuthor>Nakamura, M</citedAuthor>
+                        <year>2012</year>
+                        <page>936</page>
+                        <volume>63</volume>
+                        <citedTitle>Muscarinic M&lt;sub&gt;4&lt;/sub&gt; receptors regulate GABAergic transmission in rat tuberomammillary nucleus neurons</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                        <doi>10.1016/j.neuropharm.2012.07.007</doi>
+                    </reference>
+                    <reference occurenceOrder="121">
+                        <uid>WOS:000174264700001</uid>
+                        <citedAuthor>Watanabe, T</citedAuthor>
+                        <year>2001</year>
+                        <page>197</page>
+                        <volume>195</volume>
+                        <citedTitle>Studies on functional roles of the histaminergic neuron system by using pharmacological agents, knockout mice and positron emission tomography</citedTitle>
+                        <citedWork>TOHOKU JOURNAL OF EXPERIMENTAL MEDICINE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="8">
+                        <uid>WOS:000244090500054</uid>
+                        <citedAuthor>Berg, AP</citedAuthor>
+                        <year>2007</year>
+                        <page>1546</page>
+                        <volume>97</volume>
+                        <citedTitle>Striatal cholinergic interneurons express a receptor-insensitive homomeric TASK-3-like background K&lt;SUP&gt;+&lt;/SUP&gt; current</citedTitle>
+                        <citedWork>JOURNAL OF NEUROPHYSIOLOGY</citedWork>
+                        <doi>10.1152/jn.01090.2006</doi>
+                    </reference>
+                    <reference occurenceOrder="70">
+                        <uid>WOS:000475424100010</uid>
+                        <citedAuthor>Nomura, H</citedAuthor>
+                        <year>2019</year>
+                        <page>230</page>
+                        <volume>86</volume>
+                        <citedTitle>Central Histamine Boosts Perirhinal Cortex Activity and Restores Forgotten Object Memories</citedTitle>
+                        <citedWork>BIOLOGICAL PSYCHIATRY</citedWork>
+                        <doi>10.1016/j.biopsych.2018.11.009</doi>
+                    </reference>
+                    <reference occurenceOrder="71">
+                        <uid>WOS:A1981LC43200002</uid>
+                        <citedAuthor>PALACIOS, JM</citedAuthor>
+                        <year>1981</year>
+                        <page>15</page>
+                        <volume>6</volume>
+                        <citedTitle>THE DISTRIBUTION OF HISTAMINE H1-RECEPTORS IN THE RAT-BRAIN - AN AUTORADIOGRAPHIC STUDY</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="43">
+                        <uid>WOS:000228228300012</uid>
+                        <citedAuthor>Jin, CY</citedAuthor>
+                        <year>2005</year>
+                        <page>137</page>
+                        <volume>132</volume>
+                        <citedTitle>The laminar histamine receptor system in human prefrontal cortex suggests multiple levels of histaminergic regulation</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                        <doi>10.1016/j.neuroscience.2004.12.017</doi>
+                    </reference>
+                    <reference occurenceOrder="86">
+                        <uid>WOS:A1992HL54600020</uid>
+                        <citedAuthor>SCHLICKER, E</citedAuthor>
+                        <year>1992</year>
+                        <page>489</page>
+                        <volume>345</volume>
+                        <citedTitle>HISTAMINE-H3A RECEPTOR-MEDIATED INHIBITION OF NORADRENALINE RELEASE IN THE MOUSE-BRAIN CORTEX</citedTitle>
+                        <citedWork>NAUNYN-SCHMIEDEBERGS ARCHIVES OF PHARMACOLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="65">
+                        <uid>WOS:000165831300051</uid>
+                        <citedAuthor>Morisset, S</citedAuthor>
+                        <year>2000</year>
+                        <page>860</page>
+                        <volume>408</volume>
+                        <citedTitle>High constitutive activity of native H&lt;sub&gt;3&lt;/sub&gt; receptors regulates histamine neurons in brain</citedTitle>
+                        <citedWork>NATURE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="123">
+                        <uid>WOS:000334929100029</uid>
+                        <citedAuthor>Williams, RH</citedAuthor>
+                        <year>2014</year>
+                        <page>6023</page>
+                        <volume>34</volume>
+                        <citedTitle>Optogenetic-Mediated Release of Histamine Reveals Distal and Autoregulatory Mechanisms for Controlling Arousal</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.4838-13.2014</doi>
+                    </reference>
+                    <reference occurenceOrder="39">
+                        <uid>WOS:000286878400012</uid>
+                        <citedAuthor>Hasanein, P</citedAuthor>
+                        <year>2011</year>
+                        <page>280</page>
+                        <volume>25</volume>
+                        <citedTitle>Two histamine H&lt;sub&gt;2&lt;/sub&gt; receptor antagonists, zolantidine and cimetidine, modulate nociception in cholestatic rats</citedTitle>
+                        <citedWork>JOURNAL OF PSYCHOPHARMACOLOGY</citedWork>
+                        <doi>10.1177/0269881109106912</doi>
+                    </reference>
+                    <reference occurenceOrder="66">
+                        <uid>WOS:000563535700021</uid>
+                        <citedAuthor>Mukai, Y</citedAuthor>
+                        <year>2020</year>
+                        <page>ARTN 13639</page>
+                        <volume>10</volume>
+                        <citedTitle>Identification of substances which regulate activity of corticotropin-releasing factor-producing neurons in the paraventricular nucleus of the hypothalamus</citedTitle>
+                        <citedWork>SCIENTIFIC REPORTS</citedWork>
+                        <doi>10.1038/s41598-020-70481-5</doi>
+                    </reference>
+                    <reference occurenceOrder="40">
+                        <uid>WOS:000353402100008</uid>
+                        <citedAuthor>Iida, T</citedAuthor>
+                        <year>2015</year>
+                        <page>1213</page>
+                        <volume>63</volume>
+                        <citedTitle>Histamine H&lt;sub&gt;3&lt;/sub&gt; Receptor in Primary Mouse Microglia Inhibits Chemotaxis, Phagocytosis, and Cytokine Secretion</citedTitle>
+                        <citedWork>GLIA</citedWork>
+                        <doi>10.1002/glia.22812</doi>
+                    </reference>
+                    <reference occurenceOrder="29">
+                        <uid>WOS:000355753800009</uid>
+                        <citedAuthor>Flik, G</citedAuthor>
+                        <year>2015</year>
+                        <page>320</page>
+                        <volume>56</volume>
+                        <citedTitle>Interaction Between Brain Histamine and Serotonin, Norepinephrine, and Dopamine Systems: In Vivo Microdialysis and Electrophysiology Study</citedTitle>
+                        <citedWork>JOURNAL OF MOLECULAR NEUROSCIENCE</citedWork>
+                        <doi>10.1007/s12031-015-0536-3</doi>
+                    </reference>
+                    <reference occurenceOrder="132">
+                        <uid>WOS:000360977400016</uid>
+                        <citedAuthor>Yu, X</citedAuthor>
+                        <year>2015</year>
+                        <page>164</page>
+                        <volume>87</volume>
+                        <citedTitle>Wakefulness Is Governed by GABA and Histamine Cotransmission</citedTitle>
+                        <citedWork>NEURON</citedWork>
+                        <doi>10.1016/j.neuron.2015.06.003</doi>
+                    </reference>
+                    <reference occurenceOrder="46">
+                        <uid>WOS:A1986D271100004</uid>
+                        <citedAuthor>KOHLER, C</citedAuthor>
+                        <year>1986</year>
+                        <page>58</page>
+                        <volume>250</volume>
+                        <citedTitle>GALANIN IMMUNOREACTIVITY IN HYPOTHALAMIC HISTAMINE NEURONS - FURTHER EVIDENCE FOR MULTIPLE CHEMICAL MESSENGERS IN THE TUBEROMAMMILLARY NUCLEUS</citedTitle>
+                        <citedWork>JOURNAL OF COMPARATIVE NEUROLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="37">
+                        <uid>WOS:000180799500016</uid>
+                        <citedAuthor>Haas, H</citedAuthor>
+                        <year>2003</year>
+                        <page>121</page>
+                        <volume>4</volume>
+                        <citedTitle>The role of histamine and the tuberomamillary nucleus in the nervous system</citedTitle>
+                        <citedWork>NATURE REVIEWS NEUROSCIENCE</citedWork>
+                        <doi>10.1038/nrn1034</doi>
+                    </reference>
+                    <reference occurenceOrder="75">
+                        <uid>WOS:000177622800042</uid>
+                        <citedAuthor>Parmentier, R</citedAuthor>
+                        <year>2002</year>
+                        <page>7695</page>
+                        <volume>22</volume>
+                        <citedTitle>Anatomical, physiological, and pharmacological characteristics of histidine decarboxylase knock-out mice: Evidence for the role of brain histamine in behavioral and sleep-wake control</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="102">
+                        <uid>WOS:000177844300019</uid>
+                        <citedAuthor>Strecker, RE</citedAuthor>
+                        <year>2002</year>
+                        <page>663</page>
+                        <volume>113</volume>
+                        <citedTitle>Extracellular histamine levels in the feline preoptic/anterior hypothalamic area during natural sleep-wakefulness and prolonged wakefulness:: An &lt;i&gt;in vivo&lt;/i&gt; microdialysis study</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="10">
+                        <uid>WOS:000214847700033</uid>
+                        <citedAuthor>Blandina, P</citedAuthor>
+                        <year>2012</year>
+                        <page>ARTN 33</page>
+                        <volume>6</volume>
+                        <citedTitle>Histamine neurons in the tuberomamillary nucleus: a whole center or distinct subpopulations?</citedTitle>
+                        <citedWork>FRONTIERS IN SYSTEMS NEUROSCIENCE</citedWork>
+                        <doi>10.3389/fnsys.2012.00033</doi>
+                    </reference>
+                    <reference occurenceOrder="58">
+                        <uid>WOS:A1990EC08700022</uid>
+                        <citedAuthor>MARTINEZMIR, MI</citedAuthor>
+                        <year>1990</year>
+                        <page>322</page>
+                        <volume>526</volume>
+                        <citedTitle>3 HISTAMINE RECEPTOR-H1, RECEPTOR-H2 AND RECEPTOR-H3 VISUALIZED IN THE BRAIN OF HUMAN AND NONHUMAN-PRIMATES</citedTitle>
+                        <citedWork>BRAIN RESEARCH</citedWork>
+                    </reference>
+                    <reference occurenceOrder="17">
+                        <uid>WOS:000173660800046</uid>
+                        <citedAuthor>Chou, TC</citedAuthor>
+                        <year>2002</year>
+                        <page>977</page>
+                        <volume>22</volume>
+                        <citedTitle>Afferents to the ventrolateral preoptic nucleus</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="56">
+                        <uid>WOS:000285338400004</uid>
+                        <citedAuthor>Lin, JS</citedAuthor>
+                        <year>2011</year>
+                        <page>17</page>
+                        <volume>336</volume>
+                        <citedTitle>Histamine H&lt;sub&gt;3&lt;/sub&gt; Receptors and Sleep-Wake Regulation</citedTitle>
+                        <citedWork>JOURNAL OF PHARMACOLOGY AND EXPERIMENTAL THERAPEUTICS</citedWork>
+                        <doi>10.1124/jpet.110.170134</doi>
+                    </reference>
+                    <reference occurenceOrder="112">
+                        <uid>WOS:A1995RD32400033</uid>
+                        <citedAuthor>TRAIFFORT, E</citedAuthor>
+                        <year>1995</year>
+                        <page>570</page>
+                        <volume>211</volume>
+                        <citedTitle>THE GUINEA-PIG HISTAMINE H-2-RECEPTOR - GENE CLONING, TISSUE EXPRESSION AND CHROMOSOMAL LOCALIZATION OF ITS HUMAN COUNTERPART</citedTitle>
+                        <citedWork>BIOCHEMICAL AND BIOPHYSICAL RESEARCH COMMUNICATIONS</citedWork>
+                    </reference>
+                    <reference occurenceOrder="91">
+                        <uid>WOS:000072249300008</uid>
+                        <citedAuthor>Selbach, O</citedAuthor>
+                        <year>1997</year>
+                        <page>1539</page>
+                        <volume>36</volume>
+                        <citedTitle>Long-term increase of hippocampal excitability by histamine and cyclic AMP</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="107">
+                        <uid>WOS:000185452500025</uid>
+                        <citedAuthor>Takahashi, K</citedAuthor>
+                        <year>2003</year>
+                        <page>213</page>
+                        <volume>307</volume>
+                        <citedTitle>Generation and characterization of highly constitutive active histamine H3 receptors</citedTitle>
+                        <citedWork>JOURNAL OF PHARMACOLOGY AND EXPERIMENTAL THERAPEUTICS</citedWork>
+                        <doi>10.1124/jpet.103.053249</doi>
+                    </reference>
+                    <reference occurenceOrder="108">
+                        <uid>WOS:000241192700022</uid>
+                        <citedAuthor>Takahashi, K</citedAuthor>
+                        <year>2006</year>
+                        <page>10292</page>
+                        <volume>26</volume>
+                        <citedTitle>Neuronal activity of histaminergic tuberomammillary neurons during wake-sleep states in the mouse</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.2341-06.2006</doi>
+                    </reference>
+                    <reference occurenceOrder="84">
+                        <uid>WOS:000459345300001</uid>
+                        <citedAuthor>Scammell, TE</citedAuthor>
+                        <year>2019</year>
+                        <page>ARTN zsy183</page>
+                        <volume>42</volume>
+                        <citedTitle>Histamine: neural circuits and new medications</citedTitle>
+                        <citedWork>SLEEP</citedWork>
+                        <doi>10.1093/sleep/zsy183</doi>
+                    </reference>
+                    <reference occurenceOrder="97">
+                        <uid>WOS:A1996TP68300009</uid>
+                        <citedAuthor>Silver, R</citedAuthor>
+                        <year>1996</year>
+                        <page>25</page>
+                        <volume>19</volume>
+                        <citedTitle>Mast cells in the brain: Evidence and functional significance</citedTitle>
+                        <citedWork>TRENDS IN NEUROSCIENCES</citedWork>
+                    </reference>
+                    <reference occurenceOrder="117">
+                        <uid>WOS:000495094400009</uid>
+                        <citedAuthor>Venner, A</citedAuthor>
+                        <year>2019</year>
+                        <page>8929</page>
+                        <volume>39</volume>
+                        <citedTitle>Reassessing the Role of Histaminergic Tuberomammillary Neurons in Arousal Control</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.1032-19.2019</doi>
+                    </reference>
+                    <reference occurenceOrder="120">
+                        <uid>WOS:A1991GA30300009</uid>
+                        <citedAuthor>WADA, H</citedAuthor>
+                        <year>1991</year>
+                        <page>415</page>
+                        <volume>14</volume>
+                        <citedTitle>IS THE HISTAMINERGIC NEURON SYSTEM A REGULATORY CENTER FOR WHOLE-BRAIN ACTIVITY</citedTitle>
+                        <citedWork>TRENDS IN NEUROSCIENCES</citedWork>
+                    </reference>
+                    <reference occurenceOrder="5">
+                        <uid>WOS:A1983QM85800080</uid>
+                        <citedAuthor>ARRANG, JM</citedAuthor>
+                        <year>1983</year>
+                        <page>832</page>
+                        <volume>302</volume>
+                        <citedTitle>AUTO-INHIBITION OF BRAIN HISTAMINE-RELEASE MEDIATED BY A NOVEL CLASS (H-3) OF HISTAMINE-RECEPTOR</citedTitle>
+                        <citedWork>NATURE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="77">
+                        <uid>WOS:000378964500004</uid>
+                        <citedAuthor>Parmentier, R</citedAuthor>
+                        <year>2016</year>
+                        <page>20</page>
+                        <volume>106</volume>
+                        <citedTitle>Role of histamine H1-receptor on behavioral states and wake maintenance during deficiency of a brain activating system: A study using a knockout mouse model</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                        <doi>10.1016/j.neuropharm.2015.12.014</doi>
+                    </reference>
+                    <reference occurenceOrder="99">
+                        <uid>WOS:A1986E279600007</uid>
+                        <citedAuthor>STAINES, WA</citedAuthor>
+                        <year>1986</year>
+                        <page>351</page>
+                        <volume>17</volume>
+                        <citedTitle>NEURONAL COLOCALIZATION OF ADENOSINE-DEAMINASE, MONOAMINE-OXIDASE, GALANIN AND 5-HYDROXYTRYPTOPHAN UPTAKE IN THE TUBEROMAMMILLARY NUCLEUS OF THE RAT</citedTitle>
+                        <citedWork>BRAIN RESEARCH BULLETIN</citedWork>
+                    </reference>
+                    <reference occurenceOrder="119">
+                        <uid>WOS:A1991GL52800013</uid>
+                        <citedAuthor>WADA, H</citedAuthor>
+                        <year>1991</year>
+                        <page>367</page>
+                        <volume>27</volume>
+                        <citedTitle>HISTAMINERGIC NEURON SYSTEM IN THE BRAIN - DISTRIBUTION AND POSSIBLE FUNCTIONS</citedTitle>
+                        <citedWork>BRAIN RESEARCH BULLETIN</citedWork>
+                    </reference>
+                    <reference occurenceOrder="110">
+                        <uid>WOS:000607085800018</uid>
+                        <citedAuthor>Todd, WD</citedAuthor>
+                        <year>2020</year>
+                        <page>ARTN 4410</page>
+                        <volume>11</volume>
+                        <citedTitle>Suprachiasmatic VIP neurons are required for normal circadian rhythmicity and comprised of molecularly distinct subpopulations</citedTitle>
+                        <citedWork>NATURE COMMUNICATIONS</citedWork>
+                        <doi>10.1038/s41467-020-17197-2</doi>
+                    </reference>
+                    <reference occurenceOrder="81">
+                        <uid>WOS:000402864600011</uid>
+                        <citedAuthor>Puttonen, HAJ</citedAuthor>
+                        <year>2017</year>
+                        <page>ARTN 3060</page>
+                        <volume>7</volume>
+                        <citedTitle>Storage of neural histamine and histaminergic neurotransmission is VMAT2 dependent in the zebrafish</citedTitle>
+                        <citedWork>SCIENTIFIC REPORTS</citedWork>
+                        <doi>10.1038/s41598-017-02981-w</doi>
+                    </reference>
+                    <reference occurenceOrder="28">
+                        <uid>WOS:000220176800015</uid>
+                        <citedAuthor>Eriksson, KS</citedAuthor>
+                        <year>2004</year>
+                        <page>1278</page>
+                        <volume>19</volume>
+                        <citedTitle>Orexin (hypocretin)/dynorphin neurons control GABAergic inputs to tuberomammillary neurons</citedTitle>
+                        <citedWork>EUROPEAN JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1111/j.1460-9568.2004.03243.x</doi>
+                    </reference>
+                    <reference occurenceOrder="114">
+                        <uid>WOS:000334923200002</uid>
+                        <citedAuthor>Tritsch, NX</citedAuthor>
+                        <year>2014</year>
+                        <page>ARTN e01936</page>
+                        <volume>3</volume>
+                        <citedTitle>Midbrain dopamine neurons sustain inhibitory transmission using plasma membrane uptake of GABA, not synthesis</citedTitle>
+                        <citedWork>ELIFE</citedWork>
+                        <doi>10.7554/eLife.01936</doi>
+                    </reference>
+                    <reference occurenceOrder="60">
+                        <uid>WOS:000232772300016</uid>
+                        <citedAuthor>Michelsen, KA</citedAuthor>
+                        <year>2005</year>
+                        <page>1997</page>
+                        <volume>22</volume>
+                        <citedTitle>Histamine-immunoreactive neurons in the mouse and rat suprachiasmatic nucleus</citedTitle>
+                        <citedWork>EUROPEAN JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1111/j.1460-9568.2005.04387.x</doi>
+                    </reference>
+                    <reference occurenceOrder="131">
+                        <uid>WOS:000345808700028</uid>
+                        <citedAuthor>Yu, X</citedAuthor>
+                        <year>2014</year>
+                        <page>2838</page>
+                        <volume>24</volume>
+                        <citedTitle>Circadian Factor BMAL1 in Histaminergic Neurons Regulates Sleep Architecture</citedTitle>
+                        <citedWork>CURRENT BIOLOGY</citedWork>
+                        <doi>10.1016/j.cub.2014.10.019</doi>
+                    </reference>
+                    <reference occurenceOrder="34">
+                        <uid>WOS:000477686200006</uid>
+                        <citedAuthor>Ghamari, N</citedAuthor>
+                        <year>2019</year>
+                        <page>69</page>
+                        <volume>200</volume>
+                        <citedTitle>Histamine H&lt;sub&gt;3&lt;/sub&gt; receptor antagonists/inverse agonists: Where do they go?</citedTitle>
+                        <citedWork>PHARMACOLOGY &amp; THERAPEUTICS</citedWork>
+                        <doi>10.1016/j.pharmthera.2019.04.007</doi>
+                    </reference>
+                    <reference occurenceOrder="52">
+                        <uid>BCI:BCI201900011324</uid>
+                        <citedAuthor>Leenaars, Cathalijn H. C.</citedAuthor>
+                        <year>2018</year>
+                        <page>Article No.: 12</page>
+                        <volume>16</volume>
+                        <citedTitle>A Systematic Search and Mapping Review of Studies on Intracerebral Microdialysis of Amino Acids, and Systematized Review of Studies on Circadian Rhythms</citedTitle>
+                        <citedWork>Journal of Circadian Rhythms</citedWork>
+                        <doi>10.5334/jcr.172</doi>
+                    </reference>
+                    <reference occurenceOrder="45">
+                        <uid>WOS:A1985ASU0500007</uid>
+                        <citedAuthor>KOHLER, C</citedAuthor>
+                        <year>1985</year>
+                        <page>85</page>
+                        <volume>16</volume>
+                        <citedTitle>THE CYTOARCHITECTURE, HISTOCHEMISTRY AND PROJECTIONS OF THE TUBEROMAMMILLARY NUCLEUS IN THE RAT</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="88">
+                        <uid>WOS:000308677300015</uid>
+                        <citedAuthor>Schöne, C</citedAuthor>
+                        <year>2012</year>
+                        <page>12437</page>
+                        <volume>32</volume>
+                        <citedTitle>Optogenetic Probing of Fast Glutamatergic Transmission from Hypocretin/Orexin to Histamine Neurons &lt;i&gt;In Situ&lt;/i&gt;</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.0706-12.2012</doi>
+                    </reference>
+                    <reference occurenceOrder="59">
+                        <uid>WOS:A1991GL29200020</uid>
+                        <citedAuthor>MCCORMICK, DA</citedAuthor>
+                        <year>1991</year>
+                        <page>3188</page>
+                        <volume>11</volume>
+                        <citedTitle>MODULATION OF NEURONAL FIRING MODE IN CAT AND GUINEA-PIG LGND BY HISTAMINE - POSSIBLE CELLULAR MECHANISMS OF HISTAMINERGIC CONTROL OF AROUSAL</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="23">
+                        <uid>WOS:000296446200013</uid>
+                        <citedAuthor>Ellender, TJ</citedAuthor>
+                        <year>2011</year>
+                        <page>15340</page>
+                        <volume>31</volume>
+                        <citedTitle>Differential Modulation of Excitatory and Inhibitory Striatal Synaptic Transmission by Histamine</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.3144-11.2011</doi>
+                    </reference>
+                    <reference occurenceOrder="127">
+                        <uid>WOS:000288376800014</uid>
+                        <citedAuthor>Yanovsky, Y</citedAuthor>
+                        <year>2011</year>
+                        <page>1349</page>
+                        <volume>589</volume>
+                        <citedTitle>L-Dopa activates histaminergic neurons</citedTitle>
+                        <citedWork>JOURNAL OF PHYSIOLOGY-LONDON</citedWork>
+                        <doi>10.1113/jphysiol.2010.203257</doi>
+                    </reference>
+                    <reference occurenceOrder="51">
+                        <uid>WOS:000184213900006</uid>
+                        <citedAuthor>Kukko-Lukjanov, TK</citedAuthor>
+                        <year>2003</year>
+                        <page>279</page>
+                        <volume>25</volume>
+                        <citedTitle>Subcellular distribution of histamine, GABA and galanin in tuberomamillary neurons in vitro</citedTitle>
+                        <citedWork>JOURNAL OF CHEMICAL NEUROANATOMY</citedWork>
+                        <doi>10.1016/S0891-0618(03)00043-7</doi>
+                    </reference>
+                    <reference occurenceOrder="12">
+                        <uid>WOS:000079792600013</uid>
+                        <citedAuthor>Brown, RE</citedAuthor>
+                        <year>1999</year>
+                        <page>777</page>
+                        <volume>515</volume>
+                        <citedTitle>On the mechanism of histaminergic inhibition of glutamate release in the rat dentate gyrus</citedTitle>
+                        <citedWork>JOURNAL OF PHYSIOLOGY-LONDON</citedWork>
+                    </reference>
+                    <reference occurenceOrder="136">
+                        <uid>WOS:000309258100011</uid>
+                        <citedAuthor>Zecharia, AY</citedAuthor>
+                        <year>2012</year>
+                        <page>13062</page>
+                        <volume>32</volume>
+                        <citedTitle>GABAergic Inhibition of Histaminergic Neurons Regulates Active Waking But Not the Sleep-Wake Switch or Propofol-Induced Loss of Consciousness</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.2931-12.2012</doi>
+                    </reference>
+                    <reference occurenceOrder="63">
+                        <uid>WOS:A1991EZ50500014</uid>
+                        <citedAuthor>MOCHIZUKI, T</citedAuthor>
+                        <year>1991</year>
+                        <page>190</page>
+                        <volume>343</volume>
+                        <citedTitle>INVIVO RELEASE OF NEURONAL HISTAMINE IN THE HYPOTHALAMUS OF RATS MEASURED BY MICRODIALYSIS</citedTitle>
+                        <citedWork>NAUNYN-SCHMIEDEBERGS ARCHIVES OF PHARMACOLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="85">
+                        <uid>WOS:000456458000014</uid>
+                        <citedAuthor>Schlicker, E</citedAuthor>
+                        <year>2017</year>
+                        <page>277</page>
+                        <volume>241</volume>
+                        <citedTitle>Role of the Histamine H&lt;sub&gt;3&lt;/sub&gt; Receptor in the Central Nervous System</citedTitle>
+                        <citedWork>HISTAMINE AND HISTAMINE RECEPTORS IN HEALTH AND DISEASE</citedWork>
+                        <doi>10.1007/164_2016_12</doi>
+                    </reference>
+                    <reference occurenceOrder="116">
+                        <uid>WOS:000579608500001</uid>
+                        <citedAuthor>Vazquez-Vazquez, H</citedAuthor>
+                        <year>2022</year>
+                        <page>817</page>
+                        <volume>42</volume>
+                        <citedTitle>Histamine H(3)Receptor Activation Modulates Glutamate Release in the Corticostriatal Synapse by Acting at Ca(V)2.1 (P/Q-Type) Calcium Channels and GIRK (K(IR)3) Potassium Channels</citedTitle>
+                        <citedWork>CELLULAR AND MOLECULAR NEUROBIOLOGY</citedWork>
+                        <doi>10.1007/s10571-020-00980-6</doi>
+                    </reference>
+                    <reference occurenceOrder="9">
+                        <uid>WOS:000251910800016</uid>
+                        <citedAuthor>Blanco-Centurion, C</citedAuthor>
+                        <year>2007</year>
+                        <page>14041</page>
+                        <volume>27</volume>
+                        <citedTitle>Effects of saporin-induced lesions of three arousal populations on daily levels of sleep and wake</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.3217-07.2007</doi>
+                    </reference>
+                    <reference occurenceOrder="111">
+                        <uid>WOS:000258720000007</uid>
+                        <citedAuthor>Tong, QC</citedAuthor>
+                        <year>2008</year>
+                        <page>998</page>
+                        <volume>11</volume>
+                        <citedTitle>Synaptic release of GABA by AgRP neurons is required for normal regulation of energy balance</citedTitle>
+                        <citedWork>NATURE NEUROSCIENCE</citedWork>
+                        <doi>10.1038/nn.2167</doi>
+                    </reference>
+                    <reference occurenceOrder="11">
+                        <uid>WOS:A1988P805500014</uid>
+                        <citedAuthor>BOUTHENET, ML</citedAuthor>
+                        <year>1988</year>
+                        <page>553</page>
+                        <volume>26</volume>
+                        <citedTitle>A DETAILED MAPPING OF HISTAMINE H1-RECEPTORS IN GUINEA-PIG CENTRAL NERVOUS-SYSTEM ESTABLISHED BY AUTORADIOGRAPHY WITH [I-125] IODOBOLPYRAMINE</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="53">
+                        <uid>WOS:000242995600042</uid>
+                        <citedAuthor>Ligneau, X</citedAuthor>
+                        <year>2007</year>
+                        <page>365</page>
+                        <volume>320</volume>
+                        <citedTitle>BF2.649 [1-{3-[3-(4-chlorophenyl)propoxy]propyl}piperidine, hydrochloride], a nonimidazole inverse agonist/antagonist at the human histamine H&lt;sub&gt;3&lt;/sub&gt; receptor:: Preclinical pharmacology</citedTitle>
+                        <citedWork>JOURNAL OF PHARMACOLOGY AND EXPERIMENTAL THERAPEUTICS</citedWork>
+                        <doi>10.1124/jpet.106.111039</doi>
+                    </reference>
+                    <reference occurenceOrder="41">
+                        <uid>WOS:A1988P325400001</uid>
+                        <citedAuthor>INAGAKI, N</citedAuthor>
+                        <year>1988</year>
+                        <page>283</page>
+                        <volume>273</volume>
+                        <citedTitle>ORGANIZATION OF HISTAMINERGIC FIBERS IN THE RAT-BRAIN</citedTitle>
+                        <citedWork>JOURNAL OF COMPARATIVE NEUROLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="93">
+                        <uid>WOS:A1987H834900007</uid>
+                        <citedAuthor>SENBA, E</citedAuthor>
+                        <year>1987</year>
+                        <page>635</page>
+                        <volume>18</volume>
+                        <citedTitle>ADENOSINE DEAMINASE-CONTAINING NEURONS IN THE OLFACTORY SYSTEM OF THE RAT DURING DEVELOPMENT</citedTitle>
+                        <citedWork>BRAIN RESEARCH BULLETIN</citedWork>
+                    </reference>
+                    <reference occurenceOrder="122">
+                        <uid>WOS:A1984SJ26400002</uid>
+                        <citedAuthor>WATANABE, T</citedAuthor>
+                        <year>1984</year>
+                        <page>13</page>
+                        <volume>295</volume>
+                        <citedTitle>DISTRIBUTION OF THE HISTAMINERGIC NEURON SYSTEM IN THE CENTRAL NERVOUS-SYSTEM OF RATS - A FLUORESCENT IMMUNOHISTOCHEMICAL ANALYSIS WITH HISTIDINE-DECARBOXYLASE AS A MARKER</citedTitle>
+                        <citedWork>BRAIN RESEARCH</citedWork>
+                    </reference>
+                    <reference occurenceOrder="80">
+                        <uid>WOS:000332851300057</uid>
+                        <citedAuthor>Purón-Sierra, L</citedAuthor>
+                        <year>2014</year>
+                        <page>ARTN e91120</page>
+                        <volume>9</volume>
+                        <citedTitle>Histaminergic Modulation of Cholinergic Release from the Nucleus Basalis Magnocellularis into Insular Cortex during Taste Aversive Memory Formation</citedTitle>
+                        <citedWork>PLOS ONE</citedWork>
+                        <doi>10.1371/journal.pone.0091120</doi>
+                    </reference>
+                    <reference occurenceOrder="67">
+                        <uid>WOS:000334694000014</uid>
+                        <citedAuthor>Muschamp, JW</citedAuthor>
+                        <year>2014</year>
+                        <page>E1648</page>
+                        <volume>111</volume>
+                        <citedTitle>Hypocretin (orexin) facilitates reward by attenuating the antireward effects of its cotransmitter dynorphin in ventral tegmental area</citedTitle>
+                        <citedWork>PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA</citedWork>
+                        <doi>10.1073/pnas.1315542111</doi>
+                    </reference>
+                    <reference occurenceOrder="74">
+                        <uid>WOS:A1989T723200007</uid>
+                        <citedAuthor>PANULA, P</citedAuthor>
+                        <year>1989</year>
+                        <page>585</page>
+                        <volume>28</volume>
+                        <citedTitle>HISTAMINE-IMMUNOREACTIVE NERVE-FIBERS IN THE RAT-BRAIN</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="14">
+                        <uid>WOS:A1979GZ07600007</uid>
+                        <citedAuthor>CHANG, RSL</citedAuthor>
+                        <year>1979</year>
+                        <page>1653</page>
+                        <volume>32</volume>
+                        <citedTitle>HETEROGENEITY OF HISTAMINE H1-RECEPTORS - SPECIES VARIATIONS IN [MEPYRAMINE-H-3 BINDING OF BRAIN MEMBRANES</citedTitle>
+                        <citedWork>JOURNAL OF NEUROCHEMISTRY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="36">
+                        <uid>WOS:A1983QJ17200052</uid>
+                        <citedAuthor>HAAS, HL</citedAuthor>
+                        <year>1983</year>
+                        <page>432</page>
+                        <volume>302</volume>
+                        <citedTitle>HISTAMINE AND NORADRENALINE DECREASE CALCIUM-ACTIVATED POTASSIUM CONDUCTANCE IN HIPPOCAMPAL PYRAMIDAL CELLS</citedTitle>
+                        <citedWork>NATURE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="103">
+                        <uid>WOS:000393935700016</uid>
+                        <citedAuthor>Szakacs, Z</citedAuthor>
+                        <year>2017</year>
+                        <page>200</page>
+                        <volume>16</volume>
+                        <citedTitle>Safety and efficacy of pitolisant on cataplexy in patients with narcolepsy: a randomised, double-blind, placebo-controlled trial</citedTitle>
+                        <citedWork>LANCET NEUROLOGY</citedWork>
+                        <doi>10.1016/S1474-4422(16)30333-7</doi>
+                    </reference>
+                    <reference occurenceOrder="22">
+                        <uid>WOS:A1991EX40600015</uid>
+                        <citedAuthor>DENOYER, M</citedAuthor>
+                        <year>1991</year>
+                        <page>287</page>
+                        <volume>539</volume>
+                        <citedTitle>NEUROTOXIC LESION OF THE MESENCEPHALIC RETICULAR-FORMATION AND OR THE POSTERIOR HYPOTHALAMUS DOES NOT ALTER WAKING IN THE CAT</citedTitle>
+                        <citedWork>BRAIN RESEARCH</citedWork>
+                    </reference>
+                    <reference occurenceOrder="49">
+                        <uid>WOS:000174680200008</uid>
+                        <citedAuthor>Krout, KE</citedAuthor>
+                        <year>2002</year>
+                        <page>73</page>
+                        <volume>110</volume>
+                        <citedTitle>CNS inputs to the suprachiasmatic nucleus of the rat</citedTitle>
+                        <citedWork>NEUROSCIENCE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="124">
+                        <uid>WOS:000237875200009</uid>
+                        <citedAuthor>Wojcik, SM</citedAuthor>
+                        <year>2006</year>
+                        <page>575</page>
+                        <volume>50</volume>
+                        <citedTitle>A shared vesicular carrier allows synaptic corelease of GABA and glycine</citedTitle>
+                        <citedWork>NEURON</citedWork>
+                        <doi>10.1016/j.neuron.2006.04.016</doi>
+                    </reference>
+                    <reference occurenceOrder="27">
+                        <uid>WOS:000167494700005</uid>
+                        <citedAuthor>Eriksson, KS</citedAuthor>
+                        <year>2001</year>
+                        <page>345</page>
+                        <volume>40</volume>
+                        <citedTitle>Serotonin excites tuberomammillary neurons by activation of Na&lt;SUP&gt;+&lt;/SUP&gt;/Ca&lt;SUP&gt;2+&lt;/SUP&gt;-exchange</citedTitle>
+                        <citedWork>NEUROPHARMACOLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="18">
+                        <uid>WOS:000222883300008</uid>
+                        <citedAuthor>Chu, M</citedAuthor>
+                        <year>2004</year>
+                        <page>417</page>
+                        <volume>49</volume>
+                        <citedTitle>Extracellular histamine level in the frontal cortex is positively correlated with the amount of wakefulness in rats</citedTitle>
+                        <citedWork>NEUROSCIENCE RESEARCH</citedWork>
+                        <doi>10.1016/j.neures.2004.05.001</doi>
+                    </reference>
+                    <reference occurenceOrder="133">
+                        <uid>WOS:000470663100009</uid>
+                        <citedAuthor>Yu, X</citedAuthor>
+                        <year>2019</year>
+                        <page>ARTN zsz031</page>
+                        <volume>42</volume>
+                        <citedTitle>Genetic lesioning of histamine neurons increases sleep-wake fragmentation and reveals their contribution to modafinil-induced wakefulness</citedTitle>
+                        <citedWork>SLEEP</citedWork>
+                        <doi>10.1093/sleep/zsz031</doi>
+                    </reference>
+                    <reference occurenceOrder="113">
+                        <uid>WOS:000309733300050</uid>
+                        <citedAuthor>Tritsch, NX</citedAuthor>
+                        <year>2012</year>
+                        <page>262</page>
+                        <volume>490</volume>
+                        <citedTitle>Dopaminergic neurons inhibit striatal output through non-canonical release of GABA</citedTitle>
+                        <citedWork>NATURE</citedWork>
+                        <doi>10.1038/nature11466</doi>
+                    </reference>
+                    <reference occurenceOrder="38">
+                        <uid>WOS:000257594000008</uid>
+                        <citedAuthor>Haas, HL</citedAuthor>
+                        <year>2008</year>
+                        <page>1183</page>
+                        <volume>88</volume>
+                        <citedTitle>Histamine in the nervous system</citedTitle>
+                        <citedWork>PHYSIOLOGICAL REVIEWS</citedWork>
+                        <doi>10.1152/physrev.00043.2007</doi>
+                    </reference>
+                    <reference occurenceOrder="15">
+                        <uid>WOS:A1981LB43200019</uid>
+                        <citedAuthor>CHERAMY, A</citedAuthor>
+                        <year>1981</year>
+                        <page>537</page>
+                        <volume>289</volume>
+                        <citedTitle>DENDRITIC RELEASE OF DOPAMINE IN THE SUBSTANTIA-NIGRA</citedTitle>
+                        <citedWork>NATURE</citedWork>
+                    </reference>
+                    <reference occurenceOrder="48">
+                        <uid>WOS:000446566000015</uid>
+                        <citedAuthor>Kroeger, D</citedAuthor>
+                        <year>2018</year>
+                        <page>ARTN 4129</page>
+                        <volume>9</volume>
+                        <citedTitle>Galanin neurons in the ventrolateral preoptic area promote sleep and heat loss in mice</citedTitle>
+                        <citedWork>NATURE COMMUNICATIONS</citedWork>
+                        <doi>10.1038/s41467-018-06590-7</doi>
+                    </reference>
+                    <reference occurenceOrder="115">
+                        <uid>WOS:000329891100010</uid>
+                        <citedAuthor>Valko, PO</citedAuthor>
+                        <year>2013</year>
+                        <page>794</page>
+                        <volume>74</volume>
+                        <citedTitle>Increase of Histaminergic Tuberomammillary Neurons in Narcolepsy</citedTitle>
+                        <citedWork>ANNALS OF NEUROLOGY</citedWork>
+                        <doi>10.1002/ana.24019</doi>
+                    </reference>
+                    <reference occurenceOrder="129">
+                        <uid>WOS:000462412500281</uid>
+                        <citedAuthor>Yoshikawa, T</citedAuthor>
+                        <year>2019</year>
+                        <page>ARTN 737</page>
+                        <volume>20</volume>
+                        <citedTitle>Histamine N-Methyltransferase in the Brain</citedTitle>
+                        <citedWork>INTERNATIONAL JOURNAL OF MOLECULAR SCIENCES</citedWork>
+                        <doi>10.3390/ijms20030737</doi>
+                    </reference>
+                    <reference occurenceOrder="4">
+                        <uid>WOS:000271944500006</uid>
+                        <citedAuthor>Anaclet, C</citedAuthor>
+                        <year>2009</year>
+                        <page>14423</page>
+                        <volume>29</volume>
+                        <citedTitle>Orexin/Hypocretin and Histamine: Distinct Roles in the Control of Wakefulness Demonstrated Using Knock-Out Mouse Models</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.2604-09.2009</doi>
+                    </reference>
+                    <reference occurenceOrder="90">
+                        <uid>WOS:000291401700003</uid>
+                        <citedAuthor>Schwartz, JC</citedAuthor>
+                        <year>2011</year>
+                        <page>713</page>
+                        <volume>163</volume>
+                        <citedTitle>The histamine H3 receptor: from discovery to clinical trials with pitolisant</citedTitle>
+                        <citedWork>BRITISH JOURNAL OF PHARMACOLOGY</citedWork>
+                        <doi>10.1111/j.1476-5381.2011.01286.x</doi>
+                    </reference>
+                    <reference occurenceOrder="94">
+                        <uid>WOS:000303393100018</uid>
+                        <citedAuthor>Shan, L</citedAuthor>
+                        <year>2012</year>
+                        <page>713</page>
+                        <volume>35</volume>
+                        <citedTitle>Diurnal Fluctuation in Histidine Decarboxylase Expression, the Rate Limiting Enzyme for Histamine Production, and Its Disorder in Neurodegenerative Diseases</citedTitle>
+                        <citedWork>SLEEP</citedWork>
+                        <doi>10.5665/sleep.1838</doi>
+                    </reference>
+                    <reference occurenceOrder="57">
+                        <uid>WOS:000283718800012</uid>
+                        <citedAuthor>Liu, YW</citedAuthor>
+                        <year>2010</year>
+                        <page>4103</page>
+                        <volume>588</volume>
+                        <citedTitle>Histamine regulates activities of neurons in the ventrolateral preoptic nucleus</citedTitle>
+                        <citedWork>JOURNAL OF PHYSIOLOGY-LONDON</citedWork>
+                        <doi>10.1113/jphysiol.2010.193904</doi>
+                    </reference>
+                    <reference occurenceOrder="3">
+                        <uid>WOS:A1992JH82100008</uid>
+                        <citedAuthor>AIRAKSINEN, MS</citedAuthor>
+                        <year>1992</year>
+                        <page>103</page>
+                        <volume>323</volume>
+                        <citedTitle>MULTIPLE NEUROTRANSMITTERS IN THE TUBEROMAMMILLARY NUCLEUS - COMPARISON OF RAT, MOUSE, AND GUINEA-PIG</citedTitle>
+                        <citedWork>JOURNAL OF COMPARATIVE NEUROLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="24">
+                        <uid>WOS:A1987J745800001</uid>
+                        <citedAuthor>ERICSON, H</citedAuthor>
+                        <year>1987</year>
+                        <page>1</page>
+                        <volume>263</volume>
+                        <citedTitle>MORPHOLOGICAL ANALYSIS OF THE TUBEROMAMMILLARY NUCLEUS IN THE RAT-BRAIN - DELINEATION OF SUBGROUPS WITH ANTIBODY AGAINST L-HISTIDINE DECARBOXYLASE AS A MARKER</citedTitle>
+                        <citedWork>JOURNAL OF COMPARATIVE NEUROLOGY</citedWork>
+                    </reference>
+                    <reference occurenceOrder="30">
+                        <uid>WOS:000411878500021</uid>
+                        <citedAuthor>Fujita, A</citedAuthor>
+                        <year>2017</year>
+                        <page>9574</page>
+                        <volume>37</volume>
+                        <citedTitle>Hypothalamic Tuberomammillary Nucleus Neurons: Electrophysiological Diversity and Essential Role in Arousal Stability</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                        <doi>10.1523/JNEUROSCI.0580-17.2017</doi>
+                    </reference>
+                    <reference occurenceOrder="21">
+                        <uid>WOS:000557402900022</uid>
+                        <citedAuthor>Dauvilliers, Y</citedAuthor>
+                        <year>2020</year>
+                        <page>1135</page>
+                        <volume>201</volume>
+                        <citedTitle>Pitolisant for Daytime Sleepiness in Patients with Obstructive Sleep Apnea Who Refuse Continuous Positive Airway Pressure Treatment A Randomized Trial</citedTitle>
+                        <citedWork>AMERICAN JOURNAL OF RESPIRATORY AND CRITICAL CARE MEDICINE</citedWork>
+                        <doi>10.1164/rccm.201907-1284OC</doi>
+                    </reference>
+                    <reference occurenceOrder="2">
+                        <uid>WOS:000171812300021</uid>
+                        <citedAuthor>Abrahamson, EE</citedAuthor>
+                        <year>2001</year>
+                        <page>172</page>
+                        <volume>916</volume>
+                        <citedTitle>Suprachiasmatic nucleus in the mouse: retinal innervation, intrinsic organization and efferent projections</citedTitle>
+                        <citedWork>BRAIN RESEARCH</citedWork>
+                    </reference>
+                    <reference occurenceOrder="19">
+                        <uid>WOS:000399733800012</uid>
+                        <citedAuthor>Cilz, NI</citedAuthor>
+                        <year>2017</year>
+                        <page>613</page>
+                        <volume>27</volume>
+                        <citedTitle>Histamine Facilitates GABAergic Transmission in the Rat Entorhinal Cortex: Roles of H&lt;sub&gt;1&lt;/sub&gt; and H&lt;sub&gt;2&lt;/sub&gt; Receptors, Na&lt;SUP&gt;+&lt;/SUP&gt;-Permeable Cation Channels, and Inward Rectifier K&lt;SUP&gt;+&lt;/SUP&gt; Channels</citedTitle>
+                        <citedWork>HIPPOCAMPUS</citedWork>
+                        <doi>10.1002/hipo.22718</doi>
+                    </reference>
+                    <reference occurenceOrder="16">
+                        <uid>WOS:000171154000002</uid>
+                        <citedAuthor>Chou, TC</citedAuthor>
+                        <year>2001</year>
+                        <page>ARTN RC168</page>
+                        <volume>21</volume>
+                        <citedTitle>Orexin (hypocretin) neurons contain dynorphin</citedTitle>
+                        <citedWork>JOURNAL OF NEUROSCIENCE</citedWork>
+                    </reference>
+                </references>
+                <addresses count="3">
+                    <address_name>
+                        <address_spec addr_no="1">
+                            <full_address>Beth Israel Deaconess Med Ctr, Dept Neurol, Boston, MA 02215 USA</full_address>
+                            <organizations count="3">
+                                <organization>Beth Israel Deaconess Med Ctr</organization>
+                                <organization pref="Y">Harvard University</organization>
+                                <organization pref="Y">Beth Israel Deaconess Medical Center</organization>
+                            </organizations>
+                            <suborganizations count="1">
+                                <suborganization>Dept Neurol</suborganization>
+                            </suborganizations>
+                            <city>Boston</city>
+                            <state>MA</state>
+                            <country>USA</country>
+                            <zip location="AP">02215</zip>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                >
+                                <display_name>Arrigoni, Elda</display_name>
+                                <full_name>Arrigoni, Elda</full_name>
+                                <wos_standard>Arrigoni, E</wos_standard>
+                                <first_name>Elda</first_name>
+                                <last_name>Arrigoni</last_name>
+                                <email_addr>earrigon@bidmc.harvard.edu</email_addr>
+                            </name>
+                        </names>
+                    </address_name>
+                    <address_name>
+                        <address_spec addr_no="2">
+                            <full_address>Harvard Med Sch, Boston, MA 02115 USA</full_address>
+                            <organizations count="3">
+                                <organization>Harvard Med Sch</organization>
+                                <organization pref="Y">Harvard University</organization>
+                                <organization pref="Y">Harvard Medical School</organization>
+                            </organizations>
+                            <city>Boston</city>
+                            <state>MA</state>
+                            <country>USA</country>
+                            <zip location="AP">02115</zip>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="2"
+                                >
+                                <display_name>Arrigoni, Elda</display_name>
+                                <full_name>Arrigoni, Elda</full_name>
+                                <wos_standard>Arrigoni, E</wos_standard>
+                                <first_name>Elda</first_name>
+                                <last_name>Arrigoni</last_name>
+                                <email_addr>earrigon@bidmc.harvard.edu</email_addr>
+                            </name>
+                        </names>
+                    </address_name>
+                    <address_name>
+                        <address_spec addr_no="3">
+                            <full_address>Univ Calif Davis, Sch Med, Dept Neurol Surg, Davis, CA USA</full_address>
+                            <organizations count="3">
+                                <organization>Univ Calif Davis</organization>
+                                <organization pref="Y">University of California System</organization>
+                                <organization pref="Y">University of California Davis</organization>
+                            </organizations>
+                            <suborganizations count="2">
+                                <suborganization>Sch Med</suborganization>
+                                <suborganization>Dept Neurol Surg</suborganization>
+                            </suborganizations>
+                            <city>Davis</city>
+                            <state>CA</state>
+                            <country>USA</country>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="2"
+                                role="author"
+                                addr_no="3"
+                                >
+                                <display_name>Fuller, Patrick M.</display_name>
+                                <full_name>Fuller, Patrick M.</full_name>
+                                <wos_standard>Fuller, PM</wos_standard>
+                                <first_name>Patrick M.</first_name>
+                                <last_name>Fuller</last_name>
+                            </name>
+                        </names>
+                    </address_name>
+                </addresses>
+                <reprint_addresses count="2">
+                    <address_name>
+                        <address_spec addr_no="1">
+                            <full_address>Beth Israel Deaconess Med Ctr, Dept Neurol, Boston, MA 02215 USA</full_address>
+                            <organizations count="3">
+                                <organization>Beth Israel Deaconess Med Ctr</organization>
+                                <organization pref="Y">Harvard University</organization>
+                                <organization pref="Y">Beth Israel Deaconess Medical Center</organization>
+                            </organizations>
+                            <suborganizations count="1">
+                                <suborganization>Dept Neurol</suborganization>
+                            </suborganizations>
+                            <city>Boston</city>
+                            <state>MA</state>
+                            <country>USA</country>
+                            <zip location="AP">02215</zip>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="1"
+                                >
+                                <display_name>Arrigoni, Elda</display_name>
+                                <full_name>Arrigoni, Elda</full_name>
+                                <wos_standard>Arrigoni, E</wos_standard>
+                                <first_name>Elda</first_name>
+                                <last_name>Arrigoni</last_name>
+                                <email_addr>earrigon@bidmc.harvard.edu</email_addr>
+                            </name>
+                        </names>
+                    </address_name>
+                    <address_name>
+                        <address_spec addr_no="2">
+                            <full_address>Harvard Med Sch, Boston, MA 02115 USA</full_address>
+                            <organizations count="3">
+                                <organization>Harvard Med Sch</organization>
+                                <organization pref="Y">Harvard University</organization>
+                                <organization pref="Y">Harvard Medical School</organization>
+                            </organizations>
+                            <city>Boston</city>
+                            <state>MA</state>
+                            <country>USA</country>
+                            <zip location="AP">02115</zip>
+                        </address_spec>
+                        <names count="1">
+                            <name
+                                seq_no="1"
+                                role="author"
+                                reprint="Y"
+                                addr_no="2"
+                                >
+                                <display_name>Arrigoni, Elda</display_name>
+                                <full_name>Arrigoni, Elda</full_name>
+                                <wos_standard>Arrigoni, E</wos_standard>
+                                <first_name>Elda</first_name>
+                                <last_name>Arrigoni</last_name>
+                                <email_addr>earrigon@bidmc.harvard.edu</email_addr>
+                            </name>
+                        </names>
+                    </address_name>
+                </reprint_addresses>
+                <category_info>
+                    <headings count="1">
+                        <heading>Science &amp; Technology</heading>
+                    </headings>
+                    <subheadings count="1">
+                        <subheading>Life Sciences &amp; Biomedicine</subheading>
+                    </subheadings>
+                    <subjects count="4">
+                        <subject ascatype="traditional">Behavioral Sciences</subject>
+                        <subject ascatype="traditional">Neurosciences</subject>
+                        <subject ascatype="extended">Behavioral Sciences</subject>
+                        <subject ascatype="extended">Neurosciences &amp; Neurology</subject>
+                    </subjects>
+                </category_info>
+                <fund_ack />
+                <keywords count="4">
+                    <keyword>Arousal</keyword>
+                    <keyword>Co-transmission</keyword>
+                    <keyword>Inverse agonists</keyword>
+                    <keyword>Sleep</keyword>
+                </keywords>
+                <abstracts count="1">
+                    <abstract>
+                        <abstract_text count="1">
+                            <p>Histamine is a small monoamine signaling molecule that plays a role in many peripheral and central physiological processes, including the regulation of wakefulness. The tuberomammillary nucleus is the sole neuronal source of histamine in the brain, and histamine neurons are thought to promote wakefulness and vigilance maintenance - under certain environmental and/or behavioral contexts - through their diffuse innervation of the cortex and other wake-promoting brain circuits. Histamine neurons also contain a number of other putative neurotransmitters, although the functional role of these co-transmitters remains incompletely understood. Within the brain histamine operates through three receptor subtypes that are located on pre- and post-synaptic membranes. Some histamine receptors exhibit constitutive activity, and hence exist in an activated state even in the absence of histamine. Newer medications used to reduce sleepiness in narcolepsy patients in fact enhance histamine signaling by blunting the constitutive activity of these histamine receptors. In this chapter, we provide an overview of the central histamine system with an emphasis on its role in behavioral state regulation and how drugs targeting histamine receptors are used clinically to treat a wide range of sleep-wake disorders.</p>
+                        </abstract_text>
+                    </abstract>
+                </abstracts>
+            </fullrecord_metadata>
+            <item
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:type="itemType_wos"
+                >
+                <ids avail="N">BX4AT</ids>
+                <bib_id>59: 447-468 2022</bib_id>
+                <bib_pagecount type="Book">468</bib_pagecount>
+                <keywords_plus count="10">
+                    <keyword>CENTRAL-NERVOUS-SYSTEM</keyword>
+                    <keyword>TUBEROMAMMILLARY NUCLEUS</keyword>
+                    <keyword>HISTIDINE-DECARBOXYLASE</keyword>
+                    <keyword>H-3 RECEPTOR</keyword>
+                    <keyword>ADENOSINE-DEAMINASE</keyword>
+                    <keyword>NEURON SYSTEM</keyword>
+                    <keyword>BRAIN HISTAMINE</keyword>
+                    <keyword>TUBEROMAMILLARY NEURONS</keyword>
+                    <keyword>GLUTAMATE-DECARBOXYLASE</keyword>
+                    <keyword>SUPRACHIASMATIC NUCLEUS</keyword>
+                </keywords_plus>
+                <book_pages>468</book_pages>
+                <book_desc>
+                    <bk_binding>S</bk_binding>
+                    <bk_publisher>SPRINGER INTERNATIONAL PUBLISHING AG, GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND</bk_publisher>
+                    <bk_prepay>N</bk_prepay>
+                </book_desc>
+                <book_desc>
+                    <bk_binding>P</bk_binding>
+                    <bk_publisher>SPRINGER INTERNATIONAL PUBLISHING AG, GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND</bk_publisher>
+                    <bk_prepay>N</bk_prepay>
+                </book_desc>
+                <book_desc>
+                    <bk_binding>H</bk_binding>
+                    <bk_publisher>SPRINGER INTERNATIONAL PUBLISHING AG, GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND</bk_publisher>
+                    <bk_prepay>N</bk_prepay>
+                </book_desc>
+            </item>
+        </static_data>
+        <dynamic_data>
+            <cluster_related>
+                <identifiers>
+                    <identifier
+                        type="accession_no"
+                        value="BX4AT"
+                        />
+                    <identifier
+                        type="issn"
+                        value="1866-3370"
+                        />
+                    <identifier
+                        type="isbn"
+                        value="978-3-031-16999-1"
+                        />
+                    <identifier
+                        type="eisbn"
+                        value="978-3-031-16997-7"
+                        />
+                    <identifier
+                        type="isbn"
+                        value="978-3-031-16996-0"
+                        />
+                    <identifier
+                        type="parent_book_doi"
+                        value="10.1007/978-3-031-16997-7"
+                        />
+                    <identifier
+                        type="doi"
+                        value="10.1007/7854_2021_263"
+                        />
+                    <identifier
+                        type="pmid"
+                        value="34595740"
+                        />
+                </identifiers>
+            </cluster_related>
+        </dynamic_data>
+    </REC>
+</records> <!-- Copyright (c) 2019 Clarivate Analytics Web of Science -->
