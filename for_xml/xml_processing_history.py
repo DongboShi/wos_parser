@@ -174,15 +174,17 @@ class ProcessingHistoryManager:
             print("Reset cancelled")
     
     def get_record_info(self, uid):
-        """Get information about a specific record"""
+        """Get information about a specific record
         
         :param uid: Record UID
         :return: Record information dict or None
         """
         return self.history["processed_records"].get(uid)
+
     
     def get_file_info(self, file_path):
-        """Get information about a specific file"""
+        """
+        Get information about a specific file
         
         :param file_path: Path to the XML file
         :return: File information dict or None
@@ -191,7 +193,7 @@ class ProcessingHistoryManager:
         return self.history["processed_files"].get(abs_path)
     
     def remove_record(self, uid):
-        """Remove a record from processing history (to allow reprocessing)"""
+        """Remove a record from processing history (to allow reprocessing)
         
         :param uid: Record UID
         """
@@ -203,7 +205,7 @@ class ProcessingHistoryManager:
             print(f"Record {uid} not found in history")
     
     def remove_file(self, file_path):
-        """Remove a file from processing history (to allow reprocessing)"""
+        """Remove a file from processing history (to allow reprocessing)
         
         :param file_path: Path to the XML file
         """
@@ -216,7 +218,7 @@ class ProcessingHistoryManager:
             print(f"File {file_path} not found in history")
     
     def export_report(self, output_file="processing_report.txt"):
-        """Export a human-readable processing report"""
+        """Export a human-readable processing report
         
         :param output_file: Path to output report file
         """ 
