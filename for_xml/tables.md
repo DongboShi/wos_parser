@@ -60,7 +60,7 @@ This table contains information about titles
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | doctype_norm | Normalized type of the record(`<normalized_doctypes>`/`<doctype>` tag content) | Yes | Not every item has this value, for which we could skip this table |
 
-### 1.6 itemlanguages
+### 1.6 item_langs
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|-------------------|------------------|------------------|
@@ -68,7 +68,7 @@ This table contains information about titles
 | type | Type of the language (the `type` attribute of `language`) | Yes |  |
 | language | Language of the record(`<language>` tag content) | Yes | Not every item has this value, for which we could skip this table |
 
-### 1.7 item_languages_norm
+### 1.7 item_langs_norm
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|-------------------|------------------|------------------|
