@@ -53,16 +53,42 @@ The processing generates a total of 33 output CSV files, each containing specifi
 
 ## Usage Examples  
 ### Command-Line Usage  
+The parser supports processing both individual XML files and directories. When processing a directory, it will **recursively** search for all XML files in the directory and its subdirectories.
+
+Process a single XML file:
 ```bash
-python xml_proc_main.py --input [XML_FILE_PATH] --output [OUTPUT_DIR]
+python xml_proc_main.py path/to/file.xml
 ```
+
+Process all XML files in a directory (including subdirectories):
+```bash
+python xml_proc_main.py path/to/directory/
+```
+
+Example with nested directory structure:
+```bash
+# This will process all XML files in data/ and any subdirectories
+python xml_proc_main.py data/
+# For example:
+#   data/2023/SCI.xml
+#   data/2023/AHCI.xml
+#   data/2024/Q1/BSCI.xml
+#   data/2024/Q2/SSCI.xml
+```
+
 ### Programmatic Usage  
 ```python
-from xml_info_load_api import load_xml
-from csv_writer import write_csv
+from xml_info_load_api import process_xml_to_csv
 
-parsed_data = load_xml('file.xml')
-write_csv(parsed_data, 'output.csv')
+# Process a single file
+process_xml_to_csv('file.xml')
+
+# Process a directory recursively (finds all XML files in subdirectories)
+process_xml_to_csv('data_directory/')
+
+# Process without incremental mode (reprocess all files)
+from xml_info_load_api import process_xml_to_csv_fresh
+process_xml_to_csv_fresh('data_directory/')
 ```
 
 ## Incremental Processing Feature  
