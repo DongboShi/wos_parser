@@ -6,6 +6,96 @@ This repository contains the codebase for the WOS Parser, a data processing tool
 
 The WOS Parser project is composed of several Python modules that work together to process large sets of WOS data, focusing on extracting and analyzing bibliographic information. The project is organized in a modular structure, ensuring scalability and clear separation of concerns.
 
+┌───────────────────────────────────────────────────────────────────────────────┐
+│                              WOS Parser System                                │
+│                     (Dual-Mode Processing Architecture)                       │
+└───────────────────────────────────────────────────────────────────────────────┘
+                                       │
+                       ┌───────────────┴────────────────┐
+                       │                                │
+        ┌──────────────▼─────────────┐    ┌─────────────▼────────────┐
+        │      TXT Parser            │    │      XML Parser          │
+        │    (Main Directory)        │    │    (for_xml/ dir)        │
+        │                            │    │                          │
+        │  Entry: parser_proc_main   │    │  Entry: xml_proc_main    │
+        └──────────────┬─────────────┘    └─────────────┬────────────┘
+                       │                                │
+        ┌──────────────▼─────────────┐    ┌─────────────▼────────────┐
+        │  paper_info_load_api       │    │  xml_info_load_api       │
+        │  • load_paper_input()      │    │  • load_xml_file()       │
+        │  • paper_info_proc()       │    │  • load_xml_directory()  │
+        └──────────────┬─────────────┘    └─────────────┬────────────┘
+                       │                                │
+        ┌──────────────▼─────────────┐    ┌─────────────▼────────────┐
+        │     Core Parser            │    │     Core Parser          │
+        │                            │    │                          │
+        │  ┌──────────────────────┐  │    │  ┌────────────────────┐  │
+        │  │   paper_parser.py    │  │    │  │   xml_parser.py    │  │
+        │  │   (PaperInfo class)  │  │    │  │ (XMLRecordParser)  │  │
+        │  │                      │  │    │  │                    │  │
+        │  │  Extracts:           │  │    │  │  Extracts:         │  │
+        │  │  • Authors           │  │    │  │  • 33 CSV tables   │  │
+        │  │  • Titles            │  │    │  │  • Authors         │  │
+        │  │  • Abstracts         │  │    │  │  • References      │  │
+        │  │  • Keywords          │  │    │  │  • Grants          │  │
+        │  │  • References        │  │    │  │  • Addresses       │  │
+        │  │  • Grants            │  │    │  └────────────────────┘  │
+        │  └──────────┬───────────┘  │    └─────────────┬────────────┘
+        │             │              │                  │
+        │  ┌──────────▼───────────┐  │    ┌─────────────▼────────────┐
+        │  │  Supporting Managers │  │    │    csv_writer.py         │
+        │  │                      │  │    │  (XMLDataWriter class)   │
+        │  │  • fu_manager        │  │    │                          │
+        │  │    (Funding)         │  │    │  • write_record_data()   │
+        │  │                      │  │    │  • write_item()          │
+        │  │  • rp_author_manager │  │    │  • write_authors()       │
+        │  │    (Reprint authors) │  │    │  • write_references()    │
+        │  │                      │  │    │  • 33 write methods      │
+        │  │  • author_addr       │  │    └─────────────┬────────────┘
+        │  │    (Addresses)       │  │                  │
+        │  │                      │  │    ┌─────────────▼────────────┐
+        │  │  • txtparser         │  │    │ xml_processing_history   │
+        │  │    (Text utilities)  │  │    │  (Incremental Proc)      │
+        │  └──────────┬───────────┘  │    │                          │
+        │             │              │    │  • Track processed UIDs  │
+        │  ┌──────────▼───────────┐  │    │  • Skip duplicates       │
+        │  │  proc_history_manager│  │    │  • Error logging         │
+        │  │  • Track UTS         │  │    │  • Statistics            │
+        │  │  • Avoid duplicates  │  │    └─────────────┬────────────┘
+        │  └──────────┬───────────┘  │                  │
+        │             │              │                  │
+        │  ┌──────────▼───────────┐  │                  │
+        │  │  filter_duplicate    │  │                  │
+        │  │  • Deduplication     │  │                  │
+        │  └──────────┬───────────┘  │                  │
+        └─────────────┼──────────────┘                  │
+                      │                                 │
+        ┌─────────────▼─────────────┐    ┌──────────────▼───────────┐
+        │  Output Files (TXT)       │    │  Output Files (XML)      │
+        │                           │    │                          │
+        │  Directory:               │    │  Directory:              │
+        │    paper_output_extra/    │    │    xml_output/           │
+        │                           │    │                          │
+        │  Format:                  │    │  Format:                 │
+        │    Separator: |_          │    │    Separator: , (comma)  │
+        │                           │    │                          │
+        │  Files:                   │    │  Files:                  │
+        │  • item.txt               │    │  • item.csv              │
+        │  • item_title.txt         │    │  • item_title.csv        │
+        │  • item_authors.txt       │    │  • item_authors.csv      │
+        │  • item_references.txt    │    │  • item_references.csv   │
+        │  • item_grants.txt        │    │  • ... (33 CSV files)    │
+        │  • ... (more files)       │    │                          │
+        └───────────────────────────┘    └──────────────────────────┘
+
+Common Configuration:
+┌─────────────────────────────────────────────────────────────────────┐
+│  common_def.py              │  xml_common_def.py                    │
+│  • File paths               │  • XML namespaces                     │
+│  • Output directories       │  • CSV file names (33 files)          │
+│  • Constants                │  • Output directory                   │
+└─────────────────────────────────────────────────────────────────────┘
+
 The main modules and their roles include:
 
 1. **parser_proc_main.py**: 
