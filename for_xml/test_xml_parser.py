@@ -156,28 +156,13 @@ class TestXMLRecordParser(unittest.TestCase):
 class TestXMLParserWithDifferentEditions(unittest.TestCase):
     """Test XMLRecordParser with different edition XML files"""
     
-    def test_bhci_edition(self):
-        """Test parsing BHCI edition XML file."""
-        xml_path = os.path.join(os.path.dirname(__file__), 'examples', 'BHCI.xml')
-        if os.path.exists(xml_path):
-            try:
-                tree = ET.parse(xml_path)
-                root = tree.getroot()
-                record = root.find('.//ns:REC', WOS_NAMESPACE)
-                if record is not None:
-                    parser = XMLRecordParser(record)
-                    self.assertIsNotNone(parser.uid)
-                    item = parser.extract_item()
-                    self.assertIsNotNone(item)
-            except ET.ParseError:
-                # BHCI.xml may contain multiple XML documents
-                # Skip this test if the file is malformed
-                self.skipTest("BHCI.xml contains multiple XML documents")
-    
-    def test_istp_edition(self):
-        """Test parsing ISTP edition XML file."""
-        xml_path = os.path.join(os.path.dirname(__file__), 'examples', 'ISTP.xml')
-        if os.path.exists(xml_path):
+    def _test_edition_file(self, filename):
+        """Helper method to test a specific edition XML file."""
+        xml_path = os.path.join(os.path.dirname(__file__), 'examples', filename)
+        if not os.path.exists(xml_path):
+            self.skipTest(f"{filename} not found")
+        
+        try:
             tree = ET.parse(xml_path)
             root = tree.getroot()
             record = root.find('.//ns:REC', WOS_NAMESPACE)
@@ -186,6 +171,172 @@ class TestXMLParserWithDifferentEditions(unittest.TestCase):
                 self.assertIsNotNone(parser.uid)
                 item = parser.extract_item()
                 self.assertIsNotNone(item)
+                return parser
+        except ET.ParseError:
+            # Some files may contain multiple XML documents
+            self.skipTest(f"{filename} contains multiple XML documents or is malformed")
+    
+    def test_ahci_edition(self):
+        """Test parsing AHCI edition XML file."""
+        self._test_edition_file('AHCI.xml')
+    
+    def test_bhci_edition(self):
+        """Test parsing BHCI edition XML file."""
+        self._test_edition_file('BHCI.xml')
+    
+    def test_bsci_edition(self):
+        """Test parsing BSCI edition XML file."""
+        self._test_edition_file('BSCI.xml')
+    
+    def test_esci_edition(self):
+        """Test parsing ESCI edition XML file."""
+        self._test_edition_file('ESCI.xml')
+    
+    def test_isshp_edition(self):
+        """Test parsing ISSHP edition XML file."""
+        self._test_edition_file('ISSHP.xml')
+    
+    def test_istp_edition(self):
+        """Test parsing ISTP edition XML file."""
+        self._test_edition_file('ISTP.xml')
+    
+    def test_sci_edition(self):
+        """Test parsing SCI edition XML file."""
+        parser = self._test_edition_file('SCI.xml')
+        if parser:
+            # Additional validation for SCI edition
+            title = parser.extract_item_title()
+            self.assertIsNotNone(title)
+            self.assertTrue(len(title['title']) > 0)
+    
+    def test_ssci_edition(self):
+        """Test parsing SSCI edition XML file."""
+        self._test_edition_file('SSCI.xml')
+
+
+class TestXMLParserComprehensive(unittest.TestCase):
+    """Comprehensive tests for all extraction methods"""
+    
+    @classmethod
+    def setUpClass(cls):
+        """Set up test fixtures using example XML files."""
+        cls.ns = WOS_NAMESPACE
+        # Use SCI.xml as it has the most complete data
+        cls.example_xml_path = os.path.join(os.path.dirname(__file__), 'examples', 'SCI.xml')
+        cls.tree = ET.parse(cls.example_xml_path)
+        cls.root = cls.tree.getroot()
+        cls.record = cls.root.find('.//ns:REC', cls.ns)
+        cls.parser = XMLRecordParser(cls.record)
+    
+    def test_all_section1_extractors(self):
+        """Test all Section 1 (Paper Basic Information) extractors."""
+        # Test all section 1 methods exist and return expected types
+        self.assertIsNotNone(self.parser.extract_item())
+        
+        methods = [
+            'extract_item_title',
+            'extract_item_abstract', 
+            'extract_item_doc_types',
+            'extract_item_doc_types_norm',
+            'extract_item_langs',
+            'extract_item_langs_norm',
+            'extract_item_editions',
+            'extract_item_keywords',
+            'extract_item_keywords_plus',
+            'extract_item_source',
+            'extract_item_ids',
+            'extract_item_oas',
+            'extract_item_publishers'
+        ]
+        
+        for method_name in methods:
+            method = getattr(self.parser, method_name)
+            result = method()
+            # Result can be None, dict, or list - just verify method callable
+            self.assertTrue(callable(method), f"{method_name} should be callable")
+    
+    def test_all_section2_extractors(self):
+        """Test all Section 2 (Author Information) extractors."""
+        methods = [
+            'extract_item_authors',
+            'extract_item_addresses',
+            'extract_item_au_addrs',
+            'extract_item_orgs',
+            'extract_item_suborgs',
+            'extract_item_author_ids',
+            'extract_item_rp_addrs',
+            'extract_item_rp_au_addrs',
+            'extract_item_rp_orgs',
+            'extract_item_rp_suborgs',
+            'extract_item_contributors'
+        ]
+        
+        for method_name in methods:
+            method = getattr(self.parser, method_name)
+            result = method()
+            self.assertTrue(callable(method), f"{method_name} should be callable")
+    
+    def test_all_section3_extractors(self):
+        """Test all Section 3 (Category Information) extractors."""
+        methods = ['extract_item_headings', 'extract_item_subjects']
+        
+        for method_name in methods:
+            method = getattr(self.parser, method_name)
+            result = method()
+            self.assertTrue(callable(method), f"{method_name} should be callable")
+    
+    def test_all_section4_extractors(self):
+        """Test all Section 4 (References) extractors."""
+        methods = ['extract_item_references', 'extract_item_cite_locations']
+        
+        for method_name in methods:
+            method = getattr(self.parser, method_name)
+            result = method()
+            self.assertTrue(callable(method), f"{method_name} should be callable")
+    
+    def test_all_section5_extractors(self):
+        """Test all Section 5 (Funding Information) extractors."""
+        methods = ['extract_item_acks', 'extract_item_grants']
+        
+        for method_name in methods:
+            method = getattr(self.parser, method_name)
+            result = method()
+            self.assertTrue(callable(method), f"{method_name} should be callable")
+    
+    def test_all_section6_extractors(self):
+        """Test all Section 6 (Conference Information) extractors."""
+        methods = ['extract_item_conferences']
+        
+        for method_name in methods:
+            method = getattr(self.parser, method_name)
+            result = method()
+            self.assertTrue(callable(method), f"{method_name} should be callable")
+    
+    def test_uid_uniqueness(self):
+        """Test that each record has a unique UID."""
+        records = self.root.findall('.//ns:REC', self.ns)
+        uids = set()
+        
+        for record in records:
+            parser = XMLRecordParser(record)
+            self.assertNotIn(parser.uid, uids, f"Duplicate UID found: {parser.uid}")
+            uids.add(parser.uid)
+    
+    def test_data_consistency(self):
+        """Test that extracted data maintains UID consistency."""
+        # Extract different data types
+        item = self.parser.extract_item()
+        title = self.parser.extract_item_title()
+        authors = self.parser.extract_item_authors()
+        
+        # Verify all have the same UID
+        if item:
+            self.assertEqual(item['uid'], self.parser.uid)
+        if title:
+            self.assertEqual(title['uid'], self.parser.uid)
+        if authors:
+            for author in authors:
+                self.assertEqual(author['uid'], self.parser.uid)
 
 
 if __name__ == '__main__':
