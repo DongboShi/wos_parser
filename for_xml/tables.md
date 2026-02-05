@@ -130,7 +130,14 @@ This table contains information about titles
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
-| publisher | Publisher name (from the `<publisher>` tag content) | Yes |  |
+| addr_no | Publisher address number (from the `addr_no` attribute of `<publisher>/<address_spec>` tag) | Yes | Leave blank |
+| full_address | Full address text (from the `<publisher>/<address_spec>/<full_address>` tag content) | Yes | Leave blank |
+| city | City (from the `<publisher>/<address_spec>/<city>` tag content) | | No | Leave blank |
+| role | Publisher role (from the `role` attribute of `<name>` tag under `<publisher>`) | No | Leave blank |
+| seq_no | Publisher sequence number (from the `seq_no` attribute of `<name>` tag under `<publisher>`) | No | Leave blank |
+| display_name | Publisher display name (from the `<name>/<display_name>` tag content under `<publisher>`) | Yes | Leave blank |
+| full_name | Publisher full name (from the `<name>/<full_name>` tag content under `<publisher>`) | Yes | Leave blank |
+| unified_name | Publisher unified name (from the `<name>/<unified_name>` tag content under `<publisher>`) | No | Leave blank |
 
 ------------------------------------------------------------------------
 
@@ -256,11 +263,24 @@ This table contains the names of authors for whom a Publons Profile/ResearcherID
 
 ------------------------------------------------------------------------
 
-## 🗂️ 3. Fields Table
+## 🗂️ 3. Category Tables
 
 This table contains information about the research fields associated with the papers.
 
-### 3.1 itemfields
+### 3.1 itemheadings
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|-------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| headings| Research field heading (from `<heading>` tag content) | Yes | Leave blank |
+
+### 3.2 itemsubjects
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|-------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| subject| Research subject (from `<subject>` tag content) | Yes | Leave blank |
+| ascatype| ASCA type (from `ascatype` attribute of `<subject>` tag) | No | Leave blank |
+
+------------------------------------------------------------------------
 
 ## 🔗 4. References Table
 
@@ -280,15 +300,35 @@ This table contains information about the references cited in the papers.
 
 ------------------------------------------------------------------------
 
-## 💵 5. Funding Information Table
+## 💵 5. Funding Information Tables
 
 This table contains information on grants and funding related to the papers.
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|------------------|------------------|------------------|
-| UID | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | Grant Agency | Grant agency name | No | Fill with “Unknown” |
 | Grant ID | Grant ID | No | Fill with “NA” |
+
+## 📢 6. Conference Information Table
+
+This table contains information on conferences associated with the publications. This table would be seperated into two tables, itemconfids, and conference before loading into the database, to avoid redundancy.
+
+### itemconferences
+
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| conf_id | Conference identifier (from `conf_id` attribute of `<conference>` tag) | Yes | Raise an error or skip this record |
+| conf_info | Conference information (from `<conf_info>` tag content) | No | Leave blank |
+| conf_title | Conference title (from `<conf_title>` tag content) | No | Leave blank |
+| conf_start | Conference start date (from `conf_start` attribute of `<conf_date>` tag) | No | Leave blank |
+| conf_end | Conference end date (from `conf_end` attribute of `<conf_date>` tag) | No | Leave blank |
+| conf_date | Conference date text (from `<conf_date>` tag content) | No | Leave blank |
+| conf_city | Conference city (from `<conf_city>` tag content) | No | Leave blank |
+| conf_state | Conference state (from `<conf_state>` tag content) | No | Leave blank |
+| sponsor | Conference sponsor (from `<sponsor>` tag content) | No | Leave blank |
+
 
 ------------------------------------------------------------------------
 
