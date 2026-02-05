@@ -203,7 +203,15 @@ This table contains information about the authors of the papers.
 
 ### 2.6 itemauthorids
 
-This table contains author identifiers. Information are obtained from `<names>` and `<addresses>` tags. \| **Field Name** \| **Description** \| **Required** \| **When Missing** \| \|------------------\|--------------------\|------------------\|------------------\| \| uid \| Unique identifier for the paper \| Yes \| Raise an error or skip this record \| \| seq_no \| Author sequence number (`<names>`/`seq_no` attr) \| Yes \| Use default sequence \| \| r_id \| ResearcherID (`r_id` attr from `<names>` tag) \| No \| Leave blank \| \| orcid \| ORCID identifier (`orcid_id` attr from `<names>` tag) \| No \| Leave blank \| \| orcid_tr \| ORCID trusted (`orcid_id_tr` attr from `<names>` tag) \| No \| Leave blank \|
+This table contains author identifiers. Information are obtained from `<names>` and `<addresses>` tags. 
+
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| seq_no | Author sequence number (`<names>`/`seq_no` attr) | Yes | Use default sequence |
+| r_id | ResearcherID (`r_id` attr from `<names>` tag) | No | Leave blank |
+| orcid | ORCID identifier (`orcid_id` attr from `<names>` tag) | No | Leave blank |
+| orcid_tr | ORCID trusted (`orcid_id_tr` attr from `<names>` tag) | No | Leave blank |
 
 ### 2.7 itemrpaddrs
 
