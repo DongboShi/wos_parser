@@ -3,7 +3,7 @@ XML Record Parser for Web of Science Data
 
 This module provides the core XMLRecordParser class that extracts data from
 WOS XML records and structures it according to the table design in tables.md
-"""
+"""  
 
 import xml.etree.ElementTree as ET
 from xml_common_def import WOS_NAMESPACE
