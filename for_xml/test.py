@@ -61,6 +61,65 @@ def check_doctype_count(file_name):
     except Exception as e:
         print(f"处理文件时发生错误：{file_name}. 错误: {e}")
 
+def check_abstract_count(file_name):
+    try:
+        # 加载并解析XML文件
+        tree = ET.parse(file_name)
+        root = tree.getroot()
+        namespace = {'wok': 'http://clarivate.com/schema/wok5.30/public/FullRecord'}
+        # 查找`abstracts`标签并获取属性`count`
+        abstract_element = root.find('.//wok:abstracts', namespace)  # 假设 `abstracts` 是 XML 文件中独特的标签
+        if abstract_element is not None:
+            count = int(abstract_element.get('count', 0))  # 获取`count`属性值，默认为0
+            if count > 1:
+                print(f"文件 {file_name} 的 count 值大于 1: {count}")
+            # else:
+            #     print(f"文件 {file_name} 的 count 值小于或等于 1: {count}")
+        else:
+            print(f"文件 {file_name} 中没有找到 <abstracts> 标签。")
+    except ET.ParseError as e:
+        print(f"无法解析文件：{file_name}. 错误: {e}")
+    except Exception as e:
+        print(f"处理文件时发生错误：{file_name}. 错误: {e}")
+
+def filter_record_by_uid(xml_file):
+    target_uid = "WOS:001308060400007"
+    """
+    Filter and extract a specific record (REC) with the given UID from the XML file.
+
+    :param xml_file: Path to the XML file.
+    :param target_uid: The UID of the record to filter.
+    :return: The extracted record as an XML element or None if not found.
+    """
+    try:
+        # Parse the XML file
+        tree = ET.parse(xml_file)
+        root = tree.getroot()
+
+        # Namespace (if applicable in the XML). Adjust based on your XML file.
+        namespace = {'ns': 'http://clarivate.com/schema/wok5.30/public/FullRecord'}
+
+        # Find all <REC> elements
+        records = root.findall('ns:REC', namespace)
+
+        for record in records:
+            uid = record.find('ns:UID', namespace)
+            if uid is not None and uid.text == target_uid:
+                # If the UID matches the target UID, return the record
+                print(record.text)
+                print(f"文件 {xml_file} 中找到匹配的记录 UID: {target_uid}")
+
+        # If no matching record is found
+        # print(f"Record with UID '{target_uid}' not found.")
+        # return None
+
+    except ET.ParseError as e:
+        print(f"Error parsing XML file: {e}")
+        return None
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
+
 def load_paper_input_dir(dir_path: str, load_proc):
     for dir_v in os.listdir(dir_path):
         dir_tmp = os.path.join(dir_path, dir_v)
@@ -78,5 +137,5 @@ def load_paper_input(load_proc, paper_input_dir):
     pass
 #
 if __name__ == '__main__':
-    load_paper_input(check_doctype_count, PAPER_INPUT_DIR)
+    load_paper_input(filter_record_by_uid, PAPER_INPUT_DIR)
     pass
