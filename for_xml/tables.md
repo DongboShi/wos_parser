@@ -302,13 +302,26 @@ This table contains information about the references cited in the papers.
 
 ## 💵 5. Funding Information Tables
 
+### 5.1 itemacks
+
+This table contains information on the acknowledgments related to the papers.
+
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| ack_text | Acknowledgment text (from `<ack_text>/<p>` tag content) | No | Leave blank |
+
+### 5.2 itemgrants
+
 This table contains information on grants and funding related to the papers.
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
-| Grant Agency | Grant agency name | No | Fill with “Unknown” |
-| Grant ID | Grant ID | No | Fill with “NA” |
+| grant_agency | Grant agency name (from `<grant_agency>` tag content) | No | Leave blank |
+| grant_agency_pref | Grant agency preferred name (from `pref` attribute of `<grant_agency>` tag) | No | Leave blank |
+| grant_id | Grant ID (from `<grant_id>` tag content) | No | Leave blank |
+| grant_source | Data source of the grant information (from `source` attribute of `<grant>` tag), default is WOS| No | Leave blank |
 
 ## 📢 6. Conference Information Table
 
