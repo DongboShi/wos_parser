@@ -292,7 +292,7 @@ This table contains information about the research fields associated with the pa
 
 ## 🔗 4. References Table
 
-This table contains information about the references cited in the papers. Table 4.1 would be seperated into two tables, citations which contains citing-cited relationship within WOS and ref_patents which contains cited patents before loading into the database.
+This table contains information about the references cited in the papers. Table 4.1 would be seperated into two tables, citations which contains citing-cited relationship within WOS and ref_patents which contains cited patents, before loading into the database.
 
 ### 4.1 item_references
 
