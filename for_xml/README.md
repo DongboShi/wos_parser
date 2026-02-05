@@ -68,5 +68,90 @@ write_csv(parsed_data, 'output.csv')
 ## Incremental Processing Feature  
 The incremental processing feature allows users to process new XML files without reprocessing already parsed files, significantly enhancing performance for large datasets.
 
+## Testing
+
+### Running the Test Suite
+
+The `test_xml_parser.py` file contains comprehensive unit tests for the XMLRecordParser. These tests validate the XML parsing functionality using sample data from the `examples` directory.
+
+#### Basic Usage
+
+To run all tests:
+```bash
+cd for_xml
+python test_xml_parser.py
+```
+
+#### Running with Verbose Output
+
+For detailed test results:
+```bash
+python test_xml_parser.py -v
+```
+
+#### Running Specific Test Cases
+
+Run a specific test class:
+```bash
+python test_xml_parser.py TestXMLRecordParser
+```
+
+Run a specific test method:
+```bash
+python test_xml_parser.py TestXMLRecordParser.test_uid_extraction
+```
+
+Run tests matching a pattern (Python 3.7+):
+```bash
+python test_xml_parser.py -k extract_item
+```
+
+#### Other Useful Options
+
+- `-f` or `--failfast`: Stop on the first failure
+- `-b` or `--buffer`: Buffer stdout and stderr during tests
+- `-q` or `--quiet`: Minimal output
+- `--locals`: Show local variables in tracebacks
+
+#### Test Structure
+
+The test suite is organized into three main test classes:
+
+1. **TestXMLRecordParser**: Core functionality tests for the XMLRecordParser class
+   - Tests UID extraction
+   - Tests all extraction methods (item, title, abstract, authors, etc.)
+   - Tests data consistency
+
+2. **TestXMLParserWithDifferentEditions**: Tests parsing of different WOS edition files
+   - AHCI, BHCI, BSCI, ESCI, ISSHP, ISTP, SCI, SSCI editions
+
+3. **TestXMLParserComprehensive**: Comprehensive validation of all extraction methods
+   - Tests all Section 1 extractors (Paper Basic Information)
+   - Tests all Section 2 extractors (Author Information)
+   - Tests all Section 3 extractors (Category Information)
+   - Tests all Section 4 extractors (References)
+   - Tests all Section 5 extractors (Funding Information)
+   - Tests all Section 6 extractors (Conference Information)
+
+#### Prerequisites
+
+The tests require:
+- Python 3.x
+- Sample XML files in the `examples` directory (already included)
+- The `xml_parser.py` and `xml_common_def.py` modules in the same directory
+
+#### Example Test Output
+
+```bash
+$ python test_xml_parser.py -v
+test_ahci_edition (test_xml_parser.TestXMLParserWithDifferentEditions) ... ok
+test_uid_extraction (test_xml_parser.TestXMLRecordParser) ... ok
+...
+----------------------------------------------------------------------
+Ran 30 tests in 0.015s
+
+OK (skipped=2)
+```
+
 ## Additional Information  
 For more details and ongoing updates, refer to the documentation or contact the maintainers of the WOS XML Parser.
