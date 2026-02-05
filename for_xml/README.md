@@ -101,7 +101,7 @@ Run a specific test method:
 python test_xml_parser.py TestXMLRecordParser.test_uid_extraction
 ```
 
-Run tests matching a pattern:
+Run tests matching a pattern (Python 3.7+):
 ```bash
 python test_xml_parser.py -k extract_item
 ```
