@@ -139,29 +139,90 @@ This table contains information about the authors of the papers.
 | full_name | Author's full name (`<full_name>`) | Yes | Raise an error or skip this record |
 | first_name | Author's first name (`<first_name>`) | No | Leave blank |
 | last_name | Author's last name (`<last_name>`) | No | Leave blank |
+| suffix | Author's name suffix (`<suffix>`) | No | Leave blank |
 | email_addr | Author’s email (`<email_addr>` tag) | No | Leave blank |
 
-
 ### 2.2 itemaddresses
-
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| addr_no | Address number (`addr_no` attr) | Yes | Use default sequence |
+| full_address | Full address text (`<full_address>` tag content) | Yes | Leave blank |
+| city | City (`<city>` tag content) | No | Leave blank |
+| state | State (`<state>` tag content) | No | Leave blank |
+| country | Country (`<country>` tag content) | No | Leave blank |
+| zip | Zip code (`<zip>` tag content) | No | Leave blank |
+| zip_location | Zip location ( from `location` arttribute of `<zip>` tag) | No | Leave blank |
 
 ### 2.3 itemauaddrs
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|--------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
-| seq_no | Author sequence number (`seq_no` attr) | Yes | Use default sequence |
-| address_no | Author's address number (`address_no` attr), list need to seperate by " " | No | Leave blank |
+| seq_no | Author sequence number (`<address_name>`/`<names, seq_no` attr) | Yes | Use default sequence |
+| address_no | Author's address number (`<address_name>`/`<names,addr_no` attr)| No | Leave blank |
 
 ### 2.4 itemorganizations
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| addr_no | Address number (`addr_no` attr) | Yes | Use default sequence |
+| org_pref | Organization prefix (`pref` attr) | Yes | Leave blank |
+| ROR_ID | ROR identifier (`ROR_ID` attr) | No | Leave blank |
+| org_id | Organization ID (`org_id` attr) | No | Leave blank |
+| organization | Organization name (`<organization>` tag content) | Yes | Leave blank |
 
 ### 2.5 itemsuborgs
 | **Field Name** | **Description** | **Required** | **When Missing** |
 |------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| addr_no | Address number (`addr_no` attr) | Yes | Leave blank |
+| suborganization | Suborganization (from `<suborganization>` tag content) | Yes | Leave blank |
 
 ### 2.6 itemauthorids
+This table contains author identifiers. Information are obtained from `<names>` and `<addresses>` tags.
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| seq_no | Author sequence number (`<names>`/`seq_no` attr) | Yes | Use default sequence |
+| r_id | ResearcherID (`r_id` attr from `<names>` tag) | No | Leave blank |
+| orcid | ORCID identifier (`orcid_id` attr from `<names>` tag) | No | Leave blank |
+| orcid_tr | ORCID trusted (`orcid_id_tr` attr from `<names>` tag) | No | Leave blank |
 
+### 2.7 itemrpaddrs
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| addr_no | Address number (`addr_no` attr under `<reprint_addresses>` tag) | Yes | Use default sequence |
+| full_address | Full address text (`<full_address>` tag content under `<reprint_addresses>` tag) | Yes | Leave blank |
+| city | City (`<city>` tag content under `<reprint_addresses>` tag) | No | Leave blank |
+| state | State (`<state>` tag content under `<reprint_addresses>` tag) | No | Leave blank |
+| country | Country (`<country>` tag content under `<reprint_addresses>` tag) | No | Leave blank |
+| zip | Zip code (`<zip>` tag content under `<reprint_addresses>` tag ) | No | Leave blank |
+| zip_location | Zip location ( from `location` arttribute of `<zip>` tag under `<reprint_addresses>` tag) | No | Leave blank |
+
+### 2.8 itemrpauaddrs
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| seq_no | Author sequence number (`<address_name>`/`<names, seq_no` attr under `<reprint_addresses>` tag) | Yes | Use default sequence |
+| address_no | Author's address number (`<address_name>`/`<names,addr_no` attr under `<reprint_addresses>` tag)| No | Leave blank |
+
+### 2.9 itemrporgs
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| addr_no | Address number (`addr_no` attr under `<reprint_addresses>` tag) | Yes | Use default sequence |
+| org_pref | Organization prefix (`pref` attr under `<reprint_addresses>` tag) | Yes | Leave blank |
+| ROR_ID | ROR identifier (`ROR_ID` attr under `<reprint_addresses>` tag) | No | Leave blank |
+| org_id | Organization ID (`org_id` attr under `<reprint_addresses>` tag) | No | Leave blank |
+| organization | Organization name (`<organization>` tag content under `<reprint_addresses>` tag) | Yes | Leave blank |
+
+### 2.10 itemrpsuborgs
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| addr_no | Address number (`addr_no` attr under `<reprint_addresses>` tag under `<reprint_addresses>` tag) | Yes | Leave blank |
+| suborganization | Suborganization (from `<suborganization>` tag content under `<reprint_addresses>` tag) | Yes | Leave blank |
 
 ------------------------------------------------------------------------
 

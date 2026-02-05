@@ -83,16 +83,8 @@ def check_abstract_count(file_name):
         print(f"处理文件时发生错误：{file_name}. 错误: {e}")
 
 def filter_record_by_uid(xml_file):
-    target_uid = "WOS:001308060400007"
-    """
-    Filter and extract a specific record (REC) with the given UID from the XML file.
-
-    :param xml_file: Path to the XML file.
-    :param target_uid: The UID of the record to filter.
-    :return: The extracted record as an XML element or None if not found.
-    """
+    target_uid = "WOS:001330731400123"
     try:
-        # Parse the XML file
         tree = ET.parse(xml_file)
         root = tree.getroot()
 
@@ -100,7 +92,7 @@ def filter_record_by_uid(xml_file):
         namespace = {'ns': 'http://clarivate.com/schema/wok5.30/public/FullRecord'}
 
         # Find all <REC> elements
-        records = root.findall('ns:REC', namespace)
+        records = root.findall('.//ns:UID', namespace)
 
         for record in records:
             uid = record.find('ns:UID', namespace)
