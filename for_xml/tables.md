@@ -11,7 +11,7 @@ This document outlines the table designs for structuring the data extracted from
 This table contains the essential metadata of the papers.
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|----------------|------------------------|----------------|----------------|
+|-----------------|----------------------|-----------------|-----------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error or skip this record |
 | sortdate | Publication date (from the `sortdate` attribute) | Yes | Raise an error |
 | pubyear | Publication year (from the `pubyear` attribute) | Yes | Raise an error |
@@ -35,35 +35,35 @@ This table contains the essential metadata of the papers.
 This table contains information about titles
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|-----------------|-----------------------|-----------------|-----------------|
-| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error|
+|-----------------|---------------------|-----------------|-----------------|
+| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | title | Paper's main title (`<title type="item">` tag content) | Yes | Not every item has title, for which we could skip this table |
 
 ### 1.3 itemabstract
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|-----------------|----------------------|-----------------|-----------------|
-| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error|
+|-----------------|---------------------|-----------------|-----------------|
+| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | abstract | Abstract content (located in `<abstract_text>/<p>` tag) | Yes | Not every item has abstract, for which we could skip this table |
 
 ### 1.4 itemdoctypes
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|-----------------|---------------------|-----------------|-----------------|
-| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error|
+|------------------|--------------------|------------------|------------------|
+| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | doctype | Type of the record(`<doctype>` tag content) | Yes | Not every item has this value, for which we could skip this table |
 
 ### 1.5 itemdoctypes_norm
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
-| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error|
+|------------------|-------------------|------------------|------------------|
+| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | doctype_norm | Normalized type of the record(`<normalized_doctypes>`/`<doctype>` tag content) | Yes | Not every item has this value, for which we could skip this table |
 
 ### 1.6 itemlanguages
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | type | Type of the language (the `type` attribute of `language`) | Yes |  |
 | language | Language of the record(`<language>` tag content) | Yes | Not every item has this value, for which we could skip this table |
@@ -71,7 +71,7 @@ This table contains information about titles
 ### 1.7 itemlanguages_norm
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | type | Type of the language (the `type` attribute of `<normalized_languages>`/`<language>`) | Yes |  |
 | language_norm | Language of the record(`<normalized_languages>`/`<language>` tag content) | Yes | Not every item has this value, for which we could skip this table |
@@ -79,28 +79,30 @@ This table contains information about titles
 ### 1.8 itemeditions
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|-----------------|---------------------|-----------------|-----------------|
+|------------------|--------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
-| edition | Edition to which the record belongs (from the `edition` attribute) | Yes | Raise an error  |
+| edition | Edition to which the record belongs (from the `edition` attribute) | Yes | Raise an error |
 
 ### 1.9 itemkeywords
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|-----------------|---------------------|-----------------|-----------------|
+|------------------|--------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | keyword | Keyword (from the `<keyword>` tag content) | Yes |  |
 
 ### 1.10 itemkeywords_plus
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
-| keyword_plus | Keyword Plus (from the `<keyword_plus>/<keyword>` tag content) |
+| keyword_plus | Keyword Plus (from the `<keyword_plus>/<keyword>` tag content) |  |  |
 
 ### 1.11 itemsource
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
-| source | Source title (from the `<title type="source">` tag content) | | Yes | Leave blanck |
+| source | Source title (from the `<title type="source">` tag content) |  | Yes |
 | source_abbrev | Abbreviated journal title (from the `<title type="source_abbrev">` tag content) | No | Leave blanck |
 | abbrev_iso | ISO abbreviated journal title (from the `<title type="abbrev_iso">` tag content) | No | Leave blanck |
 | abbrev_11 | 11-character abbreviated journal title (from the `<title type="abbrev_11">` tag content) | No | Leave blanck |
@@ -109,27 +111,37 @@ This table contains information about titles
 | book_subtitle | Book subtitle (from the `<title type="book_subtitle">` tag content) | No | Leave blanck |
 
 ### 1.12 itemidentifiers
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
-| identifier_type | Type of identifier (from the `type` attribute of `<identifier>` tag) | Yes | |
-| identifier_value | Identifier value (from the `value` attribute of `<identifier>` tag) | Yes | |
+| identifier_type | Type of identifier (from the `type` attribute of `<identifier>` tag) | Yes |  |
+| identifier_value | Identifier value (from the `value` attribute of `<identifier>` tag) | Yes |  |
 
 ### 1.13 itemoas
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
 | oa_type | Open access type (from the `type` attribute of `<oases>` tag) | Yes | Leave blank |
 
+### 1.14 itempublishers
+
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|-------------------|------------------|------------------|
+| uid | Unique identifier for the paper (from `<UID>` tag) | Yes | Raise an error |
+| publisher | Publisher name (from the `<publisher>` tag content) | Yes |  |
+
 ------------------------------------------------------------------------
 
-## 👩‍💻 2. Author Information Table
+## 👩‍💻 2. Author Information Tables
 
 This table contains information about the authors of the papers.
 
 ### 2.1 itemauthors
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | seq_no | Author sequence number (`seq_no` attr) | Yes | Use default sequence |
 | role | Author role (`role` attr) | No | Leave blank |
@@ -143,8 +155,9 @@ This table contains information about the authors of the papers.
 | email_addr | Author’s email (`<email_addr>` tag) | No | Leave blank |
 
 ### 2.2 itemaddresses
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | addr_no | Address number (`addr_no` attr) | Yes | Use default sequence |
 | full_address | Full address text (`<full_address>` tag content) | Yes | Leave blank |
@@ -155,15 +168,17 @@ This table contains information about the authors of the papers.
 | zip_location | Zip location ( from `location` arttribute of `<zip>` tag) | No | Leave blank |
 
 ### 2.3 itemauaddrs
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | seq_no | Author sequence number (`<address_name>`/`<names, seq_no` attr) | Yes | Use default sequence |
-| address_no | Author's address number (`<address_name>`/`<names,addr_no` attr)| No | Leave blank |
+| address_no | Author's address number (`<address_name>`/`<names,addr_no` attr) | No | Leave blank |
 
 ### 2.4 itemorganizations
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | addr_no | Address number (`addr_no` attr) | Yes | Use default sequence |
 | org_pref | Organization prefix (`pref` attr) | Yes | Leave blank |
@@ -172,25 +187,21 @@ This table contains information about the authors of the papers.
 | organization | Organization name (`<organization>` tag content) | Yes | Leave blank |
 
 ### 2.5 itemsuborgs
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | addr_no | Address number (`addr_no` attr) | Yes | Leave blank |
 | suborganization | Suborganization (from `<suborganization>` tag content) | Yes | Leave blank |
 
 ### 2.6 itemauthorids
-This table contains author identifiers. Information are obtained from `<names>` and `<addresses>` tags.
-| **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
-| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
-| seq_no | Author sequence number (`<names>`/`seq_no` attr) | Yes | Use default sequence |
-| r_id | ResearcherID (`r_id` attr from `<names>` tag) | No | Leave blank |
-| orcid | ORCID identifier (`orcid_id` attr from `<names>` tag) | No | Leave blank |
-| orcid_tr | ORCID trusted (`orcid_id_tr` attr from `<names>` tag) | No | Leave blank |
+
+This table contains author identifiers. Information are obtained from `<names>` and `<addresses>` tags. \| **Field Name** \| **Description** \| **Required** \| **When Missing** \| \|------------------\|--------------------\|------------------\|------------------\| \| uid \| Unique identifier for the paper \| Yes \| Raise an error or skip this record \| \| seq_no \| Author sequence number (`<names>`/`seq_no` attr) \| Yes \| Use default sequence \| \| r_id \| ResearcherID (`r_id` attr from `<names>` tag) \| No \| Leave blank \| \| orcid \| ORCID identifier (`orcid_id` attr from `<names>` tag) \| No \| Leave blank \| \| orcid_tr \| ORCID trusted (`orcid_id_tr` attr from `<names>` tag) \| No \| Leave blank \|
 
 ### 2.7 itemrpaddrs
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | addr_no | Address number (`addr_no` attr under `<reprint_addresses>` tag) | Yes | Use default sequence |
 | full_address | Full address text (`<full_address>` tag content under `<reprint_addresses>` tag) | Yes | Leave blank |
@@ -201,15 +212,17 @@ This table contains author identifiers. Information are obtained from `<names>` 
 | zip_location | Zip location ( from `location` arttribute of `<zip>` tag under `<reprint_addresses>` tag) | No | Leave blank |
 
 ### 2.8 itemrpauaddrs
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | seq_no | Author sequence number (`<address_name>`/`<names, seq_no` attr under `<reprint_addresses>` tag) | Yes | Use default sequence |
-| address_no | Author's address number (`<address_name>`/`<names,addr_no` attr under `<reprint_addresses>` tag)| No | Leave blank |
+| address_no | Author's address number (`<address_name>`/`<names,addr_no` attr under `<reprint_addresses>` tag) | No | Leave blank |
 
 ### 2.9 itemrporgs
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | addr_no | Address number (`addr_no` attr under `<reprint_addresses>` tag) | Yes | Use default sequence |
 | org_pref | Organization prefix (`pref` attr under `<reprint_addresses>` tag) | Yes | Leave blank |
@@ -218,20 +231,43 @@ This table contains author identifiers. Information are obtained from `<names>` 
 | organization | Organization name (`<organization>` tag content under `<reprint_addresses>` tag) | Yes | Leave blank |
 
 ### 2.10 itemrpsuborgs
+
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | addr_no | Address number (`addr_no` attr under `<reprint_addresses>` tag under `<reprint_addresses>` tag) | Yes | Leave blank |
 | suborganization | Suborganization (from `<suborganization>` tag content under `<reprint_addresses>` tag) | Yes | Leave blank |
 
+### 2.11 itemcontributors
+
+This table contains the names of authors for whom a Publons Profile/ResearcherID or an ORCID identifier is provided. Some authors have both IDs.
+
+| **Field Name** | **Description** | **Required** | **When Missing** |
+|------------------|-------------------|------------------|------------------|
+| uid | Unique identifier for the paper | Yes | Raise an error or skip this record |
+| seq_no | Author sequence number (`seq_no` attr) | Yes | Raise an error or skip this record |
+| orcid_id | ORCID identifier (`orcid_id` attr) | No | Leave blank |
+| r_id | ResearcherID (`r_id` attr) | No | Leave blank |
+| r_id_role | ResearcherID role (`r_id_role` attr) | No | Leave blank |
+| display_name | Author's display name (`<display_name>` tag content) | Yes | Leave blank |
+| full_name | Author's full name (`<full_name>` tag content) | Yes | Raise an error or skip this record |
+| first_name | Author's first name (`<first_name>` tag content) | No | Leave blank |
+| last_name | Author's last name (`<last_name>` tag content) | No | Leave blank |
+
 ------------------------------------------------------------------------
 
-## 🔗 3. References Table
+## 🗂️ 3. Fields Table
+
+This table contains information about the research fields associated with the papers.
+
+### 3.1 itemfields
+
+## 🔗 4. References Table
 
 This table contains information about the references cited in the papers.
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|--------------------|------------------|------------------|
+|------------------|-------------------|------------------|------------------|
 | UID | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | Ref_ID | Unique identifier for the reference | Yes | Fill with “Unknown” or leave blank |
 | Cited Author | Cited author's name | No | Fill with "Unknown" |
@@ -244,12 +280,12 @@ This table contains information about the references cited in the papers.
 
 ------------------------------------------------------------------------
 
-## 💵 4. Funding Information Table
+## 💵 5. Funding Information Table
 
 This table contains information on grants and funding related to the papers.
 
 | **Field Name** | **Description** | **Required** | **When Missing** |
-|------------------|-------------------|------------------|-------------------|
+|------------------|------------------|------------------|------------------|
 | UID | Unique identifier for the paper | Yes | Raise an error or skip this record |
 | Grant Agency | Grant agency name | No | Fill with “Unknown” |
 | Grant ID | Grant ID | No | Fill with “NA” |
