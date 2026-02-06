@@ -6,6 +6,21 @@ from xml_common_def import WOS_NAMESPACE
 from xml_processing_history import ProcessingHistoryManager
 
 
+# Module-level callback for parallel processing
+# This needs to be at module level to be picklable for multiprocessing
+def _write_record_to_csv(parser):
+    """
+    Module-level callback function for writing record data to CSV.
+    Creates its own XMLDataWriter instance for use in parallel processing.
+    This function must be at module level to be picklable for multiprocessing.
+    """
+    # Each worker process creates its own writer
+    # This is safe because CSV writes are append operations
+    from csv_writer import XMLDataWriter
+    writer = XMLDataWriter()
+    writer.write_record_data(parser)
+
+
 def load_xml_file(xml_file_path, callback_func, skip_processed, history_manager):
     """Load and process a single XML file with incremental processing support"""
     if not os.path.exists(xml_file_path):
@@ -154,14 +169,6 @@ def reprocess_records(uids, xml_path):
 def process_xml_to_csv_parallel(xml_path, workers=None, skip_processed=True):
     """Process XML files using concurrent workers for improved performance"""
     from xml_parallel_processor import process_xml_with_concurrency
-    from csv_writer import XMLDataWriter
-    
-    # Initialize data writer
-    data_writer = XMLDataWriter()
-    
-    # Define callback function to write record data
-    def write_callback(parser):
-        data_writer.write_record_data(parser)
     
     # Check if input is a file or directory
     if os.path.isfile(xml_path):
@@ -170,6 +177,7 @@ def process_xml_to_csv_parallel(xml_path, workers=None, skip_processed=True):
         process_xml_to_csv(xml_path, skip_processed=skip_processed)
     elif os.path.isdir(xml_path):
         # For directory, use parallel processing
-        process_xml_with_concurrency(write_callback, xml_path, workers=workers, skip_processed=skip_processed)
+        # Use the module-level callback function which is picklable
+        process_xml_with_concurrency(_write_record_to_csv, xml_path, workers=workers, skip_processed=skip_processed)
     else:
         raise ValueError(f"{xml_path} is neither a file nor a directory.")

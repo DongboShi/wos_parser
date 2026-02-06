@@ -1,1009 +1,1609 @@
 {
   "metadata": {
     "created": "2026-02-06T07:42:49.792381",
-    "last_updated": "2026-02-06T02:32:31.951079",
+    "last_updated": "2026-02-06T02:56:47.370990",
     "version": "1.0"
   },
   "processed_records": {
     "WOS:001330731400123": {
       "processed_at": "2026-02-06T07:42:49.907415",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.112540"
     },
     "WOS:001308060400007": {
       "processed_at": "2026-02-06T07:42:49.916798",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.114291"
     },
     "WOS:001342667300001": {
       "processed_at": "2026-02-06T07:42:49.927024",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.115914"
     },
     "WOS:001194492200001": {
       "processed_at": "2026-02-06T07:42:49.940912",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.117486"
     },
     "WOS:001290216501144": {
       "processed_at": "2026-02-06T07:42:49.948432",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.119020"
     },
     "WOS:001341198700001": {
       "processed_at": "2026-02-06T07:42:49.961788",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.120674"
     },
     "WOS:001335047000008": {
       "processed_at": "2026-02-06T07:42:49.968762",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.122265"
     },
     "WOS:001383772300001": {
       "processed_at": "2026-02-06T07:42:50.006609",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.123760"
     },
     "WOS:001298122900076": {
       "processed_at": "2026-02-06T07:42:50.018072",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.125358"
     },
     "WOS:001341306300001": {
       "processed_at": "2026-02-06T07:42:50.024473",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.127171"
     },
     "WOS:001236582800001": {
       "processed_at": "2026-02-06T07:42:50.034752",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.128772"
     },
     "WOS:001314715300003": {
       "processed_at": "2026-02-06T07:42:50.047351",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.130348"
     },
     "WOS:001396233803197": {
       "processed_at": "2026-02-06T07:42:50.055367",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.132015"
     },
     "WOS:001451048600006": {
       "processed_at": "2026-02-06T07:42:50.069113",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.133544"
     },
     "WOS:001273959400003": {
       "processed_at": "2026-02-06T07:42:50.075703",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.135190"
     },
     "WOS:001241323300001": {
       "processed_at": "2026-02-06T07:42:50.081875",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.136941"
     },
     "WOS:001310523504050": {
       "processed_at": "2026-02-06T07:42:50.085332",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.138486"
     },
     "WOS:001231191200001": {
       "processed_at": "2026-02-06T07:42:50.092277",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.140055"
     },
     "WOS:001313028100011": {
       "processed_at": "2026-02-06T07:42:50.099511",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.141634"
     },
     "WOS:001192014700001": {
       "processed_at": "2026-02-06T07:42:50.108753",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.143223"
     },
     "WOS:001318477400004": {
       "processed_at": "2026-02-06T07:42:50.115328",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.144804"
     },
     "WOS:001293949400001": {
       "processed_at": "2026-02-06T07:42:50.122699",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.146543"
     },
     "WOS:001247049200028": {
       "processed_at": "2026-02-06T07:42:50.127979",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.148330"
     },
     "WOS:001263554600001": {
       "processed_at": "2026-02-06T07:42:50.138320",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.150024"
     },
     "WOS:001178862800001": {
       "processed_at": "2026-02-06T07:42:50.145082",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.151542"
     },
     "WOS:001187970200001": {
       "processed_at": "2026-02-06T07:42:50.151792",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.153108"
     },
     "WOS:001330548300001": {
       "processed_at": "2026-02-06T07:42:50.157711",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.154739"
     },
     "WOS:001248007900001": {
       "processed_at": "2026-02-06T07:42:50.160668",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.156308"
     },
     "WOS:001403052700016": {
       "processed_at": "2026-02-06T07:42:50.164946",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.157873"
     },
     "WOS:001229202600001": {
       "processed_at": "2026-02-06T07:42:50.171989",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.159475"
     },
     "WOS:001282160800001": {
       "processed_at": "2026-02-06T07:42:50.177589",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.161105"
     },
     "WOS:001382831000006": {
       "processed_at": "2026-02-06T07:42:50.181469",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.162805"
     },
     "WOS:001156586700001": {
       "processed_at": "2026-02-06T07:42:50.188620",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.164563"
     },
     "WOS:001324290700001": {
       "processed_at": "2026-02-06T07:42:50.200626",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.166296"
     },
     "WOS:001392811800001": {
       "processed_at": "2026-02-06T07:42:50.206568",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.168043"
     },
     "WOS:001336722300052": {
       "processed_at": "2026-02-06T07:42:50.211924",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.169814"
     },
     "WOS:001338144800001": {
       "processed_at": "2026-02-06T07:42:50.218547",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.171476"
     },
     "WOS:001153004100010": {
       "processed_at": "2026-02-06T07:42:50.229815",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.173083"
     },
     "WOS:001288529300025": {
       "processed_at": "2026-02-06T07:42:50.233073",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.174732"
     },
     "WOS:001204611000001": {
       "processed_at": "2026-02-06T07:42:50.239562",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.176404"
     },
     "WOS:001161904100001": {
       "processed_at": "2026-02-06T07:42:50.246768",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.178031"
     },
     "WOS:001196896600001": {
       "processed_at": "2026-02-06T07:42:50.256383",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.181516"
     },
     "WOS:001367907800001": {
       "processed_at": "2026-02-06T07:42:50.262633",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.183184"
     },
     "WOS:001368610600008": {
       "processed_at": "2026-02-06T07:42:50.265816",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.184819"
     },
     "WOS:001315579605162": {
       "processed_at": "2026-02-06T07:42:50.268702",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.186457"
     },
     "WOS:001328069400003": {
       "processed_at": "2026-02-06T07:42:50.276338",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.188287"
     },
     "WOS:001368900400034": {
       "processed_at": "2026-02-06T07:42:50.284686",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.189924"
     },
     "WOS:001326822200001": {
       "processed_at": "2026-02-06T07:42:50.289082",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.191497"
     },
     "WOS:001194655400001": {
       "processed_at": "2026-02-06T07:42:50.296614",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.193172"
     },
     "WOS:001229661800001": {
       "processed_at": "2026-02-06T07:42:50.302033",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.194896"
     },
     "WOS:001349763400020": {
       "processed_at": "2026-02-06T07:42:50.307873",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.196561"
     },
     "WOS:001282722100189": {
       "processed_at": "2026-02-06T07:42:50.310851",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.198218"
     },
     "WOS:001223524400003": {
       "processed_at": "2026-02-06T07:42:50.315400",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.199814"
     },
     "WOS:001359269200037": {
       "processed_at": "2026-02-06T07:42:50.318414",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.201458"
     },
     "WOS:001367875400006": {
       "processed_at": "2026-02-06T07:42:50.323694",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.203053"
     },
     "WOS:001200524800001": {
       "processed_at": "2026-02-06T07:42:50.330446",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.204657"
     },
     "WOS:001362013900001": {
       "processed_at": "2026-02-06T07:42:50.338109",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.206264"
     },
     "WOS:001494325600038": {
       "processed_at": "2026-02-06T07:42:50.343560",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.207870"
     },
     "WOS:001313824900026": {
       "processed_at": "2026-02-06T07:42:50.347818",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.209510"
     },
     "WOS:001381366400001": {
       "processed_at": "2026-02-06T07:42:50.354910",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.211342"
     },
     "WOS:001252407600001": {
       "processed_at": "2026-02-06T07:42:50.360912",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.213038"
     },
     "WOS:001260012900003": {
       "processed_at": "2026-02-06T07:42:50.365317",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.214665"
     },
     "WOS:001295148800001": {
       "processed_at": "2026-02-06T07:42:50.374358",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.216361"
     },
     "WOS:001201479600001": {
       "processed_at": "2026-02-06T07:42:50.381635",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.217975"
     },
     "WOS:001374158300001": {
       "processed_at": "2026-02-06T07:42:50.389301",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.219634"
     },
     "WOS:001187565800001": {
       "processed_at": "2026-02-06T07:42:50.394146",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.221384"
     },
     "WOS:001307142600016": {
       "processed_at": "2026-02-06T07:42:50.400492",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.223041"
     },
     "WOS:001365078400001": {
       "processed_at": "2026-02-06T07:42:50.412242",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.224710"
     },
     "WOS:001352629000008": {
       "processed_at": "2026-02-06T07:42:50.421021",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.226435"
     },
     "WOS:001282489200001": {
       "processed_at": "2026-02-06T07:42:50.428810",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.228108"
     },
     "WOS:001303705600044": {
       "processed_at": "2026-02-06T07:42:50.433732",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.229818"
     },
     "WOS:001378285400007": {
       "processed_at": "2026-02-06T07:42:50.440124",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.231449"
     },
     "WOS:001339515700004": {
       "processed_at": "2026-02-06T07:42:50.445010",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.233119"
     },
     "WOS:001372873500029": {
       "processed_at": "2026-02-06T07:42:50.451603",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.234731"
     },
     "WOS:001241408100001": {
       "processed_at": "2026-02-06T07:42:50.458148",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.236368"
     },
     "WOS:001365834300453": {
       "processed_at": "2026-02-06T07:42:50.461478",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.238076"
     },
     "WOS:001172491300001": {
       "processed_at": "2026-02-06T07:42:50.467990",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.239849"
     },
     "WOS:001340555100005": {
       "processed_at": "2026-02-06T07:42:50.474539",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.241531"
     },
     "WOS:001303871600001": {
       "processed_at": "2026-02-06T07:42:50.483640",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.243491"
     },
     "WOS:001364378500018": {
       "processed_at": "2026-02-06T07:42:50.489231",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.245207"
     },
     "WOS:001284714500004": {
       "processed_at": "2026-02-06T07:42:50.495918",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.246948"
     },
     "WOS:001175106700001": {
       "processed_at": "2026-02-06T07:42:50.504543",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.248585"
     },
     "WOS:001322590700001": {
       "processed_at": "2026-02-06T07:42:50.512267",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.250329"
     },
     "WOS:001362477500046": {
       "processed_at": "2026-02-06T07:42:50.519218",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.252311"
     },
     "WOS:001143083900001": {
       "processed_at": "2026-02-06T07:42:50.526490",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.253978"
     },
     "WOS:001355629100001": {
       "processed_at": "2026-02-06T07:42:50.532831",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.255651"
     },
     "WOS:001188289500003": {
       "processed_at": "2026-02-06T07:42:50.538429",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.257340"
     },
     "WOS:001240576400004": {
       "processed_at": "2026-02-06T07:42:50.543282",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.259167"
     },
     "WOS:001241661000001": {
       "processed_at": "2026-02-06T07:42:50.552163",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.260812"
     },
     "WOS:001157212500004": {
       "processed_at": "2026-02-06T07:42:50.564630",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.262524"
     },
     "WOS:001371242800001": {
       "processed_at": "2026-02-06T07:42:50.570755",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.264200"
     },
     "WOS:001190158800001": {
       "processed_at": "2026-02-06T07:42:50.577825",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.280854"
     },
     "WOS:001414964800038": {
       "processed_at": "2026-02-06T07:42:50.581048",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.282805"
     },
     "WOS:001354586600001": {
       "processed_at": "2026-02-06T07:42:50.587737",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.284533"
     },
     "WOS:001329243300373": {
       "processed_at": "2026-02-06T07:42:50.592742",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.286260"
     },
     "WOS:001338857000001": {
       "processed_at": "2026-02-06T07:42:50.598295",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.287957"
     },
     "WOS:001381193200001": {
       "processed_at": "2026-02-06T07:42:50.605149",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.289718"
     },
     "WOS:001289753800001": {
       "processed_at": "2026-02-06T07:42:50.612237",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.295319"
     },
     "WOS:001359535700001": {
       "processed_at": "2026-02-06T07:42:50.621107",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.297093"
     },
     "WOS:001375987901016": {
       "processed_at": "2026-02-06T07:42:50.624501",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:29.298834"
     },
     "WOS:A1985E164300003": {
       "processed_at": "2026-02-06T07:42:50.661007",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.175018"
     },
     "WOS:A1985ASN8900007": {
       "processed_at": "2026-02-06T07:42:50.664794",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.176714"
     },
     "WOS:A1985AUH3000022": {
       "processed_at": "2026-02-06T07:42:50.667276",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.178586"
     },
     "WOS:A1985AVF5800006": {
       "processed_at": "2026-02-06T07:42:50.670701",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.181526"
     },
     "WOS:A1985ADL2300014": {
       "processed_at": "2026-02-06T07:42:50.675139",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.183294"
     },
     "WOS:A1985ALS2700003": {
       "processed_at": "2026-02-06T07:42:50.677441",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.185143"
     },
     "WOS:A1985AXP2900001": {
       "processed_at": "2026-02-06T07:42:50.681226",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.186971"
     },
     "WOS:A1985ATL1500029": {
       "processed_at": "2026-02-06T07:42:50.685306",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.188702"
     },
     "WOS:A1985ARF8200006": {
       "processed_at": "2026-02-06T07:42:50.689628",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.190453"
     },
     "WOS:A1985AKA9000024": {
       "processed_at": "2026-02-06T07:42:50.692972",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.192381"
     },
     "WOS:A1985AUC5100012": {
       "processed_at": "2026-02-06T07:42:50.696393",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.194150"
     },
     "WOS:A1985AVD1500030": {
       "processed_at": "2026-02-06T07:42:50.698836",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.195953"
     },
     "WOS:A1985AXF2800005": {
       "processed_at": "2026-02-06T07:42:50.701972",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.197631"
     },
     "WOS:A1985AJV1200305": {
       "processed_at": "2026-02-06T07:42:50.704859",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.199418"
     },
     "WOS:A1985AYK3700008": {
       "processed_at": "2026-02-06T07:42:50.708973",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.201197"
     },
     "WOS:A1985AHK5100041": {
       "processed_at": "2026-02-06T07:42:50.712054",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.203004"
     },
     "WOS:A1985AWG9400014": {
       "processed_at": "2026-02-06T07:42:50.715624",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.204728"
     },
     "WOS:A1985AFT0300044": {
       "processed_at": "2026-02-06T07:42:50.718871",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.206526"
     },
     "WOS:A1985AVK1300022": {
       "processed_at": "2026-02-06T07:42:50.722282",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.208285"
     },
     "WOS:A1985ALG2100061": {
       "processed_at": "2026-02-06T07:42:50.725261",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.210026"
     },
     "WOS:A1985AQW5600051": {
       "processed_at": "2026-02-06T07:42:50.728032",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.211807"
     },
     "WOS:A1985ATY6600001": {
       "processed_at": "2026-02-06T07:42:50.732875",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.213564"
     },
     "WOS:A1985ATP1700026": {
       "processed_at": "2026-02-06T07:42:50.735735",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.215422"
     },
     "WOS:A1985ARS2700027": {
       "processed_at": "2026-02-06T07:42:50.739081",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.217163"
     },
     "WOS:A1985AEW8900016": {
       "processed_at": "2026-02-06T07:42:50.742917",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.218891"
     },
     "WOS:A1985ASJ8800834": {
       "processed_at": "2026-02-06T07:42:50.745619",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.222036"
     },
     "WOS:A1985A199000015": {
       "processed_at": "2026-02-06T07:42:50.748931",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.223823"
     },
     "WOS:A1985ARP1000028": {
       "processed_at": "2026-02-06T07:42:50.752286",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.225548"
     },
     "WOS:A1985AKT3400025": {
       "processed_at": "2026-02-06T07:42:50.756041",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.227275"
     },
     "WOS:A1985APL3700001": {
       "processed_at": "2026-02-06T07:42:50.759902",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.229404"
     },
     "WOS:A1985ARP6300006": {
       "processed_at": "2026-02-06T07:42:50.762468",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.231160"
     },
     "WOS:A1985ASQ9300019": {
       "processed_at": "2026-02-06T07:42:50.765669",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.232931"
     },
     "WOS:A1985AUN8200111": {
       "processed_at": "2026-02-06T07:42:50.769499",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.234671"
     },
     "WOS:A1985AHH4700003": {
       "processed_at": "2026-02-06T07:42:50.773472",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.236989"
     },
     "WOS:A1985ARK6100010": {
       "processed_at": "2026-02-06T07:42:50.777012",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.238787"
     },
     "WOS:A1985AUY2800009": {
       "processed_at": "2026-02-06T07:42:50.781131",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.240547"
     },
     "WOS:A1985AQY0700054": {
       "processed_at": "2026-02-06T07:42:50.784865",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.242364"
     },
     "WOS:A1985AGF2000024": {
       "processed_at": "2026-02-06T07:42:50.788965",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.244148"
     },
     "WOS:A1985A077700005": {
       "processed_at": "2026-02-06T07:42:50.792172",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.245867"
     },
     "WOS:A1985AQH0100002": {
       "processed_at": "2026-02-06T07:42:50.796286",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.247701"
     },
     "WOS:A1985AWD1400246": {
       "processed_at": "2026-02-06T07:42:50.799088",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.249496"
     },
     "WOS:A1985AQG3400188": {
       "processed_at": "2026-02-06T07:42:50.801770",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.251240"
     },
     "WOS:A1985AWQ4500015": {
       "processed_at": "2026-02-06T07:42:50.805045",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.253022"
     },
     "WOS:A1985ANJ7500001": {
       "processed_at": "2026-02-06T07:42:50.808733",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.254845"
     },
     "WOS:A1985ANP1000024": {
       "processed_at": "2026-02-06T07:42:50.811782",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.256586"
     },
     "WOS:A1985AGS0300011": {
       "processed_at": "2026-02-06T07:42:50.816908",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.258434"
     },
     "WOS:A1985AMQ7200001": {
       "processed_at": "2026-02-06T07:42:50.819747",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.260245"
     },
     "WOS:A1985ARK6600015": {
       "processed_at": "2026-02-06T07:42:50.823941",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.262020"
     },
     "WOS:A1985ADU9400029": {
       "processed_at": "2026-02-06T07:42:50.826904",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.263755"
     },
     "WOS:A1985AQX4300021": {
       "processed_at": "2026-02-06T07:42:50.829437",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.265540"
     },
     "WOS:A1985ABY2000002": {
       "processed_at": "2026-02-06T07:42:50.833268",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.267282"
     },
     "WOS:A1985AWD1400150": {
       "processed_at": "2026-02-06T07:42:50.836695",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.269856"
     },
     "WOS:A1985AKB9800020": {
       "processed_at": "2026-02-06T07:42:50.840252",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.271888"
     },
     "WOS:A1985AFD0100011": {
       "processed_at": "2026-02-06T07:42:50.843079",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.273942"
     },
     "WOS:A1985AKC3700019": {
       "processed_at": "2026-02-06T07:42:50.846040",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.276230"
     },
     "WOS:A1985AFD7500018": {
       "processed_at": "2026-02-06T07:42:50.848900",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.278365"
     },
     "WOS:A1985ASZ8100013": {
       "processed_at": "2026-02-06T07:42:50.852429",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.281094"
     },
     "WOS:A1985AVX8300001": {
       "processed_at": "2026-02-06T07:42:50.858305",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.283762"
     },
     "WOS:A1985AFN7000007": {
       "processed_at": "2026-02-06T07:42:50.861230",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.286439"
     },
     "WOS:A1985AWK0900004": {
       "processed_at": "2026-02-06T07:42:50.865142",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.289040"
     },
     "WOS:A1985ARC3400019": {
       "processed_at": "2026-02-06T07:42:50.868264",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.291770"
     },
     "WOS:A1985AUV0100001": {
       "processed_at": "2026-02-06T07:42:50.871018",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.294512"
     },
     "WOS:A1985AWD5000007": {
       "processed_at": "2026-02-06T07:42:50.874328",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.297249"
     },
     "WOS:A1985ANJ1000007": {
       "processed_at": "2026-02-06T07:42:50.877836",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.299985"
     },
     "WOS:A1985AFF2700012": {
       "processed_at": "2026-02-06T07:42:50.881674",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.302717"
     },
     "WOS:A1985AWQ8500001": {
       "processed_at": "2026-02-06T07:42:50.887338",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.305444"
     },
     "WOS:A1985ASP3700015": {
       "processed_at": "2026-02-06T07:42:50.890931",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.308186"
     },
     "WOS:A1985AHY4000007": {
       "processed_at": "2026-02-06T07:42:50.895237",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.310699"
     },
     "WOS:A1985ATY4200007": {
       "processed_at": "2026-02-06T07:42:50.899139",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.312541"
     },
     "WOS:A1985AKG0400019": {
       "processed_at": "2026-02-06T07:42:50.903440",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.314316"
     },
     "WOS:A1985AHT5700001": {
       "processed_at": "2026-02-06T07:42:50.907679",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.316067"
     },
     "WOS:A1985TX67200008": {
       "processed_at": "2026-02-06T07:42:50.912002",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.317809"
     },
     "WOS:A1985AEQ9100027": {
       "processed_at": "2026-02-06T07:42:50.918420",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.319577"
     },
     "WOS:A1985ALU3500006": {
       "processed_at": "2026-02-06T07:42:50.922269",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.321336"
     },
     "WOS:A1985ALH8800007": {
       "processed_at": "2026-02-06T07:42:50.925735",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.323103"
     },
     "WOS:A1985AJM2800037": {
       "processed_at": "2026-02-06T07:42:50.929074",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.324863"
     },
     "WOS:A1985AVU4400004": {
       "processed_at": "2026-02-06T07:42:50.933732",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.326624"
     },
     "WOS:A1985ART9900002": {
       "processed_at": "2026-02-06T07:42:50.937570",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.328365"
     },
     "WOS:A1985AHS6600142": {
       "processed_at": "2026-02-06T07:42:50.940581",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.330085"
     },
     "WOS:A1985AQC2000005": {
       "processed_at": "2026-02-06T07:42:50.943672",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.331827"
     },
     "WOS:A1985TZ54100006": {
       "processed_at": "2026-02-06T07:42:50.946257",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.333680"
     },
     "WOS:A1985ALC5400002": {
       "processed_at": "2026-02-06T07:42:50.950071",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.335437"
     },
     "WOS:A1985ABM5800008": {
       "processed_at": "2026-02-06T07:42:50.954179",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.337165"
     },
     "WOS:A1985AWH3800114": {
       "processed_at": "2026-02-06T07:42:50.957371",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.338983"
     },
     "WOS:A1985APQ5600003": {
       "processed_at": "2026-02-06T07:42:50.960335",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.340716"
     },
     "WOS:A1985ATG1700014": {
       "processed_at": "2026-02-06T07:42:50.964165",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.342465"
     },
     "WOS:A1985AKW9800029": {
       "processed_at": "2026-02-06T07:42:50.968256",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.344314"
     },
     "WOS:A1985AQV5800028": {
       "processed_at": "2026-02-06T07:42:50.972521",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.346040"
     },
     "WOS:A1985AUK8100014": {
       "processed_at": "2026-02-06T07:42:50.976418",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.347736"
     },
     "WOS:A1985ALY9900065": {
       "processed_at": "2026-02-06T07:42:50.980962",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.349475"
     },
     "WOS:A1985AKQ7200016": {
       "processed_at": "2026-02-06T07:42:50.985626",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.351323"
     },
     "WOS:A1985APP6200012": {
       "processed_at": "2026-02-06T07:42:50.989337",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.355270"
     },
     "WOS:A1985AAU4800013": {
       "processed_at": "2026-02-06T07:42:50.993160",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.357079"
     },
     "WOS:A1985ASC6900033": {
       "processed_at": "2026-02-06T07:42:50.996655",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.358784"
     },
     "WOS:A1985AJK5500041": {
       "processed_at": "2026-02-06T07:42:51.001032",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.360570"
     },
     "WOS:A1985AUA9700011": {
       "processed_at": "2026-02-06T07:42:51.005526",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.362361"
     },
     "WOS:A1985AEL4900007": {
       "processed_at": "2026-02-06T07:42:51.009698",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.364106"
     },
     "WOS:A1985ARX7500003": {
       "processed_at": "2026-02-06T07:42:51.014611",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.365919"
     },
     "WOS:A1985C980200013": {
       "processed_at": "2026-02-06T07:42:51.017767",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.367624"
     },
     "WOS:A1985AVX7600057": {
       "processed_at": "2026-02-06T07:42:51.021484",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
+      "source_file": "/tmp/tmpapqnum7r/test1.xml",
+      "metadata": {},
+      "error": true,
+      "error_message": "type object 'XMLFilePathDef' has no attribute 'ITEM_ORGS_FILE_PATH'",
+      "error_time": "2026-02-06T02:56:47.369339"
     }
   },
   "processed_files": {
@@ -1048,11 +1648,39 @@
       "error_count": 0,
       "file_size": 34,
       "file_modified": "2026-02-06T02:32:31.942775"
+    },
+    "/tmp/tmpkxs04vuk/2c3bfeb3e23095f736c6f414f0bd7d17.xml": {
+      "processed_at": "2026-02-06T02:56:29.022221",
+      "record_count": 0,
+      "error_count": 100,
+      "file_size": 747583,
+      "file_modified": "2026-02-06T02:56:28.807376"
+    },
+    "/tmp/tmpkxs04vuk/00aa2d8da46cb2a19150eefd9b548d36.xml": {
+      "processed_at": "2026-02-06T02:56:29.300491",
+      "record_count": 0,
+      "error_count": 100,
+      "file_size": 5851054,
+      "file_modified": "2026-02-06T02:56:28.811376"
+    },
+    "/tmp/tmpapqnum7r/test0.xml": {
+      "processed_at": "2026-02-06T02:56:47.157093",
+      "record_count": 0,
+      "error_count": 100,
+      "file_size": 747583,
+      "file_modified": "2026-02-06T02:56:46.903583"
+    },
+    "/tmp/tmpapqnum7r/test1.xml": {
+      "processed_at": "2026-02-06T02:56:47.370979",
+      "record_count": 0,
+      "error_count": 100,
+      "file_size": 747583,
+      "file_modified": "2026-02-06T02:56:46.904583"
     }
   },
   "statistics": {
     "total_records": 200,
-    "total_files": 6,
-    "total_errors": 0
+    "total_files": 10,
+    "total_errors": 800
   }
 }
