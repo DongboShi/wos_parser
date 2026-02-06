@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 """
 Concurrent XML file processing capabilities for WOS XML data
 """
