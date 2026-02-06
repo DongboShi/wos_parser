@@ -6,7 +6,6 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import os
 from typing import Callable, List, Dict, Tuple
 
-
 class XMLParallelFileProcessor:
     """Handles concurrent processing of WOS XML data files"""
     
