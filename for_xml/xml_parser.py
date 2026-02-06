@@ -258,18 +258,29 @@ class XMLRecordParser:
                 })
         return addresses if addresses else None
     
-    def extract_item_au_addrs(self):
-        """Extract data for item_au_addrs table (2.3)"""
-        au_addrs = []
+    def extract_item_addr_aus(self):
+        """Extract data for item_addr_aus table (2.3)"""
+        addr_aus = []
         for addr_name in self.record.findall('.//ns:addresses/ns:address_name', self.ns):
             for name in addr_name.findall('ns:names/ns:name', self.ns):
-                au_addrs.append({
+                addr_aus.append({
                     'uid': self.uid,
                     'seq_no': self._get_attr(name, 'seq_no'),
                     'address_no': self._get_attr(name, 'addr_no')
                 })
-        return au_addrs if au_addrs else None
+        return addr_aus if addr_aus else None
     
+    def extract_item_au_addrs(self):
+        """Extract data for item_au_addrs table (2.4)"""
+        au_addrs = []
+        for name in self.record.findall('.//ns:summary/ns:names/ns:name[@role="author"]', self.ns):
+            au_addrs.append({
+                'uid': self.uid,
+                'seq_no': self._get_attr(name, 'seq_no'),
+                'address_no': self._get_attr(name, 'addr_no')
+            })
+        return au_addrs if au_addrs else None
+
     def extract_item_orgs(self):
         """Extract data for item_orgs table (2.4)"""
         orgs = []

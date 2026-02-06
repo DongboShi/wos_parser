@@ -162,7 +162,10 @@ class XMLDataWriter:
             ['uid', 'addr_no', 'full_address', 'city', 'state', 'country', 
              'zip', 'zip_location']
         )
-        
+        self.item_addr_aus_writer = CSVWriter(
+            XMLFilePathDef.ITEM_ADDR_AUS_FILE_PATH,
+            ['uid', 'seq_no', 'address_no']
+        )
         self.item_au_addrs_writer = CSVWriter(
             XMLFilePathDef.ITEM_AU_ADDRS_FILE_PATH,
             ['uid', 'seq_no', 'address_no']
