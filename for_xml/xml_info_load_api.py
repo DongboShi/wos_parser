@@ -16,7 +16,6 @@ def _write_record_to_csv(parser):
     """
     # Each worker process creates its own writer
     # This is safe because CSV writes are append operations
-    from csv_writer import XMLDataWriter
     writer = XMLDataWriter()
     writer.write_record_data(parser)
 
