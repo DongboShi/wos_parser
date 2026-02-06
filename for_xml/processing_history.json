@@ -1,7 +1,7 @@
 {
   "metadata": {
     "created": "2026-02-06T07:42:49.792381",
-    "last_updated": "2026-02-06T02:30:51.085441",
+    "last_updated": "2026-02-06T02:32:31.951079",
     "version": "1.0"
   },
   "processed_records": {
@@ -1034,11 +1034,25 @@
       "error_count": 0,
       "file_size": 34,
       "file_modified": "2026-02-06T02:30:51.069377"
+    },
+    "/tmp/tmp44nahuu4/test0.xml": {
+      "processed_at": "2026-02-06T02:32:31.949635",
+      "record_count": 0,
+      "error_count": 0,
+      "file_size": 34,
+      "file_modified": "2026-02-06T02:32:31.942775"
+    },
+    "/tmp/tmp44nahuu4/test1.xml": {
+      "processed_at": "2026-02-06T02:32:31.951071",
+      "record_count": 0,
+      "error_count": 0,
+      "file_size": 34,
+      "file_modified": "2026-02-06T02:32:31.942775"
     }
   },
   "statistics": {
     "total_records": 200,
-    "total_files": 4,
+    "total_files": 6,
     "total_errors": 0
   }
 }
