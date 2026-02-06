@@ -110,11 +110,29 @@ pip install -r requirements.txt
 
 To run the WOS Parser, use the following command from the project directory:
 
+### Sequential Mode (Default)
 ```bash
 python parser_proc_main.py
 ```
 
-Make sure to place your input files in the corresponding `paper_input_src` directory.
+### Concurrent Processing Mode
+For faster processing of large datasets, enable concurrent processing:
+
+```bash
+# Automatic worker detection
+python parser_proc_main.py --parallel
+
+# Specify worker count
+python parser_proc_main.py --parallel --workers 4
+```
+
+**Concurrent Processing Advantages:**
+- Dramatically improved performance for large datasets
+- Efficient CPU utilization across multiple cores
+- Real-time progress monitoring
+- Comprehensive error tracking and reporting
+
+Make sure to place your input files in the corresponding `paper_input_uniq` directory.
 
 ---
 
@@ -122,7 +140,8 @@ Make sure to place your input files in the corresponding `paper_input_src` direc
 
 ```
 wos_parser/
-├── parser_proc_main.py       # Main entry point
+├── parser_proc_main.py       # Entry point supporting concurrent execution
+├── parallel_processor.py      # Concurrent processing implementation
 ├── paper_info_load_api.py    # Paper data loading and API definitions
 ├── filter_dumplicate.py      # Deduplication handling
 ├── paper_parser.py           # Core PaperInfo class for managing paper metadata
