@@ -11,6 +11,39 @@ import shutil
 from parallel_processor import ParallelFileProcessor
 
 
+# WOS data format constants for testing
+WOS_HEADER_FIELDS = [
+    "PT", "AU", "TI", "SO", "PY", "VL", "IS", "BP", "EP", "PG", 
+    "TC", "Z9", "LA", "DI", "SN", "AF", "C1", "NR", "DT", "J9", 
+    "JI", "AB", "DE", "ID", "WC", "SC", "EM", "RP", "FU", "CR", 
+    "GA", "UT", "PM", "OA", "HC", "HP", "DA", "BA", "BE", "GP", 
+    "BF", "CA", "SE", "BS", "CT", "CY", "CL", "SP", "HO", "FX", 
+    "RI", "OI", "U1", "U2", "PU", "PI", "PA", "EI", "BN", "PD", 
+    "PN", "SU", "SI", "MA", "AR", "D2", "EA"
+]
+
+
+def generate_wos_header():
+    """Generate WOS format header line"""
+    return "\t".join(WOS_HEADER_FIELDS) + "\n"
+
+
+def generate_wos_record(author, title, journal, ut_suffix):
+    """Generate a sample WOS data record"""
+    fields = [
+        "J", author, title, journal, "2023", "1", "1", "1", "10", "10",
+        "5", "5", "EN", f"10.1234/test{ut_suffix}", "1234-5678", 
+        author, "Univ Test", "10", "Article", "NAT", "Nature",
+        "Test abstract", "Keyword1", "ID1", "Science", "Multidisciplinary",
+        "email@test.com", author.split(",")[0], "Grant1", "Ref1",
+        "GA123", f"WOS:0000000{ut_suffix}", "PM123", "OA", "HC", "HP",
+        "DA", "BA", "BE", "GP", "BF", "CA", "SE", "BS", "CT", "CY",
+        "CL", "SP", "HO", "FX", "RI", "OI", "U1", "U2", "PU", "PI",
+        "PA", "EI", "BN", "PD", "PN", "SU", "SI", "MA", "AR", "D2", "EA"
+    ]
+    return "\t".join(fields) + "\n"
+
+
 def create_test_data(test_dir):
     """Generate sample test files"""
     os.makedirs(test_dir, exist_ok=True)
@@ -21,21 +54,21 @@ def create_test_data(test_dir):
     os.makedirs(subdir1, exist_ok=True)
     os.makedirs(subdir2, exist_ok=True)
     
-    # Sample WOS header
-    header = "PT\tAU\tTI\tSO\tPY\tVL\tIS\tBP\tEP\tPG\tTC\tZ9\tLA\tDI\tSN\tAF\tC1\tNR\tDT\tJ9\tJI\tAB\tDE\tID\tWC\tSC\tEM\tRP\tFU\tCR\tGA\tUT\tPM\tOA\tHC\tHP\tDA\tBA\tBE\tGP\tBF\tCA\tSE\tBS\tCT\tCY\tCL\tSP\tHO\tFX\tRI\tOI\tU1\tU2\tPU\tPI\tPA\tEI\tBN\tPD\tPN\tSU\tSI\tMA\tAR\tD2\tEA\n"
+    header = generate_wos_header()
     
-    # Create test files
+    # Create test files in subdir1
     for i in range(3):
         filepath = os.path.join(subdir1, f'test_{i}.txt')
         with open(filepath, 'w') as f:
             f.write(header)
-            f.write(f"J\tSmith, A\tTest Paper {i}\tNature\t2023\t1\t1\t1\t10\t10\t5\t5\tEN\t10.1234/test{i}\t1234-5678\tSmith, A\tUniv Test\t10\tArticle\tNAT\tNature\tTest abstract\tKeyword1\tID1\tScience\tMultidisciplinary\temail@test.com\tSmith\tGrant1\tRef1\tGA123\tWOS:00000000{i}\tPM123\tOA\tHC\tHP\tDA\tBA\tBE\tGP\tBF\tCA\tSE\tBS\tCT\tCY\tCL\tSP\tHO\tFX\tRI\tOI\tU1\tU2\tPU\tPI\tPA\tEI\tBN\tPD\tPN\tSU\tSI\tMA\tAR\tD2\tEA\n")
+            f.write(generate_wos_record("Smith, A", f"Test Paper {i}", "Nature", str(i)))
     
+    # Create test files in subdir2
     for i in range(2):
         filepath = os.path.join(subdir2, f'test_{i}.txt')
         with open(filepath, 'w') as f:
             f.write(header)
-            f.write(f"J\tJones, B\tAnother Paper {i}\tScience\t2023\t2\t2\t20\t30\t11\t3\t3\tEN\t10.1234/test{i+10}\t8765-4321\tJones, B\tUniv Science\t15\tArticle\tSCI\tScience\tAnother abstract\tKeyword2\tID2\tBiology\tCell Biology\temail2@test.com\tJones\tGrant2\tRef2\tGA456\tWOS:00000001{i}\tPM456\tOA\tHC\tHP\tDA\tBA\tBE\tGP\tBF\tCA\tSE\tBS\tCT\tCY\tCL\tSP\tHO\tFX\tRI\tOI\tU1\tU2\tPU\tPI\tPA\tEI\tBN\tPD\tPN\tSU\tSI\tMA\tAR\tD2\tEA\n")
+            f.write(generate_wos_record("Jones, B", f"Another Paper {i}", "Science", str(i+10)))
 
 
 def mock_handler(dict_data, data_idx, line_str, use_template, title_list):

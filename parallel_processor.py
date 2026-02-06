@@ -17,7 +17,6 @@ class ParallelFileProcessor:
         if worker_count is None:
             worker_count = os.cpu_count() or 1
         self.worker_count = worker_count
-        self.stats = {'processed': 0, 'errors': 0}
         
     def scan_directory_tree(self, root_path: str) -> List[str]:
         """Recursively find all processable files"""
@@ -60,6 +59,11 @@ class ParallelFileProcessor:
         
         print(f"Located {total_count} files for processing")
         
+        # For very small file counts, sequential processing is more efficient
+        if total_count < 3:
+            print("File count is small, using sequential processing")
+            return self._sequential_batch(handler, file_list, total_count)
+        
         actual_workers = min(self.worker_count, total_count)
         print(f"Launching {actual_workers} concurrent workers")
         
@@ -83,6 +87,24 @@ class ParallelFileProcessor:
                     outcomes['failed'] += 1
                     outcomes['failures'].append((path, error_info))
                     print(f"[{completed}/{total_count}] ERROR: {os.path.basename(path)}")
+        
+        self._print_summary(outcomes)
+        return outcomes
+    
+    def _sequential_batch(self, handler: Callable, file_list: List[str], total_count: int) -> Dict:
+        """Execute batch processing sequentially for small file counts"""
+        outcomes = {'total': total_count, 'ok': 0, 'failed': 0, 'failures': []}
+        
+        for i, fpath in enumerate(file_list, 1):
+            success, path, error_info = self.execute_on_file(fpath, handler)
+            
+            if success:
+                outcomes['ok'] += 1
+                print(f"[{i}/{total_count}] OK: {os.path.basename(path)}")
+            else:
+                outcomes['failed'] += 1
+                outcomes['failures'].append((path, error_info))
+                print(f"[{i}/{total_count}] ERROR: {os.path.basename(path)}")
         
         self._print_summary(outcomes)
         return outcomes
