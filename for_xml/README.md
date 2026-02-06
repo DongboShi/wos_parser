@@ -29,11 +29,12 @@ Below is an ASCII diagram representing the module relationships within the WOS X
 ```  
 
 ## Module Descriptions  
-- **xml_proc_main.py**: The entry point for executing the XML parsing process. Controls the flow of execution and integrates various components.
-- **xml_info_load_api.py**: Handles loading XML file metadata and interactions with the external data with the APIs.
+- **xml_proc_main.py**: The entry point for executing the XML parsing process. Controls the flow of execution and integrates various components. Supports both sequential and parallel processing modes.
+- **xml_info_load_api.py**: Handles loading XML file metadata and interactions with the external data with the APIs. Provides both sequential and parallel processing functions.
 - **xml_parser.py**: Implements the logic to parse the XML content into structured data that can be processed further.
 - **csv_writer.py**: Responsible for writing parsed data into the desired CSV format, ensuring proper formatting and structure.
 - **xml_processing_history.py**: Maintains a log of the processing history and results, allowing for reference and debugging.
+- **xml_parallel_processor.py**: Provides concurrent processing capabilities using multiprocessing to efficiently handle large numbers of XML files.
 - **xml_common_def.py**: Contains common definitions and utility functions shared across various modules.
 
 ## Data Flow Diagram  
@@ -55,6 +56,7 @@ The processing generates a total of 33 output CSV files, each containing specifi
 ### Command-Line Usage  
 The parser supports processing both individual XML files and directories. When processing a directory, it will **recursively** search for all XML files in the directory and its subdirectories.
 
+#### Sequential Processing (Default)
 Process a single XML file:
 ```bash
 python xml_proc_main.py path/to/file.xml
@@ -76,7 +78,28 @@ python xml_proc_main.py data/
 #   data/2024/Q2/SSCI.xml
 ```
 
+#### Parallel Processing Mode
+For improved performance when processing large numbers of XML files, enable parallel processing with the `--parallel` flag:
+
+```bash
+# Enable parallel processing with auto-detected worker count
+python xml_proc_main.py data/ --parallel
+
+# Specify number of workers
+python xml_proc_main.py data/ --parallel --workers 4
+
+# Parallel processing with fresh reprocessing (ignore history)
+python xml_proc_main.py data/ --parallel --no-skip-processed
+```
+
+**Performance Notes:**
+- Parallel processing is most effective with 3+ XML files
+- For 1-2 files, sequential processing is automatically used
+- Worker count defaults to CPU count if not specified
+- Each worker processes complete XML files independently
+
 ### Programmatic Usage  
+#### Sequential Processing
 ```python
 from xml_info_load_api import process_xml_to_csv
 
@@ -89,6 +112,23 @@ process_xml_to_csv('data_directory/')
 # Process without incremental mode (reprocess all files)
 from xml_info_load_api import process_xml_to_csv_fresh
 process_xml_to_csv_fresh('data_directory/')
+```
+
+#### Parallel Processing
+```python
+from xml_info_load_api import process_xml_to_csv_parallel
+
+# Process directory with parallel workers (auto-detect worker count)
+process_xml_to_csv_parallel('data_directory/')
+
+# Specify worker count
+process_xml_to_csv_parallel('data_directory/', workers=4)
+
+# Disable incremental processing (reprocess all files)
+process_xml_to_csv_parallel('data_directory/', skip_processed=False)
+
+# Combine options
+process_xml_to_csv_parallel('data_directory/', workers=8, skip_processed=False)
 ```
 
 ## Incremental Processing Feature  
