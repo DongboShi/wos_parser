@@ -149,3 +149,27 @@ def reprocess_records(uids, xml_path):
     
     # Process with skip_processed enabled (will reprocess removed UIDs)
     process_xml_to_csv(xml_path, skip_processed=True)
+
+
+def process_xml_to_csv_parallel(xml_path, workers=None, skip_processed=True):
+    """Process XML files using concurrent workers for improved performance"""
+    from xml_parallel_processor import process_xml_with_concurrency
+    from csv_writer import XMLDataWriter
+    
+    # Initialize data writer
+    data_writer = XMLDataWriter()
+    
+    # Define callback function to write record data
+    def write_callback(parser):
+        data_writer.write_record_data(parser)
+    
+    # Check if input is a file or directory
+    if os.path.isfile(xml_path):
+        # For single file, use sequential processing
+        print("Single file detected, using sequential processing")
+        process_xml_to_csv(xml_path, skip_processed=skip_processed)
+    elif os.path.isdir(xml_path):
+        # For directory, use parallel processing
+        process_xml_with_concurrency(write_callback, xml_path, workers=workers, skip_processed=skip_processed)
+    else:
+        raise ValueError(f"{xml_path} is neither a file nor a directory.")
