@@ -43,3 +43,7 @@ xml_output/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Demo/Test directories
+demo_input/
+paper_output/
