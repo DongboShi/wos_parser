@@ -62,7 +62,7 @@ class XMLParallelFileProcessor:
         print(f"Located {total_count} XML files for processing")
         
         # For very small file counts, sequential processing is more efficient
-        if total_count < 3:
+        if total_count < 2:
             print("File count is small, using sequential processing")
             return self._sequential_batch(handler, file_list, total_count, skip_processed)
         

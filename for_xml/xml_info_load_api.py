@@ -6,6 +6,14 @@ from xml_common_def import WOS_NAMESPACE
 from xml_processing_history import ProcessingHistoryManager
 
 
+# SOLUTION 1: Define callback at module level (top-level function)
+def write_record_callback(parser):
+    """Callback function to write record data to CSV"""
+    # Create a new writer instance in each worker process
+    data_writer = XMLDataWriter()
+    data_writer.write_record_data(parser)
+
+
 def load_xml_file(xml_file_path, callback_func, skip_processed, history_manager):
     """Load and process a single XML file with incremental processing support"""
     if not os.path.exists(xml_file_path):
@@ -87,89 +95,41 @@ def load_xml_directory(directory_path, callback_func, skip_processed, history_ma
 
 def process_xml_to_csv(xml_path, skip_processed=True):
     """Process the XML file or directory at xml_path to CSV, handle skip_processed logic here"""
-    # Initialize data writer and history manager
-    data_writer = XMLDataWriter()
+    # Initialize history manager
     history_manager = ProcessingHistoryManager()
     
-    # Define callback function to write record data
-    def write_callback(parser):
-        data_writer.write_record_data(parser)
+    # Use the module-level callback function (picklable!)
+    callback_func = write_record_callback
     
     # Check if input is a file or directory
     if os.path.isfile(xml_path):
-        load_xml_file(xml_path, write_callback, skip_processed, history_manager)
+        load_xml_file(xml_path, callback_func, skip_processed, history_manager)
     elif os.path.isdir(xml_path):
-        load_xml_directory(xml_path, write_callback, skip_processed, history_manager)
+        load_xml_directory(xml_path, callback_func, skip_processed, history_manager)
     else:
-        raise ValueError(f"{xml_path} is neither a file nor a directory.")
-    
-    # Print summary
-    print("\n" + "="*60)
-    print("Processing Summary")
-    print("="*60)
-    history_manager.print_summary()
-
-
-def process_xml_to_csv_fresh(xml_path):
-    """Process XML file as fresh, ignoring any processed history"""
-    process_xml_to_csv(xml_path, skip_processed=False)
-
-
-def filter_records_by_uid(xml_file_path, target_uids):
-    """Filter records in the XML file by specific UIDs"""
-    if not os.path.exists(xml_file_path):
-        raise FileNotFoundError(f"The file {xml_file_path} does not exist.")
-    
-    try:
-        tree = ET.parse(xml_file_path)
-        root = tree.getroot()
-        
-        records = root.findall('.//ns:REC', WOS_NAMESPACE)
-        filtered_records = []
-        
-        for record in records:
-            parser = XMLRecordParser(record)
-            if parser.uid in target_uids:
-                filtered_records.append(parser)
-        
-        return filtered_records
-        
-    except Exception as e:
-        print(f"Error filtering records: {str(e)}")
-        raise
-
-
-def reprocess_records(uids, xml_path):
-    """Reprocess specific records identified by UIDs"""
-    history_manager = ProcessingHistoryManager()
-    
-    # Remove UIDs from history to allow reprocessing
-    for uid in uids:
-        history_manager.remove_record(uid)
-    
-    # Process with skip_processed enabled (will reprocess removed UIDs)
-    process_xml_to_csv(xml_path, skip_processed=True)
+        raise ValueError(f"{xml_path} is neither a file nor a directory")
 
 
 def process_xml_to_csv_parallel(xml_path, workers=None, skip_processed=True):
-    """Process XML files using concurrent workers for improved performance"""
-    from xml_parallel_processor import process_xml_with_concurrency
-    from csv_writer import XMLDataWriter
+    """Process XML files in parallel mode"""
+    from xml_parallel_processor import XMLParallelFileProcessor
     
-    # Initialize data writer
-    data_writer = XMLDataWriter()
+    # Use the module-level callback function (picklable!)
+    callback_func = write_record_callback
     
-    # Define callback function to write record data
-    def write_callback(parser):
-        data_writer.write_record_data(parser)
+    processor = XMLParallelFileProcessor(worker_count=workers)
     
-    # Check if input is a file or directory
     if os.path.isfile(xml_path):
         # For single file, use sequential processing
-        print("Single file detected, using sequential processing")
-        process_xml_to_csv(xml_path, skip_processed=skip_processed)
+        history_manager = ProcessingHistoryManager()
+        load_xml_file(xml_path, callback_func, skip_processed, history_manager)
     elif os.path.isdir(xml_path):
-        # For directory, use parallel processing
-        process_xml_with_concurrency(write_callback, xml_path, workers=workers, skip_processed=skip_processed)
+        # For directory, use parallel batch processing
+        processor.run_batch(callback_func, xml_path, skip_processed)
     else:
-        raise ValueError(f"{xml_path} is neither a file nor a directory.")
+        raise ValueError(f"{xml_path} is neither a file nor a directory")
+
+
+def process_xml_to_csv_fresh(xml_path):
+    """Process all files fresh, ignoring processing history"""
+    return process_xml_to_csv(xml_path, skip_processed=False)
