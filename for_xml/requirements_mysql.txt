@@ -1,0 +1,2 @@
+# Requirements for MySQL Import Script
+pymysql>=1.0.0

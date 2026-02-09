@@ -219,5 +219,43 @@ Ran 30 tests in 0.015s
 OK (skipped=2)
 ```
 
+## Importing CSV Data to MySQL Database
+
+After generating CSV files, you can import them into a MySQL database for easier querying and analysis.
+
+### Quick Start
+
+1. Install the required Python package:
+   ```bash
+   pip install -r requirements_mysql.txt
+   ```
+
+2. Run the import script:
+   ```bash
+   python import_to_mysql.py
+   ```
+
+This will:
+- Create a MySQL database named `wos_xml`
+- Create 33 tables with proper schema and indexes
+- Import all CSV files from the `xml_output` directory
+
+### Custom Configuration
+
+Specify database connection parameters:
+```bash
+python import_to_mysql.py --host localhost --user root --password mypass --database wos_xml
+```
+
+### Detailed Documentation
+
+For comprehensive information about MySQL import, including:
+- Database schema details
+- Advanced configuration options
+- Querying examples
+- Troubleshooting guide
+
+See [MYSQL_IMPORT_GUIDE.md](MYSQL_IMPORT_GUIDE.md)
+
 ## Additional Information  
 For more details and ongoing updates, refer to the documentation or contact the maintainers of the WOS XML Parser.
