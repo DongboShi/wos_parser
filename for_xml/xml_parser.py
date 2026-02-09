@@ -41,9 +41,9 @@ class XMLRecordParser:
             return element.attrib.get(attr_name, default)
         return default
     
-    ==================================================================
-    Section 1: Paper Basic Information Extraction
-    ==================================================================
+    # ==================================================================
+    # Section 1: Paper Basic Information Extraction
+    # ==================================================================
     
     def extract_item(self):
         """Extract data for item table (1.1)"""
@@ -216,9 +216,9 @@ class XMLRecordParser:
             })
         return publishers if publishers else None
     
-    ==================================================================
-    Section 2: Author Information Extraction
-    ==================================================================
+    # ==================================================================
+    # Section 2: Author Information Extraction
+    # ==================================================================
     
     def extract_item_authors(self):
         """Extract data for item_authors table (2.1)"""
