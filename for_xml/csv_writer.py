@@ -167,6 +167,10 @@ class XMLDataWriter:
             ['uid', 'seq_no', 'address_no']
         )
         self.item_au_addrs_writer = CSVWriter(
+            XMLFilePathDef.ITEM_ADDR_AUS_FILE_PATH,
+            ['uid', 'seq_no', 'address_no']
+        )
+        self.item_au_addrs_writer = CSVWriter(
             XMLFilePathDef.ITEM_AU_ADDRS_FILE_PATH,
             ['uid', 'seq_no', 'address_no']
         )
@@ -281,6 +285,7 @@ class XMLDataWriter:
         self.item_authors_writer.write_rows(parser.extract_item_authors())
         self.item_addresses_writer.write_rows(parser.extract_item_addresses())
         self.item_au_addrs_writer.write_rows(parser.extract_item_au_addrs())
+        self.item_addr_aus_writer.write_rows(parser.extract_item_addr_aus())
         self.item_orgs_writer.write_rows(parser.extract_item_orgs())
         self.item_suborgs_writer.write_rows(parser.extract_item_suborgs())
         self.item_author_ids_writer.write_rows(parser.extract_item_author_ids())
@@ -290,17 +295,17 @@ class XMLDataWriter:
         self.item_rp_suborgs_writer.write_rows(parser.extract_item_rp_suborgs())
         self.item_contributors_writer.write_rows(parser.extract_item_contributors())
         
-        # Section 3: Category Information
+        # # Section 3: Category Information
         self.item_headings_writer.write_rows(parser.extract_item_headings())
         self.item_subjects_writer.write_rows(parser.extract_item_subjects())
         
-        # Section 4: References
+        # # Section 4: References
         self.item_references_writer.write_rows(parser.extract_item_references())
         self.item_cite_locations_writer.write_rows(parser.extract_item_cite_locations())
         
-        # Section 5: Funding Information
+        # # Section 5: Funding Information
         self.item_acks_writer.write_row(parser.extract_item_acks())
         self.item_grants_writer.write_rows(parser.extract_item_grants())
         
-        # Section 6: Conference Information
+        # # Section 6: Conference Information
         self.item_conferences_writer.write_rows(parser.extract_item_conferences())

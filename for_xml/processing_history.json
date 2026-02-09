@@ -1,1030 +1,523 @@
 {
   "metadata": {
-    "created": "2026-02-06T10:56:32.560291",
-    "last_updated": "2026-02-06T10:56:33.852834",
+    "created": "2026-02-07T18:02:51.308838",
+    "last_updated": "2026-02-07T18:02:51.534434",
     "version": "1.0"
   },
   "processed_records": {
     "WOS:001330731400123": {
-      "processed_at": "2026-02-06T10:56:32.669384",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.426797",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001308060400007": {
-      "processed_at": "2026-02-06T10:56:32.674489",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.427537",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001342667300001": {
-      "processed_at": "2026-02-06T10:56:32.683637",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.429276",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001194492200001": {
-      "processed_at": "2026-02-06T10:56:32.695456",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.435362",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001290216501144": {
-      "processed_at": "2026-02-06T10:56:32.702514",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.437913",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001341198700001": {
-      "processed_at": "2026-02-06T10:56:32.713715",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.439069",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001335047000008": {
-      "processed_at": "2026-02-06T10:56:32.722475",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.439646",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001383772300001": {
-      "processed_at": "2026-02-06T10:56:32.740904",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.440451",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001298122900076": {
-      "processed_at": "2026-02-06T10:56:32.749792",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.440984",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001341306300001": {
-      "processed_at": "2026-02-06T10:56:32.758506",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.441531",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001236582800001": {
-      "processed_at": "2026-02-06T10:56:32.769680",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.442161",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001314715300003": {
-      "processed_at": "2026-02-06T10:56:32.780992",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.442891",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001396233803197": {
-      "processed_at": "2026-02-06T10:56:32.787416",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.443549",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001451048600006": {
-      "processed_at": "2026-02-06T10:56:32.796802",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.445149",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001273959400003": {
-      "processed_at": "2026-02-06T10:56:32.804739",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.446888",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001241323300001": {
-      "processed_at": "2026-02-06T10:56:32.811803",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.447805",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001310523504050": {
-      "processed_at": "2026-02-06T10:56:32.815007",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.448963",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001231191200001": {
-      "processed_at": "2026-02-06T10:56:32.822001",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.449922",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001313028100011": {
-      "processed_at": "2026-02-06T10:56:32.828216",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.450600",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001192014700001": {
-      "processed_at": "2026-02-06T10:56:32.835478",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.451410",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001318477400004": {
-      "processed_at": "2026-02-06T10:56:32.841398",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.452145",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001293949400001": {
-      "processed_at": "2026-02-06T10:56:32.849374",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.452903",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001247049200028": {
-      "processed_at": "2026-02-06T10:56:32.854108",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.453991",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001263554600001": {
-      "processed_at": "2026-02-06T10:56:32.861529",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.454863",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001178862800001": {
-      "processed_at": "2026-02-06T10:56:32.867207",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.455605",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001187970200001": {
-      "processed_at": "2026-02-06T10:56:32.873890",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.456377",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001330548300001": {
-      "processed_at": "2026-02-06T10:56:32.879240",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.457141",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001248007900001": {
-      "processed_at": "2026-02-06T10:56:32.882891",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.457766",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001403052700016": {
-      "processed_at": "2026-02-06T10:56:32.886959",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.458489",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001229202600001": {
-      "processed_at": "2026-02-06T10:56:32.893526",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.459261",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001282160800001": {
-      "processed_at": "2026-02-06T10:56:32.898069",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.460014",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001382831000006": {
-      "processed_at": "2026-02-06T10:56:32.901552",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.460708",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001156586700001": {
-      "processed_at": "2026-02-06T10:56:32.906645",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.462174",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001324290700001": {
-      "processed_at": "2026-02-06T10:56:32.913795",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.462858",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001392811800001": {
-      "processed_at": "2026-02-06T10:56:32.920135",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.463518",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001336722300052": {
-      "processed_at": "2026-02-06T10:56:32.925073",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.464240",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001338144800001": {
-      "processed_at": "2026-02-06T10:56:32.930972",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.465059",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001153004100010": {
-      "processed_at": "2026-02-06T10:56:32.948276",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.465885",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001288529300025": {
-      "processed_at": "2026-02-06T10:56:32.952236",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.466491",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001204611000001": {
-      "processed_at": "2026-02-06T10:56:32.959538",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.467327",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001161904100001": {
-      "processed_at": "2026-02-06T10:56:32.966442",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.468060",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001196896600001": {
-      "processed_at": "2026-02-06T10:56:32.975412",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.468929",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001367907800001": {
-      "processed_at": "2026-02-06T10:56:32.982942",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.469907",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001368610600008": {
-      "processed_at": "2026-02-06T10:56:32.986266",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.470516",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001315579605162": {
-      "processed_at": "2026-02-06T10:56:32.988969",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.471357",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001328069400003": {
-      "processed_at": "2026-02-06T10:56:32.997710",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.472372",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001368900400034": {
-      "processed_at": "2026-02-06T10:56:33.006335",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.473131",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001326822200001": {
-      "processed_at": "2026-02-06T10:56:33.011588",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.473912",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001194655400001": {
-      "processed_at": "2026-02-06T10:56:33.019543",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.474883",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001229661800001": {
-      "processed_at": "2026-02-06T10:56:33.025412",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.475990",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001349763400020": {
-      "processed_at": "2026-02-06T10:56:33.031739",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.477107",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001282722100189": {
-      "processed_at": "2026-02-06T10:56:33.034807",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.478445",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001223524400003": {
-      "processed_at": "2026-02-06T10:56:33.039785",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.479474",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001359269200037": {
-      "processed_at": "2026-02-06T10:56:33.043035",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.480531",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001367875400006": {
-      "processed_at": "2026-02-06T10:56:33.048657",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.481435",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001200524800001": {
-      "processed_at": "2026-02-06T10:56:33.055564",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.482245",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001362013900001": {
-      "processed_at": "2026-02-06T10:56:33.064693",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.483032",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001494325600038": {
-      "processed_at": "2026-02-06T10:56:33.070334",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.484806",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001313824900026": {
-      "processed_at": "2026-02-06T10:56:33.075888",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.485931",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001381366400001": {
-      "processed_at": "2026-02-06T10:56:33.084708",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.486858",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001252407600001": {
-      "processed_at": "2026-02-06T10:56:33.091599",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.488236",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001260012900003": {
-      "processed_at": "2026-02-06T10:56:33.096295",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.489105",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001295148800001": {
-      "processed_at": "2026-02-06T10:56:33.104583",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.489889",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001201479600001": {
-      "processed_at": "2026-02-06T10:56:33.110126",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.490638",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001374158300001": {
-      "processed_at": "2026-02-06T10:56:33.117830",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.492197",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001187565800001": {
-      "processed_at": "2026-02-06T10:56:33.123075",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.493251",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001307142600016": {
-      "processed_at": "2026-02-06T10:56:33.129625",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.494644",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001365078400001": {
-      "processed_at": "2026-02-06T10:56:33.138987",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.496526",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001352629000008": {
-      "processed_at": "2026-02-06T10:56:33.146202",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.498022",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001282489200001": {
-      "processed_at": "2026-02-06T10:56:33.153569",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.499441",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001303705600044": {
-      "processed_at": "2026-02-06T10:56:33.158080",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.500334",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001378285400007": {
-      "processed_at": "2026-02-06T10:56:33.164169",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.502262",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001339515700004": {
-      "processed_at": "2026-02-06T10:56:33.168637",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.503337",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001372873500029": {
-      "processed_at": "2026-02-06T10:56:33.174803",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.504273",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001241408100001": {
-      "processed_at": "2026-02-06T10:56:33.180786",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.505070",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001365834300453": {
-      "processed_at": "2026-02-06T10:56:33.183543",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.505835",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001172491300001": {
-      "processed_at": "2026-02-06T10:56:33.189753",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.506953",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001340555100005": {
-      "processed_at": "2026-02-06T10:56:33.195586",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.508568",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001303871600001": {
-      "processed_at": "2026-02-06T10:56:33.203881",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.509766",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001364378500018": {
-      "processed_at": "2026-02-06T10:56:33.208881",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.510899",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001284714500004": {
-      "processed_at": "2026-02-06T10:56:33.213433",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.512292",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001175106700001": {
-      "processed_at": "2026-02-06T10:56:33.220916",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.513297",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001322590700001": {
-      "processed_at": "2026-02-06T10:56:33.228091",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.514325",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001362477500046": {
-      "processed_at": "2026-02-06T10:56:33.231707",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.515224",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001143083900001": {
-      "processed_at": "2026-02-06T10:56:33.238443",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.516098",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001355629100001": {
-      "processed_at": "2026-02-06T10:56:33.243739",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.517155",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001188289500003": {
-      "processed_at": "2026-02-06T10:56:33.248839",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.518141",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001240576400004": {
-      "processed_at": "2026-02-06T10:56:33.254304",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.519191",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001241661000001": {
-      "processed_at": "2026-02-06T10:56:33.263939",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.520128",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001157212500004": {
-      "processed_at": "2026-02-06T10:56:33.278284",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.521196",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001371242800001": {
-      "processed_at": "2026-02-06T10:56:33.289047",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.522318",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001190158800001": {
-      "processed_at": "2026-02-06T10:56:33.301362",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.523241",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001414964800038": {
-      "processed_at": "2026-02-06T10:56:33.306416",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.524121",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001354586600001": {
-      "processed_at": "2026-02-06T10:56:33.317252",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.524986",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001329243300373": {
-      "processed_at": "2026-02-06T10:56:33.325854",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.525830",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001338857000001": {
-      "processed_at": "2026-02-06T10:56:33.335824",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.526678",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001381193200001": {
-      "processed_at": "2026-02-06T10:56:33.350996",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.527777",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001289753800001": {
-      "processed_at": "2026-02-06T10:56:33.365303",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.530184",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001359535700001": {
-      "processed_at": "2026-02-06T10:56:33.379075",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
+      "processed_at": "2026-02-07T18:02:51.531670",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     },
     "WOS:001375987901016": {
-      "processed_at": "2026-02-06T10:56:33.384272",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml",
-      "metadata": {}
-    },
-    "WOS:A1985E164300003": {
-      "processed_at": "2026-02-06T10:56:33.443777",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ASN8900007": {
-      "processed_at": "2026-02-06T10:56:33.448832",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AUH3000022": {
-      "processed_at": "2026-02-06T10:56:33.453025",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AVF5800006": {
-      "processed_at": "2026-02-06T10:56:33.457227",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ADL2300014": {
-      "processed_at": "2026-02-06T10:56:33.468994",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ALS2700003": {
-      "processed_at": "2026-02-06T10:56:33.471951",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AXP2900001": {
-      "processed_at": "2026-02-06T10:56:33.476489",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ATL1500029": {
-      "processed_at": "2026-02-06T10:56:33.482369",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARF8200006": {
-      "processed_at": "2026-02-06T10:56:33.487222",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AKA9000024": {
-      "processed_at": "2026-02-06T10:56:33.490271",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AUC5100012": {
-      "processed_at": "2026-02-06T10:56:33.494175",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AVD1500030": {
-      "processed_at": "2026-02-06T10:56:33.496641",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AXF2800005": {
-      "processed_at": "2026-02-06T10:56:33.500663",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AJV1200305": {
-      "processed_at": "2026-02-06T10:56:33.503787",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AYK3700008": {
-      "processed_at": "2026-02-06T10:56:33.507960",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AHK5100041": {
-      "processed_at": "2026-02-06T10:56:33.510894",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWG9400014": {
-      "processed_at": "2026-02-06T10:56:33.514818",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AFT0300044": {
-      "processed_at": "2026-02-06T10:56:33.518820",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AVK1300022": {
-      "processed_at": "2026-02-06T10:56:33.522202",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ALG2100061": {
-      "processed_at": "2026-02-06T10:56:33.525071",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AQW5600051": {
-      "processed_at": "2026-02-06T10:56:33.527964",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ATY6600001": {
-      "processed_at": "2026-02-06T10:56:33.533783",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ATP1700026": {
-      "processed_at": "2026-02-06T10:56:33.536632",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARS2700027": {
-      "processed_at": "2026-02-06T10:56:33.540360",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AEW8900016": {
-      "processed_at": "2026-02-06T10:56:33.544037",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ASJ8800834": {
-      "processed_at": "2026-02-06T10:56:33.546653",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985A199000015": {
-      "processed_at": "2026-02-06T10:56:33.550641",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARP1000028": {
-      "processed_at": "2026-02-06T10:56:33.554431",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AKT3400025": {
-      "processed_at": "2026-02-06T10:56:33.558291",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985APL3700001": {
-      "processed_at": "2026-02-06T10:56:33.562313",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARP6300006": {
-      "processed_at": "2026-02-06T10:56:33.565381",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ASQ9300019": {
-      "processed_at": "2026-02-06T10:56:33.569040",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AUN8200111": {
-      "processed_at": "2026-02-06T10:56:33.572406",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AHH4700003": {
-      "processed_at": "2026-02-06T10:56:33.576210",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARK6100010": {
-      "processed_at": "2026-02-06T10:56:33.578853",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AUY2800009": {
-      "processed_at": "2026-02-06T10:56:33.584286",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AQY0700054": {
-      "processed_at": "2026-02-06T10:56:33.588697",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AGF2000024": {
-      "processed_at": "2026-02-06T10:56:33.592927",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985A077700005": {
-      "processed_at": "2026-02-06T10:56:33.596356",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AQH0100002": {
-      "processed_at": "2026-02-06T10:56:33.600745",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWD1400246": {
-      "processed_at": "2026-02-06T10:56:33.603909",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AQG3400188": {
-      "processed_at": "2026-02-06T10:56:33.607543",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWQ4500015": {
-      "processed_at": "2026-02-06T10:56:33.611179",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ANJ7500001": {
-      "processed_at": "2026-02-06T10:56:33.615452",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ANP1000024": {
-      "processed_at": "2026-02-06T10:56:33.618668",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AGS0300011": {
-      "processed_at": "2026-02-06T10:56:33.624483",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AMQ7200001": {
-      "processed_at": "2026-02-06T10:56:33.627597",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARK6600015": {
-      "processed_at": "2026-02-06T10:56:33.632384",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ADU9400029": {
-      "processed_at": "2026-02-06T10:56:33.638178",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AQX4300021": {
-      "processed_at": "2026-02-06T10:56:33.640861",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ABY2000002": {
-      "processed_at": "2026-02-06T10:56:33.644959",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWD1400150": {
-      "processed_at": "2026-02-06T10:56:33.648758",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AKB9800020": {
-      "processed_at": "2026-02-06T10:56:33.652779",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AFD0100011": {
-      "processed_at": "2026-02-06T10:56:33.655838",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AKC3700019": {
-      "processed_at": "2026-02-06T10:56:33.659291",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AFD7500018": {
-      "processed_at": "2026-02-06T10:56:33.662403",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ASZ8100013": {
-      "processed_at": "2026-02-06T10:56:33.666339",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AVX8300001": {
-      "processed_at": "2026-02-06T10:56:33.673052",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AFN7000007": {
-      "processed_at": "2026-02-06T10:56:33.676462",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWK0900004": {
-      "processed_at": "2026-02-06T10:56:33.681249",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARC3400019": {
-      "processed_at": "2026-02-06T10:56:33.685203",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AUV0100001": {
-      "processed_at": "2026-02-06T10:56:33.687961",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWD5000007": {
-      "processed_at": "2026-02-06T10:56:33.691861",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ANJ1000007": {
-      "processed_at": "2026-02-06T10:56:33.695422",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AFF2700012": {
-      "processed_at": "2026-02-06T10:56:33.699802",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWQ8500001": {
-      "processed_at": "2026-02-06T10:56:33.703620",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ASP3700015": {
-      "processed_at": "2026-02-06T10:56:33.707598",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AHY4000007": {
-      "processed_at": "2026-02-06T10:56:33.711899",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ATY4200007": {
-      "processed_at": "2026-02-06T10:56:33.716057",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AKG0400019": {
-      "processed_at": "2026-02-06T10:56:33.720338",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AHT5700001": {
-      "processed_at": "2026-02-06T10:56:33.724830",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985TX67200008": {
-      "processed_at": "2026-02-06T10:56:33.729270",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AEQ9100027": {
-      "processed_at": "2026-02-06T10:56:33.736395",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ALU3500006": {
-      "processed_at": "2026-02-06T10:56:33.740569",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ALH8800007": {
-      "processed_at": "2026-02-06T10:56:33.744234",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AJM2800037": {
-      "processed_at": "2026-02-06T10:56:33.748317",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AVU4400004": {
-      "processed_at": "2026-02-06T10:56:33.753866",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ART9900002": {
-      "processed_at": "2026-02-06T10:56:33.758333",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AHS6600142": {
-      "processed_at": "2026-02-06T10:56:33.762102",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AQC2000005": {
-      "processed_at": "2026-02-06T10:56:33.765718",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985TZ54100006": {
-      "processed_at": "2026-02-06T10:56:33.768984",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ALC5400002": {
-      "processed_at": "2026-02-06T10:56:33.772930",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ABM5800008": {
-      "processed_at": "2026-02-06T10:56:33.777426",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AWH3800114": {
-      "processed_at": "2026-02-06T10:56:33.780783",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985APQ5600003": {
-      "processed_at": "2026-02-06T10:56:33.784268",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ATG1700014": {
-      "processed_at": "2026-02-06T10:56:33.788493",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AKW9800029": {
-      "processed_at": "2026-02-06T10:56:33.792774",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AQV5800028": {
-      "processed_at": "2026-02-06T10:56:33.797391",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AUK8100014": {
-      "processed_at": "2026-02-06T10:56:33.802339",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ALY9900065": {
-      "processed_at": "2026-02-06T10:56:33.807425",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AKQ7200016": {
-      "processed_at": "2026-02-06T10:56:33.813188",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985APP6200012": {
-      "processed_at": "2026-02-06T10:56:33.817715",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AAU4800013": {
-      "processed_at": "2026-02-06T10:56:33.821977",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ASC6900033": {
-      "processed_at": "2026-02-06T10:56:33.825280",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AJK5500041": {
-      "processed_at": "2026-02-06T10:56:33.829066",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AUA9700011": {
-      "processed_at": "2026-02-06T10:56:33.833940",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AEL4900007": {
-      "processed_at": "2026-02-06T10:56:33.838301",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985ARX7500003": {
-      "processed_at": "2026-02-06T10:56:33.843405",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985C980200013": {
-      "processed_at": "2026-02-06T10:56:33.846723",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
-      "metadata": {}
-    },
-    "WOS:A1985AVX7600057": {
-      "processed_at": "2026-02-06T10:56:33.851270",
-      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml",
+      "processed_at": "2026-02-07T18:02:51.533255",
+      "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
     }
   },
   "processed_files": {
-    "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/00aa2d8da46cb2a19150eefd9b548d36.xml": {
-      "processed_at": "2026-02-06T10:56:33.385817",
+    "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml": {
+      "processed_at": "2026-02-07T18:02:51.534421",
       "record_count": 100,
       "error_count": 0,
       "file_size": 5851054,
       "file_modified": "2026-02-04T21:00:54.056353"
-    },
-    "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2c3bfeb3e23095f736c6f414f0bd7d17.xml": {
-      "processed_at": "2026-02-06T10:56:33.852822",
-      "record_count": 100,
-      "error_count": 0,
-      "file_size": 747583,
-      "file_modified": "2026-02-05T10:56:54.565569"
     }
   },
   "statistics": {
-    "total_records": 200,
-    "total_files": 2,
+    "total_records": 100,
+    "total_files": 1,
     "total_errors": 0
   }
 }

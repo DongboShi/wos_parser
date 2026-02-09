@@ -41,9 +41,9 @@ class XMLRecordParser:
             return element.attrib.get(attr_name, default)
         return default
     
-    # ==================================================================
-    # Section 1: Paper Basic Information Extraction
-    # ==================================================================
+    ==================================================================
+    Section 1: Paper Basic Information Extraction
+    ==================================================================
     
     def extract_item(self):
         """Extract data for item table (1.1)"""
@@ -189,7 +189,7 @@ class XMLRecordParser:
     def extract_item_oas(self):
         """Extract data for item_oas table (1.13)"""
         oas_list = []
-        for oa in self.record.findall('.//ns:oases/ns:oa', self.ns):
+        for oa in self.record.findall('.//ns:oases/ns:oas', self.ns):
             oas_list.append({
                 'uid': self.uid,
                 'oa_type': self._get_attr(oa, 'type')
@@ -216,9 +216,9 @@ class XMLRecordParser:
             })
         return publishers if publishers else None
     
-    # ==================================================================
-    # Section 2: Author Information Extraction
-    # ==================================================================
+    ==================================================================
+    Section 2: Author Information Extraction
+    ==================================================================
     
     def extract_item_authors(self):
         """Extract data for item_authors table (2.1)"""
