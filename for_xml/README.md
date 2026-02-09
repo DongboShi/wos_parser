@@ -225,6 +225,17 @@ After generating CSV files, you can import them into a MySQL database for easier
 
 ### Quick Start
 
+**Option 1: Using the convenience script (recommended)**
+```bash
+# Install dependencies and import in one step
+./import_csv_to_mysql.sh [mysql_password] [database_name]
+
+# Example
+./import_csv_to_mysql.sh mypassword wos_xml
+```
+
+**Option 2: Using Python directly**
+
 1. Install the required Python package:
    ```bash
    pip install -r requirements_mysql.txt
@@ -246,6 +257,15 @@ Specify database connection parameters:
 ```bash
 python import_to_mysql.py --host localhost --user root --password mypass --database wos_xml
 ```
+
+### Exploring the Data
+
+After import, run example queries:
+```bash
+python example_queries.py
+```
+
+This demonstrates common analysis queries including paper statistics, author rankings, citation patterns, and more.
 
 ### Detailed Documentation
 

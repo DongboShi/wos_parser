@@ -221,6 +221,23 @@ JOIN item_abstract a ON i.uid = a.uid
 LIMIT 10;
 ```
 
+### Running Example Queries
+
+A comprehensive set of example queries is provided in `example_queries.py`:
+
+```bash
+python example_queries.py
+```
+
+This script demonstrates 15+ common queries including:
+- Paper counts by year, country, organization
+- Author and citation statistics
+- Research subject analysis
+- Funding and grant information
+- Open access statistics
+
+You can use these as templates for your own analysis.
+
 ## Security Considerations
 
 1. **Passwords**: Don't use `--password` on command line in production. Instead:
