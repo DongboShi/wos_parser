@@ -1,7 +1,7 @@
 {
   "metadata": {
     "created": "2026-02-07T18:02:51.308838",
-    "last_updated": "2026-02-07T18:02:51.534434",
+    "last_updated": "2026-02-09T04:17:40.314615",
     "version": "1.0"
   },
   "processed_records": {
@@ -504,6 +504,506 @@
       "processed_at": "2026-02-07T18:02:51.533255",
       "source_file": "/Users/birdstone/documents/Github/wos_parser/for_xml/examples/2024.xml",
       "metadata": {}
+    },
+    "WOS:A1985E164300003": {
+      "processed_at": "2026-02-09T04:17:40.016664",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ASN8900007": {
+      "processed_at": "2026-02-09T04:17:40.018747",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AUH3000022": {
+      "processed_at": "2026-02-09T04:17:40.020187",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AVF5800006": {
+      "processed_at": "2026-02-09T04:17:40.022201",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ADL2300014": {
+      "processed_at": "2026-02-09T04:17:40.024647",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ALS2700003": {
+      "processed_at": "2026-02-09T04:17:40.026052",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AXP2900001": {
+      "processed_at": "2026-02-09T04:17:40.028375",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ATL1500029": {
+      "processed_at": "2026-02-09T04:17:40.030584",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARF8200006": {
+      "processed_at": "2026-02-09T04:17:40.033312",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AKA9000024": {
+      "processed_at": "2026-02-09T04:17:40.035152",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AUC5100012": {
+      "processed_at": "2026-02-09T04:17:40.037097",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AVD1500030": {
+      "processed_at": "2026-02-09T04:17:40.038549",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AXF2800005": {
+      "processed_at": "2026-02-09T04:17:40.040288",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AJV1200305": {
+      "processed_at": "2026-02-09T04:17:40.041801",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AYK3700008": {
+      "processed_at": "2026-02-09T04:17:40.044052",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AHK5100041": {
+      "processed_at": "2026-02-09T04:17:40.045774",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWG9400014": {
+      "processed_at": "2026-02-09T04:17:40.047847",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AFT0300044": {
+      "processed_at": "2026-02-09T04:17:40.049666",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AVK1300022": {
+      "processed_at": "2026-02-09T04:17:40.052487",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ALG2100061": {
+      "processed_at": "2026-02-09T04:17:40.054139",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AQW5600051": {
+      "processed_at": "2026-02-09T04:17:40.055754",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ATY6600001": {
+      "processed_at": "2026-02-09T04:17:40.058880",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ATP1700026": {
+      "processed_at": "2026-02-09T04:17:40.060453",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARS2700027": {
+      "processed_at": "2026-02-09T04:17:40.062426",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AEW8900016": {
+      "processed_at": "2026-02-09T04:17:40.064515",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ASJ8800834": {
+      "processed_at": "2026-02-09T04:17:40.066151",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985A199000015": {
+      "processed_at": "2026-02-09T04:17:40.067815",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARP1000028": {
+      "processed_at": "2026-02-09T04:17:40.069543",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AKT3400025": {
+      "processed_at": "2026-02-09T04:17:40.071708",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985APL3700001": {
+      "processed_at": "2026-02-09T04:17:40.073602",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARP6300006": {
+      "processed_at": "2026-02-09T04:17:40.075084",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ASQ9300019": {
+      "processed_at": "2026-02-09T04:17:40.077041",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AUN8200111": {
+      "processed_at": "2026-02-09T04:17:40.078885",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AHH4700003": {
+      "processed_at": "2026-02-09T04:17:40.081197",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARK6100010": {
+      "processed_at": "2026-02-09T04:17:40.082698",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AUY2800009": {
+      "processed_at": "2026-02-09T04:17:40.085477",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AQY0700054": {
+      "processed_at": "2026-02-09T04:17:40.087560",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AGF2000024": {
+      "processed_at": "2026-02-09T04:17:40.090102",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985A077700005": {
+      "processed_at": "2026-02-09T04:17:40.091978",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AQH0100002": {
+      "processed_at": "2026-02-09T04:17:40.094335",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWD1400246": {
+      "processed_at": "2026-02-09T04:17:40.095986",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AQG3400188": {
+      "processed_at": "2026-02-09T04:17:40.097723",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWQ4500015": {
+      "processed_at": "2026-02-09T04:17:40.099677",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ANJ7500001": {
+      "processed_at": "2026-02-09T04:17:40.102051",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ANP1000024": {
+      "processed_at": "2026-02-09T04:17:40.103780",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AGS0300011": {
+      "processed_at": "2026-02-09T04:17:40.106943",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AMQ7200001": {
+      "processed_at": "2026-02-09T04:17:40.108639",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARK6600015": {
+      "processed_at": "2026-02-09T04:17:40.111216",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ADU9400029": {
+      "processed_at": "2026-02-09T04:17:40.113050",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AQX4300021": {
+      "processed_at": "2026-02-09T04:17:40.114529",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ABY2000002": {
+      "processed_at": "2026-02-09T04:17:40.116981",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWD1400150": {
+      "processed_at": "2026-02-09T04:17:40.118784",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AKB9800020": {
+      "processed_at": "2026-02-09T04:17:40.120990",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AFD0100011": {
+      "processed_at": "2026-02-09T04:17:40.122668",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AKC3700019": {
+      "processed_at": "2026-02-09T04:17:40.124395",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AFD7500018": {
+      "processed_at": "2026-02-09T04:17:40.126244",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ASZ8100013": {
+      "processed_at": "2026-02-09T04:17:40.128326",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AVX8300001": {
+      "processed_at": "2026-02-09T04:17:40.132312",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AFN7000007": {
+      "processed_at": "2026-02-09T04:17:40.134244",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWK0900004": {
+      "processed_at": "2026-02-09T04:17:40.136594",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARC3400019": {
+      "processed_at": "2026-02-09T04:17:40.138668",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AUV0100001": {
+      "processed_at": "2026-02-09T04:17:40.140262",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWD5000007": {
+      "processed_at": "2026-02-09T04:17:40.142275",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ANJ1000007": {
+      "processed_at": "2026-02-09T04:17:40.144331",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AFF2700012": {
+      "processed_at": "2026-02-09T04:17:40.146577",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWQ8500001": {
+      "processed_at": "2026-02-09T04:17:40.148442",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ASP3700015": {
+      "processed_at": "2026-02-09T04:17:40.150362",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AHY4000007": {
+      "processed_at": "2026-02-09T04:17:40.152989",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ATY4200007": {
+      "processed_at": "2026-02-09T04:17:40.154850",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AKG0400019": {
+      "processed_at": "2026-02-09T04:17:40.157219",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AHT5700001": {
+      "processed_at": "2026-02-09T04:17:40.159768",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985TX67200008": {
+      "processed_at": "2026-02-09T04:17:40.162386",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AEQ9100027": {
+      "processed_at": "2026-02-09T04:17:40.165827",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ALU3500006": {
+      "processed_at": "2026-02-09T04:17:40.167861",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ALH8800007": {
+      "processed_at": "2026-02-09T04:17:40.169986",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AJM2800037": {
+      "processed_at": "2026-02-09T04:17:40.172040",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AVU4400004": {
+      "processed_at": "2026-02-09T04:17:40.174726",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ART9900002": {
+      "processed_at": "2026-02-09T04:17:40.177131",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AHS6600142": {
+      "processed_at": "2026-02-09T04:17:40.178917",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AQC2000005": {
+      "processed_at": "2026-02-09T04:17:40.180667",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985TZ54100006": {
+      "processed_at": "2026-02-09T04:17:40.182462",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ALC5400002": {
+      "processed_at": "2026-02-09T04:17:40.184692",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ABM5800008": {
+      "processed_at": "2026-02-09T04:17:40.187134",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AWH3800114": {
+      "processed_at": "2026-02-09T04:17:40.188977",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985APQ5600003": {
+      "processed_at": "2026-02-09T04:17:40.190653",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ATG1700014": {
+      "processed_at": "2026-02-09T04:17:40.192701",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AKW9800029": {
+      "processed_at": "2026-02-09T04:17:40.195108",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AQV5800028": {
+      "processed_at": "2026-02-09T04:17:40.197816",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AUK8100014": {
+      "processed_at": "2026-02-09T04:17:40.200169",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ALY9900065": {
+      "processed_at": "2026-02-09T04:17:40.202975",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AKQ7200016": {
+      "processed_at": "2026-02-09T04:17:40.205904",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985APP6200012": {
+      "processed_at": "2026-02-09T04:17:40.208224",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AAU4800013": {
+      "processed_at": "2026-02-09T04:17:40.210680",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ASC6900033": {
+      "processed_at": "2026-02-09T04:17:40.212572",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AJK5500041": {
+      "processed_at": "2026-02-09T04:17:40.214898",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AUA9700011": {
+      "processed_at": "2026-02-09T04:17:40.217266",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AEL4900007": {
+      "processed_at": "2026-02-09T04:17:40.219863",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985ARX7500003": {
+      "processed_at": "2026-02-09T04:17:40.224505",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985C980200013": {
+      "processed_at": "2026-02-09T04:17:40.226533",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
+    },
+    "WOS:A1985AVX7600057": {
+      "processed_at": "2026-02-09T04:17:40.228730",
+      "source_file": "examples/1985.xml",
+      "metadata": {}
     }
   },
   "processed_files": {
@@ -513,11 +1013,25 @@
       "error_count": 0,
       "file_size": 5851054,
       "file_modified": "2026-02-04T21:00:54.056353"
+    },
+    "/home/runner/work/wos_parser/wos_parser/for_xml/examples/1985.xml": {
+      "processed_at": "2026-02-09T04:17:40.229770",
+      "record_count": 100,
+      "error_count": 0,
+      "file_size": 747583,
+      "file_modified": "2026-02-09T04:16:39.031861"
+    },
+    "/home/runner/work/wos_parser/wos_parser/for_xml/examples/2024.xml": {
+      "processed_at": "2026-02-09T04:17:40.314598",
+      "record_count": 0,
+      "error_count": 0,
+      "file_size": 5851054,
+      "file_modified": "2026-02-09T04:16:39.045861"
     }
   },
   "statistics": {
-    "total_records": 100,
-    "total_files": 1,
+    "total_records": 200,
+    "total_files": 3,
     "total_errors": 0
   }
 }
