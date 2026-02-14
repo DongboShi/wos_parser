@@ -8,14 +8,17 @@
    - **Linux Debian 用户**：MariaDB 是默认的 SQL 服务器，完全支持
    - **其他 Linux 发行版**：MySQL 和 MariaDB 都支持
 
-2. **Python 包**：安装 `pymysql` 包（兼容 MySQL 和 MariaDB）：
+2. **MySQL/MariaDB 客户端**：必须安装 `mysql` 或 `mariadb` 命令行客户端
+   ```bash
+   # Debian/Ubuntu
+   sudo apt-get install mysql-client
+   # 或
+   sudo apt-get install mariadb-client
+   ```
+
+3. **Python 包（可选）**：仅在运行示例查询时需要：
    ```bash
    pip install pymysql
-   ```
-   
-   或者使用 `mysqlclient`（在 Linux 上对 MariaDB 有更好的原生支持）：
-   ```bash
-   pip install mysqlclient
    ```
 
 ## 快速开始
@@ -44,40 +47,50 @@ python xml_proc_main.py 你的XML文件路径/
 ./import_csv_to_mysql.sh mypassword wos_xml
 ```
 
-**方法二：使用 Python 脚本**
+**方法二：直接使用 SQL 命令**
 
-1. 安装依赖：
-   ```bash
-   pip install -r requirements_mysql.txt
-   ```
+```bash
+# 步骤 1: 创建数据库和表
+mysql -u root -p < create_database_and_tables.sql
+# 或用于 MariaDB
+mariadb -u root -p < create_database_and_tables.sql
 
-2. 运行导入脚本：
-   ```bash
-   python import_to_mysql.py
-   ```
+# 步骤 2: 导入 CSV 数据（需要启用 local-infile）
+mysql -u root -p --local-infile=1 < import_csv_data.sql
+# 或用于 MariaDB
+mariadb -u root -p --local-infile=1 < import_csv_data.sql
+```
 
 ## 功能说明
 
 导入脚本将会：
-- 自动检测您使用的是 MySQL 还是 MariaDB
 - 创建名为 `wos_xml` 的数据库
 - 创建 33 个数据表，包含完整的表结构和索引
 - 从 `xml_output` 目录导入所有 CSV 文件
 
 ## 自定义配置
 
-指定数据库连接参数：
+便捷脚本支持环境变量：
 
 ```bash
-python import_to_mysql.py --host localhost --user root --password 密码 --database 数据库名
+# 指定自定义主机
+DB_HOST=myserver ./import_csv_to_mysql.sh 密码 wos_xml
+
+# 指定自定义数据库名
+./import_csv_to_mysql.sh 密码 my_wos_db
+
+# 指定自定义 CSV 目录
+CSV_DIR=my_csv_dir ./import_csv_to_mysql.sh 密码 wos_xml
 ```
 
 ### 参数说明
 
-| 参数 | 说明 | 默认值 |
+使用 bash 脚本时支持以下环境变量：
+
+| 环境变量 | 说明 | 默认值 |
 |------|------|--------|
-| `--host` | MySQL/MariaDB 服务器地址 | localhost |
-| `--user` | MySQL/MariaDB 用户名 | root |
+| `DB_HOST` | MySQL/MariaDB 服务器地址 | localhost |
+| `DB_USER` | MySQL/MariaDB 用户名 | root |
 | `--password` | MySQL/MariaDB 密码 | (空) |
 | `--database` | 数据库名称 | wos_xml |
 | `--csv-dir` | CSV 文件目录 | xml_output |

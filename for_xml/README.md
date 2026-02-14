@@ -221,42 +221,52 @@ OK (skipped=2)
 
 ## Importing CSV Data to MySQL Database
 
-After generating CSV files, you can import them into a MySQL database for easier querying and analysis.
+After generating CSV files, you can import them into a MySQL or MariaDB database for easier querying and analysis.
 
 ### Quick Start
 
 **Option 1: Using the convenience script (recommended)**
 ```bash
-# Install dependencies and import in one step
+# Import using the bash script
 ./import_csv_to_mysql.sh [mysql_password] [database_name]
 
 # Example
 ./import_csv_to_mysql.sh mypassword wos_xml
 ```
 
-**Option 2: Using Python directly**
+**Option 2: Using SQL commands directly**
 
-1. Install the required Python package:
+1. Create database and tables:
    ```bash
-   pip install -r requirements_mysql.txt
+   mysql -u root -p < create_database_and_tables.sql
+   # OR for MariaDB
+   mariadb -u root -p < create_database_and_tables.sql
    ```
 
-2. Run the import script:
+2. Import CSV data:
    ```bash
-   python import_to_mysql.py
+   mysql -u root -p --local-infile=1 < import_csv_data.sql
+   # OR for MariaDB
+   mariadb -u root -p --local-infile=1 < import_csv_data.sql
    ```
 
 This will:
-- Create a MySQL database named `wos_xml`
+- Create a MySQL/MariaDB database named `wos_xml`
 - Create 33 tables with proper schema and indexes
 - Import all CSV files from the `xml_output` directory
 
 ### Custom Configuration
 
-Specify database connection parameters:
+The bash script supports environment variables:
 ```bash
-python import_to_mysql.py --host localhost --user root --password mypass --database wos_xml
+# Specify custom host and database
+DB_HOST=myserver DB_NAME=my_wos_db ./import_csv_to_mysql.sh mypassword
+
+# Specify custom CSV directory
+CSV_DIR=my_csv_dir ./import_csv_to_mysql.sh mypassword wos_xml
 ```
+
+For direct SQL usage, edit the SQL files to customize database name and paths.
 
 ### Exploring the Data
 
@@ -266,6 +276,11 @@ python example_queries.py
 ```
 
 This demonstrates common analysis queries including paper statistics, author rankings, citation patterns, and more.
+
+Note: Running example queries requires pymysql:
+```bash
+pip install -r requirements_mysql.txt
+```
 
 ### Detailed Documentation
 
