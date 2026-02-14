@@ -38,10 +38,21 @@ try:
     DB_LIBRARY = 'pymysql'
 except ImportError:
     try:
-        import MySQLdb as pymysql
-        from MySQLdb import cursors as pymysql_cursors
-        # Create compatibility wrapper for mysqlclient
-        pymysql.cursors = pymysql_cursors
+        import MySQLdb
+        # Create a compatibility wrapper for mysqlclient
+        # This allows us to use the same API as pymysql throughout the code
+        class MySQLClientWrapper:
+            """Wrapper to make MySQLdb API compatible with pymysql"""
+            Error = MySQLdb.Error
+            
+            @staticmethod
+            def connect(**kwargs):
+                return MySQLdb.connect(**kwargs)
+            
+            class cursors:
+                DictCursor = MySQLdb.cursors.DictCursor
+        
+        pymysql = MySQLClientWrapper()
         DB_LIBRARY = 'mysqlclient'
     except ImportError:
         print("Error: No MySQL/MariaDB library found!")
