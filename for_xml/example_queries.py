@@ -21,6 +21,8 @@ except ImportError:
         import MySQLdb
         # Create a compatibility wrapper for mysqlclient
         # This allows us to use the same API as pymysql throughout the code
+        # Note: This wrapper is intentionally duplicated in both import_to_mysql.py 
+        # and example_queries.py to keep each script self-contained and independent
         class MySQLClientWrapper:
             """Wrapper to make MySQLdb API compatible with pymysql"""
             Error = MySQLdb.Error
