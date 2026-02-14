@@ -1,2 +1,8 @@
-# Requirements for MySQL Import Script
+# Requirements for MySQL/MariaDB Import Script
+# PyMySQL is a pure-Python MySQL/MariaDB client library
+# It works with both MySQL and MariaDB servers
 pymysql>=1.0.0
+
+# Optional: mysqlclient provides better native MariaDB support on Linux
+# Uncomment if you prefer to use mysqlclient instead of pymysql:
+# mysqlclient>=2.0.0

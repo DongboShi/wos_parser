@@ -1,5 +1,6 @@
 #!/bin/bash
-# Convenience script to import WOS XML CSV files into MySQL
+# Convenience script to import WOS XML CSV files into MySQL/MariaDB
+# Works with both MySQL and MariaDB servers
 # Usage: ./import_csv_to_mysql.sh [mysql_password] [database_name]
 
 set -e  # Exit on error
@@ -15,7 +16,7 @@ DB_NAME="${2:-wos_xml}"
 CSV_DIR="${CSV_DIR:-xml_output}"
 
 echo "=================================================="
-echo "WOS XML to MySQL Import Script"
+echo "WOS XML to MySQL/MariaDB Import Script"
 echo "=================================================="
 echo "Host: $DB_HOST"
 echo "User: $DB_USER"
@@ -65,7 +66,8 @@ if [ $exit_code -eq 0 ]; then
     echo "=================================================="
     echo ""
     echo "You can now query the database:"
-    echo "  mysql -u $DB_USER -p $DB_NAME"
+    echo "  For MySQL: mysql -u $DB_USER -p $DB_NAME"
+    echo "  For MariaDB: mariadb -u $DB_USER -p $DB_NAME"
     echo ""
     echo "Or run example queries:"
     echo "  python example_queries.py"
