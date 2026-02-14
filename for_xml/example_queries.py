@@ -1,17 +1,38 @@
 #!/usr/bin/env python3
 """
-Example queries for the WOS XML MySQL database
+Example queries for the WOS XML MySQL/MariaDB database
 
 This script demonstrates common queries you can perform on the imported data.
-Requires pymysql package: pip install pymysql
+Works with both MySQL and MariaDB servers.
+
+Requirements:
+    - pymysql package: pip install pymysql
+    - OR mysqlclient package: pip install mysqlclient
 """
 
-import pymysql
 import sys
+
+# Try to import the MySQL/MariaDB library
+try:
+    import pymysql
+    DB_LIBRARY = 'pymysql'
+except ImportError:
+    try:
+        import MySQLdb as pymysql
+        from MySQLdb import cursors as pymysql_cursors
+        # Create compatibility wrapper for mysqlclient
+        pymysql.cursors = pymysql_cursors
+        DB_LIBRARY = 'mysqlclient'
+    except ImportError:
+        print("Error: No MySQL/MariaDB library found!")
+        print("Please install one of the following:")
+        print("  - PyMySQL: pip install pymysql")
+        print("  - mysqlclient: pip install mysqlclient")
+        sys.exit(1)
 
 
 def connect_db(host='localhost', user='root', password='', database='wos_xml'):
-    """Connect to the database"""
+    """Connect to the MySQL/MariaDB database"""
     try:
         connection = pymysql.connect(
             host=host,
@@ -21,6 +42,15 @@ def connect_db(host='localhost', user='root', password='', database='wos_xml'):
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor
         )
+        
+        # Detect database type
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT VERSION()")
+            version = cursor.fetchone()['VERSION()']
+            db_type = "MariaDB" if "MariaDB" in version else "MySQL"
+            print(f"Connected to {db_type} (version: {version})")
+            print(f"Using library: {DB_LIBRARY}\n")
+        
         return connection
     except pymysql.Error as e:
         print(f"Error connecting to database: {e}")
@@ -65,7 +95,7 @@ def run_query(connection, query, description):
 def main():
     """Run example queries"""
     print("="*70)
-    print("WOS XML Database - Example Queries")
+    print("WOS XML Database - Example Queries (MySQL/MariaDB)")
     print("="*70)
     
     # Connect to database
