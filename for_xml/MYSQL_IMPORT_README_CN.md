@@ -85,16 +85,31 @@ CSV_DIR=my_csv_dir ./import_csv_to_mysql.sh 密码 wos_xml
 
 ### 参数说明
 
-使用 bash 脚本时支持以下环境变量：
+使用 bash 脚本时支持以下环境变量和位置参数：
+
+**位置参数：**
+- 第一个参数：MySQL/MariaDB 密码（可选）
+- 第二个参数：数据库名称（可选，默认：wos_xml）
+
+**环境变量：**
 
 | 环境变量 | 说明 | 默认值 |
 |------|------|--------|
 | `DB_HOST` | MySQL/MariaDB 服务器地址 | localhost |
 | `DB_USER` | MySQL/MariaDB 用户名 | root |
-| `--password` | MySQL/MariaDB 密码 | (空) |
-| `--database` | 数据库名称 | wos_xml |
-| `--csv-dir` | CSV 文件目录 | xml_output |
-| `--drop-existing` | 删除现有数据库（警告：会删除所有数据） | False |
+| `CSV_DIR` | CSV 文件目录 | xml_output |
+
+示例：
+```bash
+# 使用默认值
+./import_csv_to_mysql.sh
+
+# 指定密码和数据库名
+./import_csv_to_mysql.sh mypassword my_database
+
+# 使用环境变量自定义主机
+DB_HOST=192.168.1.100 ./import_csv_to_mysql.sh mypassword
+```
 
 ## 数据库结构
 
