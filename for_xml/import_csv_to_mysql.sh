@@ -47,12 +47,6 @@ fi
 echo "Using $MYSQL_CMD command..."
 echo ""
 
-# Build MySQL/MariaDB connection arguments
-MYSQL_ARGS="-h $DB_HOST -u $DB_USER"
-if [ -n "$DB_PASSWORD" ]; then
-    MYSQL_ARGS="$MYSQL_ARGS -p$DB_PASSWORD"
-fi
-
 # Step 1: Create database and tables
 echo "Step 1: Creating database and tables..."
 echo "=================================================="
