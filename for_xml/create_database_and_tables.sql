@@ -30,7 +30,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 
 -- Main item table (must be created first as parent table)
 CREATE TABLE IF NOT EXISTS item (
-    uid VARCHAR(50) PRIMARY KEY,
+    uid VARCHAR(50),
     sortdate DATE,
     pubyear SMALLINT,
     has_abstract CHAR(1),
@@ -45,8 +45,8 @@ CREATE TABLE IF NOT EXISTS item (
     page_begin VARCHAR(20),
     page_end VARCHAR(20),
     page_count VARCHAR(20),
-    INDEX idx_pubyear (pubyear),
-    INDEX idx_sortdate (sortdate)
+    INDEX pubyear (pubyear),
+    INDEX uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Paper titles
