@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS item (
 CREATE TABLE IF NOT EXISTS item_title (
     uid VARCHAR(50),
     title TEXT,
-    PRIMARY KEY (uid),
+    UNIQUE INDEX idx_uid (uid),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -61,16 +61,17 @@ CREATE TABLE IF NOT EXISTS item_title (
 CREATE TABLE IF NOT EXISTS item_abstract (
     uid VARCHAR(50),
     abstract TEXT,
-    PRIMARY KEY (uid),
+    UNIQUE INDEX idx_uid (uid),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     FULLTEXT INDEX idx_abstract (abstract)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Document types
 CREATE TABLE IF NOT EXISTS item_doc_types (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     doctype VARCHAR(100),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_doctype (doctype)
@@ -78,9 +79,10 @@ CREATE TABLE IF NOT EXISTS item_doc_types (
 
 -- Normalized document types
 CREATE TABLE IF NOT EXISTS item_doc_types_norm (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     doctype_norm VARCHAR(100),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_doctype_norm (doctype_norm)
@@ -88,10 +90,11 @@ CREATE TABLE IF NOT EXISTS item_doc_types_norm (
 
 -- Languages
 CREATE TABLE IF NOT EXISTS item_langs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     type VARCHAR(50),
     language VARCHAR(100),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_language (language)
@@ -99,10 +102,11 @@ CREATE TABLE IF NOT EXISTS item_langs (
 
 -- Normalized languages
 CREATE TABLE IF NOT EXISTS item_langs_norm (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     type VARCHAR(50),
     language_norm VARCHAR(100),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_language_norm (language_norm)
@@ -110,9 +114,10 @@ CREATE TABLE IF NOT EXISTS item_langs_norm (
 
 -- WOS editions
 CREATE TABLE IF NOT EXISTS item_editions (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     edition VARCHAR(50),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_edition (edition)
@@ -120,9 +125,10 @@ CREATE TABLE IF NOT EXISTS item_editions (
 
 -- Keywords
 CREATE TABLE IF NOT EXISTS item_keywords (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     keyword VARCHAR(500),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_keyword (keyword(255))
@@ -130,9 +136,10 @@ CREATE TABLE IF NOT EXISTS item_keywords (
 
 -- Keywords Plus
 CREATE TABLE IF NOT EXISTS item_keywords_plus (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     keyword_plus VARCHAR(500),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_keyword_plus (keyword_plus(255))
@@ -140,7 +147,7 @@ CREATE TABLE IF NOT EXISTS item_keywords_plus (
 
 -- Source publication information
 CREATE TABLE IF NOT EXISTS item_source (
-    uid VARCHAR(50) PRIMARY KEY,
+    uid VARCHAR(50),
     source VARCHAR(500),
     source_abbrev VARCHAR(200),
     abbrev_iso VARCHAR(200),
@@ -148,16 +155,18 @@ CREATE TABLE IF NOT EXISTS item_source (
     abbrev_29 VARCHAR(100),
     series VARCHAR(500),
     book_subtitle TEXT,
+    UNIQUE INDEX idx_uid (uid),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_source (source(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Identifiers (DOI, ISSN, etc.)
 CREATE TABLE IF NOT EXISTS item_ids (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     identifier_type VARCHAR(50),
     identifier_value VARCHAR(200),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_identifier_type (identifier_type),
@@ -166,9 +175,10 @@ CREATE TABLE IF NOT EXISTS item_ids (
 
 -- Open access information
 CREATE TABLE IF NOT EXISTS item_oas (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     oa_type VARCHAR(100),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_oa_type (oa_type)
@@ -176,7 +186,7 @@ CREATE TABLE IF NOT EXISTS item_oas (
 
 -- Publisher information
 CREATE TABLE IF NOT EXISTS item_publishers (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     full_address TEXT,
@@ -186,6 +196,7 @@ CREATE TABLE IF NOT EXISTS item_publishers (
     display_name VARCHAR(500),
     full_name VARCHAR(500),
     unified_name VARCHAR(500),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -196,7 +207,7 @@ CREATE TABLE IF NOT EXISTS item_publishers (
 
 -- Author names and details
 CREATE TABLE IF NOT EXISTS item_authors (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     role VARCHAR(50),
@@ -208,6 +219,7 @@ CREATE TABLE IF NOT EXISTS item_authors (
     last_name VARCHAR(200),
     suffix VARCHAR(50),
     email_addr VARCHAR(200),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_full_name (full_name(255)),
@@ -216,7 +228,7 @@ CREATE TABLE IF NOT EXISTS item_authors (
 
 -- Author addresses
 CREATE TABLE IF NOT EXISTS item_addresses (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     full_address TEXT,
@@ -225,6 +237,7 @@ CREATE TABLE IF NOT EXISTS item_addresses (
     country VARCHAR(200),
     zip VARCHAR(50),
     zip_location VARCHAR(200),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_country (country),
@@ -233,10 +246,11 @@ CREATE TABLE IF NOT EXISTS item_addresses (
 
 -- Author-address relationships
 CREATE TABLE IF NOT EXISTS item_au_addrs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     address_no VARCHAR(50),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_seq_no (seq_no)
@@ -244,10 +258,11 @@ CREATE TABLE IF NOT EXISTS item_au_addrs (
 
 -- Address-author relationships
 CREATE TABLE IF NOT EXISTS item_addr_aus (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     address_no VARCHAR(50),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_seq_no (seq_no)
@@ -255,13 +270,14 @@ CREATE TABLE IF NOT EXISTS item_addr_aus (
 
 -- Organizations
 CREATE TABLE IF NOT EXISTS item_orgs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     org_pref VARCHAR(50),
     ROR_ID VARCHAR(100),
     org_id VARCHAR(100),
     organization VARCHAR(1000),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_organization (organization(255))
@@ -269,10 +285,11 @@ CREATE TABLE IF NOT EXISTS item_orgs (
 
 -- Sub-organizations
 CREATE TABLE IF NOT EXISTS item_suborgs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     suborganization VARCHAR(1000),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_suborganization (suborganization(255))
@@ -280,12 +297,13 @@ CREATE TABLE IF NOT EXISTS item_suborgs (
 
 -- Author identifiers (ORCID, ResearcherID)
 CREATE TABLE IF NOT EXISTS item_author_ids (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     r_id VARCHAR(100),
     orcid VARCHAR(100),
     orcid_tr VARCHAR(100),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_orcid (orcid)
@@ -293,7 +311,7 @@ CREATE TABLE IF NOT EXISTS item_author_ids (
 
 -- Reprint addresses
 CREATE TABLE IF NOT EXISTS item_rp_addrs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     full_address TEXT,
@@ -302,6 +320,7 @@ CREATE TABLE IF NOT EXISTS item_rp_addrs (
     country VARCHAR(200),
     zip VARCHAR(50),
     zip_location VARCHAR(200),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_country (country)
@@ -309,23 +328,25 @@ CREATE TABLE IF NOT EXISTS item_rp_addrs (
 
 -- Reprint author-address relationships
 CREATE TABLE IF NOT EXISTS item_rp_au_addrs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     address_no VARCHAR(50),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Reprint organizations
 CREATE TABLE IF NOT EXISTS item_rp_orgs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     org_pref VARCHAR(50),
     ROR_ID VARCHAR(100),
     org_id VARCHAR(100),
     organization VARCHAR(1000),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_organization (organization(255))
@@ -333,17 +354,18 @@ CREATE TABLE IF NOT EXISTS item_rp_orgs (
 
 -- Reprint sub-organizations
 CREATE TABLE IF NOT EXISTS item_rp_suborgs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     suborganization VARCHAR(1000),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Contributors with IDs
 CREATE TABLE IF NOT EXISTS item_contributors (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     orcid_id VARCHAR(100),
@@ -353,6 +375,7 @@ CREATE TABLE IF NOT EXISTS item_contributors (
     full_name VARCHAR(500),
     first_name VARCHAR(200),
     last_name VARCHAR(200),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_orcid_id (orcid_id)
@@ -364,9 +387,10 @@ CREATE TABLE IF NOT EXISTS item_contributors (
 
 -- Research headings
 CREATE TABLE IF NOT EXISTS item_headings (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     headings VARCHAR(500),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_headings (headings(255))
@@ -374,10 +398,11 @@ CREATE TABLE IF NOT EXISTS item_headings (
 
 -- Research subjects
 CREATE TABLE IF NOT EXISTS item_subjects (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     subject VARCHAR(500),
     ascatype VARCHAR(50),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_subject (subject(255))
@@ -389,7 +414,7 @@ CREATE TABLE IF NOT EXISTS item_subjects (
 
 -- Cited references
 CREATE TABLE IF NOT EXISTS item_references (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     occurence_order VARCHAR(50),
     cited_uid VARCHAR(50),
@@ -402,6 +427,7 @@ CREATE TABLE IF NOT EXISTS item_references (
     cited_doi VARCHAR(200),
     cited_assignee VARCHAR(500),
     patent_no VARCHAR(200),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_cited_uid (cited_uid)
@@ -409,12 +435,13 @@ CREATE TABLE IF NOT EXISTS item_references (
 
 -- Citation locations in text
 CREATE TABLE IF NOT EXISTS item_cite_locations (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     occurence_order VARCHAR(50),
     physical_location VARCHAR(200),
     section VARCHAR(200),
     function VARCHAR(200),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -425,20 +452,22 @@ CREATE TABLE IF NOT EXISTS item_cite_locations (
 
 -- Acknowledgments with full-text search index
 CREATE TABLE IF NOT EXISTS item_acks (
-    uid VARCHAR(50) PRIMARY KEY,
+    uid VARCHAR(50),
     ack_text TEXT,
+    UNIQUE INDEX idx_uid (uid),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     FULLTEXT INDEX idx_ack_text (ack_text)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Grant information
 CREATE TABLE IF NOT EXISTS item_grants (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     grant_agency VARCHAR(1000),
     grant_agency_pref VARCHAR(500),
     grant_id VARCHAR(200),
     grant_source VARCHAR(100),
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_grant_agency (grant_agency(255))
@@ -450,7 +479,7 @@ CREATE TABLE IF NOT EXISTS item_grants (
 
 -- Conference details
 CREATE TABLE IF NOT EXISTS item_conferences (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     conf_id VARCHAR(100),
     conf_info TEXT,
@@ -461,6 +490,7 @@ CREATE TABLE IF NOT EXISTS item_conferences (
     conf_city VARCHAR(200),
     conf_state VARCHAR(200),
     sponsor TEXT,
+    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_conf_id (conf_id)
