@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS item (
 CREATE TABLE IF NOT EXISTS item_title (
     uid VARCHAR(50),
     title TEXT,
-    UNIQUE INDEX idx_uid (uid),
+    INDEX idx_uid (uid),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -61,9 +61,7 @@ CREATE TABLE IF NOT EXISTS item_title (
 CREATE TABLE IF NOT EXISTS item_abstract (
     uid VARCHAR(50),
     abstract TEXT,
-    UNIQUE INDEX idx_uid (uid),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
-    FULLTEXT INDEX idx_abstract (abstract)
+    INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Document types
@@ -387,23 +385,17 @@ CREATE TABLE IF NOT EXISTS item_contributors (
 
 -- Research headings
 CREATE TABLE IF NOT EXISTS item_headings (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     headings VARCHAR(500),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
-    INDEX idx_headings (headings(255))
+    INDEX idx_headings (headings)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Research subjects
 CREATE TABLE IF NOT EXISTS item_subjects (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     subject VARCHAR(500),
     ascatype VARCHAR(50),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_subject (subject(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -414,35 +406,29 @@ CREATE TABLE IF NOT EXISTS item_subjects (
 
 -- Cited references
 CREATE TABLE IF NOT EXISTS item_references (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     occurence_order VARCHAR(50),
     cited_uid VARCHAR(50),
-    cited_author VARCHAR(500),
-    cited_year VARCHAR(50),
-    cited_page VARCHAR(100),
-    cited_volume VARCHAR(100),
+    cited_author TEXT,
+    cited_year VARCHAR(100),
+    cited_page VARCHAR(1000),
+    cited_volume VARCHAR(1000),
     cited_title TEXT,
-    cited_work VARCHAR(1000),
-    cited_doi VARCHAR(200),
+    cited_work TEXT,
+    cited_doi VARCHAR(500), 
     cited_assignee VARCHAR(500),
     patent_no VARCHAR(200),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_cited_uid (cited_uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Citation locations in text
 CREATE TABLE IF NOT EXISTS item_cite_locations (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     occurence_order VARCHAR(50),
     physical_location VARCHAR(200),
     section VARCHAR(200),
     function VARCHAR(200),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -454,23 +440,19 @@ CREATE TABLE IF NOT EXISTS item_cite_locations (
 CREATE TABLE IF NOT EXISTS item_acks (
     uid VARCHAR(50),
     ack_text TEXT,
-    UNIQUE INDEX idx_uid (uid),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
-    FULLTEXT INDEX idx_ack_text (ack_text)
+    INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Grant information
 CREATE TABLE IF NOT EXISTS item_grants (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     grant_agency VARCHAR(1000),
     grant_agency_pref VARCHAR(500),
-    grant_id VARCHAR(200),
+    grant_id VARCHAR(1000),
     grant_source VARCHAR(100),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
-    INDEX idx_grant_agency (grant_agency(255))
+    INDEX idx_grant_agency (grant_agency),
+    INDEX idx_grant_id (grant_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================================================
@@ -479,7 +461,6 @@ CREATE TABLE IF NOT EXISTS item_grants (
 
 -- Conference details
 CREATE TABLE IF NOT EXISTS item_conferences (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     conf_id VARCHAR(100),
     conf_info TEXT,
@@ -490,8 +471,6 @@ CREATE TABLE IF NOT EXISTS item_conferences (
     conf_city VARCHAR(200),
     conf_state VARCHAR(200),
     sponsor TEXT,
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_conf_id (conf_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

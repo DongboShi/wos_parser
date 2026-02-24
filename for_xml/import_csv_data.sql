@@ -61,9 +61,11 @@ SET
 -- Import item_title
 LOAD DATA LOCAL INFILE 'xml_output/item_title.csv'
 INTO TABLE item_title
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\r\n'  -- 关键：使用 Windows 行尾
 IGNORE 1 LINES
 (uid, @title)
 SET title = NULLIF(@title, '');
@@ -71,9 +73,11 @@ SET title = NULLIF(@title, '');
 -- Import item_abstract
 LOAD DATA LOCAL INFILE 'xml_output/item_abstract.csv'
 INTO TABLE item_abstract
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\r\n'  -- 关键：使用 Windows 行尾
 IGNORE 1 LINES
 (uid, @abstract)
 SET abstract = NULLIF(@abstract, '');
@@ -401,7 +405,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @headings)
+(uid, @headings)
 SET headings = NULLIF(@headings, '');
 
 -- Import item_subjects
@@ -411,7 +415,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @subject, @ascatype)
+(uid, @subject, @ascatype)
 SET
     subject = NULLIF(@subject, ''),
     ascatype = NULLIF(@ascatype, '');
@@ -423,11 +427,13 @@ SET
 -- Import item_references
 LOAD DATA LOCAL INFILE 'xml_output/item_references.csv'
 INTO TABLE item_references
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\r\n'  -- 关键：使用 Windows 行尾
 IGNORE 1 LINES
-(@id, uid, @occurence_order, @cited_uid, @cited_author, @cited_year, @cited_page, 
+(uid, @occurence_order, @cited_uid, @cited_author, @cited_year, @cited_page, 
  @cited_volume, @cited_title, @cited_work, @cited_doi, @cited_assignee, @patent_no)
 SET
     occurence_order = NULLIF(@occurence_order, ''),
@@ -445,11 +451,13 @@ SET
 -- Import item_cite_locations
 LOAD DATA LOCAL INFILE 'xml_output/item_cite_locations.csv'
 INTO TABLE item_cite_locations
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\r\n'  -- 关键：使用 Windows 行尾
 IGNORE 1 LINES
-(@id, uid, @occurence_order, @physical_location, @section, @function)
+(uid, @occurence_order, @physical_location, @section, @function)
 SET
     occurence_order = NULLIF(@occurence_order, ''),
     physical_location = NULLIF(@physical_location, ''),
@@ -463,9 +471,11 @@ SET
 -- Import item_acks
 LOAD DATA LOCAL INFILE 'xml_output/item_acks.csv'
 INTO TABLE item_acks
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\r\n'  -- 关键：使用 Windows 行尾
 IGNORE 1 LINES
 (uid, @ack_text)
 SET ack_text = NULLIF(@ack_text, '');
@@ -473,11 +483,13 @@ SET ack_text = NULLIF(@ack_text, '');
 -- Import item_grants
 LOAD DATA LOCAL INFILE 'xml_output/item_grants.csv'
 INTO TABLE item_grants
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\r\n'  -- 关键：使用 Windows 行尾
 IGNORE 1 LINES
-(@id, uid, @grant_agency, @grant_agency_pref, @grant_id, @grant_source)
+(uid, @grant_agency, @grant_agency_pref, @grant_id, @grant_source)
 SET
     grant_agency = NULLIF(@grant_agency, ''),
     grant_agency_pref = NULLIF(@grant_agency_pref, ''),
@@ -491,11 +503,13 @@ SET
 -- Import item_conferences
 LOAD DATA LOCAL INFILE 'xml_output/item_conferences.csv'
 INTO TABLE item_conferences
-FIELDS TERMINATED BY ',' 
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+CHARACTER SET utf8mb4
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+ESCAPED BY ''
+LINES TERMINATED BY '\r\n'  -- 关键：使用 Windows 行尾
 IGNORE 1 LINES
-(@id, uid, @conf_id, @conf_info, @conf_title, @conf_start, @conf_end, 
+(uid, @conf_id, @conf_info, @conf_title, @conf_start, @conf_end, 
  @conf_date, @conf_city, @conf_state, @sponsor)
 SET
     conf_id = NULLIF(@conf_id, ''),
