@@ -83,7 +83,7 @@ def check_abstract_count(file_name):
         print(f"处理文件时发生错误：{file_name}. 错误: {e}")
 
 def filter_record_by_uid(xml_file):
-    target_uid = "WOS:001330731400123"
+    target_uid = "WOS:000181208100029"
     try:
         tree = ET.parse(xml_file)
         root = tree.getroot()

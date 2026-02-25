@@ -475,6 +475,9 @@ CREATE TABLE IF NOT EXISTS item_conferences (
     INDEX idx_conf_id (conf_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+
+CREATE TABLE citations AS SELECT uid, cited_uid FROM item_references WHERE cited_uid LIKE 'WOS:%';
+
 -- Re-enable foreign key checks
 SET FOREIGN_KEY_CHECKS = 1;
 
