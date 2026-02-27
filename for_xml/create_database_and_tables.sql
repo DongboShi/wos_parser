@@ -66,10 +66,8 @@ CREATE TABLE IF NOT EXISTS item_abstract (
 
 -- Document types
 CREATE TABLE IF NOT EXISTS item_doc_types (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     doctype VARCHAR(100),
-    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_doctype (doctype)
@@ -77,7 +75,6 @@ CREATE TABLE IF NOT EXISTS item_doc_types (
 
 -- Normalized document types
 CREATE TABLE IF NOT EXISTS item_doc_types_norm (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     doctype_norm VARCHAR(100),
     UNIQUE INDEX idx_id (id),
@@ -88,45 +85,34 @@ CREATE TABLE IF NOT EXISTS item_doc_types_norm (
 
 -- Languages
 CREATE TABLE IF NOT EXISTS item_langs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     type VARCHAR(50),
     language VARCHAR(100),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_language (language)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Normalized languages
 CREATE TABLE IF NOT EXISTS item_langs_norm (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     type VARCHAR(50),
     language_norm VARCHAR(100),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_language_norm (language_norm)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- WOS editions
 CREATE TABLE IF NOT EXISTS item_editions (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     edition VARCHAR(50),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_edition (edition)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Keywords
 CREATE TABLE IF NOT EXISTS item_keywords (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     keyword VARCHAR(500),
-    UNIQUE INDEX idx_id (id),
     FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_keyword (keyword(255))
@@ -134,11 +120,8 @@ CREATE TABLE IF NOT EXISTS item_keywords (
 
 -- Keywords Plus
 CREATE TABLE IF NOT EXISTS item_keywords_plus (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     keyword_plus VARCHAR(500),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_keyword_plus (keyword_plus(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -154,18 +137,14 @@ CREATE TABLE IF NOT EXISTS item_source (
     series VARCHAR(500),
     book_subtitle TEXT,
     UNIQUE INDEX idx_uid (uid),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_source (source(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Identifiers (DOI, ISSN, etc.)
 CREATE TABLE IF NOT EXISTS item_ids (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     identifier_type VARCHAR(50),
     identifier_value VARCHAR(200),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_identifier_type (identifier_type),
     INDEX idx_identifier_value (identifier_value)
@@ -173,18 +152,14 @@ CREATE TABLE IF NOT EXISTS item_ids (
 
 -- Open access information
 CREATE TABLE IF NOT EXISTS item_oas (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     oa_type VARCHAR(100),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_oa_type (oa_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Publisher information
 CREATE TABLE IF NOT EXISTS item_publishers (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     full_address TEXT,
@@ -194,8 +169,6 @@ CREATE TABLE IF NOT EXISTS item_publishers (
     display_name VARCHAR(500),
     full_name VARCHAR(500),
     unified_name VARCHAR(500),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -218,7 +191,6 @@ CREATE TABLE IF NOT EXISTS item_authors (
     suffix VARCHAR(50),
     email_addr VARCHAR(200),
     UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_full_name (full_name(255)),
     INDEX idx_last_name (last_name)
@@ -226,7 +198,6 @@ CREATE TABLE IF NOT EXISTS item_authors (
 
 -- Author addresses
 CREATE TABLE IF NOT EXISTS item_addresses (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     full_address TEXT,
@@ -235,8 +206,6 @@ CREATE TABLE IF NOT EXISTS item_addresses (
     country VARCHAR(200),
     zip VARCHAR(50),
     zip_location VARCHAR(200),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_country (country),
     INDEX idx_city (city)
@@ -244,72 +213,56 @@ CREATE TABLE IF NOT EXISTS item_addresses (
 
 -- Author-address relationships
 CREATE TABLE IF NOT EXISTS item_au_addrs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     address_no VARCHAR(50),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_seq_no (seq_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Address-author relationships
 CREATE TABLE IF NOT EXISTS item_addr_aus (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     address_no VARCHAR(50),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_seq_no (seq_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Organizations
 CREATE TABLE IF NOT EXISTS item_orgs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     org_pref VARCHAR(50),
     ROR_ID VARCHAR(100),
     org_id VARCHAR(100),
     organization VARCHAR(1000),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_organization (organization(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Sub-organizations
 CREATE TABLE IF NOT EXISTS item_suborgs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     suborganization VARCHAR(1000),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_suborganization (suborganization(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Author identifiers (ORCID, ResearcherID)
 CREATE TABLE IF NOT EXISTS item_author_ids (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     r_id VARCHAR(100),
     orcid VARCHAR(100),
     orcid_tr VARCHAR(100),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_orcid (orcid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Reprint addresses
 CREATE TABLE IF NOT EXISTS item_rp_addrs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     full_address TEXT,
@@ -318,52 +271,41 @@ CREATE TABLE IF NOT EXISTS item_rp_addrs (
     country VARCHAR(200),
     zip VARCHAR(50),
     zip_location VARCHAR(200),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_country (country)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Reprint author-address relationships
 CREATE TABLE IF NOT EXISTS item_rp_au_addrs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     address_no VARCHAR(50),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Reprint organizations
 CREATE TABLE IF NOT EXISTS item_rp_orgs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     org_pref VARCHAR(50),
     ROR_ID VARCHAR(100),
     org_id VARCHAR(100),
     organization VARCHAR(1000),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_organization (organization(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Reprint sub-organizations
 CREATE TABLE IF NOT EXISTS item_rp_suborgs (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     addr_no VARCHAR(50),
     suborganization VARCHAR(1000),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
-    INDEX idx_uid (uid)
+    INDEX idx_uid (uid),
+    INDEX idx_suborganization (suborganization(255))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Contributors with IDs
 CREATE TABLE IF NOT EXISTS item_contributors (
-    id INT AUTO_INCREMENT,
     uid VARCHAR(50),
     seq_no VARCHAR(50),
     orcid_id VARCHAR(100),
@@ -373,8 +315,6 @@ CREATE TABLE IF NOT EXISTS item_contributors (
     full_name VARCHAR(500),
     first_name VARCHAR(200),
     last_name VARCHAR(200),
-    UNIQUE INDEX idx_id (id),
-    FOREIGN KEY (uid) REFERENCES item(uid) ON DELETE CASCADE,
     INDEX idx_uid (uid),
     INDEX idx_orcid_id (orcid_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -478,6 +418,36 @@ CREATE TABLE IF NOT EXISTS item_conferences (
 
 CREATE TABLE citations AS SELECT uid, cited_uid FROM item_references WHERE cited_uid LIKE 'WOS:%';
 
+CREATE INDEX idx_citations_cited_uid ON citations(cited_uid); 
+CREATE INDEX idx_citations_uid ON citations(uid); 
+CREATE INDEX idx_citations_uid_cited_uid ON citations(uid, cited_uid);
+DELETE FROM citations WHERE cited_uid LIKE '%.%';
+
+CREATE TABLE IF NOT EXISTS tmp (
+    uid VARCHAR(50),
+    cited_uid VARCHAR(50),
+    INDEX idx_uid (uid),
+    INDEX idx_cited_uid (cited_uid),
+    UNIQUE INDEX idx_uid_cited_uid (uid, cited_uid)
+);
+
+INSERT INTO tmp (uid, cited_uid) SELECT uid, cited_uid FROM citations GROUP BY uid, cited_uid;
+INSERT IGNORE INTO tmp SELECT CONCAT('WOS:', ut), CONCAT('WOS:', utcited) FROM thomson.cite_to_cite;
+RENAME TABLE tmp TO citation_merge;
+
+CREATE TABLE cite_count AS SELECT cited_uid, COUNT(uid) AS citation_count FROM citation_merge GROUP BY cited_uid;
+CREATE INDEX idx_cite_count_cited_uid ON cite_count(cited_uid);
+
+CREATE TABLE item_max_pubyear (
+    uid VARCHAR(50),
+    max_pubyear SMALLINT,
+    INDEX idx_uid (uid),
+    INDEX idx_max_pubyear (max_pubyear)
+);
+
+CREATE INDEX idx_item_uid_max_pubyear ON item_max_pubyear(uid, max_pubyear);
+
+AS SELECT uid, pubyear FROM item;
 -- Re-enable foreign key checks
 SET FOREIGN_KEY_CHECKS = 1;
 

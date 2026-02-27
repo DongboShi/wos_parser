@@ -517,7 +517,7 @@ SET
     conf_title = NULLIF(@conf_title, ''),
     conf_start = NULLIF(@conf_start, ''),
     conf_end = NULLIF(@conf_end, ''),
-    conf_date = NULLIF(@conf_date, ''),
+    conf_date = NULLIF(@conf_date, ''), 
     conf_city = NULLIF(@conf_city, ''),
     conf_state = NULLIF(@conf_state, ''),
     sponsor = NULLIF(@sponsor, '');
