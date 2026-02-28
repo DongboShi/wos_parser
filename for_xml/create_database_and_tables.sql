@@ -415,39 +415,6 @@ CREATE TABLE IF NOT EXISTS item_conferences (
     INDEX idx_conf_id (conf_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-
-CREATE TABLE citations AS SELECT uid, cited_uid FROM item_references WHERE cited_uid LIKE 'WOS:%';
-
-CREATE INDEX idx_citations_cited_uid ON citations(cited_uid); 
-CREATE INDEX idx_citations_uid ON citations(uid); 
-CREATE INDEX idx_citations_uid_cited_uid ON citations(uid, cited_uid);
-DELETE FROM citations WHERE cited_uid LIKE '%.%';
-
-CREATE TABLE IF NOT EXISTS tmp (
-    uid VARCHAR(50),
-    cited_uid VARCHAR(50),
-    INDEX idx_uid (uid),
-    INDEX idx_cited_uid (cited_uid),
-    UNIQUE INDEX idx_uid_cited_uid (uid, cited_uid)
-);
-
-INSERT INTO tmp (uid, cited_uid) SELECT uid, cited_uid FROM citations GROUP BY uid, cited_uid;
-INSERT IGNORE INTO tmp SELECT CONCAT('WOS:', ut), CONCAT('WOS:', utcited) FROM thomson.cite_to_cite;
-RENAME TABLE tmp TO citation_merge;
-
-CREATE TABLE cite_count AS SELECT cited_uid, COUNT(uid) AS citation_count FROM citation_merge GROUP BY cited_uid;
-CREATE INDEX idx_cite_count_cited_uid ON cite_count(cited_uid);
-
-CREATE TABLE item_max_pubyear (
-    uid VARCHAR(50),
-    max_pubyear SMALLINT,
-    INDEX idx_uid (uid),
-    INDEX idx_max_pubyear (max_pubyear)
-);
-
-CREATE INDEX idx_item_uid_max_pubyear ON item_max_pubyear(uid, max_pubyear);
-
-AS SELECT uid, pubyear FROM item;
 -- Re-enable foreign key checks
 SET FOREIGN_KEY_CHECKS = 1;
 
