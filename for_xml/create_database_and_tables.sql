@@ -337,7 +337,8 @@ CREATE TABLE IF NOT EXISTS item_subjects (
     subject VARCHAR(500),
     ascatype VARCHAR(50),
     INDEX idx_uid (uid),
-    INDEX idx_subject (subject(255))
+    INDEX idx_subject (subject(255)),
+    INDEX idx_ascatype (ascatype)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================================================
@@ -415,6 +416,23 @@ CREATE TABLE IF NOT EXISTS item_conferences (
     INDEX idx_conf_id (conf_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+CREATE TABLE IF NOT EXISTS item_topics (
+    uid VARCHAR(50),
+    topic_micro VARCHAR(100),
+    doctype VARCHAR(50),
+    pubyear SMALLINT,
+    j_exp_cite DECIMAL(10, 3),
+    cate_exp_cite DECIMAL(10, 3),
+    co_cate_exp_cite DECIMAL(10, 3),
+    j_norm_cite_imp DECIMAL(10, 3),
+    cate_norm_cite_imp DECIMAL(10, 3),
+    co_cnci DECIMAL(10, 4),
+    co_type VARCHAR(50),
+    per_cite_topic DECIMAL(10, 4),
+    jif DECIMAL(10, 3),
+    INDEX idx_uid (uid),
+    INDEX idx_topic_micro (topic_micro)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 -- Re-enable foreign key checks
 SET FOREIGN_KEY_CHECKS = 1;
 

@@ -89,7 +89,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @doctype)
+(uid, @doctype)
 SET doctype = NULLIF(@doctype, '');
 
 -- Import item_doc_types_norm
@@ -99,7 +99,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @doctype_norm)
+(uid, @doctype_norm)
 SET doctype_norm = NULLIF(@doctype_norm, '');
 
 -- Import item_langs
@@ -109,7 +109,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @type, @language)
+(uid, @type, @language)
 SET 
     type = NULLIF(@type, ''),
     language = NULLIF(@language, '');
@@ -121,7 +121,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @type, @language_norm)
+(uid, @type, @language_norm)
 SET 
     type = NULLIF(@type, ''),
     language_norm = NULLIF(@language_norm, '');
@@ -133,7 +133,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @edition)
+(uid, @edition)
 SET edition = NULLIF(@edition, '');
 
 -- Import item_keywords
@@ -143,7 +143,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @keyword)
+(uid, @keyword)
 SET keyword = NULLIF(@keyword, '');
 
 -- Import item_keywords_plus
@@ -153,7 +153,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @keyword_plus)
+(uid, @keyword_plus)
 SET keyword_plus = NULLIF(@keyword_plus, '');
 
 -- Import item_source
@@ -192,7 +192,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @oa_type)
+(uid, @oa_type)
 SET oa_type = NULLIF(@oa_type, '');
 
 -- Import item_publishers
@@ -202,7 +202,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @addr_no, @full_address, @city, @role, @seq_no, @display_name, @full_name, @unified_name)
+(uid, @addr_no, @full_address, @city, @role, @seq_no, @display_name, @full_name, @unified_name)
 SET
     addr_no = NULLIF(@addr_no, ''),
     full_address = NULLIF(@full_address, ''),
@@ -224,7 +224,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @seq_no, @role, @reprint, @display_name, @wos_standard, @full_name, 
+(uid, @seq_no, @role, @reprint, @display_name, @wos_standard, @full_name, 
  @first_name, @last_name, @suffix, @email_addr)
 SET
     seq_no = NULLIF(@seq_no, ''),
@@ -245,7 +245,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @addr_no, @full_address, @city, @state, @country, @zip, @zip_location)
+(uid, @addr_no, @full_address, @city, @state, @country, @zip, @zip_location)
 SET
     addr_no = NULLIF(@addr_no, ''),
     full_address = NULLIF(@full_address, ''),
@@ -262,7 +262,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @seq_no, @address_no)
+(uid, @seq_no, @address_no)
 SET
     seq_no = NULLIF(@seq_no, ''),
     address_no = NULLIF(@address_no, '');
@@ -274,7 +274,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @seq_no, @address_no)
+(uid, @seq_no, @address_no)
 SET
     seq_no = NULLIF(@seq_no, ''),
     address_no = NULLIF(@address_no, '');
@@ -286,7 +286,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @addr_no, @org_pref, @ROR_ID, @org_id, @organization)
+(uid, @addr_no, @org_pref, @ROR_ID, @org_id, @organization)
 SET
     addr_no = NULLIF(@addr_no, ''),
     org_pref = NULLIF(@org_pref, ''),
@@ -301,7 +301,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @addr_no, @suborganization)
+(uid, @addr_no, @suborganization)
 SET
     addr_no = NULLIF(@addr_no, ''),
     suborganization = NULLIF(@suborganization, '');
@@ -313,7 +313,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @seq_no, @r_id, @orcid, @orcid_tr)
+(uid, @seq_no, @r_id, @orcid, @orcid_tr)
 SET
     seq_no = NULLIF(@seq_no, ''),
     r_id = NULLIF(@r_id, ''),
@@ -327,7 +327,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @addr_no, @full_address, @city, @state, @country, @zip, @zip_location)
+(uid, @addr_no, @full_address, @city, @state, @country, @zip, @zip_location)
 SET
     addr_no = NULLIF(@addr_no, ''),
     full_address = NULLIF(@full_address, ''),
@@ -344,7 +344,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @seq_no, @address_no)
+(uid, @seq_no, @address_no)
 SET
     seq_no = NULLIF(@seq_no, ''),
     address_no = NULLIF(@address_no, '');
@@ -356,7 +356,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @addr_no, @org_pref, @ROR_ID, @org_id, @organization)
+(uid, @addr_no, @org_pref, @ROR_ID, @org_id, @organization)
 SET
     addr_no = NULLIF(@addr_no, ''),
     org_pref = NULLIF(@org_pref, ''),
@@ -371,7 +371,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @addr_no, @suborganization)
+(uid, @addr_no, @suborganization)
 SET
     addr_no = NULLIF(@addr_no, ''),
     suborganization = NULLIF(@suborganization, '');
@@ -383,7 +383,7 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@id, uid, @seq_no, @orcid_id, @r_id, @r_id_role, @display_name, @full_name, @first_name, @last_name)
+(uid, @seq_no, @orcid_id, @r_id, @r_id_role, @display_name, @full_name, @first_name, @last_name)
 SET
     seq_no = NULLIF(@seq_no, ''),
     orcid_id = NULLIF(@orcid_id, ''),
@@ -403,7 +403,7 @@ LOAD DATA LOCAL INFILE 'xml_output/item_headings.csv'
 INTO TABLE item_headings
 FIELDS TERMINATED BY ',' 
 OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (uid, @headings)
 SET headings = NULLIF(@headings, '');
@@ -413,13 +413,14 @@ LOAD DATA LOCAL INFILE 'xml_output/item_subjects.csv'
 INTO TABLE item_subjects
 FIELDS TERMINATED BY ',' 
 OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (uid, @subject, @ascatype)
 SET
     subject = NULLIF(@subject, ''),
     ascatype = NULLIF(@ascatype, '');
 
+update item_subjects set uid = concat('WOS:', uid) where uid like ':%';
 -- =============================================================================
 -- Section 4: References Tables (2 tables)
 -- =============================================================================

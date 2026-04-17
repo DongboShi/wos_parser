@@ -29,6 +29,23 @@ CREATE TABLE item_max_pubyear (
 
 INSERT IGNORE INTO item_max_pubyear SELECT uid, max(pubyear) FROM item GROUP BY uid;
 
+-- item_doi
+CREATE TABLE item_doi (
+    uid VARCHAR(50),
+    doi VARCHAR(255),
+    INDEX idx_uid (uid),
+    INDEX idx_doi (doi)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT IGNORE INTO item_doi (uid, doi)
+SELECT uid, identifier_value AS doi FROM item_ids where identifier_type = 'doi';
+
+UPDATE wos_xml.item_doi
+SET doi = LOWER(doi)
+WHERE doi IS NOT NULL
+  AND doi <> LOWER(doi);
+  
+
 -- thomson
 USE thomson;
 CREATE TABLE item_pubyear (
@@ -56,3 +73,60 @@ JOIN item_max_pubyear ip ON cm.uid = ip.uid;
 CREATE INDEX idx_citation_merge_year_cited_uid ON citation_merge_year(cited_uid, citing_year);
 
 CREATE TABLE cite_count_year AS SELECT cited_uid, citing_year, COUNT(uid) AS citation_count FROM citation_merge_year GROUP BY cited_uid, citing_year;
+
+-- item_rp_cntry
+
+CREATE TABLE item_rp_cntry (
+    uid VARCHAR(50),
+    country VARCHAR(255),
+    INDEX idx_uid (uid),
+    INDEX idx_country (country),
+    UNIQUE INDEX idx_uid_country (uid, country)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT IGNORE INTO item_rp_cntry (uid, country)
+SELECT uid, country FROM item_rp_addrs
+WHERE country IS NOT NULL AND country IS NOT NULL AND country != '';
+
+
+-- calculate highly cited papers
+
+CREATE TABLE articles AS select distinct (a.uid), b.max_pubyear AS pubyear from item_doc_types_norm a join item_max_pubyear b on a.uid = b.uid where doctype_norm = 'Article';
+CREATE INDEX idx_uid ON articles(uid);
+ALTER TABLE articles ADD COLUMN subject VARCHAR(255);
+CREATE INDEX idx_uid_ascatype ON item_subjects(uid, ascatype);
+UPDATE articles a JOIN item_subjects s ON a.uid = s.uid SET a.subject = s.subject WHERE s.ascatype = 'traditional';
+ALTER TABLE articles ADD COLUMN citation_count INT(10) DEFAULT 0;
+UPDATE articles a JOIN cite_count c ON a.uid = c.cited_uid SET a.citation_count = c.citation_count;
+ALTER TABLE articles ADD COLUMN top1 TINYINT(1);
+ALTER TABLE articles 
+ADD COLUMN threshold DECIMAL(10, 3)
+
+UPDATE articles a
+JOIN (
+    SELECT 
+        pubyear,
+        subject,
+        -- MySQL 计算 99th percentile
+        PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY citation_count) 
+            OVER (PARTITION BY pubyear, subject) as threshold
+    FROM articles
+) t ON a.pubyear = t.pubyear 
+   AND a.subject = t.subject
+SET 
+    a.threshold = t.threshold,
+    a.top1 = CASE WHEN a.citation_count >= t.threshold THEN 1 ELSE 0 END;
+
+ALTER TABLE articles ADD COLUMN ni82 TINYINT(1), ADD COLUMN top5 TINYINT(1), ADD COLUMN ns TINYINT(1);
+
+-- modify item_micro_topics table 
+CREATE TABLE item_micro_topics (
+    uid VARCHAR(50),
+    micro_topic_id VARCHAR(255),
+    INDEX idx_uid (uid),
+    INDEX idx_micro_topic_id (micro_topic_id),
+    UNIQUE INDEX idx_uid_micro_topic_id (uid, micro_topic_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT IGNORE INTO item_micro_topics (uid, micro_topic_id)
+SELECT uid, SUBSTRING_INDEX(TRIM(topic_micro), ' ', 1) AS micro_topic_id FROM item_topics;
