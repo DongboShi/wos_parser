@@ -50,7 +50,7 @@ The data flow for processing XML files is illustrated below:
 4. Log the processed history in `xml_processing_history.py`.
 
 ## CSV Output Structure  
-The processing generates a total of 33 output CSV files, each containing specific fields and records based on the extracted XML data. A detailed structure of these files will be provided in future updates.
+The processing generates CSV files in the `xml_output` directory, including `uid.csv`, which contains one `uid` per XML record. Other CSV files contain specific fields and records based on the extracted XML data. A detailed structure of these files will be provided in future updates.
 
 ## Usage Examples  
 ### Command-Line Usage  

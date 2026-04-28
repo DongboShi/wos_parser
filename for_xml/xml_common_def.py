@@ -4,6 +4,7 @@ import os
 OUTPUT_DIR = "xml_output"
 
 # Section 1: Paper Basic Information Tables
+UID_FILE_NAME = "uid.csv"
 ITEM_FILE_NAME = "item.csv"
 ITEM_TITLE_FILE_NAME = "item_title.csv"
 ITEM_ABSTRACT_FILE_NAME = "item_abstract.csv"
@@ -53,6 +54,7 @@ class XMLFilePathDef:
     """File paths for all CSV output files from XML parsing"""
     
     # Section 1: Paper Basic Information Tables
+    UID_FILE_PATH = os.path.join(OUTPUT_DIR, UID_FILE_NAME)
     ITEM_FILE_PATH = os.path.join(OUTPUT_DIR, ITEM_FILE_NAME)
     ITEM_TITLE_FILE_PATH = os.path.join(OUTPUT_DIR, ITEM_TITLE_FILE_NAME)
     ITEM_ABSTRACT_FILE_PATH = os.path.join(OUTPUT_DIR, ITEM_ABSTRACT_FILE_NAME)

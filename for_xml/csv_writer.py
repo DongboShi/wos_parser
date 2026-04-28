@@ -74,6 +74,11 @@ class XMLDataWriter:
         from xml_common_def import XMLFilePathDef
         
         # Section 1: Paper Basic Information
+        self.uid_writer = CSVWriter(
+            XMLFilePathDef.UID_FILE_PATH,
+            ['uid']
+        )
+
         self.item_writer = CSVWriter(
             XMLFilePathDef.ITEM_FILE_PATH,
             ['uid', 'sortdate', 'pubyear', 'has_abstract', 'vol', 'issue', 
@@ -266,6 +271,7 @@ class XMLDataWriter:
         :param parser: XMLRecordParser instance with extracted data
         """
         # Section 1: Paper Basic Information
+        self.uid_writer.write_row({'uid': parser.uid})
         self.item_writer.write_row(parser.extract_item())
         self.item_title_writer.write_row(parser.extract_item_title())
         self.item_abstract_writer.write_row(parser.extract_item_abstract())
